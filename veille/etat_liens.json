@@ -1,0 +1,962 @@
+{
+ "ablon-activites-1500": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-1500m2-a-vendre-ablon--40730965",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-1500m2-a-vendre-ablon--40730965"
+ },
+ "arcueil-n20": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-independant-erp-a-vendre-proche-paris--41414474",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-independant-erp-a-vendre-proche-paris--41414474"
+ },
+ "argenteuil-cinq-mars-1200": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite--41384766",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite--41384766"
+ },
+ "argenteuil-entrepot-1040": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepotbureaux-1040m2-a-vendre-argenteuil--41047253",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepotbureaux-1040m2-a-vendre-argenteuil--41047253"
+ },
+ "argenteuil-notre-dame-960": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42452413",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42452413"
+ },
+ "aubergenville-886": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepot-de-886m2--40839101",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepot-de-886m2--40839101"
+ },
+ "aubervilliers-atelier": {
+  "code": 403,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "non_verifiable",
+  "url": "https://www.pap.fr/annonce/vente-local-d-activite-seine-saint-denis-93-g457",
+  "url_finale": "https://www.pap.fr/annonce/vente-local-d-activite-seine-saint-denis-93-g457"
+ },
+ "aubervilliers-caractere-269": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-269-m2-aubervilliers--41193964",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-269-m2-aubervilliers--41193964"
+ },
+ "bagnolet-lenine-205": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer--41212891",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer--41212891"
+ },
+ "boissy-saint-leger-activite-334": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-boissy-saint-leger-94470--42455644",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-boissy-saint-leger-94470--42455644"
+ },
+ "boulogne-kermen-1052": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-activite-et-bureaux-acces-imme--42359202",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-activite-et-bureaux-acces-imme--42359202"
+ },
+ "bretigny-commerce-erp-1000": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-1000m2-a-vendre-bretigny-sur-orge--42243515",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-1000m2-a-vendre-bretigny-sur-orge--42243515"
+ },
+ "bretigny-commerce-erp-400": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-400m2-a-vendre-bretigny-sur-orge--42243522",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-400m2-a-vendre-bretigny-sur-orge--42243522"
+ },
+ "buc-rue-audemars-1470": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivte-a-vendre--42374849",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivte-a-vendre--42374849"
+ },
+ "cergy-petit-albi-576": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-cergy-95000--42353676",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-bureau-cergy-95000--42353676"
+ },
+ "chambourcy-route-de-mantes-474": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepot-de-474m2--40839102",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepot-de-474m2--40839102"
+ },
+ "champigny-activite-1100": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-champigny-sur-marne-94500--40104084",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-champigny-sur-marne-94500--40104084"
+ },
+ "champigny-massenet-632": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-entrepot-champigny-sur-marne-94500--40439038",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/champigny-sur-marne-94500/vente-entrepots"
+ },
+ "champlan-entrepot-900": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-champlan-un-entrepot-et-un-terrain--41033876",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-champlan-un-entrepot-et-un-terrain--41033876"
+ },
+ "chanteloup-en-brie-1027": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1027m2--42390640",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1027m2--42390640"
+ },
+ "chatenay-malabry-cerisiers-985": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-batiment-independant-a-usage-mixtes-3-por--42382323",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-batiment-independant-a-usage-mixtes-3-por--42382323"
+ },
+ "chaville-487": {
+  "code": 403,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "non_verifiable",
+  "url": "https://www.pap.fr/annonces/bureaux-chaville-92370-r464001289",
+  "url_finale": "https://www.pap.fr/annonces/bureaux-chaville-92370-r464001289"
+ },
+ "chennevieres-entrepot-1520": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-1520m2-a-vendre-chennevieres-sur--42501393",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-1520m2-a-vendre-chennevieres-sur--42501393"
+ },
+ "choisy-le-roi-franchot-770": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-dactiviteentrepots--39316751",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-dactiviteentrepots--39316751"
+ },
+ "clamart-batiment-470": {
+  "code": 403,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "non_verifiable",
+  "url": "https://www.pap.fr/annonces/bureaux-clamart-r450900862",
+  "url_finale": "https://www.pap.fr/annonces/bureaux-clamart-r450900862"
+ },
+ "claye-souilly-820": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-claye-souilly--42243408",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-claye-souilly--42243408"
+ },
+ "coubron-ensemble-608": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/ensemble-immobilier-en-zone-commercial--40637053",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/ensemble-immobilier-en-zone-commercial--40637053"
+ },
+ "courbevoie-pierre-curie-390": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42258793",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/courbevoie-92400/vente-entrepots"
+ },
+ "croissy-beaubourg-courcerin-251": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42358960",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42358960"
+ },
+ "crosne-industrie-570": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-crosne-91560--42043711",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-crosne-91560--42043711"
+ },
+ "draveil-atelier-hangars-1160": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.paruvendu.fr/t/vente-local-commercial/1296004906A1KIIPVELCO",
+  "url_finale": "https://www.paruvendu.fr/t/vente-local-commercial/1296004906A1KIIPVELCO"
+ },
+ "ennery-985": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/immobilier-professionnel-a-vendre-ennery--42423840",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/immobilier-professionnel-a-vendre-ennery--42423840"
+ },
+ "eragny-commerce-564": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-565-m2-a-vendre--42473505",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-de-565-m2-a-vendre--42473505"
+ },
+ "eragny-reception": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-salle-de-reception-louee-eragny--41451285",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-salle-de-reception-louee-eragny--41451285"
+ },
+ "essarts-le-roi-952": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/les-essarts-le-roi-78-vente-entrepot-953-m2--41379096",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/les-essarts-le-roi-78-vente-entrepot-953-m2--41379096"
+ },
+ "evry-maryse-bastie-600": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-independant-activites-bureaux-a--42452163",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-independant-activites-bureaux-a--42452163"
+ },
+ "ezanville-pole-loisirs-3695": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/pole-loisirs-a-vendre--42514583",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/pole-loisirs-a-vendre--42514583"
+ },
+ "faremoutiers-entrepot-2000": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepot-2000-m2-sur-6000-m2-de-terrain-a-vendre-a--40637245",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepot-2000-m2-sur-6000-m2-de-terrain-a-vendre-a--40637245"
+ },
+ "garges-toulouse-lautrec-690": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40575359",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40575359"
+ },
+ "gazeran-ex-ebp-1720": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-mixte-a-vendre-ou-a-louer--42022110",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-mixte-a-vendre-ou-a-louer--42022110"
+ },
+ "gonesse-creche-842": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-gonesse-95500--40763525",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-commerce-gonesse-95500--40763525"
+ },
+ "goussainville-activite-950": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivite-avec-bureaux-de-950-m2--40305714",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivite-avec-bureaux-de-950-m2--40305714"
+ },
+ "goussainville-erp-1060": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-a-vendre--40636963",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/batiment-independant-a-vendre--40636963"
+ },
+ "guyancourt-801": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42381843",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42381843"
+ },
+ "kremlin-bicetre-303": {
+  "code": 410,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree",
+  "url": "https://www.paruvendu.fr/t/vente-local-commercial/1293564065A1KIIPVELCO",
+  "url_finale": "https://www.paruvendu.fr/t/vente-local-commercial/1293564065A1KIIPVELCO"
+ },
+ "le-mesnil-amelot-activite-765": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/activite-bureaux-a-vendre-ou-a-louer--39178364",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/activite-bureaux-a-vendre-ou-a-louer--39178364"
+ },
+ "les-lilas-erp5": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-erp--42359451",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-erp--42359451"
+ },
+ "livry-gargan-cabinet-250": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/cabinet-medicale-de-250m2--42391212",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/cabinet-medicale-de-250m2--42391212"
+ },
+ "longjumeau-commerce-966": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-966-m2-a-longjumeau--42243311",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-966-m2-a-longjumeau--42243311"
+ },
+ "louvres-noyer-malice-932": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-932m2--42390642",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-de-932m2--42390642"
+ },
+ "maisons-alfort-1000": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--39345646",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--39345646"
+ },
+ "mandres-les-roses-perdrix-1093": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-en-exclusivite-94520-mandres--39292420",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/batiment-independant-en-exclusivite-94520-mandres--39292420"
+ },
+ "marcoussis-activites-1200": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/rare-sur-le-territoire-paris-saclay-1-200-m2-a-ven--36973332",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/rare-sur-le-territoire-paris-saclay-1-200-m2-a-ven--36973332"
+ },
+ "marolles-en-brie-batiment-850": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/marolles-en-brie-batiment-independant-de-850-m2-te--42513019",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/marolles-en-brie-batiment-independant-de-850-m2-te--42513019"
+ },
+ "meaux-thomas-edison-2300": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-batiment-independant--40692573",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-batiment-independant--40692573"
+ },
+ "moissy-cramayel-innovation-839": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42419910",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42419910"
+ },
+ "montereau-restaurant-reception-400": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.paruvendu.fr/t/vente-local-commercial/1293057732A1KIIPVELCO",
+  "url_finale": "https://www.paruvendu.fr/t/vente-local-commercial/1293057732A1KIIPVELCO"
+ },
+ "montgeron-lot-1202": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087828",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087828"
+ },
+ "montigny-le-bretonneux-2039": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-a-montigny-le-bretonneux--40875758",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-a-montigny-le-bretonneux--40875758"
+ },
+ "montigny-le-bretonneux-808": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer--42478864",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer--42478864"
+ },
+ "montreuil-activite-erp5-413": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/petite-activite-avec-bureaux-daccompagnement--36225104",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/petite-activite-avec-bureaux-daccompagnement--36225104"
+ },
+ "montreuil-carnot-250": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-montreuil-93100--40709445",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-commerce-montreuil-93100--40709445"
+ },
+ "montreuil-mozinor-1080": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-montreuil-93100--39735366",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-montreuil-93100--39735366"
+ },
+ "montreuil-poulin-263": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/loft-destination-mixte-possible--42243143",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/loft-destination-mixte-possible--42243143"
+ },
+ "montreuil-progres-570": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42400161",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42400161"
+ },
+ "montreuil-rue-de-paris-331": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/bureaux-au-pied-de-la-porte-de-montreuil--40608024",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/bureaux-au-pied-de-la-porte-de-montreuil--40608024"
+ },
+ "moret-loing-fontainebleau-800": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "redirigee",
+  "url": "https://www.bureauxlocaux.com/annonce/local-independant-a-vendre-secteur-fontainebleau-7--38364627",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-independant-a-louer-secteur-fontainebleau-77--38364627"
+ },
+ "mormant-activite-800": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41129499",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41129499"
+ },
+ "morsang-ensemble-commerces-503": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/ensemble-de-commerce-a-vendre--42137504",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/ensemble-de-commerce-a-vendre--42137504"
+ },
+ "morsang-voie-compiegne-270": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivites-bureaux-situe-a-morsang--42452171",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivites-bureaux-situe-a-morsang--42452171"
+ },
+ "mureaux-activite-1000": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/batiment-dactivite-et-terrai-a-vendre--40992445",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/batiment-dactivite-et-terrai-a-vendre--40992445"
+ },
+ "nanterre-767": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-nanterre-92000--42422556",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-nanterre-92000--42422556"
+ },
+ "noisy-le-grand-fujy-220": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42385782",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42385782"
+ },
+ "ollainville-790": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivitesde-790m2--42449543",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/ollainville-91340/vente-entrepots"
+ },
+ "ollainville-838": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-838m2--42243006",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-838m2--42243006"
+ },
+ "orgeval-rn13-310": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre-dans-la-zone-commerciale--41968976",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre-dans-la-zone-commerciale--41968976"
+ },
+ "pantin-entrepot-1000": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-entrepot--42389846",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-entrepot--42389846"
+ },
+ "paris10-fbg-st-denis": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-bureaux-300m2-a-proximite-de-la-gare-de-lest--38429792",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/paris-75/vente-bureaux"
+ },
+ "paris14-general-leclerc-285": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-erp-sur-cour--40828824",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-erp-sur-cour--40828824"
+ },
+ "paris15-vaugirard-299": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/bureaux-activites-299-m2-a-vendre-ou-a-louer--42439283",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/bureaux-activites-299-m2-a-vendre-ou-a-louer--42439283"
+ },
+ "paris18-montmartre-252": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-paris-75018--42422431",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-paris-75018--42422431"
+ },
+ "paris19-villette-367": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-paris-75019--42359284",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-paris-75019--42359284"
+ },
+ "paris7-ancienne-salle-de-spectacles-430": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ancienne-salle-de-spectacles-a-renover-pa--37688761",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-ancienne-salle-de-spectacles-a-renover-pa--37688761"
+ },
+ "persan-activite-1290": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-persan-95340--40671559",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-persan-95340--40671559"
+ },
+ "pre-saint-gervais-atelier-244": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/atelier-idealement-situe-a-proximite-des-axes-rout--42494977",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/atelier-idealement-situe-a-proximite-des-axes-rout--42494977"
+ },
+ "pringy-1147": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-1147m2--42243032",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-de-1147m2--42243032"
+ },
+ "pringy-n1-1164": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/emplacement-n1-de-1164m2--42420601",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/emplacement-n1-de-1164m2--42420601"
+ },
+ "puteaux-pitois-861": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-commerciaux--42456584",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-commerciaux--42456584"
+ },
+ "rambouillet-reception-950": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.paruvendu.fr/t/vente-local-commercial/1292209823A1KIIPVELCO",
+  "url_finale": "https://www.paruvendu.fr/t/vente-local-commercial/1292209823A1KIIPVELCO"
+ },
+ "rosny-jules-ferry-255": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/bureaux-renoves-et-climatises--39962563",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/bureaux-renoves-et-climatises--39962563"
+ },
+ "rosny-rue-de-rome-257": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42385787",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42385787"
+ },
+ "saint-denis-angle-500": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--42389821",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--42389821"
+ },
+ "saint-denis-gabriel-peri-724": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40692209",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40692209"
+ },
+ "saint-denis-independant-247": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--42389677",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--42389677"
+ },
+ "saint-germain-de-la-grange-1366": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-vendre-a-saint-germain-de-la-g--40709458",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-vendre-a-saint-germain-de-la-g--40709458"
+ },
+ "saint-maur-bd-creteil-344": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-saint-maur-des-fosses-94100--36368929",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/saint-maur-des-fosses-94210/vente-commerces"
+ },
+ "saint-maur-lacs-500": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-500m2--40636451",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-500m2--40636451"
+ },
+ "saint-ouen-l-aumone-1040-occupe": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/batiment-de-1040m2-occupe-avec-600m2-de-cour-priva--42456778",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/saint-ouen-l-aumone-95310/vente-entrepots"
+ },
+ "saint-pierre-du-perray-928": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087831",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087831"
+ },
+ "santeny-entrepot-1200": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-de-1000-m2-a-vendre-a-santeny--40636932",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-de-1000-m2-a-vendre-a-santeny--40636932"
+ },
+ "sarcelles-1121": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1121m2--42081670",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1121m2--42081670"
+ },
+ "savigny-le-temple-jules-valles-884": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/immeuble-independant-de-bureaux-proche-gare-a-vend--41755862",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/immeuble-independant-de-bureaux-proche-gare-a-vend--41755862"
+ },
+ "savigny-le-temple-murs-occupes-940": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-de-murs-occupes--42318597",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-de-murs-occupes--42318597"
+ },
+ "serris-792": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-serris-77700--42079423",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-commerce-serris-77700--42079423"
+ },
+ "serris-gutenberg-1042": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41405740",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41405740"
+ },
+ "st-ouen-l-aumone-chateau-265": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivites-dans-petite-compropriete--41383970",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivites-dans-petite-compropriete--41383970"
+ },
+ "stdenis-gaston-philippe": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--40834808",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--40834808"
+ },
+ "stouen-michelet": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/seine-saint-denis-93/vente-bureaux",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/seine-saint-denis-93/vente-bureaux"
+ },
+ "suresnes-diderot-250": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/centre-ville--41212928",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/centre-ville--41212928"
+ },
+ "thorigny-sur-marne-1310": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41269540",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41269540"
+ },
+ "trappes-1183": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-louer-ou-a-vendre-a-trappes-ac--42243589",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-louer-ou-a-vendre-a-trappes-ac--42243589"
+ },
+ "trappes-kepler-1344": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-entrepot-a-vendre--41893029",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-entrepot-a-vendre--41893029"
+ },
+ "versailles-reception-1000": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.paruvendu.fr/t/vente-commerces/1295655948A1KIRCCO000",
+  "url_finale": "https://www.paruvendu.fr/t/vente-commerces/1295655948A1KIRCCO000"
+ },
+ "villiers-sur-marne-955": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42497098",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42497098"
+ },
+ "vincennes-consultim": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-erp-situes-a-proximite-des-transports--40991452",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-erp-situes-a-proximite-des-transports--40991452"
+ },
+ "vincennes-evolis": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": "2026-10-08",
+  "statut": "retiree_probable",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-erp-ideal-creche-ou-activite-medicale--41338478",
+  "url_finale": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/vincennes-94300/vente-bureaux"
+ },
+ "vitry-ancien-lieu-de-culte-1103": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.paruvendu.fr/t/vente-local-commercial/1296005551A1KIIPVELCO",
+  "url_finale": "https://www.paruvendu.fr/t/vente-local-commercial/1296005551A1KIIPVELCO"
+ },
+ "vitry-plateau-lilas": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/grand-espace-polyvalent-avec-acces-vehicules-vitry--40708906",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/grand-espace-polyvalent-avec-acces-vehicules-vitry--40708906"
+ },
+ "vitry-tremblay-980": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/entrepot-logistique-a-vendre--40811808",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/entrepot-logistique-a-vendre--40811808"
+ },
+ "voisins-le-bretonneux-1850": {
+  "code": 200,
+  "controle": "2026-10-08",
+  "depuis": null,
+  "statut": "ok",
+  "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-ou-a-louer-a-voisins-le--42439678",
+  "url_finale": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-ou-a-louer-a-voisins-le--42439678"
+ }
+}

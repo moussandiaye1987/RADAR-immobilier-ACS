@@ -1,0 +1,63 @@
+{
+ "verifie_le": "2026-10-08",
+ "bureauxlocaux": {
+  "acces": "ok",
+  "base": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces",
+  "pagination": "/page/N",
+  "departements": {
+   "75": "paris-75",
+   "77": "seine-et-marne-77",
+   "78": "yvelines-78",
+   "91": "essonne-91",
+   "92": "hauts-de-seine-92",
+   "93": "seine-saint-denis-93",
+   "94": "val-de-marne-94",
+   "95": "val-doise-95"
+  },
+  "types": ["vente-commerces", "vente-entrepots", "vente-bureaux"],
+  "remarque": "La page « ile-de-france » redirige vers la recherche nationale : toujours chercher par département. Collecte automatisée par scripts/collecter_bureauxlocaux.py."
+ },
+ "geolocaux": {
+  "acces": "ok",
+  "recherche": "https://www.geolocaux.com/vente/local-commercial/{slug}/",
+  "departements": {
+   "75": "paris-75",
+   "77": "seine-et-marne-77",
+   "78": "yvelines-78",
+   "91": "essonne-91",
+   "92": "hauts-de-seine-92",
+   "93": "seine-saint-denis-93",
+   "94": "val-de-marne-94",
+   "95": "val-d-oise-95"
+  },
+  "remarque": "La page « ile-de-france » répond en erreur 500 : chercher par département."
+ },
+ "paruvendu": {
+  "acces": "ok",
+  "recherche": "https://www.paruvendu.fr/t/vente-local-commercial/ile-de-france/",
+  "pagination": "?p=N"
+ },
+ "cessionpme": {
+  "acces": "navigateur",
+  "recherche": "https://www.cessionpme.com/",
+  "remarque": "Refusé en requête simple (403), lisible avec le navigateur automatisé (Playwright)."
+ },
+ "bienici": {
+  "acces": "partiel",
+  "recherche": "https://www.bienici.com/",
+  "remarque": "Résultats chargés dynamiquement : n'utiliser qu'avec le navigateur, en complément."
+ },
+ "immprove": {
+  "acces": "ok",
+  "recherche": "https://www.immprove.fr/",
+  "remarque": "Site d'agence : complément ponctuel."
+ },
+ "bloques": {
+  "www.pap.fr": "Protection anti-robots Cloudflare : ni recherche ni vérification possibles.",
+  "www.seloger.com": "Protection anti-robots DataDome.",
+  "www.leboncoin.fr": "Protection anti-robots DataDome.",
+  "www.logic-immo.com": "Protection anti-robots DataDome.",
+  "www.ght-immo.com": "Non autorisé dans l'environnement (annonces reprises sur BureauxLocaux).",
+  "www.seloger-bureaux-commerces.com": "Non autorisé dans l'environnement."
+ }
+}
