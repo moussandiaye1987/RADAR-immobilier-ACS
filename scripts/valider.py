@@ -88,6 +88,11 @@ def main():
         if n > 1:
             alertes.append(f"même référence « {ref} » ({agence}) sur {n} annonces")
 
+    # Type L : « L » exige une source écrite. Les annonces déjà publiées sans source sont signalées sans être modifiées.
+    for r in rows:
+        if r.get("erp") == "L" and not r.get("erpSource"):
+            alertes.append(f"{r.get('_id')} : classée « Type L confirmé » sans erpSource (statut conservé, à documenter)")
+
     html = INDEX.read_text(encoding="utf-8")
     if donnees_index(html) != payload:
         erreurs.append("la copie des données dans index.html ne correspond pas à annonces.json (lancer scripts/sync_index.py)")
@@ -107,6 +112,10 @@ def main():
                 erreurs.append(f"{i} : passée en « vendu » (masquée du site) sans autorisation")
             if r["erp"] == "L" and avant.get("erp") != "L" and not r.get("erpSource"):
                 erreurs.append(f"{i} : classée « Type L confirmé » sans justificatif (champ « erpSource »)")
+            if r["erp"] == "L" and avant.get("erp") != "L" and not re.search(r"[Tt]ypes?\s+(?:[A-Z]{1,2}\s*(?:,|et)\s*)*L\b|\bERP\s+L\b", r.get("erpSource") or ""):
+                erreurs.append(f"{i} : « erpSource » ne cite pas explicitement le type L")
+            if avant and r["erp"] != avant.get("erp") and i not in autorises:
+                erreurs.append(f"{i} : statut ERP modifié ({avant.get('erp')} → {r['erp']}) : seule une décision du propriétaire le permet")
         nouvelles = len([i for i in actuels if i not in base])
         print(f"Comparaison avec {args.base} : {len(base)} annonces avant, {len(actuels)} après, {nouvelles} nouvelles")
 

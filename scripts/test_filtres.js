@@ -60,11 +60,15 @@ async function lancer(executablePath) {
       verifier(`filtre transport ${m}`, await compte(), visibles.filter(r => (r.transports || []).some(t => t.mode === m)).length);
       await puce('modeChips', m).click();
     }
-    for (const [cle, libelle] of [['L', 'Type L confirmé'], ['ERP', 'ERP déclaré'], ['verifier', 'ERP à vérifier']]) {
+    for (const [cle, libelle, cls] of [['L', 'Type L confirmé', 'l'], ['ERP', 'ERP déclaré', 'erp'], ['verifier', 'ERP à vérifier', 'chk']]) {
       await puce('erpChips', libelle).click();
       verifier(`filtre statut ERP « ${libelle} »`, await compte(), visibles.filter(r => r.erp === cle).length);
+      // Chaque fiche du filtre affiche l'étiquette exacte de son statut.
+      verifier(`étiquette « ${libelle} » affichée sur chaque fiche`,
+        await page.locator(`#list article.card .tag.${cls}`).filter({ hasText: new RegExp(`^${libelle}$`) }).count(), visibles.filter(r => r.erp === cle).length);
       await puce('erpChips', libelle).click();
     }
+    verifier('statuts ERP des données reconnus', visibles.filter(r => !['L', 'ERP', 'verifier'].includes(r.erp)).length, 0);
     await page.click('[data-park="sur_place"]');
     verifier('filtre parking sur place', await compte(), visibles.filter(r => r.parking === 'sur_place').length);
     await page.click('[data-park="near"]');
