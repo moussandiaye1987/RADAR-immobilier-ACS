@@ -1,0 +1,158 @@
+name: Veille quotidienne
+
+# Veille 100 % gratuite : GitHub Actions + scripts Python du dépôt. Aucune API d'IA, aucun secret.
+# Publie sur main uniquement si des annonces ont été ajoutées ET que tous les contrôles ont réussi.
+
+on:
+  schedule:
+    # Deux déclencheurs UTC ; la garde horaire ne garde que celui qui tombe à 7 h à Paris
+    # (été : 05:00 UTC, hiver : 06:00 UTC). GitHub peut retarder un cron : la garde accepte 7 h 00 à 7 h 59.
+    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      simulation:
+        description: "Simulation : ne rien publier sur main (contrôles et diagnostic seulement)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # seule permission nécessaire : pousser sur main
+
+concurrency:
+  group: veille-quotidienne
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: Europe/Paris
+    steps:
+      - name: Garde horaire (7 h à Paris)
+        id: garde
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date +%H)" != "07" ]; then
+            echo "Il n'est pas 7 h à Paris ($(date +%H:%M)) : exécution ignorée."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.garde.outputs.go == 'true'
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        if: steps.garde.outputs.go == 'true'
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        if: steps.garde.outputs.go == 'true'
+        with:
+          node-version: "20"
+
+      # Conserve l'historique des liens en échec (champ « depuis ») d'un jour à l'autre, sans commit.
+      - name: Restaurer l'état des liens
+        if: steps.garde.outputs.go == 'true'
+        uses: actions/cache@v4
+        with:
+          path: veille/etat_liens.json
+          key: etat-liens-${{ github.run_id }}
+          restore-keys: etat-liens-
+
+      - name: Installer Playwright et Chromium
+        if: steps.garde.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          npm install -g playwright
+          npx playwright install --with-deps chromium
+
+      - name: Vérifier la présence des scripts
+        if: steps.garde.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          for f in veille/sources.json scripts/commun.py scripts/collecter_bureauxlocaux.py scripts/verifier_liens.py \
+                   scripts/ajouter_candidats.py scripts/test_ajouter_candidats.py scripts/sync_index.py \
+                   scripts/valider.py scripts/test_filtres.js; do
+            test -f "$f" || { echo "::error::$f absent de main"; exit 1; }
+          done
+
+      - name: Tests unitaires des règles d'ajout
+        if: steps.garde.outputs.go == 'true'
+        run: python3 scripts/test_ajouter_candidats.py
+
+      - name: Collecter les candidates BureauxLocaux
+        if: steps.garde.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          python3 scripts/collecter_bureauxlocaux.py | tee collecte.log
+          test -s veille/.candidats.json
+
+      - name: Contrôler les liens des annonces existantes
+        if: steps.garde.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          python3 scripts/verifier_liens.py | tee liens.log
+
+      - name: Ajouter les candidates fiables (règles Python)
+        if: steps.garde.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          python3 scripts/ajouter_candidats.py --max-ajouts 10 | tee ajout.log
+
+      - name: Resynchroniser index.html
+        if: steps.garde.outputs.go == 'true'
+        run: python3 scripts/sync_index.py
+
+      - name: Contrôles obligatoires (aucune publication s'ils échouent)
+        if: steps.garde.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          python3 scripts/valider.py --base origin/main
+          NODE_PATH=$(npm root -g) node scripts/test_filtres.js
+
+      - name: Résumé
+        if: steps.garde.outputs.go == 'true' && always()
+        run: |
+          {
+            echo "## Veille du $(date +%d/%m/%Y)"
+            echo '```'
+            tail -n 2 collecte.log 2>/dev/null || true
+            head -n 1 liens.log 2>/dev/null || true
+            head -n 20 ajout.log 2>/dev/null || true
+            echo '```'
+            echo "Annonces ambiguës et motifs de refus : artefact « veille » (diagnostic.json)."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Conserver diagnostic, candidates et état des liens (artefact)
+        if: steps.garde.outputs.go == 'true' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: veille
+          path: |
+            veille/diagnostic.json
+            veille/.candidats.json
+            veille/etat_liens.json
+            *.log
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Publier sur main si des annonces ont changé
+        if: steps.garde.outputs.go == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.simulation)
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- annonces.json index.html; then
+            echo "Aucune modification des annonces : pas de commit, pas de déploiement Netlify." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add annonces.json index.html veille/examinees.json veille/diagnostic.json
+          git commit -m "Veille du $(date +%d/%m/%Y) : ajout automatique d'annonces"
+          git push origin HEAD:main
+          git log -1 --stat | tee -a "$GITHUB_STEP_SUMMARY"
