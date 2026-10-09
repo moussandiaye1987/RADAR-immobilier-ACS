@@ -61,6 +61,16 @@ input[type=number],select{width:100%;background:var(--bg);border:1px solid var(-
 .links{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
 .links a{display:block;border:1px solid var(--line);border-radius:8px;padding:10px 12px;text-decoration:none;color:var(--ink)}.links a:hover{border-color:var(--accent)}
 .links a small{display:block;color:var(--muted);font-size:12px}
+[hidden]{display:none!important}
+.viewseg{min-width:170px}.viewseg button{font-weight:600;padding:7px 10px;font-size:13px}
+#mapWrap{display:grid;gap:8px}
+#map{height:min(68vh,640px);min-height:360px;border:1px solid var(--line);border-radius:10px;z-index:0;font-family:var(--body)}
+@media(max-width:860px){#map{height:60vh;min-height:320px}}
+.pin{display:block;width:18px;height:18px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.55)}
+.pin.l{background:var(--accent)}.pin.erp{background:var(--info)}.pin.chk{background:var(--warn)}
+.maplegend{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.maplegend .pin{display:inline-block;width:12px;height:12px;vertical-align:-1px;margin-right:4px}
+.leaflet-popup-content{margin:10px 12px;font-family:var(--body);font-size:13px;line-height:1.4}
+.mp{display:grid;gap:5px;min-width:190px}.mp b{font-size:14px}.mp .hint{font-size:11px}
 </style></head><body>
 <div class="wrap">
 <header><span class="sign">ERP · TYPE L</span><h1 style="margin-top:8px">Radar ERP Type L — Île-de-France</h1>
@@ -84,7 +94,10 @@ input[type=number],select{width:100%;background:var(--bg);border:1px solid var(-
 </aside>
 <main style="display:grid;gap:16px;min-width:0">
 <section class="kpis"><div class="kpi"><b class="num" id="kCount">–</b><span>annonces correspondantes</span></div><div class="kpi"><b class="num" id="kFit">–</b><span>dans le budget (coût total)</span></div><div class="kpi"><b class="num" id="kM2">–</b><span>prix médian au m²</span></div><div class="kpi"><b class="num" id="kL">–</b><span>classement L confirmé</span></div></section>
-<div class="toolbar"><h2 id="listTitle">Annonces</h2><label class="fld" style="display:flex;gap:8px;align-items:center">Trier<select id="sort"><option value="total">Coût total croissant</option><option value="prix">Prix croissant</option><option value="m2">Prix au m² croissant</option><option value="surface">Surface décroissante</option><option value="recent">Ajout récent</option></select></label></div>
+<div class="toolbar"><h2 id="listTitle">Annonces</h2><div class="seg viewseg" id="viewSeg" role="group" aria-label="Affichage des annonces"><button type="button" data-view="list" aria-pressed="true">Liste</button><button type="button" data-view="map" aria-pressed="false">Carte</button></div><label class="fld" style="display:flex;gap:8px;align-items:center">Trier<select id="sort"><option value="total">Coût total croissant</option><option value="prix">Prix croissant</option><option value="m2">Prix au m² croissant</option><option value="surface">Surface décroissante</option><option value="recent">Ajout récent</option></select></label></div>
+<section id="mapWrap" hidden aria-label="Carte des annonces"><div id="map" role="region" aria-label="Carte interactive des annonces"></div>
+<div class="maplegend hint"><span><i class="pin l"></i>Type L confirmé</span><span><i class="pin erp"></i>ERP déclaré</span><span><i class="pin chk"></i>ERP à vérifier</span></div>
+<p class="hint" id="mapInfo" aria-live="polite"></p></section>
 <div class="list" id="list"></div>
 <section class="panel"><h2>Élargir la recherche</h2><div class="links">
 <a href="https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/ile-de-france/vente-locaux-commerciaux" target="_blank" rel="noopener">BureauxLocaux — locaux commerciaux<small>Filtrer « ERP »</small></a>
@@ -128,14 +141,15 @@ function median(a){if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.
 function render(){
  const shown=rows.filter(matches);
  const key={total:r=>total(r)??Infinity,prix:r=>r.prix??Infinity,m2:r=>r.prix!=null&&r.surface?r.prix/r.surface:Infinity,surface:r=>-(r.surface||0),recent:r=>-(r.ajoute||0)}[F.sort];
- shown.sort((a,b)=>key(a)-key(b));
+ shown.sort((a,b)=>key(a)-key(b));lastShown=shown;
  $("kCount").textContent=shown.length;
  $("kFit").textContent=shown.filter(r=>{const t=total(r);return t!=null&&t<=F.bMax}).length;
  const m2=median(shown.filter(r=>r.prix!=null&&r.surface).map(r=>r.prix/r.surface));
  $("kM2").textContent=m2?new Intl.NumberFormat("fr-FR").format(Math.round(m2))+" €":"–";
  $("kL").textContent=shown.filter(r=>r.erp==="L").length;
  $("listTitle").textContent=`${shown.length} annonce${shown.length>1?"s":""} sur ${rows.length}`;
- $("list").innerHTML=shown.length?shown.map(card).join(""):`<div class="empty">Aucune annonce ne passe ces filtres. Élargissez le budget ou la surface.</div>`}
+ $("list").innerHTML=shown.length?shown.map(card).join(""):`<div class="empty">Aucune annonce ne passe ces filtres. Élargissez le budget ou la surface.</div>`;
+ if(view==="map")mapUpdate()}
 function card(r){
  const t=total(r),fit=t!=null&&t<=F.bMax,m2=r.prix!=null&&r.surface?Math.round(r.prix/r.surface):null,e=ERP[r.erp]||ERP.verifier;
  const trans=(r.transports||[]).map(x=>`<span class="t${x.confirme?"":" unc"}"><i>${esc(x.mode)}${x.ligne?" "+esc(x.ligne):""}</i>${esc(x.station||"")}${x.distance!=null?` · <span class="num">${x.distance} m</span>`:""}</span>`).join("")||`<span class="hint">Desserte non précisée dans l'annonce</span>`;
@@ -167,6 +181,48 @@ document.querySelectorAll("[data-basis]").forEach(b=>b.onclick=()=>{F.basis=b.da
 document.querySelectorAll("[data-park]").forEach(b=>b.onclick=()=>{F.park=b.dataset.park;save();sync();render()});
 $("resetBtn").onclick=()=>{F=Object.assign({},DEFAULTS,{depts:[],modes:[],erp:[]});save();sync();render()};
 function snap(p){$("snap").textContent="Données relevées le "+p.date+" ("+p.rows.length+" annonces).";}
+/* ---- Carte (Leaflet + OpenStreetMap, chargés à la première ouverture de l'onglet « Carte ») ---- */
+let view="list",lastShown=[],MAP=null,LAYER=null,COMM=null,mapLoading=null;
+function normVille(n){let m=String(n||"").toLowerCase().replace(/œ/g,"oe").replace(/æ/g,"ae").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g," ").trim().split(" ").filter(Boolean).map(x=>x==="st"?"saint":x==="ste"?"sainte":x);
+ if(m.length>1&&["le","la","les","l"].includes(m[0]))m=m.slice(1);return m.join("")}
+function coords(r){
+ const la=Number(r.lat??r.latitude),ln=Number(r.lng??r.lon??r.longitude);
+ if(Number.isFinite(la)&&Number.isFinite(ln)&&la>47.9&&la<49.4&&ln>1.2&&ln<3.8)return{ll:[la,ln],approx:false};
+ const c=COMM&&COMM[r.dept+"|"+normVille(r.dept==="75"?"Paris":r.ville)];
+ return c?{ll:c,approx:true}:null}
+function loadAsset(tag,url){return new Promise((ok,ko)=>{const e=document.createElement(tag);
+ if(tag==="link"){e.rel="stylesheet";e.href=url}else{e.src=url}e.onload=()=>ok();e.onerror=()=>ko(new Error(url));document.head.appendChild(e)})}
+function ensureMap(){
+ if(MAP)return Promise.resolve();
+ return mapLoading||(mapLoading=(async()=>{
+  await Promise.all([loadAsset("link","vendor/leaflet/leaflet.css"),loadAsset("link","vendor/markercluster/MarkerCluster.css"),loadAsset("link","vendor/markercluster/MarkerCluster.Default.css")]);
+  await loadAsset("script","vendor/leaflet/leaflet.js");await loadAsset("script","vendor/markercluster/leaflet.markercluster.js");
+  const r=await fetch("data/communes_idf.json");COMM=r.ok?await r.json():{};
+  MAP=L.map("map").fitBounds([[48.10,1.45],[49.25,3.60]]);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'}).addTo(MAP);
+  LAYER=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:45}).addTo(MAP);
+  window.radarMap={map:MAP,layer:LAYER};
+ })().catch(e=>{mapLoading=null;throw e}))}
+function popup(r,approx){
+ const e=ERP[r.erp]||ERP.verifier,m2=r.prix!=null&&r.surface?Math.round(r.prix/r.surface):null;
+ return `<div class="mp"><b>${esc(r.ville)}</b><div>${esc(r.titre)}</div><div class="num">${r.prix!=null?eur(r.prix):"Prix sur demande"} · ${r.surface||"?"} m²${m2?" · "+new Intl.NumberFormat("fr-FR").format(m2)+" €/m²":""}</div>
+ <div><span class="tag ${e.cls}">${e.label}</span></div>${/^https?:\/\//.test(r.url||"")?`<div><a href="${esc(r.url)}" target="_blank" rel="noopener">Voir l'annonce</a></div>`:""}
+ ${approx?`<div class="hint">Position approximative : centre de la commune, pas l'adresse du bien.</div>`:""}</div>`}
+function mapUpdate(){
+ if(!MAP)return;
+ LAYER.clearLayers();const ms=[];let sans=0,approx=0;
+ lastShown.forEach(r=>{const c=coords(r);if(!c){sans++;return}if(c.approx)approx++;
+  const e=ERP[r.erp]||ERP.verifier;
+  ms.push(L.marker(c.ll,{title:`${r.ville} — ${r.prix!=null?eur(r.prix):"prix sur demande"}`,icon:L.divIcon({className:"",html:`<span class="pin ${e.cls}"></span>`,iconSize:[18,18],iconAnchor:[9,9],popupAnchor:[0,-9]})}).bindPopup(popup(r,c.approx),{maxWidth:280}))});
+ LAYER.addLayers(ms);
+ const info=$("mapInfo");info.dataset.markers=ms.length;info.dataset.unlocated=sans;
+ info.textContent=`${ms.length} annonce${ms.length>1?"s":""} sur la carte${approx?` (position approximative : centre de la commune)`:""}${sans?` · ${sans} sans position (commune introuvable)`:""}.`}
+function setView(v){
+ view=v;$("list").hidden=v==="map";$("mapWrap").hidden=v!=="map";
+ document.querySelectorAll("[data-view]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.view===v));
+ if(v==="map"){$("mapInfo").textContent="Chargement de la carte…";
+  ensureMap().then(()=>{MAP.invalidateSize();mapUpdate()}).catch(()=>{$("mapInfo").textContent="La carte n'a pas pu être chargée. La liste reste disponible."})}}
+document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>setView(b.dataset.view));
 snap(PAYLOAD);sync();render();
 fetch("annonces.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(p=>{if(p&&Array.isArray(p.rows)){rows=p.rows;snap(p);render()}}).catch(()=>{});
 </script></body></html>

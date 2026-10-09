@@ -31,7 +31,10 @@ async function lancer(executablePath) {
   await new Promise(r => setTimeout(r, 1000));
   const navigateur = (await lancer('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')) || (await lancer());
   if (!navigateur) { console.log('ÉCHEC Chromium introuvable'); serveur.kill(); process.exit(1); }
-  const page = await (await navigateur.newContext()).newPage();
+  const contexte = await navigateur.newContext();
+  // Pas de réseau externe pendant les tests : les fonds de carte OpenStreetMap sont neutralisés.
+  await contexte.route('**/tile.openstreetmap.org/**', r => r.abort());
+  const page = await contexte.newPage();
   const erreursJs = [];
   page.on('pageerror', e => erreursJs.push(e.message));
   try {
@@ -84,6 +87,87 @@ async function lancer(executablePath) {
     }
     await page.click('#resetBtn');
     verifier('bouton de réinitialisation', await compte(), parDefaut.length);
+
+    // ---- Carte Leaflet : bouton Liste / Carte, repères, fiche, regroupement, synchronisation avec les filtres ----
+    const marqueurs = async () => Number(await page.getAttribute('#mapInfo', 'data-markers'));
+    const visible = sel => page.locator(sel).isVisible();
+    verifier('affichage par défaut : liste visible, carte masquée', [await visible('#list'), await visible('#mapWrap')].join(','), 'true,false');
+    await page.click('[data-view="map"]');
+    await page.waitForFunction(() => document.getElementById('mapInfo').dataset.markers !== undefined, null, { timeout: 15000 });
+    verifier('carte visible, liste masquée', [await visible('#list'), await visible('#mapWrap')].join(','), 'false,true');
+    verifier('bouton « Carte » activé', await page.getAttribute('[data-view="map"]', 'aria-pressed'), 'true');
+    const centre = await page.evaluate(() => { const c = window.radarMap.map.getCenter(); return [c.lat, c.lng]; });
+    verifier('carte centrée sur l\'Île-de-France', centre[0] > 48.3 && centre[0] < 49.1 && centre[1] > 1.8 && centre[1] < 3.2, true);
+    verifier('repères = annonces filtrées (filtres par défaut)', await marqueurs(), parDefaut.length);
+    verifier('annonces sans position', await page.getAttribute('#mapInfo', 'data-unlocated'), '0');
+    verifier('repères regroupés (grappes visibles)', (await page.locator('.marker-cluster').count()) > 0, true);
+    verifier('attribution OpenStreetMap affichée', (await page.locator('.leaflet-control-attribution').textContent()).includes('OpenStreetMap'), true);
+
+    // Synchronisation avec chaque famille de filtres : le nombre de repères suit toujours le nombre d'annonces affichées.
+    const synchro = async nom => verifier(`carte synchronisée : ${nom}`, await marqueurs(), await compte());
+    await puce('deptChips', '94').click(); await synchro('département 94');
+    verifier('  … attendu (département 94)', await marqueurs(), parDefaut.filter(r => r.dept === '94').length);
+    await puce('deptChips', '94').click();
+    await puce('erpChips', 'ERP à vérifier').click(); await synchro('statut ERP à vérifier');
+    verifier('  … attendu (ERP à vérifier)', await marqueurs(), parDefaut.filter(r => r.erp === 'verifier').length);
+    await puce('erpChips', 'ERP à vérifier').click();
+    await page.$eval('#sMin', e => { e.value = 600; e.dispatchEvent(new Event('input', { bubbles: true })); }); await synchro('surface ≥ 600 m²');
+    verifier('  … attendu (surface ≥ 600)', await marqueurs(), visibles.filter(r => (r.prix == null || (r.prix >= DEFAUT.bMin && r.prix <= DEFAUT.bMax)) && (r.surface || 0) >= 600).length);
+    await page.fill('#bMax', '800000'); await synchro('budget max 800 000 €');
+    await page.click('[data-park="sur_place"]'); await synchro('parking sur place');
+    await puce('modeChips', 'RER').click(); await synchro('transport RER');
+    await page.$eval('#sMin', e => { e.value = 0; e.dispatchEvent(new Event('input', { bubbles: true })); });
+    await page.fill('#bMin', '0'); await page.fill('#bMax', '999999999');
+    await page.click('[data-park="any"]'); await puce('modeChips', 'RER').click();
+    await synchro('sans limite'); verifier('  … attendu (tout)', await marqueurs(), visibles.length);
+    await page.fill('#bMax', '1'); await page.uncheck('#incNoPrice');
+    verifier('carte vide quand aucun résultat', await marqueurs(), 0);
+    await page.click('#resetBtn'); await synchro('réinitialisation');
+    verifier('  … attendu (réinitialisation)', await marqueurs(), parDefaut.length);
+
+    // Fiche au clic : prix, surface, ville, statut ERP, lien de l'annonce ; position approximative signalée.
+    const infoPopup = await page.evaluate(() => new Promise(ok => {
+      const m = window.radarMap.layer.getLayers()[0];
+      window.radarMap.layer.zoomToShowLayer(m, () => { m.openPopup(); ok(document.querySelector('.leaflet-popup-content').innerText + '\n@@' + (document.querySelector('.leaflet-popup-content a') || {}).href); });
+    }));
+    const [texte, lien] = infoPopup.split('\n@@');
+    const ligne = data.rows.find(r => r.url === lien);
+    verifier('fiche : lien de l\'annonce', Boolean(ligne), true);
+    if (ligne) {
+      const libelle = { L: 'Type L confirmé', ERP: 'ERP déclaré', verifier: 'ERP à vérifier' }[ligne.erp];
+      verifier('fiche : ville', texte.includes(ligne.ville), true);
+      verifier('fiche : statut ERP exact', texte.includes(libelle), true);
+      verifier('fiche : surface', texte.replace(/\s/g, ' ').includes(`${ligne.surface} m²`), true);
+      verifier('fiche : prix', ligne.prix == null ? texte.includes('Prix sur demande') : texte.replace(/[\s  ]/g, '').includes(String(ligne.prix).replace(/\B(?=(\d{3})+(?!\d))/g, '')) , true);
+      verifier('fiche : position approximative signalée', texte.includes('Position approximative'), true);
+    }
+    // Coordonnées exactes présentes dans les données : elles priment sur le centre de la commune.
+    const exact = await page.evaluate(id => { const r = rows.find(x => x._id === id); r.lat = 48.9; r.lng = 2.05; render();
+      const m = window.radarMap.layer.getLayers().find(x => Math.abs(x.getLatLng().lat - 48.9) < 1e-9 && Math.abs(x.getLatLng().lng - 2.05) < 1e-9);
+      return Boolean(m) && !m.getPopup().getContent().includes('Position approximative'); }, parDefaut[0]._id);
+    verifier('coordonnées exactes utilisées sans mention « approximative »', exact, true);
+    await page.evaluate(id => { const r = rows.find(x => x._id === id); delete r.lat; delete r.lng; }, parDefaut[0]._id);
+
+    // Retour à la liste : affichage d'origine inchangé.
+    await page.click('[data-view="list"]');
+    verifier('retour à la liste : liste visible, carte masquée', [await visible('#list'), await visible('#mapWrap')].join(','), 'true,false');
+    verifier('retour à la liste : fiches affichées', await page.locator('#list article.card').count(), parDefaut.length);
+
+    // Mobile : la carte tient dans l'écran, sans défilement horizontal.
+    const mobile = await (await navigateur.newContext({ viewport: { width: 390, height: 800 }, isMobile: true, hasTouch: true })).newPage();
+    await mobile.context().route('**/tile.openstreetmap.org/**', r => r.abort());
+    const erreursMobile = [];
+    mobile.on('pageerror', e => erreursMobile.push(e.message));
+    await mobile.goto(`http://127.0.0.1:${port}/index.html`);
+    await mobile.waitForTimeout(500);
+    await mobile.click('[data-view="map"]');
+    await mobile.waitForFunction(() => document.getElementById('mapInfo').dataset.markers !== undefined, null, { timeout: 15000 });
+    const dims = await mobile.evaluate(() => ({ l: document.getElementById('map').getBoundingClientRect().width, w: window.innerWidth, sw: document.documentElement.scrollWidth }));
+    verifier('mobile : la carte tient dans l\'écran', dims.l <= dims.w && dims.l > 200, true);
+    verifier('mobile : pas de défilement horizontal', dims.sw <= dims.w, true);
+    verifier('mobile : repères affichés', Number(await mobile.getAttribute('#mapInfo', 'data-markers')), parDefaut.length);
+    verifier('mobile : erreurs JavaScript', erreursMobile.length, 0);
+
     verifier('erreurs JavaScript', erreursJs.length, 0);
   } catch (e) {
     console.log('ÉCHEC ' + e.message.split('\n')[0]);
