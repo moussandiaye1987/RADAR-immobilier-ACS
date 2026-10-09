@@ -1,0 +1,194 @@
+{
+ "41451779": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "salle/réception/ERP cité par l'annonce",
+  "_id": "sartrouville-restaurant-529"
+ },
+ "42423108": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "salle/réception/ERP cité par l'annonce",
+  "_id": "champs-sur-marne-amphitheatre-665"
+ },
+ "41246397": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "salle/réception/ERP cité par l'annonce",
+  "_id": "villeneuve-le-comte-reception-790"
+ },
+ "41451029": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "salle/réception/ERP cité par l'annonce",
+  "_id": "noisy-le-grand-lieu-de-culte-571"
+ },
+ "42243027": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "salle/réception/ERP cité par l'annonce",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "42405213": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "salle/réception/ERP cité par l'annonce",
+  "_id": "champs-sur-marne-erpable-amphi-665"
+ },
+ "42487465": {
+  "date": "2026-10-09",
+  "decision": "doublon",
+  "motif": "même bien (réf. 9400411581, 1 103 m², 2,5 M€) que vitry-ancien-lieu-de-culte-1103 (ParuVendu)",
+  "_id": "vitry-ancien-lieu-de-culte-1103"
+ },
+ "42359040": {
+  "date": "2026-10-09",
+  "decision": "doublon",
+  "motif": "même local que 42359072 (réf. 14445990B/C), bureaux avec accueil au public seulement possible",
+  "_id": ""
+ },
+ "42494602": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42435050": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42454641": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40410362": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42359072": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40709094": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42454681": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42439312": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40671570": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40109872": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40636780": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42359188": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42359471": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40981787": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42450081": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "41156347": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40940020": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "39783847": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "41861322": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40906246": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "39746140": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "40574600": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "39926451": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ },
+ "42359195": {
+  "date": "2026-10-09",
+  "decision": "ecartee",
+  "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
+  "_id": ""
+ }
+}
