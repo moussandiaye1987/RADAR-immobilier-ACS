@@ -15,9 +15,6 @@ on:
         description: "Simulation : ne rien publier sur main (contrôles et diagnostic seulement)"
         type: boolean
         default: false
-  # TEMPORAIRE (test réel avant fusion) : se déclenche à chaque poussée de la branche de correction.
-  push:
-    branches: ["fix/activer-workflow-veille"]
 
 permissions:
   contents: write   # seule permission nécessaire : pousser sur main

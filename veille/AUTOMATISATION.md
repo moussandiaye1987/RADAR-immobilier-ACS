@@ -35,3 +35,8 @@ affiche son étiquette. `valider.py` refuse un « L » sans citation du type L e
   robots (aucun contournement) ; Geolocaux, ParuVendu, Cession PME, Bien'ici ne sont pas collectés par script.
 - Les annonces ajoutées n'ont pas été relues par un humain : à vérifier avant toute démarche.
 - Les liens retirés ne font l'objet d'aucune décision automatique.
+
+## Test réel et mise en service
+- Test réel réussi sur GitHub Actions le 09/10/2026 (poussée de la branche de correction, 6 min) : collecte BureauxLocaux (3 561 candidates, aucun blocage), contrôle des liens, ajout par règles, `valider.py`, `test_filtres.js` dans Chromium, artefact « veille », poussée vers la branche jetable `ci-test-publication` avec le jeton `GITHUB_TOKEN` (droit d'écriture confirmé).
+- Pas encore vérifié : la poussée vers `main` elle-même (dépend d'une éventuelle protection de branche) et le déploiement Netlify qui en découle. Premier contrôle : Actions → « Veille quotidienne » → Run workflow, branche `main`, **décocher** « simulation ».
+- Hors `main`, le workflow ne publie jamais sur `main` : il pousse vers `ci-test-publication` (branche jetable, supprimable).
