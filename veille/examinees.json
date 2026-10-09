@@ -190,5 +190,29 @@
   "decision": "ecartee",
   "motif": "bureaux / local d'activité / entrepôt sans usage de réception ou ERP public avéré",
   "_id": ""
+ },
+ "40636941": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
+  "_id": "saint-denis-reception-2076"
+ },
+ "40637230": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
+  "_id": "savigny-le-temple-reception-3080"
+ },
+ "41951994": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles (usage évoqué ; statut ERP : verifier)",
+  "_id": "creteil-reception-519"
+ },
+ "40837587": {
+  "date": "2026-10-09",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles (usage évoqué ; statut ERP : verifier)",
+  "_id": "saint-denis-reception-2192"
  }
 }
