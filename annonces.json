@@ -1,5 +1,5 @@
 {
- "date": "09/10/2026",
+ "date": "10/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3524,6 +3524,63 @@
    "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
+  },
+  {
+   "_id": "le-mesnil-saint-denis-bureaux-521",
+   "titre": "Immeuble indépendant de 521 m² en RDC, 10 parkings (mise aux normes ERP possible)",
+   "ville": "Le Mesnil-Saint-Denis",
+   "adresse": "29 Rue de Rodon, 78320 Le Mesnil-Saint-Denis",
+   "dept": "78",
+   "agence": "Courcier Immobilier",
+   "ref": "86723424",
+   "url": "https://www.bureauxlocaux.com/annonce/le-mesnil-saint-denis-a-vendre-bureaux-521-m2--40159880",
+   "prix": 446250,
+   "surface": 521,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « centre de formation, siège social ou projet de local commercial (possibilité de mise aux normes ERP) » ; accès PMR, 3 accès distincts, hauteur libre RDC 2,80 m ; type L non confirmé",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "notes": "Immeuble indépendant R+1 à rénover, surface en RDC de 521 m², bureaux cloisonnés et salle de réunion, 10 places extérieures. Prix bas (environ 856 €/m²) mais bien conçu pour des bureaux : classement ERP, capacité, PLU et copropriété à vérifier ; quartier pavillonnaire, desserte surtout routière (N10), gares à 3 et 5 km en voiture.",
+   "nouveau": true,
+   "ajoute": 1791608553606,
+   "vu": "2026-10-10"
+  },
+  {
+   "_id": "boulogne-billancourt-rue-de-sevres-459",
+   "titre": "Bâtiment indépendant de 459 m² en RDC avec salon de réception, 15 parkings (E.R.P. possible)",
+   "ville": "Boulogne-Billancourt",
+   "adresse": "51 Rue de Sèvres, 92100 Boulogne-Billancourt",
+   "dept": "92",
+   "agence": "Immprove (Immprove SAO SUD)",
+   "ref": "12518650-0001V",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-acces-independant--42359196",
+   "prix": 3200000,
+   "surface": 459,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « Possibilité d'E.R.P. », « E.R.P. possible », accueil avec salon de réception, salles de réunions équipées, accès PMR sans marche ; affectation juridique et Loi Carrez en cours de détermination ; type L non confirmé",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "10",
+     "station": "Boulogne Pont de Saint-Cloud",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Pont de Sèvres",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "notes": "Bâtiment indépendant en copropriété, accès propre sur rue, 15 places sur dalle extérieure : emplacement et accessibilité favorables, mais bureaux à reclasser en ERP (type L à vérifier). Environ 6 972 €/m² ; sous-location (coworking) en cours selon la fiche. Bien très probablement identique à l'annonce BureauxLocaux n° 40958803 (Cushman & Wakefield, réf. 196220-0V, « bureaux meublés »), non ajoutée pour éviter le doublon : à arbitrer.",
+   "nouveau": true,
+   "ajoute": 1791608553606,
+   "vu": "2026-10-10"
   }
  ]
 }
