@@ -214,5 +214,21 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage évoqué ; statut ERP : verifier)",
   "_id": "saint-denis-reception-2192"
+ },
+ "42243390": {
+  "date": "2026-10-11",
+  "decision": "retenue",
+  "motif": "restaurant 90 couverts en plusieurs salles + jardin, vérifié sur la page (doublon signalé 41426476 = autre bien, bureaux à Pontault-Combault)",
+  "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42479442": {
+  "date": "2026-10-11",
+  "decision": "ecartee",
+  "motif": "bureaux ERPables avec amphithéâtre de 120 places (Champs-sur-Marne), type centre de formation ; doublon possible 40944327 = même bien en location : à décider par le propriétaire"
+ },
+ "40687383": {
+  "date": "2026-10-11",
+  "decision": "ecartee",
+  "motif": "local d'activités ; l'annonce précise « pas de salle des fêtes » ; doublon possible 41379870 (même agence, 720 m², même prix)"
  }
 }

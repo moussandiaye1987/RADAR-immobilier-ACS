@@ -1,24 +1,14 @@
 {
- "date": "2026-10-09",
- "candidates_lues": 3561,
- "ajoutees": [
-  "saint-denis-reception-2076",
-  "savigny-le-temple-reception-3080",
-  "creteil-reception-519",
-  "saint-denis-reception-2192"
- ],
- "ajoutees_statut_erp": {
-  "saint-denis-reception-2076": "verifier",
-  "savigny-le-temple-reception-3080": "verifier",
-  "creteil-reception-519": "verifier",
-  "saint-denis-reception-2192": "verifier"
- },
+ "date": "2026-10-11",
+ "candidates_lues": 3557,
+ "ajoutees": [],
+ "ajoutees_statut_erp": {},
  "reportees_plafond": 0,
  "etiquette_nouveau_retiree": [],
  "rejets_par_motif": {
-  "déjà sur le radar": 101,
-  "aucun indice d'usage de salle ni de type L dans l'annonce": 3205,
-  "logement ou terrain": 217
+  "déjà sur le radar": 100,
+  "aucun indice d'usage de salle ni de type L dans l'annonce": 3198,
+  "logement ou terrain": 221
  },
  "ambigues_non_publiees": [
   {

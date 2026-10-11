@@ -1,5 +1,5 @@
 {
- "date": "09/10/2026",
+ "date": "11/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3524,6 +3524,28 @@
    "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
+  },
+  {
+   "_id": "ozoir-la-ferriere-restaurant-657",
+   "titre": "Immeuble avec restaurant de 90 couverts, salles et jardin (murs et fonds)",
+   "ville": "Ozoir-la-Ferrière",
+   "adresse": "",
+   "dept": "77",
+   "agence": "GHT Immo",
+   "ref": "940049512",
+   "url": "https://www.bureauxlocaux.com/annonce/immeuble-mur-et-fond-emplacement-n1--42243390",
+   "prix": 1370000,
+   "surface": 657,
+   "erp": "verifier",
+   "erpDetail": "Restaurant de 90 couverts répartis sur plusieurs salles, jardin de 45 couverts ; classement ERP non indiqué par l'annonce",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Immeuble déjà exploité en restaurant (rez-de-chaussée 357 m², mezzanine 300 m²), plusieurs salles et un jardin : base plausible pour une salle de réception ou d'événements. L'annonce parle de « mur et fond » : vérifier ce qui est vendu (murs, fonds de commerce), le bail éventuel, le classement ERP actuel et les possibilités d'extension (1er étage). Environ 2 085 €/m².",
+   "nouveau": true,
+   "ajoute": 1791694911355,
+   "vu": "2026-10-11"
   }
  ]
 }
