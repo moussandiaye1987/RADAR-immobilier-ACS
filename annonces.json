@@ -1,5 +1,5 @@
 {
- "date": "09/10/2026",
+ "date": "12/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3524,6 +3524,35 @@
    "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
+  },
+  {
+   "_id": "creteil-formation-745",
+   "titre": "Locaux de 745 m² en RDC à Créteil, ERP 5e catégorie (salles de formation possibles)",
+   "ville": "Créteil",
+   "adresse": "1 Avenue Georges Duhamel, 94000 Créteil",
+   "dept": "94",
+   "agence": "Alex Bolton (réf. 2143146-0V)",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-creteil-94000--40646314",
+   "prix": 850000,
+   "surface": 745,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « Locaux ERP et PMR », ERP 5e catégorie, accès PMR, entrée indépendante sur rue, peuvent être « transformé en salles de formations ». Type L non confirmé.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "8",
+     "station": "Créteil - Préfecture",
+     "distance": 1000,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Immeuble indépendant en RDC, 23 bureaux, 3 salles de réunion, accueil ; transformation en salles de formation évoquée (usage proche du type R/L à vérifier). Accueil du public déjà classé ERP 5e catégorie selon l'annonce. Vigilance : type L non confirmé, copropriété, capacité et PLU à vérifier. Prix de 1 141 €/m². Même bien probablement republié par CRENO REAL ESTATE (n° 40618056, même prix et surface, sans adresse) : non ajouté.",
+   "nouveau": true,
+   "ajoute": 1791781375541,
+   "vu": "2026-10-12"
   }
  ]
 }
