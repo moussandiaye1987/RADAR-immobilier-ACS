@@ -214,5 +214,162 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage évoqué ; statut ERP : verifier)",
   "_id": "saint-denis-reception-2192"
+ },
+ "37471595": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42385387": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42439810": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "39290814": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "36370617": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "immeuble de bureaux neuf (ERP 5), plateaux en étage divisibles, pas de salle accueillant du public"
+ },
+ "42452437": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "40646314": {
+  "date": "2026-10-12",
+  "decision": "retenue",
+  "motif": "locaux ERP 5e cat. et PMR, salles de formation possibles, 745 m² RDC",
+  "_id": "creteil-formation-745"
+ },
+ "42359164": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42245541": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "39260282": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42260770": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "40005293": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42486078": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42385681": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42439281": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42401737": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42396294": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42385899": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42370792": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42314892": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42531416": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42531415": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42479456": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42479454": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42479453": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42422849": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42422809": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42400826": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42283569": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "42245705": {
+  "date": "2026-10-12",
+  "decision": "ecartee",
+  "motif": "bureaux / locaux d'activité, accueil du public non avéré (ERP possible seulement évoqué ou salle de réunion standard)"
+ },
+ "40618056": {
+  "date": "2026-10-12",
+  "decision": "doublon",
+  "motif": "même bien probable que 40646314 (Créteil, 745 m², 850 000 €, autre agence CRENO) : à arbitrer",
+  "_id": "creteil-formation-745"
  }
 }
