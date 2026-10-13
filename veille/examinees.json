@@ -214,5 +214,11 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage évoqué ; statut ERP : verifier)",
   "_id": "saint-denis-reception-2192"
+ },
+ "42243390": {
+  "date": "2026-10-13",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
+  "_id": "ozoir-la-ferriere-restaurant-657"
  }
 }

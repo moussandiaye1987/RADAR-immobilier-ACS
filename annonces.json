@@ -1,5 +1,5 @@
 {
- "date": "09/10/2026",
+ "date": "13/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3524,6 +3524,26 @@
    "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
+  },
+  {
+   "_id": "ozoir-la-ferriere-restaurant-657",
+   "titre": "Local commercial de 657 m² à Ozoir La Ferriere (usage décrit : restaurant)",
+   "ville": "Ozoir La Ferriere",
+   "adresse": "",
+   "dept": "77",
+   "agence": "GHT Immo",
+   "url": "https://www.bureauxlocaux.com/annonce/immeuble-mur-et-fond-emplacement-n1--42243390",
+   "prix": 1370000,
+   "surface": 657,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce ne précise pas de classement ERP",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
+   "nouveau": true,
+   "ajoute": 1791868497560,
+   "vu": "2026-10-13"
   }
  ]
 }
