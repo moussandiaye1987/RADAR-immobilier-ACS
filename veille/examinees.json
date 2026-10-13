@@ -214,5 +214,25 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage évoqué ; statut ERP : verifier)",
   "_id": "saint-denis-reception-2192"
+ },
+ "42355691": {
+  "date": "2026-10-13",
+  "decision": "ecartee",
+  "motif": "commerce neuf drive/terrasse à Esmans (77) : ni ERP ni usage de restauration ou de réception mentionnés ; usage L non étayé"
+ },
+ "42421367": {
+  "date": "2026-10-13",
+  "decision": "ecartee",
+  "motif": "commerce de plain-pied 1566 m² occupé (La Vie Claire), 3,25 M€ : pas de salle ni ERP L, hors budget courant"
+ },
+ "42439735": {
+  "date": "2026-10-13",
+  "decision": "ecartee",
+  "motif": "deux immeubles de bureaux avec cloisonnement, pas d'accueil du public avéré"
+ },
+ "42504947": {
+  "date": "2026-10-13",
+  "decision": "ecartee",
+  "motif": "entrepôt / stockage, aucun élément ERP"
  }
 }
