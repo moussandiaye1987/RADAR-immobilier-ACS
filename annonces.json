@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "14/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -1448,7 +1448,7 @@
    "ville": "Moissy-Cramayel",
    "vu": "2026-10-07",
    "_id": "moissy-cramayel-innovation-839",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Site isolé près de Montereau (adresse non publiée)",
@@ -1784,7 +1784,7 @@
    "ville": "Moret-Loing-et-Orvanne",
    "vu": "2026-10-07",
    "_id": "moret-loing-fontainebleau-800",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -3544,6 +3544,152 @@
    "nouveau": true,
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "argenteuil-quais-seine-238",
+   "titre": "Bureaux rénovés de 238 m² sur les quais de Seine, « ERP possible »",
+   "ville": "Argenteuil",
+   "adresse": "141 Rue Michel Carre, 95100 Argenteuil",
+   "dept": "95",
+   "agence": "Invest Conseil",
+   "ref": "95_0041",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--39260603",
+   "prix": 429840,
+   "surface": 238,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP possible », accès PMR, cloisons amovibles, 4 places de parking, lot R+1. Type L non confirmé.",
+   "erpSource": "",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Surface légèrement sous le seuil par défaut de 250 m². Lot en R+1 de 238,80 m², 1 800 €/m². Prix : l'en-tête de l'annonce affiche « à partir de 340 000 € » (valeur du collecteur) mais le tableau du lot indique 429 840 € : valeur du lot retenue, à confirmer auprès de l'agence. Type L, capacité et classement à vérifier.",
+   "nouveau": true,
+   "ajoute": 1791954149487,
+   "vu": "2026-10-14"
+  },
+  {
+   "_id": "mesnil-saint-denis-immeuble-521",
+   "titre": "Immeuble indépendant R+1 de 521 m² (« possibilité de mise aux normes ERP »)",
+   "ville": "Le Mesnil-Saint-Denis",
+   "adresse": "29 Rue de Rodon, 78320 Le Mesnil-Saint-Denis",
+   "dept": "78",
+   "agence": "Courcier Immobilier",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/le-mesnil-saint-denis-a-vendre-bureaux-521-m2--40159880",
+   "prix": 446250,
+   "surface": 521,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « possibilité de mise aux normes ERP », projet possible de centre de formation ou local commercial, 10 places de parking, accès PMR, hauteur libre RDC 2,80 m. Type L non confirmé.",
+   "erpSource": "",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Immeuble indépendant en quartier pavillonnaire, à rénover (travaux à prévoir), 856 €/m². Intérêt pour une salle polyvalente après mise aux normes ; vigilance : travaux, PLU, voisinage résidentiel, desserte en transports non indiquée.",
+   "nouveau": true,
+   "ajoute": 1791954149487,
+   "vu": "2026-10-14"
+  },
+  {
+   "_id": "montrouge-rdc-jardin-295",
+   "titre": "Rez-de-chaussée de 295 m² avec jardin privatif, ERP 5e catégorie",
+   "ville": "Montrouge",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-avec-jardin-privatif-et-stationnements-a-m--42587372",
+   "prix": 1650000,
+   "surface": 295,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie », « Possibilité de normes E.R.P ». Type L non confirmé.",
+   "erpSource": "",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "4",
+     "station": "Mairie de Montrouge",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC de 295 m² avec jardin paysager et cour privative, 5 593 €/m². Adresse non publiée. Catégorie ERP déclarée mais type d'activité non précisé : à vérifier avant toute hypothèse de salle de réception.",
+   "nouveau": true,
+   "ajoute": 1791954149487,
+   "vu": "2026-10-14"
+  },
+  {
+   "_id": "malakoff-rdc-erp-256",
+   "titre": "Bureaux en rez-de-chaussée de 256 m², locaux ERP 5e catégorie",
+   "ville": "Malakoff",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer-malakoff-92--42587316",
+   "prix": 950000,
+   "surface": 256,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie », « Locaux E.R.P », ascenseur PMR. Type L non confirmé.",
+   "erpSource": "",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "Malakoff - Rue Etienne Dolet",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T6",
+     "station": "Châtillon - Montrouge",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC de 256 m² traversant, 3 711 €/m². Adresse non publiée. ERP déclaré sans précision de type : à vérifier.",
+   "nouveau": true,
+   "ajoute": 1791954149487,
+   "vu": "2026-10-14"
+  },
+  {
+   "_id": "boulogne-sevres-acces-independant-459",
+   "titre": "Bâtiment indépendant de 459 m² avec cour, « ERP possible »",
+   "ville": "Boulogne-Billancourt",
+   "adresse": "51 Rue de Sèvres, 92100 Boulogne-Billancourt",
+   "dept": "92",
+   "agence": "Immprove SAO SUD",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-acces-independant--42359196",
+   "prix": 3200000,
+   "surface": 459,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « Possibilité d'E.R.P. », « E.R.P. possible », accès PMR sans marche, accueil avec salon de réception, salles de réunion. Type L non confirmé.",
+   "erpSource": "",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "9, 10",
+     "station": "Boulogne (lignes 9 et 10 citées)",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Hors bornes par défaut (3,2 M€), 6 972 €/m². Même bien publié aussi par Cushman & Wakefield (BureauxLocaux n° 40958803, même adresse, surface et prix) : seule la fiche Immprove est ajoutée ; l'autre est notée en doublon. Copropriété, 15 places sur dalle.",
+   "nouveau": true,
+   "ajoute": 1791954149487,
+   "vu": "2026-10-14"
   }
  ]
 }

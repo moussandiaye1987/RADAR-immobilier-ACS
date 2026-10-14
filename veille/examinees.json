@@ -220,5 +220,161 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "41099171": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "39527954": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "41778811": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "39260603": {
+  "date": "2026-10-14",
+  "decision": "retenue",
+  "motif": "page ouverte et vérifiée ; ERP possible/déclaré",
+  "_id": "argenteuil-quais-seine-238"
+ },
+ "42503066": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "41212715": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42243091": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "39915350": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "40692383": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "41722136": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "41450534": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "39671931": {
+  "date": "2026-10-14",
+  "decision": "doublon",
+  "motif": "même bien que 39915350 (Saint-Thibault-des-Vignes)"
+ },
+ "40159880": {
+  "date": "2026-10-14",
+  "decision": "retenue",
+  "motif": "page ouverte et vérifiée ; ERP possible/déclaré",
+  "_id": "mesnil-saint-denis-immeuble-521"
+ },
+ "39260611": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42359196": {
+  "date": "2026-10-14",
+  "decision": "retenue",
+  "motif": "page ouverte et vérifiée ; ERP possible/déclaré",
+  "_id": "boulogne-sevres-acces-independant-459"
+ },
+ "41971525": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "39186511": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "38826134": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "37471566": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42582609": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "39354964": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42587372": {
+  "date": "2026-10-14",
+  "decision": "retenue",
+  "motif": "page ouverte et vérifiée ; ERP possible/déclaré",
+  "_id": "montrouge-rdc-jardin-295"
+ },
+ "42587316": {
+  "date": "2026-10-14",
+  "decision": "retenue",
+  "motif": "page ouverte et vérifiée ; ERP possible/déclaré",
+  "_id": "malakoff-rdc-erp-256"
+ },
+ "42400914": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42359502": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42359368": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42359070": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "42287379": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
+ },
+ "40958803": {
+  "date": "2026-10-14",
+  "decision": "doublon",
+  "motif": "même bien que 42359196 (Immprove) : même adresse, surface, prix",
+  "_id": "boulogne-sevres-acces-independant-459"
+ },
+ "40875570": {
+  "date": "2026-10-14",
+  "decision": "ecartee",
+  "motif": "bureaux/plateaux d'étage, investissement ou activités sans usage ERP évoqué (selon extrait de l'annonce)"
  }
 }
