@@ -220,5 +220,40 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42358343": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "RDC de bureaux Paris 11e, ERP seulement « possibilité » ; pas d'usage de salle"
+ },
+ "42355691": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "commerce neuf drive/restauration, aucun usage de salle (« cinéma » = nom d'arrêt de bus)"
+ },
+ "42421367": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "local commercial neuf loué (La Vie Claire) ; « théâtre » = arrêt de bus"
+ },
+ "42532523": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "bureaux RDC 480 m² ERP 5 possible ; pas d'usage de salle décrit"
+ },
+ "42450031": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "ancienne biscuiterie, ERP seulement envisagé, changement de destination possible ; hypothétique"
+ },
+ "39088691": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "local commercial ERP 5 de 210 m², usages cités = bureaux/médical ; pas de salle"
+ },
+ "42479442": {
+  "date": "2026-10-15",
+  "decision": "ecartee",
+  "motif": "bureaux ERPables avec amphithéâtre 120 places en Cité Descartes ; doublon possible 40944327 : décision propriétaire"
  }
 }
