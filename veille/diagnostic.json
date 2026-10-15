@@ -1,18 +1,17 @@
 {
- "date": "2026-10-13",
- "candidates_lues": 3555,
- "ajoutees": [
-  "ozoir-la-ferriere-restaurant-657"
- ],
- "ajoutees_statut_erp": {
-  "ozoir-la-ferriere-restaurant-657": "verifier"
- },
+ "date": "2026-10-15",
+ "candidates_lues": 3556,
+ "ajoutees": [],
+ "ajoutees_statut_erp": {},
  "reportees_plafond": 0,
- "etiquette_nouveau_retiree": [],
+ "etiquette_nouveau_retiree": [
+  "moissy-cramayel-innovation-839",
+  "moret-loing-fontainebleau-800"
+ ],
  "rejets_par_motif": {
-  "déjà sur le radar": 100,
-  "aucun indice d'usage de salle ni de type L dans l'annonce": 3198,
-  "logement ou terrain": 219
+  "déjà sur le radar": 98,
+  "aucun indice d'usage de salle ni de type L dans l'annonce": 3202,
+  "logement ou terrain": 218
  },
  "ambigues_non_publiees": [
   {
