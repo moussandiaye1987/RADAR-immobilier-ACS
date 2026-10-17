@@ -74,8 +74,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite--41384766",
    "ville": "Argenteuil",
    "vu": "2026-10-08",
-   "_id": "argenteuil-cinq-mars-1200",
-   "nouveau": true
+   "_id": "argenteuil-cinq-mars-1200"
   },
   {
    "adresse": "",
@@ -123,8 +122,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42452413",
    "ville": "Argenteuil",
    "vu": "2026-10-08",
-   "_id": "argenteuil-notre-dame-960",
-   "nouveau": true
+   "_id": "argenteuil-notre-dame-960"
   },
   {
    "adresse": "",
@@ -143,8 +141,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-de-886m2--40839101",
    "ville": "Aubergenville",
    "vu": "2026-10-08",
-   "_id": "aubergenville-886",
-   "nouveau": true
+   "_id": "aubergenville-886"
   },
   {
    "adresse": "Quartier résidentiel, près des Quatre-Chemins",
@@ -303,8 +300,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-activite-et-bureaux-acces-imme--42359202",
    "ville": "Boulogne-Billancourt",
    "vu": "2026-10-08",
-   "_id": "boulogne-kermen-1052",
-   "nouveau": true
+   "_id": "boulogne-kermen-1052"
   },
   {
    "adresse": "",
@@ -324,8 +320,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-1000m2-a-vendre-bretigny-sur-orge--42243515",
    "ville": "Brétigny-sur-Orge",
    "vu": "2026-10-08",
-   "_id": "bretigny-commerce-erp-1000",
-   "nouveau": true
+   "_id": "bretigny-commerce-erp-1000"
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -381,8 +376,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivte-a-vendre--42374849",
    "ville": "Buc",
    "vu": "2026-10-08",
-   "_id": "buc-rue-audemars-1470",
-   "nouveau": true
+   "_id": "buc-rue-audemars-1470"
   },
   {
    "adresse": "5 rue du Petit Albi (Cergy-Préfecture)",
@@ -457,8 +451,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-champigny-sur-marne-94500--40104084",
    "ville": "Champigny-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "champigny-activite-1100",
-   "nouveau": true
+   "_id": "champigny-activite-1100"
   },
   {
    "adresse": "24 rue Massenet",
@@ -534,8 +527,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1027m2--42390640",
    "ville": "Chanteloup-en-Brie",
    "vu": "2026-10-08",
-   "_id": "chanteloup-en-brie-1027",
-   "nouveau": true
+   "_id": "chanteloup-en-brie-1027"
   },
   {
    "adresse": "6 rue des Cerisiers, 92290",
@@ -564,8 +556,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-batiment-independant-a-usage-mixtes-3-por--42382323",
    "ville": "Châtenay-Malabry",
    "vu": "2026-10-08",
-   "_id": "chatenay-malabry-cerisiers-985",
-   "nouveau": true
+   "_id": "chatenay-malabry-cerisiers-985"
   },
   {
    "adresse": "22 rue de la Fontaine Henri IV",
@@ -619,8 +610,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-1520m2-a-vendre-chennevieres-sur--42501393",
    "ville": "Chennevières-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "chennevieres-entrepot-1520",
-   "nouveau": true
+   "_id": "chennevieres-entrepot-1520"
   },
   {
    "adresse": "rue Auguste Franchot",
@@ -647,8 +637,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactiviteentrepots--39316751",
    "ville": "Choisy-le-Roi",
    "vu": "2026-10-08",
-   "_id": "choisy-le-roi-franchot-770",
-   "nouveau": true
+   "_id": "choisy-le-roi-franchot-770"
   },
   {
    "adresse": "Adresse non publiée",
@@ -695,8 +684,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-claye-souilly--42243408",
    "ville": "Claye-Souilly",
    "vu": "2026-10-08",
-   "_id": "claye-souilly-820",
-   "nouveau": true
+   "_id": "claye-souilly-820"
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -817,7 +805,6 @@
    "erp": "verifier",
    "erpDetail": "ERP non mentionné ; atelier 510 m² + hangars 650 m², hauteur 3,8 m",
    "notes": "Grand volume à prix très bas pour la surface, avec terrain de 2 485 m² permettant du stationnement. Aucun statut ERP : changement de destination et mise aux normes type L (désenfumage, évacuation, PMR, isolation phonique) à budgéter, et hauteur de 3,8 m limitante pour une salle de spectacle. Dans le budget, travaux lourds probables.",
-   "nouveau": true,
    "parking": "proximite",
    "prix": 730000,
    "ref": "mandat 290",
@@ -847,8 +834,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/immobilier-professionnel-a-vendre-ennery--42423840",
    "ville": "Ennery",
    "vu": "2026-10-08",
-   "_id": "ennery-985",
-   "nouveau": true
+   "_id": "ennery-985"
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -908,8 +894,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/les-essarts-le-roi-78-vente-entrepot-953-m2--41379096",
    "ville": "Les Essarts-le-Roi",
    "vu": "2026-10-08",
-   "_id": "essarts-le-roi-952",
-   "nouveau": true
+   "_id": "essarts-le-roi-952"
   },
   {
    "adresse": "6 rue Maryse Bastié",
@@ -957,8 +942,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/pole-loisirs-a-vendre--42514583",
    "ville": "Ézanville",
    "vu": "2026-10-08",
-   "_id": "ezanville-pole-loisirs-3695",
-   "nouveau": true
+   "_id": "ezanville-pole-loisirs-3695"
   },
   {
    "adresse": "",
@@ -1034,8 +1018,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-mixte-a-vendre-ou-a-louer--42022110",
    "ville": "Gazeran",
    "vu": "2026-10-08",
-   "_id": "gazeran-ex-ebp-1720",
-   "nouveau": true
+   "_id": "gazeran-ex-ebp-1720"
   },
   {
    "adresse": "1 rue de la Ferme Saint-Simon, 95500 Gonesse",
@@ -1056,8 +1039,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-gonesse-95500--40763525",
    "ville": "Gonesse",
    "vu": "2026-10-08",
-   "_id": "gonesse-creche-842",
-   "nouveau": true
+   "_id": "gonesse-creche-842"
   },
   {
    "adresse": "",
@@ -1084,8 +1066,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivite-avec-bureaux-de-950-m2--40305714",
    "ville": "Goussainville",
    "vu": "2026-10-08",
-   "_id": "goussainville-activite-950",
-   "nouveau": true
+   "_id": "goussainville-activite-950"
   },
   {
    "adresse": "Zone industrielle (adresse non publiée)",
@@ -1105,8 +1086,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-a-vendre--40636963",
    "ville": "Goussainville",
    "vu": "2026-10-08",
-   "_id": "goussainville-erp-1060",
-   "nouveau": true
+   "_id": "goussainville-erp-1060"
   },
   {
    "adresse": "",
@@ -1125,8 +1105,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42381843",
    "ville": "Guyancourt",
    "vu": "2026-10-08",
-   "_id": "guyancourt-801",
-   "nouveau": true
+   "_id": "guyancourt-801"
   },
   {
    "adresse": "",
@@ -1174,8 +1153,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/activite-bureaux-a-vendre-ou-a-louer--39178364",
    "ville": "Le Mesnil-Amelot",
    "vu": "2026-10-08",
-   "_id": "le-mesnil-amelot-activite-765",
-   "nouveau": true
+   "_id": "le-mesnil-amelot-activite-765"
   },
   {
    "adresse": "Centre-ville, R+1",
@@ -1260,7 +1238,6 @@
    "erp": "verifier",
    "erpDetail": "ERP non indiqué ; usages prévus restauration, santé, micro-crèche ; sanitaires PMR",
    "notes": "Local neuf à 7 m sous plafond, volume intéressant pour une salle polyvalente, avec PMR et terrasse privative. Catégorie ERP non précisée, isolation acoustique à vérifier (toiture bac acier non isolée), RER D à 2 km. Prix de 2 003 800 € (5 % HT d'honoraires), tout juste au-dessus de 2 M€.",
-   "nouveau": true,
    "parking": "non_precise",
    "prix": 2003800,
    "ref": "L_2311_95_006_36_V",
@@ -1314,8 +1291,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--39345646",
    "ville": "Maisons-Alfort",
    "vu": "2026-10-08",
-   "_id": "maisons-alfort-1000",
-   "nouveau": true
+   "_id": "maisons-alfort-1000"
   },
   {
    "adresse": "4 rue des Perdrix",
@@ -1334,8 +1310,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-en-exclusivite-94520-mandres--39292420",
    "ville": "Mandres-les-Roses",
    "vu": "2026-10-08",
-   "_id": "mandres-les-roses-perdrix-1093",
-   "nouveau": true
+   "_id": "mandres-les-roses-perdrix-1093"
   },
   {
    "adresse": "8 rue de Bel Ebat, 91460 Marcoussis",
@@ -1375,8 +1350,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/marolles-en-brie-batiment-independant-de-850-m2-te--42513019",
    "ville": "Marolles-en-Brie",
    "vu": "2026-10-08",
-   "_id": "marolles-en-brie-batiment-850",
-   "nouveau": true
+   "_id": "marolles-en-brie-batiment-850"
   },
   {
    "adresse": "2 rue Thomas Edison, 77100 Meaux",
@@ -1411,8 +1385,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-batiment-independant--40692573",
    "ville": "Meaux",
    "vu": "2026-10-08",
-   "_id": "meaux-thomas-edison-2300",
-   "nouveau": true
+   "_id": "meaux-thomas-edison-2300"
   },
   {
    "adresse": "Rue de l'Innovation, 77550 Moissy-Cramayel",
@@ -1502,8 +1475,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087828",
    "ville": "Montgeron",
    "vu": "2026-10-08",
-   "_id": "montgeron-lot-1202",
-   "nouveau": true
+   "_id": "montgeron-lot-1202"
   },
   {
    "adresse": "",
@@ -1530,8 +1502,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-a-montigny-le-bretonneux--40875758",
    "ville": "Montigny-le-Bretonneux",
    "vu": "2026-10-08",
-   "_id": "montigny-le-bretonneux-2039",
-   "nouveau": true
+   "_id": "montigny-le-bretonneux-2039"
   },
   {
    "adresse": "",
@@ -1550,8 +1521,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer--42478864",
    "ville": "Montigny-le-Bretonneux",
    "vu": "2026-10-08",
-   "_id": "montigny-le-bretonneux-808",
-   "nouveau": true
+   "_id": "montigny-le-bretonneux-808"
   },
   {
    "adresse": "Adresse non publiée (accès indépendant sur rue, cour)",
@@ -1642,8 +1612,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-montreuil-93100--39735366",
    "ville": "Montreuil",
    "vu": "2026-10-08",
-   "_id": "montreuil-mozinor-1080",
-   "nouveau": true
+   "_id": "montreuil-mozinor-1080"
   },
   {
    "adresse": "21 rue Poulin",
@@ -1884,8 +1853,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-dactivite-et-terrai-a-vendre--40992445",
    "ville": "Les Mureaux",
    "vu": "2026-10-08",
-   "_id": "mureaux-activite-1000",
-   "nouveau": true
+   "_id": "mureaux-activite-1000"
   },
   {
    "adresse": "Nanterre (adresse non précisée), 92000",
@@ -1905,8 +1873,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-nanterre-92000--42422556",
    "ville": "Nanterre",
    "vu": "2026-10-08",
-   "_id": "nanterre-767",
-   "nouveau": true
+   "_id": "nanterre-767"
   },
   {
    "adresse": "1 rue du Centre (immeuble Le Fujy)",
@@ -1954,8 +1921,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivitesde-790m2--42449543",
    "ville": "Ollainville",
    "vu": "2026-10-08",
-   "_id": "ollainville-790",
-   "nouveau": true
+   "_id": "ollainville-790"
   },
   {
    "adresse": "",
@@ -1975,8 +1941,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-838m2--42243006",
    "ville": "Ollainville",
    "vu": "2026-10-08",
-   "_id": "ollainville-838",
-   "nouveau": true
+   "_id": "ollainville-838"
   },
   {
    "adresse": "Zone commerciale, RN13",
@@ -2016,8 +1981,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-entrepot--42389846",
    "ville": "Pantin",
    "vu": "2026-10-08",
-   "_id": "pantin-entrepot-1000",
-   "nouveau": true
+   "_id": "pantin-entrepot-1000"
   },
   {
    "adresse": "23 rue du Faubourg Saint-Denis",
@@ -2301,8 +2265,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-1147m2--42243032",
    "ville": "Pringy",
    "vu": "2026-10-08",
-   "_id": "pringy-1147",
-   "nouveau": true
+   "_id": "pringy-1147"
   },
   {
    "adresse": "",
@@ -2322,8 +2285,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/emplacement-n1-de-1164m2--42420601",
    "ville": "Pringy",
    "vu": "2026-10-08",
-   "_id": "pringy-n1-1164",
-   "nouveau": true
+   "_id": "pringy-n1-1164"
   },
   {
    "adresse": "rue Pitois",
@@ -2518,8 +2480,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40692209",
    "ville": "Saint-Denis",
    "vu": "2026-10-08",
-   "_id": "saint-denis-gabriel-peri-724",
-   "nouveau": true
+   "_id": "saint-denis-gabriel-peri-724"
   },
   {
    "adresse": "Adresse non publiée",
@@ -2588,8 +2549,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-vendre-a-saint-germain-de-la-g--40709458",
    "ville": "Saint-Germain-de-la-Grange",
    "vu": "2026-10-08",
-   "_id": "saint-germain-de-la-grange-1366",
-   "nouveau": true
+   "_id": "saint-germain-de-la-grange-1366"
   },
   {
    "adresse": "boulevard de Créteil",
@@ -2678,8 +2638,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-de-1040m2-occupe-avec-600m2-de-cour-priva--42456778",
    "ville": "Saint-Ouen-l'Aumône",
    "vu": "2026-10-08",
-   "_id": "saint-ouen-l-aumone-1040-occupe",
-   "nouveau": true
+   "_id": "saint-ouen-l-aumone-1040-occupe"
   },
   {
    "adresse": "",
@@ -2699,8 +2658,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087831",
    "ville": "Saint-Pierre-du-Perray",
    "vu": "2026-10-08",
-   "_id": "saint-pierre-du-perray-928",
-   "nouveau": true
+   "_id": "saint-pierre-du-perray-928"
   },
   {
    "adresse": "",
@@ -2748,8 +2706,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1121m2--42081670",
    "ville": "Sarcelles",
    "vu": "2026-10-08",
-   "_id": "sarcelles-1121",
-   "nouveau": true
+   "_id": "sarcelles-1121"
   },
   {
    "adresse": "29 avenue Jules Vallès, 77176",
@@ -2777,8 +2734,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/immeuble-independant-de-bureaux-proche-gare-a-vend--41755862",
    "ville": "Savigny-le-Temple",
    "vu": "2026-10-08",
-   "_id": "savigny-le-temple-jules-valles-884",
-   "nouveau": true
+   "_id": "savigny-le-temple-jules-valles-884"
   },
   {
    "adresse": null,
@@ -2788,7 +2744,6 @@
    "erp": "ERP",
    "erpDetail": "ERP « catégorie non définie » ; type L non cité",
    "notes": "Bâtiment indépendant de 940 m² de plain-pied, déclaré ERP mais sans catégorie ni type précisés, à faire confirmer. Vendu occupé : la disponibilité pour une salle type L dépend du bail. Prix dans le budget ; frais d'acquisition de 5 % HT en sus.",
-   "nouveau": true,
    "occupe": true,
    "parking": "non_precise",
    "prix": 1070000,
@@ -2849,8 +2804,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-serris-77700--42079423",
    "ville": "Serris",
    "vu": "2026-10-08",
-   "_id": "serris-792",
-   "nouveau": true
+   "_id": "serris-792"
   },
   {
    "adresse": "2 avenue Johannes Gutenberg, 77700",
@@ -2878,8 +2832,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41405740",
    "ville": "Serris",
    "vu": "2026-10-08",
-   "_id": "serris-gutenberg-1042",
-   "nouveau": true
+   "_id": "serris-gutenberg-1042"
   },
   {
    "adresse": "78 avenue du Château",
@@ -3043,8 +2996,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41269540",
    "ville": "Thorigny-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "thorigny-sur-marne-1310",
-   "nouveau": true
+   "_id": "thorigny-sur-marne-1310"
   },
   {
    "adresse": "",
@@ -3071,8 +3023,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-louer-ou-a-vendre-a-trappes-ac--42243589",
    "ville": "Trappes",
    "vu": "2026-10-08",
-   "_id": "trappes-1183",
-   "nouveau": true
+   "_id": "trappes-1183"
   },
   {
    "adresse": "3 rue Johannes Kepler, 78190",
@@ -3107,8 +3058,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-entrepot-a-vendre--41893029",
    "ville": "Trappes",
    "vu": "2026-10-08",
-   "_id": "trappes-kepler-1344",
-   "nouveau": true
+   "_id": "trappes-kepler-1344"
   },
   {
    "adresse": "Secteur ouest de Versailles",
@@ -3157,8 +3107,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42497098",
    "ville": "Villiers-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "villiers-sur-marne-955",
-   "nouveau": true
+   "_id": "villiers-sur-marne-955"
   },
   {
    "adresse": "Immeuble de standing, terrasse privative",
@@ -3262,8 +3211,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-logistique-a-vendre--40811808",
    "ville": "Vitry-sur-Seine",
    "vu": "2026-10-08",
-   "_id": "vitry-tremblay-980",
-   "nouveau": true
+   "_id": "vitry-tremblay-980"
   },
   {
    "adresse": "",
@@ -3290,8 +3238,7 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-ou-a-louer-a-voisins-le--42439678",
    "ville": "Voisins-le-Bretonneux",
    "vu": "2026-10-08",
-   "_id": "voisins-le-bretonneux-1850",
-   "nouveau": true
+   "_id": "voisins-le-bretonneux-1850"
   },
   {
    "_id": "sartrouville-restaurant-529",
@@ -3311,7 +3258,6 @@
    "statut": "en_vente",
    "occupe": true,
    "notes": "Murs et fonds vendus ensemble, avec salle d'environ 300 m², sous-sol d'environ 250 m² et 14 places privatives : l'annonce cite elle-même réception, banquets, séminaires et événements. Prix 2 722 €/m² (surface cotée 529 m², l'annonce parle de 635 m² avec l'appartement de fonction de 85 m²). À vérifier : type et catégorie ERP, licence, personnel à reprendre, adresse exacte non publiée.",
-   "nouveau": true,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3340,7 +3286,6 @@
    ],
    "statut": "en_vente",
    "notes": "Amphithéâtre de 120 places en rez-de-chaussée avec 18 places de parking : configuration proche d'une salle de conférence ou de formation (type R ou L à confirmer). Prix 1 825 €/m² ; l'agence indique 1 364 825 € HT avec parkings, hors frais. Même bien que l'annonce Evolis (champs-sur-marne-erpable-amphi-665) : deux agences, deux prix affichés.",
-   "nouveau": true,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3376,7 +3321,6 @@
    ],
    "statut": "en_vente",
    "notes": "Même bien que l'annonce Sergic (champs-sur-marne-amphitheatre-665), publié par une autre agence : gardé comme annonce distincte. Ici l'annonce parle de bureaux « ERPable » : classement ERP à confirmer. Taxe foncière provisionnée à 15 740 € HT/an (Hall 21) et 13 855 € HT/an (Hall 19).",
-   "nouveau": true,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3397,7 +3341,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Usage de réception déjà en place (2 salles et restaurant), proche de l'A104, l'A4 et l'A140. Prix 1 519 €/m². À vérifier : classement et catégorie ERP, capacité, exploitation en cours, adresse (non publiée), hauteur de 3 m limitante pour un spectacle.",
-   "nouveau": true,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3418,7 +3361,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Vente en état futur d'achèvement, aménagement libre (salle principale, annexes, accueil) : un lieu de culte relève plutôt du type V, mais le volume peut convenir à un rassemblement. Prix 3 415 €/m² TTC honoraires inclus. Vigilance : livraison février 2027, aménagement et mise aux normes à financer, adresse non publiée.",
-   "nouveau": true,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3439,7 +3381,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Prix bas : 1 250 €/m² (l'annonce indique 1 000 €/m² HT hors frais) pour une activité de salle de réception ou événementielle citée par l'agence. Locaux actuellement stockage et bureaux : mise en ERP, accès et PLU à vérifier ; secteur pavillonnaire, desserte surtout routière (N118).",
-   "nouveau": true,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3459,7 +3400,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40636941. L'annonce décrit : Rez-de-chaussée – 1 027 m² : plusieurs salles, cuisine, réserve, salle de restaurant, grande salle de réception et entrepôt de stockage. Prix de 1 782 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3479,7 +3419,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40637230. L'annonce décrit : À l'étage, salle des fêtes entièrement aménagée anciennement occupée par une association évangélique. Prix de 584 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3499,7 +3438,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 41951994. L'annonce évoque seulement comme possibilité : Un bien polyvalent et stratégique Parfait pour des activités de showroom automobile ou industriel, un espace logistique, un atelier haut de gamme ou encore un lieu de réception ou de création. Prix de 1 734 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3519,7 +3457,6 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40837587. L'annonce évoque seulement comme possibilité : Toutes activités possibles : restauration, salle de sport, centre de formation, salle de réception, commerce de grande surface, showroom, stockage, etc. Prix de 1 596 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
