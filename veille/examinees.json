@@ -220,5 +220,65 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42649413": {
+  "date": "2026-10-17",
+  "decision": "retenue",
+  "motif": "bâtiment indépendant modulable, usage séminaire/événementiel évoqué",
+  "_id": "saint-thibault-des-vignes-batiment-1485"
+ },
+ "41605902": {
+  "date": "2026-10-17",
+  "decision": "retenue",
+  "motif": "locaux classés ERP 5e catégorie (type non précisé)",
+  "_id": "cachan-entrepot-erp5-304"
+ },
+ "39527954": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "2 étages de bureaux en tour (salle de réunion, restaurant inter-entreprise), pas de prix",
+  "_id": ""
+ },
+ "39260603": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "bureaux 238 m² < 250 m², « ERP possible » seulement, plateau de bureaux",
+  "_id": ""
+ },
+ "41778811": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "local d'activité/entrepôt + bureaux, aucun usage de salle",
+  "_id": ""
+ },
+ "42243091": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activité à vendre ou à louer, restaurant inter-entreprises = voisinage",
+  "_id": ""
+ },
+ "41450534": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "immeuble de bureaux et entrepôts sur 3 niveaux, rentabilité locative",
+  "_id": ""
+ },
+ "41099171": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "bureaux au 2e étage, aucun accès public",
+  "_id": ""
+ },
+ "39915350": {
+  "date": "2026-10-17",
+  "decision": "doublon",
+  "motif": "même bien que 39671931 (bureaux/activités Saint-Thibault 1 199 m²) ; bureaux sans usage de salle",
+  "_id": ""
+ },
+ "39671931": {
+  "date": "2026-10-17",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activités, aucun usage de salle",
+  "_id": ""
  }
 }
