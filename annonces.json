@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "17/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -75,7 +75,7 @@
    "ville": "Argenteuil",
    "vu": "2026-10-08",
    "_id": "argenteuil-cinq-mars-1200",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -124,7 +124,7 @@
    "ville": "Argenteuil",
    "vu": "2026-10-08",
    "_id": "argenteuil-notre-dame-960",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -144,7 +144,7 @@
    "ville": "Aubergenville",
    "vu": "2026-10-08",
    "_id": "aubergenville-886",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Quartier résidentiel, près des Quatre-Chemins",
@@ -304,7 +304,7 @@
    "ville": "Boulogne-Billancourt",
    "vu": "2026-10-08",
    "_id": "boulogne-kermen-1052",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -325,7 +325,7 @@
    "ville": "Brétigny-sur-Orge",
    "vu": "2026-10-08",
    "_id": "bretigny-commerce-erp-1000",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -382,7 +382,7 @@
    "ville": "Buc",
    "vu": "2026-10-08",
    "_id": "buc-rue-audemars-1470",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "5 rue du Petit Albi (Cergy-Préfecture)",
@@ -458,7 +458,7 @@
    "ville": "Champigny-sur-Marne",
    "vu": "2026-10-08",
    "_id": "champigny-activite-1100",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "24 rue Massenet",
@@ -535,7 +535,7 @@
    "ville": "Chanteloup-en-Brie",
    "vu": "2026-10-08",
    "_id": "chanteloup-en-brie-1027",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "6 rue des Cerisiers, 92290",
@@ -565,7 +565,7 @@
    "ville": "Châtenay-Malabry",
    "vu": "2026-10-08",
    "_id": "chatenay-malabry-cerisiers-985",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "22 rue de la Fontaine Henri IV",
@@ -620,7 +620,7 @@
    "ville": "Chennevières-sur-Marne",
    "vu": "2026-10-08",
    "_id": "chennevieres-entrepot-1520",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "rue Auguste Franchot",
@@ -648,7 +648,7 @@
    "ville": "Choisy-le-Roi",
    "vu": "2026-10-08",
    "_id": "choisy-le-roi-franchot-770",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Adresse non publiée",
@@ -696,7 +696,7 @@
    "ville": "Claye-Souilly",
    "vu": "2026-10-08",
    "_id": "claye-souilly-820",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -817,7 +817,7 @@
    "erp": "verifier",
    "erpDetail": "ERP non mentionné ; atelier 510 m² + hangars 650 m², hauteur 3,8 m",
    "notes": "Grand volume à prix très bas pour la surface, avec terrain de 2 485 m² permettant du stationnement. Aucun statut ERP : changement de destination et mise aux normes type L (désenfumage, évacuation, PMR, isolation phonique) à budgéter, et hauteur de 3,8 m limitante pour une salle de spectacle. Dans le budget, travaux lourds probables.",
-   "nouveau": true,
+   "nouveau": false,
    "parking": "proximite",
    "prix": 730000,
    "ref": "mandat 290",
@@ -848,7 +848,7 @@
    "ville": "Ennery",
    "vu": "2026-10-08",
    "_id": "ennery-985",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -909,7 +909,7 @@
    "ville": "Les Essarts-le-Roi",
    "vu": "2026-10-08",
    "_id": "essarts-le-roi-952",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "6 rue Maryse Bastié",
@@ -958,7 +958,7 @@
    "ville": "Ézanville",
    "vu": "2026-10-08",
    "_id": "ezanville-pole-loisirs-3695",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1035,7 +1035,7 @@
    "ville": "Gazeran",
    "vu": "2026-10-08",
    "_id": "gazeran-ex-ebp-1720",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "1 rue de la Ferme Saint-Simon, 95500 Gonesse",
@@ -1057,7 +1057,7 @@
    "ville": "Gonesse",
    "vu": "2026-10-08",
    "_id": "gonesse-creche-842",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1085,7 +1085,7 @@
    "ville": "Goussainville",
    "vu": "2026-10-08",
    "_id": "goussainville-activite-950",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Zone industrielle (adresse non publiée)",
@@ -1106,7 +1106,7 @@
    "ville": "Goussainville",
    "vu": "2026-10-08",
    "_id": "goussainville-erp-1060",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1126,7 +1126,7 @@
    "ville": "Guyancourt",
    "vu": "2026-10-08",
    "_id": "guyancourt-801",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1175,7 +1175,7 @@
    "ville": "Le Mesnil-Amelot",
    "vu": "2026-10-08",
    "_id": "le-mesnil-amelot-activite-765",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Centre-ville, R+1",
@@ -1260,7 +1260,7 @@
    "erp": "verifier",
    "erpDetail": "ERP non indiqué ; usages prévus restauration, santé, micro-crèche ; sanitaires PMR",
    "notes": "Local neuf à 7 m sous plafond, volume intéressant pour une salle polyvalente, avec PMR et terrasse privative. Catégorie ERP non précisée, isolation acoustique à vérifier (toiture bac acier non isolée), RER D à 2 km. Prix de 2 003 800 € (5 % HT d'honoraires), tout juste au-dessus de 2 M€.",
-   "nouveau": true,
+   "nouveau": false,
    "parking": "non_precise",
    "prix": 2003800,
    "ref": "L_2311_95_006_36_V",
@@ -1315,7 +1315,7 @@
    "ville": "Maisons-Alfort",
    "vu": "2026-10-08",
    "_id": "maisons-alfort-1000",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "4 rue des Perdrix",
@@ -1335,7 +1335,7 @@
    "ville": "Mandres-les-Roses",
    "vu": "2026-10-08",
    "_id": "mandres-les-roses-perdrix-1093",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "8 rue de Bel Ebat, 91460 Marcoussis",
@@ -1376,7 +1376,7 @@
    "ville": "Marolles-en-Brie",
    "vu": "2026-10-08",
    "_id": "marolles-en-brie-batiment-850",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "2 rue Thomas Edison, 77100 Meaux",
@@ -1412,7 +1412,7 @@
    "ville": "Meaux",
    "vu": "2026-10-08",
    "_id": "meaux-thomas-edison-2300",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Rue de l'Innovation, 77550 Moissy-Cramayel",
@@ -1503,7 +1503,7 @@
    "ville": "Montgeron",
    "vu": "2026-10-08",
    "_id": "montgeron-lot-1202",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1531,7 +1531,7 @@
    "ville": "Montigny-le-Bretonneux",
    "vu": "2026-10-08",
    "_id": "montigny-le-bretonneux-2039",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1551,7 +1551,7 @@
    "ville": "Montigny-le-Bretonneux",
    "vu": "2026-10-08",
    "_id": "montigny-le-bretonneux-808",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Adresse non publiée (accès indépendant sur rue, cour)",
@@ -1643,7 +1643,7 @@
    "ville": "Montreuil",
    "vu": "2026-10-08",
    "_id": "montreuil-mozinor-1080",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "21 rue Poulin",
@@ -1885,7 +1885,7 @@
    "ville": "Les Mureaux",
    "vu": "2026-10-08",
    "_id": "mureaux-activite-1000",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Nanterre (adresse non précisée), 92000",
@@ -1906,7 +1906,7 @@
    "ville": "Nanterre",
    "vu": "2026-10-08",
    "_id": "nanterre-767",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "1 rue du Centre (immeuble Le Fujy)",
@@ -1955,7 +1955,7 @@
    "ville": "Ollainville",
    "vu": "2026-10-08",
    "_id": "ollainville-790",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -1976,7 +1976,7 @@
    "ville": "Ollainville",
    "vu": "2026-10-08",
    "_id": "ollainville-838",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Zone commerciale, RN13",
@@ -2017,7 +2017,7 @@
    "ville": "Pantin",
    "vu": "2026-10-08",
    "_id": "pantin-entrepot-1000",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "23 rue du Faubourg Saint-Denis",
@@ -2302,7 +2302,7 @@
    "ville": "Pringy",
    "vu": "2026-10-08",
    "_id": "pringy-1147",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -2323,7 +2323,7 @@
    "ville": "Pringy",
    "vu": "2026-10-08",
    "_id": "pringy-n1-1164",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "rue Pitois",
@@ -2519,7 +2519,7 @@
    "ville": "Saint-Denis",
    "vu": "2026-10-08",
    "_id": "saint-denis-gabriel-peri-724",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Adresse non publiée",
@@ -2589,7 +2589,7 @@
    "ville": "Saint-Germain-de-la-Grange",
    "vu": "2026-10-08",
    "_id": "saint-germain-de-la-grange-1366",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "boulevard de Créteil",
@@ -2679,7 +2679,7 @@
    "ville": "Saint-Ouen-l'Aumône",
    "vu": "2026-10-08",
    "_id": "saint-ouen-l-aumone-1040-occupe",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -2700,7 +2700,7 @@
    "ville": "Saint-Pierre-du-Perray",
    "vu": "2026-10-08",
    "_id": "saint-pierre-du-perray-928",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -2749,7 +2749,7 @@
    "ville": "Sarcelles",
    "vu": "2026-10-08",
    "_id": "sarcelles-1121",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "29 avenue Jules Vallès, 77176",
@@ -2778,7 +2778,7 @@
    "ville": "Savigny-le-Temple",
    "vu": "2026-10-08",
    "_id": "savigny-le-temple-jules-valles-884",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": null,
@@ -2788,7 +2788,7 @@
    "erp": "ERP",
    "erpDetail": "ERP « catégorie non définie » ; type L non cité",
    "notes": "Bâtiment indépendant de 940 m² de plain-pied, déclaré ERP mais sans catégorie ni type précisés, à faire confirmer. Vendu occupé : la disponibilité pour une salle type L dépend du bail. Prix dans le budget ; frais d'acquisition de 5 % HT en sus.",
-   "nouveau": true,
+   "nouveau": false,
    "occupe": true,
    "parking": "non_precise",
    "prix": 1070000,
@@ -2850,7 +2850,7 @@
    "ville": "Serris",
    "vu": "2026-10-08",
    "_id": "serris-792",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "2 avenue Johannes Gutenberg, 77700",
@@ -2879,7 +2879,7 @@
    "ville": "Serris",
    "vu": "2026-10-08",
    "_id": "serris-gutenberg-1042",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "78 avenue du Château",
@@ -3044,7 +3044,7 @@
    "ville": "Thorigny-sur-Marne",
    "vu": "2026-10-08",
    "_id": "thorigny-sur-marne-1310",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -3072,7 +3072,7 @@
    "ville": "Trappes",
    "vu": "2026-10-08",
    "_id": "trappes-1183",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "3 rue Johannes Kepler, 78190",
@@ -3108,7 +3108,7 @@
    "ville": "Trappes",
    "vu": "2026-10-08",
    "_id": "trappes-kepler-1344",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Secteur ouest de Versailles",
@@ -3158,7 +3158,7 @@
    "ville": "Villiers-sur-Marne",
    "vu": "2026-10-08",
    "_id": "villiers-sur-marne-955",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "Immeuble de standing, terrasse privative",
@@ -3263,7 +3263,7 @@
    "ville": "Vitry-sur-Seine",
    "vu": "2026-10-08",
    "_id": "vitry-tremblay-980",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "adresse": "",
@@ -3291,7 +3291,7 @@
    "ville": "Voisins-le-Bretonneux",
    "vu": "2026-10-08",
    "_id": "voisins-le-bretonneux-1850",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "_id": "sartrouville-restaurant-529",
@@ -3311,7 +3311,7 @@
    "statut": "en_vente",
    "occupe": true,
    "notes": "Murs et fonds vendus ensemble, avec salle d'environ 300 m², sous-sol d'environ 250 m² et 14 places privatives : l'annonce cite elle-même réception, banquets, séminaires et événements. Prix 2 722 €/m² (surface cotée 529 m², l'annonce parle de 635 m² avec l'appartement de fonction de 85 m²). À vérifier : type et catégorie ERP, licence, personnel à reprendre, adresse exacte non publiée.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3340,7 +3340,7 @@
    ],
    "statut": "en_vente",
    "notes": "Amphithéâtre de 120 places en rez-de-chaussée avec 18 places de parking : configuration proche d'une salle de conférence ou de formation (type R ou L à confirmer). Prix 1 825 €/m² ; l'agence indique 1 364 825 € HT avec parkings, hors frais. Même bien que l'annonce Evolis (champs-sur-marne-erpable-amphi-665) : deux agences, deux prix affichés.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3376,7 +3376,7 @@
    ],
    "statut": "en_vente",
    "notes": "Même bien que l'annonce Sergic (champs-sur-marne-amphitheatre-665), publié par une autre agence : gardé comme annonce distincte. Ici l'annonce parle de bureaux « ERPable » : classement ERP à confirmer. Taxe foncière provisionnée à 15 740 € HT/an (Hall 21) et 13 855 € HT/an (Hall 19).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3397,7 +3397,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Usage de réception déjà en place (2 salles et restaurant), proche de l'A104, l'A4 et l'A140. Prix 1 519 €/m². À vérifier : classement et catégorie ERP, capacité, exploitation en cours, adresse (non publiée), hauteur de 3 m limitante pour un spectacle.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3418,7 +3418,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Vente en état futur d'achèvement, aménagement libre (salle principale, annexes, accueil) : un lieu de culte relève plutôt du type V, mais le volume peut convenir à un rassemblement. Prix 3 415 €/m² TTC honoraires inclus. Vigilance : livraison février 2027, aménagement et mise aux normes à financer, adresse non publiée.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3439,7 +3439,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Prix bas : 1 250 €/m² (l'annonce indique 1 000 €/m² HT hors frais) pour une activité de salle de réception ou événementielle citée par l'agence. Locaux actuellement stockage et bureaux : mise en ERP, accès et PLU à vérifier ; secteur pavillonnaire, desserte surtout routière (N118).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791534911987,
    "vu": "2026-10-09"
   },
@@ -3459,7 +3459,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40636941. L'annonce décrit : Rez-de-chaussée – 1 027 m² : plusieurs salles, cuisine, réserve, salle de restaurant, grande salle de réception et entrepôt de stockage. Prix de 1 782 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3479,7 +3479,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40637230. L'annonce décrit : À l'étage, salle des fêtes entièrement aménagée anciennement occupée par une association évangélique. Prix de 584 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3499,7 +3499,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 41951994. L'annonce évoque seulement comme possibilité : Un bien polyvalent et stratégique Parfait pour des activités de showroom automobile ou industriel, un espace logistique, un atelier haut de gamme ou encore un lieu de réception ou de création. Prix de 1 734 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3519,7 +3519,7 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40837587. L'annonce évoque seulement comme possibilité : Toutes activités possibles : restauration, salle de sport, centre de formation, salle de réception, commerce de grande surface, showroom, stockage, etc. Prix de 1 596 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791558976188,
    "vu": "2026-10-09"
   },
@@ -3542,6 +3542,65 @@
    "nouveau": true,
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-batiment-1485",
+   "titre": "Bâtiment indépendant de 1 485 m² à Saint-Thibault-des-Vignes (ZAC de la Courtillière)",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42649413",
+   "prix": 1995000,
+   "surface": 1485,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce évoque comme possibilités un concept coworking / séminaire / événementiel, une salle de sport, des loisirs indoor ; aucun classement ERP indiqué. 944 m² de plain-pied, cloisons amovibles, accès PMR.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": true,
+   "notes": "Bâtiment indépendant en angle de rue, avec accès clientèle et deux accès latéraux : configuration intéressante pour un projet séminaires/événementiel. Vendu murs occupés (caractéristique cochée sur l'annonce) : bail et date de libération à vérifier. 14 parkings extérieurs privatifs. Prix de 1 343 €/m² ; honoraires acquéreur de 5 % HT du prix. Classement ERP, PLU et sécurité incendie à vérifier.",
+   "nouveau": true,
+   "ajoute": 1792213322592,
+   "vu": "2026-10-17"
+  },
+  {
+   "_id": "cachan-entrepot-erp5-304",
+   "titre": "Entrepôt de 304 m² classé ERP 5e catégorie à Cachan",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2192208-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--41605902",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "« Les locaux sont classés ERP de 5e catégorie, permettant d'envisager une activité recevant du public » : le type (L ou autre) n'est pas précisé. Accès privatif sur rue, immeuble indépendant, RDC de 304 m².",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187, N21",
+     "station": "Place Jacques Carat - Théâtre",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Local déjà classé ERP 5e catégorie, ce qui limite les démarches pour un ERP L, mais le type d'activité autorisé est à faire confirmer (déclaration en mairie, changement de destination, PMR). Immeuble indépendant de 304 m², non divisible. Prix de 4 276 €/m², élevé pour un entrepôt : à négocier. Ligne 15 (Arcueil-Cachan) annoncée fin 2026 par l'annonce.",
+   "nouveau": true,
+   "ajoute": 1792213322593,
+   "vu": "2026-10-17"
   }
  ]
 }
