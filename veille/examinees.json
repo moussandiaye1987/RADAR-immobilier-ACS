@@ -220,5 +220,47 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42649413": {
+  "date": "2026-10-18",
+  "decision": "retenue",
+  "motif": "bâtiment indépendant, usages séminaire/événementiel cités ; ERP à vérifier",
+  "_id": "saint-thibault-des-vignes-showroom-1485"
+ },
+ "42689449": {
+  "date": "2026-10-18",
+  "decision": "ecartee",
+  "motif": "bureaux en étage/RDC, aucun usage de salle autre que salle de réunion",
+  "_id": ""
+ },
+ "39527954": {
+  "date": "2026-10-18",
+  "decision": "ecartee",
+  "motif": "2 étages de bureaux en tour de 22 étages, prix sur demande",
+  "_id": ""
+ },
+ "41778811": {
+  "date": "2026-10-18",
+  "decision": "doublon",
+  "motif": "même bien que vitry-tremblay-980 / 40811808 (surface et prix proches)",
+  "_id": "vitry-tremblay-980"
+ },
+ "39260603": {
+  "date": "2026-10-18",
+  "decision": "ecartee",
+  "motif": "bureaux 238 m² (< 250 m²), « ERP possible » sans justificatif",
+  "_id": ""
+ },
+ "42243091": {
+  "date": "2026-10-18",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activités à aménager, aucun usage ERP décrit",
+  "_id": ""
+ },
+ "40159880": {
+  "date": "2026-10-18",
+  "decision": "ecartee",
+  "motif": "bureaux R+1 à rénover, « mise aux normes ERP » seulement possible, hors critère ERP",
+  "_id": ""
  }
 }
