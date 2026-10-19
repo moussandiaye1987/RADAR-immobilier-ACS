@@ -220,5 +220,185 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42649413": {
+  "date": "2026-10-19",
+  "decision": "retenue",
+  "motif": "bâtiment indépendant modulable, usage séminaire/événementiel cité",
+  "_id": "saint-thibault-des-vignes-batiment-1485"
+ },
+ "42689449": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "41099171": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "39527954": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "41778811": {
+  "date": "2026-10-19",
+  "decision": "doublon",
+  "motif": "même local d'activité, même prix 1,3 M€ que 40811808 (980 m²)",
+  "_id": "vitry-tremblay-980"
+ },
+ "41605902": {
+  "date": "2026-10-19",
+  "decision": "retenue",
+  "motif": "entrepôt de plain-pied déclaré ERP 5e catégorie",
+  "_id": "cachan-entrepot-304"
+ },
+ "39260603": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42503066": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "41212715": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "41146042": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42243091": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "39915350": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "40692383": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "41722136": {
+  "date": "2026-10-19",
+  "decision": "doublon",
+  "motif": "même immeuble de bureaux, même prix 1,9 M€ que 41755862 (884 m²)",
+  "_id": "savigny-le-temple-jules-valles-884"
+ },
+ "41450534": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "39671931": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "40159880": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "39260611": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42359196": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "41131674": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "39186511": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "38826134": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "37471566": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42582609": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "39354964": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42621856": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42587372": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42587316": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42400914": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
+ },
+ "42359502": {
+  "date": "2026-10-19",
+  "decision": "ecartee",
+  "motif": "bureaux/locaux d'activité sans usage ERP L plausible (étages ou bureaux purs)",
+  "_id": ""
  }
 }

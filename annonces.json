@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "19/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3479,6 +3479,65 @@
    "nouveau": true,
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-batiment-1485",
+   "titre": "Bâtiment indépendant de 1 485 m² à Saint-Thibault-des-Vignes (dont 944 m² de plain-pied)",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "42649413",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42649413",
+   "prix": 1995000,
+   "surface": 1485,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce cite un usage « concept coworking / séminaire / événementiel » mais ne précise aucun classement ERP. Accès PMR, cloisons amovibles, 14 parkings extérieurs privatifs.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": true,
+   "notes": "Bâtiment indépendant en angle de rue, 944 m² de plain-pied, cloisons amovibles, accès clientèle principal et 2 accès latéraux : configuration modulable pour un projet séminaire/événementiel. Murs occupés (bail à vérifier). Classement ERP, PLU, capacité et travaux à vérifier. Environ 1 343 €/m².",
+   "nouveau": true,
+   "ajoute": 1792386151095,
+   "vu": "2026-10-19"
+  },
+  {
+   "_id": "cachan-entrepot-304",
+   "titre": "Entrepôt de 304 m² classé ERP 5e catégorie à Cachan",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "EVOLIS Première Couronne Sud",
+   "ref": "2192208-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--41605902",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « Locaux E.R.P. catégorie 5 » ; le type (L ou autre) n'est pas précisé. Accès privatif sur rue, site clos, immeuble indépendant en RDC.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187, N21",
+     "station": "Place Jacques Carat - Théâtre",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Entrepôt indépendant de 304 m² non divisibles, de plain-pied, déclaré ERP 5e catégorie : base possible pour une petite salle, mais le type L n'est pas confirmé. Prix élevé (environ 4 276 €/m²). Hauteur, capacité d'accueil, PLU et mise aux normes à vérifier.",
+   "nouveau": true,
+   "ajoute": 1792386151096,
+   "vu": "2026-10-19"
   }
  ]
 }
