@@ -220,5 +220,159 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42649413": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activité occupé, ERP non mentionné, 1,99 M€ (à revoir si libéré)"
+ },
+ "42689449": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "41099171": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "39527954": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "41778811": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "entrepôt/local d'activité, pas d'ERP déclaré"
+ },
+ "41605902": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "entrepôt/local d'activité, pas d'ERP déclaré"
+ },
+ "39260603": {
+  "date": "2026-10-20",
+  "decision": "retenue",
+  "motif": "ERP mentionné dans l'annonce",
+  "_id": "argenteuil-bureaux-238"
+ },
+ "42503066": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "41212715": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "41146042": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "42243091": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "entrepôt/local d'activité, pas d'ERP déclaré"
+ },
+ "39915350": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "entrepôt/local d'activité, pas d'ERP déclaré"
+ },
+ "40692383": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "41722136": {
+  "date": "2026-10-20",
+  "decision": "retenue",
+  "motif": "ERP mentionné dans l'annonce",
+  "_id": "savigny-le-temple-bureaux-878"
+ },
+ "41450534": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "39671931": {
+  "date": "2026-10-20",
+  "decision": "doublon",
+  "motif": "même bien que 39915350 (Saint-Thibault 1 199 m²), examiné ce jour : bureaux/stockage"
+ },
+ "40159880": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "39260611": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "42359196": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "41131674": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "39186511": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "38826134": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "37471566": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "42582609": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "39354964": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "42621856": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "42587372": {
+  "date": "2026-10-20",
+  "decision": "retenue",
+  "motif": "ERP mentionné dans l'annonce",
+  "_id": "montrouge-bureaux-rdc-295"
+ },
+ "42587316": {
+  "date": "2026-10-20",
+  "decision": "retenue",
+  "motif": "ERP mentionné dans l'annonce",
+  "_id": "malakoff-bureaux-rdc-256"
+ },
+ "42400914": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
+ },
+ "42359502": {
+  "date": "2026-10-20",
+  "decision": "ecartee",
+  "motif": "bureaux en étage ou plateau sans usage public plausible"
  }
 }

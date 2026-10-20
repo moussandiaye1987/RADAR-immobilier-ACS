@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "20/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3479,6 +3479,110 @@
    "nouveau": true,
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "montrouge-bureaux-rdc-295",
+   "titre": "Rez-de-chaussée de 295 m² avec jardin privatif – Montrouge",
+   "ville": "Montrouge",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-avec-jardin-privatif-et-stationnements-a-m--42587372",
+   "ref": "2206421-0V",
+   "prix": 1650000,
+   "surface": 295,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « ERP : 5ème catégorie » sans préciser le type ; RDC de bureaux cloisonnés avec salle de réunion, accueil, jardin paysager et cour privative.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "4",
+     "station": "Mairie de Montrouge",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC en accès direct sur l'avenue, déjà déclaré ERP 5e catégorie, avec jardin : base plausible pour un lieu de réception ou de séminaires, type L à confirmer. Vigilance : bureaux cloisonnés, capacité réelle, PLU et copropriété à vérifier. 1,65 M€ soit environ 5 593 €/m². Possible même bien que l'annonce n° 42359195 (autre agence), non examinée.",
+   "nouveau": true,
+   "ajoute": 1792472522369,
+   "vu": "2026-10-20"
+  },
+  {
+   "_id": "malakoff-bureaux-rdc-256",
+   "titre": "Bureaux en rez-de-chaussée de 256 m² – Malakoff",
+   "ville": "Malakoff",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer-malakoff-92--42587316",
+   "ref": "2206391-0",
+   "prix": 950000,
+   "surface": 256,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « ERP : 5ème catégorie » sans préciser le type ; open space et bureaux cloisonnés, ascenseur PMR, site clos sécurisé.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "Malakoff - Rue Etienne Dolet",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC déjà déclaré ERP 5e catégorie, surface ouverte modulable : piste pour une salle polyvalente, type L à confirmer. Vigilance : annonce « à vendre ou à louer », usage actuel bureaux, PLU et copropriété à vérifier. 950 000 € soit environ 3 711 €/m².",
+   "nouveau": true,
+   "ajoute": 1792472522369,
+   "vu": "2026-10-20"
+  },
+  {
+   "_id": "savigny-le-temple-bureaux-878",
+   "titre": "Bâtiment de bureaux de 878 m² proche gare – Savigny-le-Temple",
+   "ville": "Savigny-le-Temple",
+   "adresse": "",
+   "dept": "77",
+   "agence": "Arthur Loyd Seine-et-Marne - Essonne",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--41722136",
+   "ref": "77_001412",
+   "prix": 1900000,
+   "surface": 878,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « Locaux PMR / ERP » sans catégorie ni type ; hall d'accueil, salles de réunion, ascenseur.",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Probablement le même bâtiment que savigny-le-temple-jules-valles-884 (884 m², 1,9 M€, agence MCarré Conseil) : conservé car agence différente. Locaux annoncés PMR/ERP mais cloisonnés en bureaux sur deux niveaux : travaux et évacuation à vérifier. Environ 2 164 €/m², honoraires 5 % HT en sus.",
+   "nouveau": true,
+   "ajoute": 1792472522369,
+   "vu": "2026-10-20"
+  },
+  {
+   "_id": "argenteuil-bureaux-238",
+   "titre": "Bureaux rénovés de 238 m² sur les quais de Seine – Argenteuil",
+   "ville": "Argenteuil",
+   "adresse": "141 Rue Michel Carre",
+   "dept": "95",
+   "agence": "Invest Conseil",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--39260603",
+   "ref": "95_0041",
+   "prix": 340000,
+   "surface": 238,
+   "erp": "verifier",
+   "erpDetail": "L'annonce mentionne « ERP possible », sans classement ; accès PMR, cloisons amovibles, 4 parkings.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Prix bas (environ 1 429 €/m²) et surface sous le filtre par défaut de 250 m². « ERP possible » n'est pas un classement : type L non confirmé. La fiche affiche aussi un lot à 429 840 € pour la même surface : prix à vérifier avec l'agence.",
+   "nouveau": true,
+   "ajoute": 1792472522369,
+   "vu": "2026-10-20"
   }
  ]
 }
