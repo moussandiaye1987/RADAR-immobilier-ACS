@@ -220,5 +220,162 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "41605902": {
+  "date": "2026-10-21",
+  "decision": "retenue",
+  "motif": "fiche ouverte et vérifiée ; ERP 5e catégorie déclaré, type non précisé",
+  "_id": "cachan-erp5-304"
+ },
+ "42649413": {
+  "date": "2026-10-21",
+  "decision": "retenue",
+  "motif": "fiche ouverte et vérifiée ; ERP non confirmé type L",
+  "_id": "saint-thibault-des-vignes-modulable-1485"
+ },
+ "42587372": {
+  "date": "2026-10-21",
+  "decision": "retenue",
+  "motif": "fiche ouverte et vérifiée ; ERP 5e catégorie déclaré, type non précisé",
+  "_id": "montrouge-rdc-erp5-295"
+ },
+ "42587316": {
+  "date": "2026-10-21",
+  "decision": "retenue",
+  "motif": "fiche ouverte et vérifiée ; ERP 5e catégorie déclaré, type non précisé",
+  "_id": "malakoff-rdc-erp5-256"
+ },
+ "40159880": {
+  "date": "2026-10-21",
+  "decision": "retenue",
+  "motif": "fiche ouverte et vérifiée ; ERP non confirmé type L",
+  "_id": "le-mesnil-saint-denis-immeuble-521"
+ },
+ "39260603": {
+  "date": "2026-10-21",
+  "decision": "retenue",
+  "motif": "fiche ouverte et vérifiée ; ERP non confirmé type L",
+  "_id": "argenteuil-quais-seine-209"
+ },
+ "41722136": {
+  "date": "2026-10-21",
+  "decision": "doublon",
+  "motif": "même immeuble que savigny-le-temple-jules-valles-884 (Arthur Loyd, 1,9 M€, réf. différente)",
+  "_id": "savigny-le-temple-jules-valles-884"
+ },
+ "42689449": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux d'étage + RDC, ancien doublon 42204617, pas d'usage ERP"
+ },
+ "42582609": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "7 059 m² de bureaux, location"
+ },
+ "41099171": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux standing, hors usage"
+ },
+ "39527954": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "étages de bureaux sans accès public"
+ },
+ "41778811": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "local d'activité, doublon probable Vitry"
+ },
+ "42503066": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux Paris sur cour"
+ },
+ "41212715": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux haut standing, 2,8 M€ pour 157 m²"
+ },
+ "41146042": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux triplex"
+ },
+ "42243091": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "local d'activités mixte, pas de classement ERP"
+ },
+ "39915350": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux/activités avec réserve foncière"
+ },
+ "39671931": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "même bien que 39915350"
+ },
+ "40692383": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux loués bail État, 3,45 M€"
+ },
+ "41450534": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux et entrepôts de rendement"
+ },
+ "42359196": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux avec parking"
+ },
+ "41131674": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux en duplex, pas de mention ERP"
+ },
+ "39186511": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux divisibles"
+ },
+ "38826134": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en R+1"
+ },
+ "37471566": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux/activités divisibles"
+ },
+ "39354964": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux au 13e étage"
+ },
+ "42621856": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux, pas d'usage ERP"
+ },
+ "42400914": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux au 2e étage"
+ },
+ "42359502": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "bureaux avec jardin privatif, hors budget"
+ },
+ "39260611": {
+  "date": "2026-10-21",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux au 1er étage"
  }
 }
