@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "21/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3476,9 +3476,200 @@
    "transports": [],
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "cachan-erp5-304",
+   "titre": "Local de 304 m² en rez-de-chaussée classé ERP 5e catégorie à Cachan",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2192208-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--41605902",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « Locaux E.R.P. catégorie 5 », « permettant d'envisager une activité recevant du public » ; le type (L, M…) n'est pas précisé. Immeuble indépendant, RDC 304 m² non divisibles, accès privatif sur rue, sanitaires privatifs.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187",
+     "station": "Place Jacques Carat - Théâtre",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Entrepôt de 304 m² de plain-pied déclaré ERP de 5e catégorie, accès indépendant sur rue : base crédible pour une petite salle (type L à confirmer, capacité et activité autorisée non précisées). Vigilance : usage entrepôt/activité, mise aux normes selon l'activité, PLU. Prix d'environ 4 276 €/m².",
+   "nouveau": true,
+   "ajoute": 1792558965749,
+   "vu": "2026-10-21"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-modulable-1485",
+   "titre": "Bâtiment indépendant de 1 485 m² (944 m² de plain-pied) à Saint-Thibault-des-Vignes",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de la Courtillière, 77400",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42649413",
+   "prix": 1995000,
+   "surface": 1485,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce cite des projets possibles (showroom, salle de sport, coworking / séminaire / événementiel, loisirs indoor, centre de formation) sans classement ERP. Accès clientèle principal, PMR, cloisons amovibles.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": true,
+   "notes": "Grand volume modulable avec 944 m² de plain-pied, accès clientèle et 14 parkings privatifs ; l'annonce évoque séminaire/événementiel. Vigilance : « murs occupés » (bail à vérifier), classement ERP, PLU de la ZAC, travaux. Prix d'environ 1 343 €/m².",
+   "nouveau": true,
+   "ajoute": 1792558965749,
+   "vu": "2026-10-21"
+  },
+  {
+   "_id": "montrouge-rdc-erp5-295",
+   "titre": "Rez-de-chaussée de 295 m² classé ERP 5e catégorie à Montrouge (jardin privatif)",
+   "ville": "Montrouge",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2206421-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-avec-jardin-privatif-et-stationnements-a-m--42587372",
+   "prix": 1650000,
+   "surface": 295,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie » et « Possibilité de normes E.R.P » ; type non précisé. RDC 295 m², bureaux cloisonnés et salle de réunion, décloisonnement possible, jardin paysager, cour privative.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "4",
+     "station": "Mairie de Montrouge",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T6",
+     "station": "Verdier / Aquapol",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Gentilly et Laplace",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC avec jardin et cour, décloisonnable, annoncé ERP 5e catégorie : intéressant pour un lieu de réception de taille modeste (type L à confirmer). Vigilance : usage actuel de bureaux, copropriété, nuisances du jardin pour événements, stationnement. Prix d'environ 5 593 €/m².",
+   "nouveau": true,
+   "ajoute": 1792558965749,
+   "vu": "2026-10-21"
+  },
+  {
+   "_id": "malakoff-rdc-erp5-256",
+   "titre": "Rez-de-chaussée de 256 m² classé ERP 5e catégorie à Malakoff",
+   "ville": "Malakoff",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2206391-0",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer-malakoff-92--42587316",
+   "prix": 950000,
+   "surface": 256,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie », « Locaux E.R.P » ; type non précisé. RDC 256 m², traversant, ascenseur PMR, accueil, salle de réunion, décloisonnement possible.",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "Malakoff - Rue Etienne Dolet",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T6",
+     "station": "Châtillon - Montrouge",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Transilien",
+     "ligne": "N",
+     "station": "Vanves - Malakoff",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Bureaux en RDC annoncés ERP 5e catégorie, bien desservis ; base possible pour une salle de réunion ou de formation (type L à confirmer). Vigilance : annonce vente ou location (une offre de bail 3/6/9 figure sur la fiche, occupation à vérifier), copropriété, usage bureaux. Prix d'environ 3 710 €/m².",
+   "nouveau": true,
+   "ajoute": 1792558965749,
+   "vu": "2026-10-21"
+  },
+  {
+   "_id": "le-mesnil-saint-denis-immeuble-521",
+   "titre": "Immeuble indépendant de 521 m² à Le Mesnil-Saint-Denis (mise aux normes ERP possible)",
+   "ville": "Le Mesnil-Saint-Denis",
+   "adresse": "29 Rue de Rodon, 78320",
+   "dept": "78",
+   "agence": "Courcier Immobilier",
+   "ref": "86723424",
+   "url": "https://www.bureauxlocaux.com/annonce/le-mesnil-saint-denis-a-vendre-bureaux-521-m2--40159880",
+   "prix": 446250,
+   "surface": 521,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce évoque « possibilité de mise aux normes ERP » pour un centre de formation ou un local commercial. RDC 521 m², hauteur libre 2,80 m, accès PMR, 3 accès distincts, salle de réunion.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Immeuble indépendant à bas prix avec 10 places extérieures et aménagements existants ; mise aux normes ERP à prévoir. Vigilance : « immeuble à rénover », travaux importants, hauteur de 2,80 m limitée pour du spectacle, gare à 3 km seulement en voiture. Prix d'environ 857 €/m².",
+   "nouveau": true,
+   "ajoute": 1792558965749,
+   "vu": "2026-10-21"
+  },
+  {
+   "_id": "argenteuil-quais-seine-209",
+   "titre": "Bureaux de 209 m² en RDC, quais de Seine, ERP possible, à Argenteuil",
+   "ville": "Argenteuil",
+   "adresse": "141 Rue Michel Carré, 95100",
+   "dept": "95",
+   "agence": "Invest Conseil",
+   "ref": "95_0364",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--39260603",
+   "prix": 340000,
+   "surface": 209,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce indique « ERP possible » et la caractéristique ERP ; accès PMR, cloisons amovibles, salle de réunion. Lot n°123 en RDC. Un second lot de 238,80 m² (R+1, réf. 95_0041, 429 840 €) figure sur la même fiche.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Petit lot en RDC rénové, polyvalent, avec 3 parkings et cloisons amovibles ; surface sous le seuil de 250 m² par défaut. Vigilance : copropriété, classement ERP à vérifier, capacité limitée. Prix de 1 627 €/m².",
+   "nouveau": true,
+   "ajoute": 1792558965749,
+   "vu": "2026-10-21"
   }
  ]
 }
