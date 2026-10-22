@@ -1,16 +1,14 @@
 {
- "date": "2026-10-21",
- "candidates_lues": 3501,
+ "date": "2026-10-22",
+ "candidates_lues": 3560,
  "ajoutees": [],
  "ajoutees_statut_erp": {},
  "reportees_plafond": 0,
- "etiquette_nouveau_retiree": [
-  "ozoir-la-ferriere-restaurant-657"
- ],
+ "etiquette_nouveau_retiree": [],
  "rejets_par_motif": {
-  "aucun indice d'usage de salle ni de type L dans l'annonce": 3159,
-  "déjà sur le radar": 92,
-  "logement ou terrain": 215
+  "aucun indice d'usage de salle ni de type L dans l'annonce": 3222,
+  "déjà sur le radar": 85,
+  "logement ou terrain": 219
  },
  "ambigues_non_publiees": [
   {
@@ -35,7 +33,7 @@
    "prix": 1150000,
    "agence": "SCAMAC-IMMO",
    "motifs": [
-    "doublon possible avec : 41379870"
+    "doublon possible avec : 42847205"
    ]
   }
  ],
