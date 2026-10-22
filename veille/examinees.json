@@ -220,5 +220,11 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-10-22",
+  "decision": "ecartee",
+  "motif": "Bâtiment commercial/activité 1 485 m², prix non communiqué ; séminaire/événementiel cité seulement dans une liste d'usages génériques, aucun indice ERP",
+  "_id": ""
  }
 }
