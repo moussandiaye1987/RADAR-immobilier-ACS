@@ -220,5 +220,185 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-10-23",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée à la main",
+  "_id": "saint-thibault-des-vignes-evenementiel-1484"
+ },
+ "42689449": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42833660": {
+  "date": "2026-10-23",
+  "decision": "doublon",
+  "motif": "republication de gometz-la-ville-reception-390 (même bien, 391 m², 487 500 €)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "42582609": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41099171": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "39527954": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41778811": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41605902": {
+  "date": "2026-10-23",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée à la main",
+  "_id": "cachan-erp5-304"
+ },
+ "39260603": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42503066": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41212715": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41146042": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42243091": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "39915350": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux/activités en étage, pas d'usage de salle ; deux fiches du même bien",
+  "_id": ""
+ },
+ "40692383": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41722136": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41450534": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "39671931": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux/activités en étage, pas d'usage de salle ; deux fiches du même bien",
+  "_id": ""
+ },
+ "40159880": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "39260611": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42359196": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "41131674": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "39186511": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "38826134": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42621856": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42587372": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42587316": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42400914": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42359502": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
+ },
+ "42359368": {
+  "date": "2026-10-23",
+  "decision": "ecartee",
+  "motif": "bureaux ou activités classiques : « salle de réunion »/« restaurant » seulement, pas d'usage ERP type L plausible",
+  "_id": ""
  }
 }
