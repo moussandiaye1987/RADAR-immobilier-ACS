@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "23/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,48 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-evenementiel-1484",
+   "titre": "Bâtiment indépendant de 1 485 m² (944 m² de plain-pied) à Saint-Thibault-des-Vignes, séminaire/événementiel cités",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": null,
+   "surface": 1484,
+   "erpDetail": "Type L non confirmé. Annonce : « concept coworking / séminaire / événementiel, centre médical, loisirs indoor, centre de formation » parmi les usages possibles ; accès principal clientèle",
+   "notes": "Prix sur demande. Bâtiment en angle de rue avec parking privé, 944 m² de plain-pied, partie commerciale et partie activité avec bureaux à l'étage. L'usage séminaire/événementiel n'est qu'une possibilité citée : classement ERP, capacité, PLU et accessibilité à vérifier. Veille du 23/10/2026, annonce BureauxLocaux n° 42841525 ouverte et lue.",
+   "erp": "verifier",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "nouveau": true,
+   "ajoute": 1792731743016,
+   "vu": "2026-10-23"
+  },
+  {
+   "_id": "cachan-erp5-304",
+   "titre": "Entrepôt de 304 m² classé ERP 5e catégorie à Cachan, accès indépendant sur rue",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--41605902",
+   "prix": 1300000,
+   "surface": 304,
+   "erpDetail": "Annonce : « Les locaux sont classés ERP de 5e catégorie » (type non précisé) ; accès privatif sur rue, 304 m² de plain-pied (RDC), sanitaires",
+   "notes": "Prix de 4 276 €/m². Entrepôt déjà classé ERP 5e catégorie mais type (L ou autre) non précisé : à vérifier, ainsi que l'activité autorisée, l'accessibilité et le PLU. Desserte citée : bus, RER B Arcueil-Cachan, L15 annoncée fin 2026. Veille du 23/10/2026, annonce BureauxLocaux n° 41605902 ouverte et lue.",
+   "erp": "ERP",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "nouveau": true,
+   "ajoute": 1792731743016,
+   "vu": "2026-10-23"
   }
  ]
 }
