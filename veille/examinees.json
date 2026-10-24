@@ -220,5 +220,16 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42851851": {
+  "date": "2026-10-24",
+  "decision": "doublon",
+  "motif": "Même bien que champs-sur-marne-amphitheatre-665 / champs-sur-marne-erpable-amphi-665 (665 m², 1 213 625 €, Evolis), republié",
+  "_id": "champs-sur-marne-amphitheatre-665"
+ },
+ "40687383": {
+  "date": "2026-10-24",
+  "decision": "ecartee",
+  "motif": "Local d'activités ; l'annonce précise « pas de salle des fêtes »; doublon possible 42847205"
  }
 }
