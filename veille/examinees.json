@@ -220,5 +220,155 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-10-25",
+  "decision": "retenue",
+  "motif": "bâtiment modulable, usage séminaire/événementiel cité",
+  "_id": "saint-thibault-des-vignes-batiment-1484"
+ },
+ "42587372": {
+  "date": "2026-10-25",
+  "decision": "retenue",
+  "motif": "RDC déclaré ERP 5e catégorie, jardin",
+  "_id": "montrouge-rdc-jardin-295"
+ },
+ "42587316": {
+  "date": "2026-10-25",
+  "decision": "retenue",
+  "motif": "RDC déclaré ERP 5e catégorie",
+  "_id": "malakoff-rdc-erp-256"
+ },
+ "42833660": {
+  "date": "2026-10-25",
+  "decision": "doublon",
+  "motif": "même bien que gometz-la-ville-reception-390 (SCAMAC, 390 m², 487 500 €), republié sous le n° 42243027",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "41722136": {
+  "date": "2026-10-25",
+  "decision": "doublon",
+  "motif": "même bien que savigny-le-temple-jules-valles-884 (n° 41755862, autre agence)",
+  "_id": "savigny-le-temple-jules-valles-884"
+ },
+ "39671931": {
+  "date": "2026-10-25",
+  "decision": "doublon",
+  "motif": "même bien que 39915350 (Saint-Thibault 1 199 m², bureaux/activité)"
+ },
+ "42689449": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux, étage collectif"
+ },
+ "42949347": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activités/bureaux, pas d'usage L"
+ },
+ "42582609": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux locatifs Vanves"
+ },
+ "41099171": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux en étage"
+ },
+ "39527954": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "étages de tour"
+ },
+ "41778811": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "entrepôt/activité"
+ },
+ "41605902": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "entrepôt"
+ },
+ "39260603": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux 238 m² sous 250 m², « ERP possible » seulement"
+ },
+ "42503066": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux Paris 8e"
+ },
+ "41212715": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "cabinet de bureaux"
+ },
+ "41146042": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux triplex"
+ },
+ "42243091": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "activités, ERP non déclaré"
+ },
+ "39915350": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux/activités"
+ },
+ "40692383": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "immeuble loué à l'État"
+ },
+ "41450534": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux/entrepôts"
+ },
+ "40159880": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "immeuble de bureaux, ERP seulement possible"
+ },
+ "39260611": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "plateau étage"
+ },
+ "42359196": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux, ERP possible seulement, 3,2 M€"
+ },
+ "39186511": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux"
+ },
+ "38826134": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux parc"
+ },
+ "42621856": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux parc"
+ },
+ "42400914": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "plateau étage"
+ },
+ "42359502": {
+  "date": "2026-10-25",
+  "decision": "ecartee",
+  "motif": "bureaux"
  }
 }
