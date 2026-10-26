@@ -220,5 +220,159 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-10-26",
+  "decision": "retenue",
+  "motif": "Usage séminaire/événementiel cité, 1485 m²",
+  "_id": "saint-thibault-des-vignes-evenementiel-1485"
+ },
+ "42689449": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42833660": {
+  "date": "2026-10-26",
+  "decision": "doublon",
+  "motif": "Même référence L_2110_91_005_52_V que gometz-la-ville-reception-390 (republié sous n° 42833660)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "42949347": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42582609": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41099171": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "39527954": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41778811": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41605902": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "39260603": {
+  "date": "2026-10-26",
+  "decision": "retenue",
+  "motif": "ERP possible, 239 m²",
+  "_id": "argenteuil-quais-seine-239"
+ },
+ "42503066": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41212715": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41146042": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42243091": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "39915350": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "40692383": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41722136": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41450534": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "39671931": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "40159880": {
+  "date": "2026-10-26",
+  "decision": "retenue",
+  "motif": "Mise aux normes ERP possible, 521 m²",
+  "_id": "le-mesnil-saint-denis-bureaux-521"
+ },
+ "39260611": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42359196": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "41131674": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "39186511": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "38826134": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42621856": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42587372": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42587316": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42400914": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
+ },
+ "42359502": {
+  "date": "2026-10-26",
+  "decision": "ecartee",
+  "motif": "Bureaux/entrepôt/activité classique sans usage ERP L plausible ou hors périmètre (location, étage, bureaux standard)"
  }
 }
