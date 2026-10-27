@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "27/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,65 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "cachan-entrepot-304",
+   "titre": "Entrepôt de 304 m² classé ERP 5e catégorie, accès privatif sur rue",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2192208-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--41605902",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « Locaux classés ERP de 5e catégorie, permettant d'envisager une activité recevant du public » ; type d'ERP non précisé ; RDC 304 m² non divisibles, site clos, accès privatif sur rue",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil-Cachan",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187",
+     "station": "Place Jacques Carat",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Local déjà classé ERP 5e catégorie, ce qui limite les démarches pour une salle polyvalente ou de réception ; le type (L ou autre) n'est pas précisé, à demander à l'agence. Prix élevé : environ 4 276 €/m², à négocier. Plafond, capacité d'accueil, PLU et copropriété non précisés.",
+   "nouveau": true,
+   "ajoute": 1793080940732,
+   "vu": "2026-10-27"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-batiment-1484",
+   "titre": "Bâtiment indépendant de 1 484 m² : commerce, séminaire ou événementiel possibles",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "42841525",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": null,
+   "surface": 1484,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « bâtiment modulable pouvant accueillir une partie commerciale (showroom, salle de sport, concept coworking / séminaire / événementiel, centre médical, loisirs indoor, centre de formation) » ; classement ERP non indiqué ; 944 m² de plain-pied",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Grand volume en angle de rue avec parking privé et accès clientèle, activités événementielles citées par l'agence. Prix non publié (sur demande) : prix au m² non calculable. Classement ERP, PLU, capacité et travaux à vérifier ; les lots RDC de 656 m² et 830 m² sont indiqués sur la fiche.",
+   "nouveau": true,
+   "ajoute": 1793080940732,
+   "vu": "2026-10-27"
   }
  ]
 }
