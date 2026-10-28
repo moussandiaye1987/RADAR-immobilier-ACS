@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "28/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,204 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-batiment-1484",
+   "titre": "Bâtiment indépendant de 1 485 m² (usage possible : séminaire / événementiel)",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": null,
+   "surface": 1484,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce cite parmi les usages possibles « concept coworking / séminaire / événementiel », accès PMR, sans classement ERP",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Bâtiment indépendant de 1 485 m² dont 944 m² de plain-pied, cloisons amovibles, 14 parkings privatifs, angle de rue. L'annonce cite séminaire/événementiel parmi les usages possibles. Prix non publié (« Nous consulter ») ; classement ERP, capacité, PLU et zone d'activité à vérifier. Lots annoncés de 656 m² à 1 485 m².",
+   "nouveau": true,
+   "ajoute": 1793167335282,
+   "vu": "2026-10-28"
+  },
+  {
+   "_id": "argenteuil-quai-seine-238",
+   "titre": "Bureaux rénovés de 238 m² avec cloisons amovibles, quai de Seine (ERP possible)",
+   "ville": "Argenteuil",
+   "adresse": "141 Rue Michel Carre, 95100 Argenteuil",
+   "dept": "95",
+   "agence": "Invest Conseil",
+   "ref": "95_0041",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--39260603",
+   "prix": 340000,
+   "surface": 238,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce indique « ERP possible », accès PMR, cloisons amovibles, salle de réunion",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Bureaux rénovés, lumineux et polyvalents, 4 emplacements de parking, cloisons amovibles. Surface sous le filtre par défaut (250 m²) mais prix bas (environ 1 429 €/m²). L'annonce dit « ERP possible » sans classement ; usage réel (étage ?), capacité et accessibilité à vérifier. Aucune station citée à moins de 2 km.",
+   "nouveau": true,
+   "ajoute": 1793167335282,
+   "vu": "2026-10-28"
+  },
+  {
+   "_id": "le-mesnil-saint-denis-immeuble-521",
+   "titre": "Immeuble indépendant de 521 m² à rénover (mise aux normes ERP possible)",
+   "ville": "Le Mesnil-Saint-Denis",
+   "adresse": "29 Rue de Rodon, 78320 Le Mesnil-Saint-Denis",
+   "dept": "78",
+   "agence": "Courcier Immobilier",
+   "ref": "86723424",
+   "url": "https://www.bureauxlocaux.com/annonce/le-mesnil-saint-denis-a-vendre-bureaux-521-m2--40159880",
+   "prix": 446250,
+   "surface": 521,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce évoque « possibilité de mise aux normes ERP », accès PMR, RDC de 521 m², 3 accès distincts, hauteur libre 2,80 m",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Bâtiment indépendant R+1, RDC de 521 m² avec 10 places de parking extérieures, accès PMR et accès privatif sur rue. À rénover, quartier pavillonnaire : voisinage, PLU et travaux ERP à vérifier. Environ 857 €/m². Gares citées en voiture seulement (La Verrière à 3 km).",
+   "nouveau": true,
+   "ajoute": 1793167335282,
+   "vu": "2026-10-28"
+  },
+  {
+   "_id": "cachan-entrepot-304",
+   "titre": "Entrepôt indépendant de 304 m² classé ERP 5e catégorie",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2192208-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--41605902",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « Locaux E.R.P. catégorie 5 » (« classés ERP de 5e catégorie ») sans préciser le type",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187",
+     "station": "Place Jacques Carat",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "14",
+     "station": "Villejuif - Gustave Roussy",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Entrepôt de 304 m² non divisible, accès privatif sur rue, immeuble indépendant. ERP de 5e catégorie déclaré mais type non précisé : adéquation à un ERP L à vérifier. Prix élevé pour un entrepôt (environ 4 276 €/m²). Adresse non publiée ; L15 annoncée fin 2026.",
+   "nouveau": true,
+   "ajoute": 1793167335282,
+   "vu": "2026-10-28"
+  },
+  {
+   "_id": "montrouge-rdc-295",
+   "titre": "Bureaux en rez-de-chaussée de 295 m² avec jardin et cour, ERP 5e catégorie",
+   "ville": "Montrouge",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2206421-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-avec-jardin-privatif-et-stationnements-a-m--42587372",
+   "prix": 1650000,
+   "surface": 295,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « ERP : 5ème catégorie » et « Possibilité de normes E.R.P » sans préciser le type",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "4",
+     "station": "Mairie de Montrouge",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T6",
+     "station": "",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Gentilly / Laplace",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC de 295 m² avec jardin paysager, cour privative, bureaux et salle de réunion, décloisonnement possible. ERP 5e catégorie déclaré, type non précisé. Environ 5 593 €/m². Même bien que celui commercialisé par Immprove (n° 42359195, écarté le 09/10) : deux agences, les deux annonces sont conservées.",
+   "nouveau": true,
+   "ajoute": 1793167335282,
+   "vu": "2026-10-28"
+  },
+  {
+   "_id": "malakoff-rdc-256",
+   "titre": "Bureaux en rez-de-chaussée de 256 m², ERP 5e catégorie, ascenseur PMR",
+   "ville": "Malakoff",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2206391-0",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer-malakoff-92--42587316",
+   "prix": 950000,
+   "surface": 256,
+   "erp": "ERP",
+   "erpDetail": "L'annonce indique « ERP : 5ème catégorie » et « Locaux E.R.P » sans préciser le type",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "Malakoff - Rue Etienne Dolet",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T6",
+     "station": "Châtillon - Montrouge",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Transilien",
+     "ligne": "N",
+     "station": "Vanves - Malakoff",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "RDC de 256 m², open space et bureaux cloisonnés, salle de réunion, site sécurisé, décloisonnement possible. ERP 5e catégorie déclaré, type non précisé. Vente ou location, environ 3 711 €/m². Une autre annonce du même bien existe chez Altim Conseil (n° 38312493, non examinée).",
+   "nouveau": true,
+   "ajoute": 1793167335282,
+   "vu": "2026-10-28"
   }
  ]
 }

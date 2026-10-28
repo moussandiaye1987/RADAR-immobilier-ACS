@@ -220,5 +220,185 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-10-28",
+  "decision": "retenue",
+  "motif": "bâtiment indépendant, séminaire/événementiel cités",
+  "_id": "saint-thibault-des-vignes-batiment-1484"
+ },
+ "39260603": {
+  "date": "2026-10-28",
+  "decision": "retenue",
+  "motif": "ERP possible, cloisons amovibles, prix bas",
+  "_id": "argenteuil-quai-seine-238"
+ },
+ "40159880": {
+  "date": "2026-10-28",
+  "decision": "retenue",
+  "motif": "RDC indépendant, mise aux normes ERP possible",
+  "_id": "le-mesnil-saint-denis-immeuble-521"
+ },
+ "41605902": {
+  "date": "2026-10-28",
+  "decision": "retenue",
+  "motif": "ERP 5e catégorie déclaré, accès indépendant",
+  "_id": "cachan-entrepot-304"
+ },
+ "42587372": {
+  "date": "2026-10-28",
+  "decision": "retenue",
+  "motif": "RDC ERP 5e catégorie",
+  "_id": "montrouge-rdc-295"
+ },
+ "42587316": {
+  "date": "2026-10-28",
+  "decision": "retenue",
+  "motif": "RDC ERP 5e catégorie",
+  "_id": "malakoff-rdc-256"
+ },
+ "42833660": {
+  "date": "2026-10-28",
+  "decision": "doublon",
+  "motif": "même bien et même référence que gometz-la-ville-reception-390 (ancien lien 42243027 retiré)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "42359196": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux, ERP seulement possible, plusieurs agences",
+  "_id": ""
+ },
+ "42689449": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42949347": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42582609": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "41099171": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "39527954": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "41778811": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42979073": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42503066": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "41212715": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42243091": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "39915350": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "40692383": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "41722136": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "41450534": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "39671931": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "39260611": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "39186511": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "38826134": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "37471566": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42621856": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42400914": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
+ },
+ "42359502": {
+  "date": "2026-10-28",
+  "decision": "ecartee",
+  "motif": "bureaux/activité/entrepôt sans usage de réception ou ERP public avéré, ou plateau en étage",
+  "_id": ""
  }
 }
