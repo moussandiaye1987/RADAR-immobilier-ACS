@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "29/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,26 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-evenementiel-1485",
+   "titre": "Bâtiment indépendant de 1 485 m² à Saint-Thibault-des-Vignes (séminaire / événementiel évoqués)",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": null,
+   "surface": 1485,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce évoque seulement la possibilité d'un concept coworking / séminaire / événementiel ; aucun classement ERP indiqué. Accès PMR, accès clientèle principal + 2 accès latéraux, cloisons amovibles, 944 m² de plain-pied.",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "notes": "Bâtiment modulable (656 m² + 830 m² de commerce en RDC) pouvant accueillir séminaire/événementiel selon l'annonce ; 14 parkings extérieurs privatifs. Prix « nous consulter » : prix au m² non calculable. Vigilance : classement ERP, capacité, PLU de la ZAC, travaux de cloisonnement et sécurité incendie à vérifier. Annonce BureauxLocaux n° 42841525, lue le 29/10/2026.",
+   "nouveau": true,
+   "ajoute": 1793253723561,
+   "vu": "2026-10-29"
   }
  ]
 }
