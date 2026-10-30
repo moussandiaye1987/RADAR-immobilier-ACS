@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "30/10/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,87 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-batiment-1484",
+   "titre": "Bâtiment indépendant de 1 485 m² à Saint-Thibault-des-Vignes (séminaire / événementiel cités)",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": 1995000,
+   "surface": 1484,
+   "erp": "verifier",
+   "erpDetail": "Annonce : bâtiment « modulable » pouvant accueillir « concept coworking / séminaire / événementiel, salle de sport, loisirs indoor » ; accès PMR coché ; cloisons amovibles ; ERP non mentionné",
+   "parking": "sur_place",
+   "transports": [],
+   "notes": "Bâtiment indépendant de 1 485 m² dont 944 m² de plain-pied, en angle de rue, avec 14 parkings extérieurs privatifs, accès clientèle et deux accès latéraux : volume intéressant pour un lieu d'événements ou de séminaires. Les usages cités sont des possibilités, non un classement : ERP/type L, PLU de la ZAC, travaux et sécurité incendie à vérifier. Environ 1 344 €/m² (prix « à partir de » 1 995 000 €, lots de 656 et 830 m² indiqués).",
+   "statut": "en_vente",
+   "occupe": false,
+   "nouveau": true,
+   "ajoute": 1793340096042,
+   "vu": "2026-10-30"
+  },
+  {
+   "_id": "cachan-erp5-304",
+   "titre": "Local de 304 m² classé ERP 5e catégorie à Cachan",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2210825-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--43017330",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « Les locaux sont classés ERP de 5e catégorie, permettant d'envisager une activité recevant du public » ; type d'ERP non précisé ; accès privatif sur rue, site clos, sanitaires privatifs",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "14",
+     "station": "Villejuif - Gustave Roussy",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "notes": "Seul local de la veille dont l'annonce déclare un classement ERP (5e catégorie), sans préciser le type : à faire confirmer (type L ou autre, capacité, accessibilité). Entrepôt de 304 m² de plain-pied, non divisible, accès indépendant sur rue. Environ 4 276 €/m², soit un prix élevé pour un entrepôt.",
+   "statut": "en_vente",
+   "occupe": false,
+   "nouveau": true,
+   "ajoute": 1793340096042,
+   "vu": "2026-10-30"
+  },
+  {
+   "_id": "le-mesnil-saint-denis-bureaux-521",
+   "titre": "Immeuble indépendant de 521 m² au Mesnil-Saint-Denis (mise aux normes ERP possible)",
+   "ville": "Le Mesnil-Saint-Denis",
+   "adresse": "29 Rue de Rodon, 78320 Le Mesnil-Saint-Denis",
+   "dept": "78",
+   "agence": "Courcier Immobilier",
+   "ref": "86723424",
+   "url": "https://www.bureauxlocaux.com/annonce/le-mesnil-saint-denis-a-vendre-bureaux-521-m2--40159880",
+   "prix": 446250,
+   "surface": 521,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « possibilité de mise aux normes ERP » ; salle de réunion, espaces modulables, accès PMR, 3 accès distincts ; hauteur libre RDC 2,80 m ; bâtiment actuellement non classé ERP",
+   "parking": "sur_place",
+   "transports": [],
+   "notes": "Immeuble indépendant R+1 de 521 m² avec 10 places extérieures, en quartier pavillonnaire près de la N10 : prix bas (environ 856 €/m²) mais bien à rénover, avec travaux de mise aux normes ERP à prévoir. Hauteur sous plafond modeste (2,80 m). Gare à 3 km en voiture seulement ; voisinage résidentiel et PLU à vérifier.",
+   "statut": "en_vente",
+   "occupe": false,
+   "nouveau": true,
+   "ajoute": 1793340096042,
+   "vu": "2026-10-30"
   }
  ]
 }
