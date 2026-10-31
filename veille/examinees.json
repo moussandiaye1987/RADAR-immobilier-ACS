@@ -220,5 +220,89 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bâtiment commerce/activité polyvalent : séminaire/événementiel cité parmi de nombreux usages possibles, aucune salle décrite",
+  "_id": ""
+ },
+ "37498808": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Plateaux de bureaux en étage (La Défense, 12e), prix non publié",
+  "_id": ""
+ },
+ "43033130": {
+  "date": "2026-10-31",
+  "decision": "doublon",
+  "motif": "Même bien que 43033123 (Ivry, 555 m², Evolis), activité/archives/bureaux",
+  "_id": ""
+ },
+ "43033123": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Local d'activités/archives/bureaux, pas de salle de réception avérée",
+  "_id": ""
+ },
+ "42689449": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bureaux en étage d'un immeuble collectif",
+  "_id": ""
+ },
+ "43015218": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bureaux neufs sur 3 niveaux à aménager",
+  "_id": ""
+ },
+ "42949347": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bâtiment d'activité, usage de salle non décrit",
+  "_id": ""
+ },
+ "41099171": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bureaux au 2e étage",
+  "_id": ""
+ },
+ "39527954": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "2 étages de bureaux, prix non publié",
+  "_id": ""
+ },
+ "43017330": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Entrepôt classé ERP 5e catégorie, aucun usage de salle ni type L écrit ; à revoir si le propriétaire élargit les critères",
+  "_id": ""
+ },
+ "43014697": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Atelier/entrepôt et bureaux",
+  "_id": ""
+ },
+ "41778811": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Local d'activité",
+  "_id": ""
+ },
+ "39260603": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bureau 238 m² (<250 m²), « ERP possible » seulement",
+  "_id": ""
+ },
+ "42243091": {
+  "date": "2026-10-31",
+  "decision": "ecartee",
+  "motif": "Bâtiment d'activité neuf à aménager, vente ou location, ERP seulement en réservation d'ascenseur",
+  "_id": ""
  }
 }
