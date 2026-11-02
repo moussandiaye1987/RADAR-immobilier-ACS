@@ -220,5 +220,159 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-11-02",
+  "decision": "retenue",
+  "motif": "bâtiment modulable, séminaire/événementiel cités",
+  "_id": "saint-thibault-des-vignes-modulable-1485"
+ },
+ "43017330": {
+  "date": "2026-11-02",
+  "decision": "retenue",
+  "motif": "entrepôt ERP 5e catégorie déclaré",
+  "_id": "cachan-entrepot-erp5-304"
+ },
+ "42587372": {
+  "date": "2026-11-02",
+  "decision": "retenue",
+  "motif": "RDC bureaux ERP 5e catégorie déclaré, jardin",
+  "_id": "montrouge-bureaux-erp5-295"
+ },
+ "42833660": {
+  "date": "2026-11-02",
+  "decision": "doublon",
+  "motif": "même référence L_2110_91_005_52_V et même agence que gometz-la-ville-reception-390 (republié sous le n° 42833660)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "43033123": {
+  "date": "2026-11-02",
+  "decision": "doublon",
+  "motif": "même bien que 43033130 (Ivry, 555 m²), publié sous deux numéros ; activités/archives/bureaux, pas de lieu recevant du public"
+ },
+ "37498808": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en étage (tour Franklin), prix sur demande ; ERP 2/3 mentionné mais usage bureaux"
+ },
+ "43033130": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "ensemble d'activités/archives/bureaux, pas d'usage ERP L évident"
+ },
+ "42689449": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux en étage, aucune mention ERP"
+ },
+ "43015218": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux neufs bruts, pas d'ERP"
+ },
+ "42949347": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "local d'activités"
+ },
+ "41099171": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux en étage, 164 m²"
+ },
+ "39527954": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en tour, prix sur demande"
+ },
+ "43014697": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "entrepôt/bureaux"
+ },
+ "41778811": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "local d'activités"
+ },
+ "39260603": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux en étage (R+1), « ERP possible » seulement, 238 m² (< 250)"
+ },
+ "42979073": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux en étage Paris 3e, 155 m²"
+ },
+ "42445037": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux atypiques sur 3 niveaux, pas d'ERP"
+ },
+ "42503066": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux sur cour, pas d'ERP"
+ },
+ "42243091": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "local d'activités/bureaux, ascenseur ERP en réservation seulement"
+ },
+ "39915350": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux et stockage, pas d'ERP"
+ },
+ "40692383": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "immeuble de bureaux loué (bail 3/6/9), investissement, > 2 M€"
+ },
+ "42841523": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux en étage 216 m²"
+ },
+ "41722136": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux proche gare, « PMR / ERP » sans type ni usage public précis"
+ },
+ "39671931": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "même bien que 39915350 (Saint-Thibault, 1 199 m²) ; bureaux"
+ },
+ "40159880": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux, mise aux normes ERP seulement envisagée"
+ },
+ "42359196": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux 3,2 M€, « possibilité d'ERP » vague"
+ },
+ "38826134": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux/activités parc d'entreprises"
+ },
+ "37471566": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux/activités parc d'entreprises"
+ },
+ "43007338": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux 67-400 m², « ERP possible », prix sur demande"
+ },
+ "42621856": {
+  "date": "2026-11-02",
+  "decision": "ecartee",
+  "motif": "bureaux 240 m² (< 250), parc d'entreprises"
  }
 }
