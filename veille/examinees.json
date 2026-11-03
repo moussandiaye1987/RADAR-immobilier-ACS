@@ -220,5 +220,159 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-11-03",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar",
+  "_id": "saint-thibault-des-vignes-batiment-1484"
+ },
+ "37498808": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Plateaux de bureaux en tour, prix non communiqué"
+ },
+ "43033130": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Ensemble activité/bureaux Ivry, pas de piste ERP L"
+ },
+ "43033123": {
+  "date": "2026-11-03",
+  "decision": "doublon",
+  "motif": "Même bien que 43033130 (Ivry, EVOLIS)"
+ },
+ "42689449": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42833660": {
+  "date": "2026-11-03",
+  "decision": "doublon",
+  "motif": "Même bien que gometz-la-ville-reception-390 (annonce 42243027 republiée sous 42833660)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "43015218": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42949347": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "41099171": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "39527954": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux en étage, prix non communiqué"
+ },
+ "43017330": {
+  "date": "2026-11-03",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar",
+  "_id": "cachan-erp5-304"
+ },
+ "43014697": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "41778811": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "39260603": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux 209 m² / 238 m² (R+1), ERP seulement « possible »"
+ },
+ "42979073": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42445037": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42503066": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42243091": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "39915350": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "40692383": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42841523": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "41722136": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "39671931": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "40159880": {
+  "date": "2026-11-03",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar",
+  "_id": "mesnil-saint-denis-rdc-521"
+ },
+ "42359196": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "38826134": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "37471566": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "43007338": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42621856": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux/activité classique, sans indice d'usage ERP L ni accès public plausible"
+ },
+ "42587372": {
+  "date": "2026-11-03",
+  "decision": "ecartee",
+  "motif": "Bureaux au 3e étage"
  }
 }
