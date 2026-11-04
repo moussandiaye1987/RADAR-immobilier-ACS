@@ -220,5 +220,69 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-11-04",
+  "decision": "retenue",
+  "motif": "bâtiment modulable citant séminaire/événementiel",
+  "_id": "saint-thibault-des-vignes-polyvalent-1484"
+ },
+ "43017330": {
+  "date": "2026-11-04",
+  "decision": "retenue",
+  "motif": "entrepôt déclaré ERP 5e catégorie",
+  "_id": "cachan-erp5-304"
+ },
+ "37498808": {
+  "date": "2026-11-04",
+  "decision": "retenue",
+  "motif": "plateaux/RDC en ERP 2 pour public (formation, réception)",
+  "_id": "puteaux-tour-franklin-1966"
+ },
+ "42833660": {
+  "date": "2026-11-04",
+  "decision": "doublon",
+  "motif": "même bien que gometz-la-ville-reception-390 (même prix/surface, republié sous 42833660)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "43033130": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "immeuble d'activités/archives/bureaux, pas de public plausible"
+ },
+ "43033123": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "doublon de 43033130, activités/bureaux"
+ },
+ "42689449": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "bureaux répartis RDC/étage, usage bureaux"
+ },
+ "43015218": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "bureaux neufs en étages"
+ },
+ "42949347": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activité/stockage sans élément ERP"
+ },
+ "41099171": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "bureaux en étage, < 250 m² et sans accès public"
+ },
+ "39527954": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "bureaux en étage d'une tour"
+ },
+ "43014697": {
+  "date": "2026-11-04",
+  "decision": "ecartee",
+  "motif": "atelier/entrepôt et bureaux sans élément ERP"
  }
 }

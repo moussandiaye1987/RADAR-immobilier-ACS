@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "04/11/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,109 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-polyvalent-1484",
+   "titre": "Bâtiment indépendant modulable (commerce, séminaire, événementiel) à Saint-Thibault-des-Vignes",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de La Courtillière",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "42841525",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": 1995000,
+   "surface": 1484,
+   "erp": "verifier",
+   "erpDetail": "Type L non confirmé : l'annonce cite un concept coworking / séminaire / événementiel parmi les usages possibles, sans classement ERP",
+   "parking": "sur_place",
+   "transports": [],
+   "occupe": false,
+   "notes": "Bâtiment indépendant de 1 485 m² dont 944 m² de plain-pied, en angle de rue, avec accès clientèle principal et 2 accès latéraux, 14 parkings extérieurs privatifs. L'annonce cite séminaire/événementiel, salle de sport, loisirs indoor comme usages possibles. Classement ERP, capacité, PLU, accessibilité et travaux non vérifiés. Prix ≈ 1 344 €/m².",
+   "statut": "en_vente",
+   "nouveau": true,
+   "ajoute": 1793772575127,
+   "vu": "2026-11-04"
+  },
+  {
+   "_id": "cachan-erp5-304",
+   "titre": "Entrepôt classé ERP 5e catégorie de 304 m² à Cachan",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "2210825-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--43017330",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « Locaux classés ERP de 5e catégorie » ; type (L ou autre) non précisé · RDC 304 m², accès privatif sur rue, sanitaires privatifs",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187, N21",
+     "station": "Place Jacques Carat - Théâtre",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "occupe": false,
+   "notes": "Entrepôt de 304 m² en RDC avec accès indépendant, déclaré ERP de 5e catégorie : base intéressante pour une petite salle, mais le type L n'est pas confirmé. À vérifier : activité autorisée, capacité, PLU, accessibilité. Prix ≈ 4 276 €/m², élevé pour la surface.",
+   "statut": "en_vente",
+   "nouveau": true,
+   "ajoute": 1793772575127,
+   "vu": "2026-11-04"
+  },
+  {
+   "_id": "puteaux-tour-franklin-1966",
+   "titre": "Plateaux divisibles en ERP 2 dans la tour Franklin (La Défense, Puteaux)",
+   "ville": "Puteaux",
+   "adresse": "Tour Franklin, La Défense",
+   "dept": "92",
+   "agence": "Cushman & Wakefield Ventes",
+   "ref": "37498808",
+   "url": "https://www.bureauxlocaux.com/annonce/la-defense-2-000-m2-de-bureaux-divisibles-a-vendre--37498808",
+   "prix": null,
+   "surface": 1966,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « capacitaire total pour les deux plateaux réunis [...] de 1 200 personnes en ERP 2 » ; division possible en ERP 3 ; type non précisé · accès PMR indiqué · lots de 983 m² à 1 966 m²",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "A",
+     "station": "La Défense",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "1",
+     "station": "La Défense",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T2",
+     "station": "La Défense",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "occupe": true,
+   "notes": "Immeuble de grande hauteur : 12e étage (2 000 m² divisibles dès 414 m²), avec possibilité de n'acquérir que le RDC ou RDC/R+1 pour formation, écoles, accueil de public. Prix non communiqué (sur demande). Fiche marquée « bien occupé ». ERP 2 déclaré mais type L non confirmé ; forte copropriété IGH, sécurité et usage à vérifier.",
+   "statut": "en_vente",
+   "nouveau": true,
+   "ajoute": 1793772575127,
+   "vu": "2026-11-04"
   }
  ]
 }
