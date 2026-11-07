@@ -1,5 +1,5 @@
 {
- "date": "13/10/2026",
+ "date": "07/11/2026",
  "rows": [
   {
    "adresse": "",
@@ -3478,6 +3478,131 @@
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
    "vu": "2026-10-13"
+  },
+  {
+   "_id": "saint-thibault-des-vignes-batiment-1484",
+   "titre": "Bâtiment indépendant de 1 485 m² (944 m² de plain-pied) : séminaire, événementiel, loisirs indoor possibles",
+   "ville": "Saint-Thibault-des-Vignes",
+   "adresse": "ZAC de la Courtillière, 77400 Saint-Thibault-des-Vignes",
+   "dept": "77",
+   "agence": "WE INVEST PRO",
+   "ref": "42841525",
+   "url": "https://www.bureauxlocaux.com/annonce/opportunite-rare-sur-le-secteur--42841525",
+   "prix": 1995000,
+   "surface": 1484,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « partie commerciale … concept coworking / séminaire / événementiel, centre médical, loisirs indoor, centre de formation » ; aucun classement ERP indiqué",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Grand volume en angle de rue avec accès clientèle principal et deux accès latéraux, parking privé : cadre plausible pour une salle événementielle ou de séminaire dans la partie commerciale. Type L non confirmé : classement ERP, capacité, PLU de la ZAC et accessibilité à vérifier. Prix : environ 1 344 €/m².",
+   "nouveau": true,
+   "ajoute": 1794031312912,
+   "vu": "2026-11-07"
+  },
+  {
+   "_id": "cachan-entrepot-304",
+   "titre": "Entrepôt de 304 m² en rez-de-chaussée, locaux classés ERP de 5e catégorie",
+   "ville": "Cachan",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "43017330",
+   "url": "https://www.bureauxlocaux.com/annonce/entrepots-a-cachan-opportunite-dinvestissement-ou--43017330",
+   "prix": 1300000,
+   "surface": 304,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « Les locaux sont classés ERP de 5e catégorie, permettant d'envisager une activité recevant du public » ; type d'ERP non précisé ; accès privatif sur rue, site clos",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Bus",
+     "ligne": "162, 193, V3, 184, 187, N21",
+     "station": "Place Jacques Carat - Théâtre",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "Arcueil - Cachan",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "14",
+     "station": "Villejuif - Gustave Roussy",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Immeuble indépendant de plain-pied déjà classé ERP 5e catégorie, accès indépendant sur rue : base intéressante pour un lieu recevant du public, mais le type (L ou autre) n'est pas précisé et l'activité exercée dépend de l'autorisation. Surface un peu juste (304 m²) et prix élevé : 4 276 €/m². Capacité, PLU et accessibilité à vérifier.",
+   "nouveau": true,
+   "ajoute": 1794031312912,
+   "vu": "2026-11-07"
+  },
+  {
+   "_id": "montrouge-rez-de-chaussee-295",
+   "titre": "Rez-de-chaussée de 295 m² avec jardin privatif, ERP 5e catégorie, métro ligne 4",
+   "ville": "Montrouge",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Evolis Première Couronne Sud",
+   "ref": "42587372",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-avec-jardin-privatif-et-stationnements-a-m--42587372",
+   "prix": 1650000,
+   "surface": 295,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie » et « Possibilité de normes E.R.P » ; type d'ERP non précisé ; actuellement bureaux cloisonnés et salle de réunion ; décloisonnement possible",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "4",
+     "station": "Mairie de Montrouge",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "125, 126, 128, 187, 188, 197, 323, 388",
+     "station": "Verdier / Aquapol",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "occupe": false,
+   "notes": "Rez-de-chaussée lumineux avec jardin et cour privatifs, décloisonnable : possible salle de réunion ou de réception, sous réserve du type d'ERP exact (non indiqué). Actuellement à usage de bureaux. Prix : 5 593 €/m². Une autre annonce de la même agence (n° 42359195) est signalée comme possible doublon, non vérifiée.",
+   "nouveau": true,
+   "ajoute": 1794031312912,
+   "vu": "2026-11-07"
+  },
+  {
+   "_id": "puteaux-tour-franklin-1965",
+   "titre": "La Défense (Tour Franklin) : plateaux RDC/R+1 jusqu'à 1 965 m², capacité 1 200 personnes en ERP 2",
+   "ville": "Puteaux",
+   "adresse": "Tour Franklin, La Défense, 92800 Puteaux",
+   "dept": "92",
+   "agence": "CUSHMAN & WAKEFIELD VENTES",
+   "ref": "37498808",
+   "url": "https://www.bureauxlocaux.com/annonce/la-defense-2-000-m2-de-bureaux-divisibles-a-vendre--37498808",
+   "prix": null,
+   "surface": 1965,
+   "erp": "ERP",
+   "erpDetail": "Annonce : « capacitaire total pour les deux plateaux réunis … de 1 200 personnes en ERP 2 », division possible en ERP 3 ; « besoins de réception de public (écoles de commerce, formation, associations) » ; type d'ERP non précisé",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": true,
+   "notes": "Plateaux de bureaux en tour avec capacité ERP annoncée très élevée et entrée indépendante pour le RDC : piste pour formation ou réception de public, type L non confirmé. Prix non publié (à demander) ; l'annonce est marquée occupée. Plateaux divisibles à partir de 800 m². Situation exacte des lots (RDC, R+1 ou 12e étage) à clarifier avec l'agence.",
+   "nouveau": true,
+   "ajoute": 1794031312912,
+   "vu": "2026-11-07"
   }
  ]
 }

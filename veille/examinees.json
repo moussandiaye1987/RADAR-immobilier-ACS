@@ -220,5 +220,160 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "42841525": {
+  "date": "2026-11-07",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche (prix, surface, commune, agence) ; usage ERP/réception évoqué ; type L non confirmé",
+  "_id": "saint-thibault-des-vignes-batiment-1484"
+ },
+ "43017330": {
+  "date": "2026-11-07",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche (prix, surface, commune, agence) ; usage ERP/réception évoqué ; type L non confirmé",
+  "_id": "cachan-entrepot-304"
+ },
+ "42587372": {
+  "date": "2026-11-07",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche (prix, surface, commune, agence) ; usage ERP/réception évoqué ; type L non confirmé",
+  "_id": "montrouge-rez-de-chaussee-295"
+ },
+ "37498808": {
+  "date": "2026-11-07",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche (prix, surface, commune, agence) ; usage ERP/réception évoqué ; type L non confirmé",
+  "_id": "puteaux-tour-franklin-1965"
+ },
+ "42833660": {
+  "date": "2026-11-07",
+  "decision": "doublon",
+  "motif": "Même bien que gometz-la-ville-reception-390 (même agence, 391 m², 487 500 €), republié sous un nouveau numéro",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "43033123": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "Immeuble d'activités/archives/bureaux, rez de 208 m² : pas d'usage de salle ; doublon de 43033130"
+ },
+ "43033130": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "Immeuble d'activités/archives/bureaux, rez de 208 m² : pas d'usage de salle ; doublon de 43033123"
+ },
+ "42689449": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux d'étage, pas d'usage public"
+ },
+ "43015218": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux neufs bruts, pas de piste ERP L"
+ },
+ "42949347": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activité sans mention ERP/salle ; à reconsidérer"
+ },
+ "41099171": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux en 2e étage"
+ },
+ "39527954": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "étages de bureaux, tour"
+ },
+ "43014697": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "entrepôt/bureaux, aucune mention ERP"
+ },
+ "41778811": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "local d'activité, aucune mention ERP"
+ },
+ "39260603": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux de 239 m², « ERP possible » seul, sans type ni catégorie"
+ },
+ "42979073": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux en étage"
+ },
+ "42445037": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux atypiques sur 3 niveaux"
+ },
+ "42503066": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux en étage sur cour"
+ },
+ "42243091": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bâtiment d'activité, ERP non mentionné"
+ },
+ "39915350": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux (doublon de 39671931)"
+ },
+ "40692383": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "immeuble de bureaux loué (investissement), 3,45 M€"
+ },
+ "42841523": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux en étage"
+ },
+ "41722136": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux sur deux niveaux, aucune piste public"
+ },
+ "39671931": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux (doublon de 39915350)"
+ },
+ "40159880": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux à rénover, hauteur libre 2,80 m, mise aux normes ERP hypothétique"
+ },
+ "42359196": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux, « ERP possible » seul, 3,2 M€"
+ },
+ "38826134": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en R+1"
+ },
+ "37471566": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux/activités divisibles"
+ },
+ "43007338": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux showroom, ERP « à étudier », prix non publié"
+ },
+ "42621856": {
+  "date": "2026-11-07",
+  "decision": "ecartee",
+  "motif": "bureaux en parc d'activité"
  }
 }
