@@ -16,7 +16,7 @@ tard (heure de Paris) ; lancement manuel possible, avec une case « simulation �
    | `salle` | Salle recevant du public | salle de réception, des fêtes, polyvalente, de spectacle, de conférence |
    | `transformation` | Local à transformer | grand local (≥ 300 m²) commercial ou d'activités, de plain-pied, annoncé ERP ou ouvert au public (3 ajouts/jour maximum) |
 
-   Un usage **décrit** passe avant un usage seulement **évoqué** (« idéal lieu de culte »). Les noms de communes
+   À profil égal, un usage **décrit** passe avant un usage seulement **évoqué** (« idéal lieu de culte »). Les noms de communes
    (Savigny-le-Temple), de rues (rue de l'Église), d'arrêts (Église de Pantin) et les repères (« face à l'église ») sont ignorés.
    Il faut prix, surface ≥ 150 m², commune, agence et lien, sans doublon. 10 ajouts maximum par jour.
 4. Resynchronisation de `index.html`, validation (`valider.py`), test de la page, des filtres et de la carte (`test_filtres.js`).
