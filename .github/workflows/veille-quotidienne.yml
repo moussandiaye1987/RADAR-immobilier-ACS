@@ -1,14 +1,19 @@
 name: Veille quotidienne
 
+# Radar ERP Type V (lieux de culte) — Île-de-France.
 # Veille 100 % gratuite : GitHub Actions + scripts Python du dépôt. Aucune API d'IA, aucun secret.
 # Publie sur main uniquement si des annonces ont été ajoutées ET que tous les contrôles ont réussi.
 
 on:
   schedule:
-    # Deux déclencheurs UTC ; la garde horaire ne garde que celui qui tombe à 7 h à Paris
-    # (été : 05:00 UTC, hiver : 06:00 UTC). GitHub peut retarder un cron : la garde accepte 7 h 00 à 7 h 59.
+    # Plusieurs déclencheurs UTC : GitHub retarde souvent les crons de plusieurs heures (constaté : 10 h à 15 h UTC
+    # depuis le 25/10/2026, ce qui faisait ignorer toutes les exécutions par l'ancienne garde « 7 h 00–7 h 59 »).
+    # La garde ci-dessous lance la veille UNE fois par jour, au premier déclencheur qui tombe à 7 h ou plus tard
+    # (heure de Paris) ; les suivants du même jour sont ignorés grâce à un marqueur en cache.
     - cron: "0 5 * * *"
     - cron: "0 6 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
     inputs:
       simulation:
@@ -30,11 +35,30 @@ jobs:
     env:
       TZ: Europe/Paris
     steps:
-      - name: Garde horaire (7 h à Paris)
+      - name: Date du jour (Paris)
+        id: jour
+        run: echo "date=$(date +%F)" >> "$GITHUB_OUTPUT"
+
+      # Marqueur « veille déjà faite aujourd'hui » (cache, sans commit).
+      - name: Veille déjà faite aujourd'hui ?
+        id: deja
+        if: github.event_name == 'schedule'
+        uses: actions/cache/restore@v4
+        with:
+          path: veille/.fait
+          key: veille-faite-${{ steps.jour.outputs.date }}
+          lookup-only: true
+
+      - name: Garde quotidienne (une fois par jour, à partir de 7 h à Paris)
         id: garde
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date +%H)" != "07" ]; then
-            echo "Il n'est pas 7 h à Paris ($(date +%H:%M)) : exécution ignorée."
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$(date +%H)" -lt 7 ]; then
+            echo "Avant 7 h à Paris ($(date +%H:%M)) : exécution ignorée."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          elif [ "${{ steps.deja.outputs.cache-hit }}" = "true" ]; then
+            echo "Veille du ${{ steps.jour.outputs.date }} déjà faite : exécution ignorée."
             echo "go=false" >> "$GITHUB_OUTPUT"
           else
             echo "go=true" >> "$GITHUB_OUTPUT"
@@ -77,11 +101,11 @@ jobs:
           set -euo pipefail
           for f in veille/sources.json scripts/commun.py scripts/collecter_bureauxlocaux.py scripts/verifier_liens.py \
                    scripts/ajouter_candidats.py scripts/test_ajouter_candidats.py scripts/sync_index.py \
-                   scripts/valider.py scripts/test_filtres.js; do
+                   scripts/valider.py scripts/test_filtres.js scripts/migrer_type_v.py; do
             test -f "$f" || { echo "::error::$f absent de main"; exit 1; }
           done
 
-      - name: Tests unitaires des règles d'ajout
+      - name: Tests unitaires des règles d'ajout (Type V)
         if: steps.garde.outputs.go == 'true'
         run: python3 scripts/test_ajouter_candidats.py
 
@@ -98,11 +122,11 @@ jobs:
           set -euo pipefail
           python3 scripts/verifier_liens.py | tee liens.log
 
-      - name: Ajouter les candidates fiables (règles Python)
+      - name: Ajouter les candidates utiles à un lieu de culte (règles Python, Type V)
         if: steps.garde.outputs.go == 'true'
         run: |
           set -euo pipefail
-          python3 scripts/ajouter_candidats.py --max-ajouts 10 | tee ajout.log
+          python3 scripts/ajouter_candidats.py --max-ajouts 10 --max-transformation 3 | tee ajout.log
 
       - name: Resynchroniser index.html
         if: steps.garde.outputs.go == 'true'
@@ -165,3 +189,14 @@ jobs:
           fi
           echo "Publié sur $CIBLE" | tee -a "$GITHUB_STEP_SUMMARY"
           git log -1 --stat | tee -a "$GITHUB_STEP_SUMMARY"
+
+      # Marque la veille du jour comme faite (exécutions planifiées ou manuelles sur main, hors simulation).
+      - name: Préparer le marqueur du jour
+        if: steps.garde.outputs.go == 'true' && success() && github.ref == 'refs/heads/main' && !(github.event_name == 'workflow_dispatch' && inputs.simulation)
+        run: date -Iseconds > veille/.fait
+      - name: Enregistrer le marqueur du jour
+        if: steps.garde.outputs.go == 'true' && success() && github.ref == 'refs/heads/main' && !(github.event_name == 'workflow_dispatch' && inputs.simulation)
+        uses: actions/cache/save@v4
+        with:
+          path: veille/.fait
+          key: veille-faite-${{ steps.jour.outputs.date }}

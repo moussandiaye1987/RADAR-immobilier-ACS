@@ -1,4 +1,4 @@
-"""Outils partagés par les scripts de veille du Radar ERP Type L."""
+"""Outils partagés par les scripts de veille du Radar ERP Type V (lieux de culte)."""
 import json
 import re
 import subprocess
@@ -11,10 +11,19 @@ BALISE_DATA = re.compile(r'(<script id="data" type="application/json">)(.*?)(</s
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"
 
-# Valeurs reconnues par index.html (constantes DEPTS, MODES, ERP, PARK, STATUT).
+# Valeurs reconnues par index.html (constantes DEPTS, MODES, ERP, TYPEV, PROFIL, PARK, STATUT).
 DEPTS = ["75", "77", "78", "91", "92", "93", "94", "95"]
 MODES = ["Métro", "RER", "Tram", "Transilien", "Bus"]
-ERP = ["L", "ERP", "verifier"]
+ERP = ["L", "ERP", "verifier"]          # classement ERP historique, conservé tel quel
+# Statut Type V affiché par le site :
+#   « V »         Type V confirmé (exige typeVSource : citation écrite du type V)
+#   « potentiel » Potentiel Type V — à vérifier (statut par défaut)
+#   « L »         Salle Type L existante (salle déjà classée L ; usage cultuel à instruire)
+TYPEV = ["V", "potentiel", "L"]
+# Profil du bien au regard d'une activité cultuelle, du plus au moins direct.
+PROFILS = ["culte_existant", "ancien_religieux", "associatif", "salle", "transformation"]
+# Motif de citation explicite du type V (ex. « ERP de type V », « types L et V », « ERP V »).
+V_EXPLICITE = re.compile(r"\b[Tt]ypes?\s+(?:[A-Z]{1,2}\s*(?:,|et)\s*)*V\b|\bERP\s+V\b")
 PARKING = ["sur_place", "proximite", "non_precise"]
 STATUTS = ["en_vente", "sous_offre", "vendu"]
 

@@ -27,7 +27,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-1500m2-a-vendre-ablon--40730965",
    "ville": "Ablon-sur-Seine",
    "vu": "2026-10-07",
-   "_id": "ablon-activites-1500"
+   "_id": "ablon-activites-1500",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Nationale 20",
@@ -54,7 +57,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-independant-erp-a-vendre-proche-paris--41414474",
    "ville": "Arcueil",
    "vu": "2026-10-06",
-   "_id": "arcueil-n20"
+   "_id": "arcueil-n20",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire."
   },
   {
    "adresse": "8 avenue du Cinq Mars, 95100",
@@ -74,7 +80,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite--41384766",
    "ville": "Argenteuil",
    "vu": "2026-10-08",
-   "_id": "argenteuil-cinq-mars-1200"
+   "_id": "argenteuil-cinq-mars-1200",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -94,7 +103,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepotbureaux-1040m2-a-vendre-argenteuil--41047253",
    "ville": "Argenteuil",
    "vu": "2026-10-07",
-   "_id": "argenteuil-entrepot-1040"
+   "_id": "argenteuil-entrepot-1040",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Rue Notre-Dame, 95100",
@@ -122,7 +134,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42452413",
    "ville": "Argenteuil",
    "vu": "2026-10-08",
-   "_id": "argenteuil-notre-dame-960"
+   "_id": "argenteuil-notre-dame-960",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -141,7 +156,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-de-886m2--40839101",
    "ville": "Aubergenville",
    "vu": "2026-10-08",
-   "_id": "aubergenville-886"
+   "_id": "aubergenville-886",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Quartier résidentiel, près des Quatre-Chemins",
@@ -168,7 +186,10 @@
    "url": "https://www.pap.fr/annonce/vente-local-d-activite-seine-saint-denis-93-g457",
    "ville": "Aubervilliers",
    "vu": "2026-10-06",
-   "_id": "aubervilliers-atelier"
+   "_id": "aubervilliers-atelier",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "RDC de la résidence « Caractère » (adresse non publiée)",
@@ -188,7 +209,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-269-m2-aubervilliers--41193964",
    "ville": "Aubervilliers",
    "vu": "2026-10-06",
-   "_id": "aubervilliers-caractere-269"
+   "_id": "aubervilliers-caractere-269",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "43 rue Lénine",
@@ -216,7 +240,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer--41212891",
    "ville": "Bagnolet",
    "vu": "2026-10-06",
-   "_id": "bagnolet-lenine-205"
+   "_id": "bagnolet-lenine-205",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "Adresse non publiée",
@@ -251,7 +278,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-boissy-saint-leger-94470--42455644",
    "ville": "Boissy-Saint-Léger",
    "vu": "2026-10-06",
-   "_id": "boissy-saint-leger-activite-334"
+   "_id": "boissy-saint-leger-activite-334",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "27 rue Yves Kermen, 92100 Boulogne-Billancourt",
@@ -300,7 +330,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-activite-et-bureaux-acces-imme--42359202",
    "ville": "Boulogne-Billancourt",
    "vu": "2026-10-08",
-   "_id": "boulogne-kermen-1052"
+   "_id": "boulogne-kermen-1052",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "",
@@ -320,7 +353,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-1000m2-a-vendre-bretigny-sur-orge--42243515",
    "ville": "Brétigny-sur-Orge",
    "vu": "2026-10-08",
-   "_id": "bretigny-commerce-erp-1000"
+   "_id": "bretigny-commerce-erp-1000",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -341,7 +377,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-400m2-a-vendre-bretigny-sur-orge--42243522",
    "ville": "Brétigny-sur-Orge",
    "vu": "2026-10-06",
-   "_id": "bretigny-commerce-erp-400"
+   "_id": "bretigny-commerce-erp-400",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices. Vendu occupé ou en partie loué : disponibilité à vérifier.",
+   "archive": true,
+   "archiveMotif": "Vendue occupée (bail commercial 3-6-9) : placement locatif, indisponible pour un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "423 rue Audemars, 78530",
@@ -376,7 +418,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivte-a-vendre--42374849",
    "ville": "Buc",
    "vu": "2026-10-08",
-   "_id": "buc-rue-audemars-1470"
+   "_id": "buc-rue-audemars-1470",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Surface en partie en étage : effectif accueilli limité par les dégagements."
   },
   {
    "adresse": "5 rue du Petit Albi (Cergy-Préfecture)",
@@ -404,7 +449,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-cergy-95000--42353676",
    "ville": "Cergy",
    "vu": "2026-10-06",
-   "_id": "cergy-petit-albi-576"
+   "_id": "cergy-petit-albi-576",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Surface en partie en étage : effectif accueilli limité par les dégagements. Copropriété ou logements proches : règlement et voisinage à vérifier.",
+   "archive": true,
+   "archiveMotif": "Plateau de bureaux au 3e étage : accueil d'une assemblée de fidèles peu plausible (évacuation, copropriété).",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "13 route de Mantes",
@@ -432,7 +483,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-de-474m2--40839102",
    "ville": "Chambourcy",
    "vu": "2026-10-06",
-   "_id": "chambourcy-route-de-mantes-474"
+   "_id": "chambourcy-route-de-mantes-474",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "",
@@ -451,7 +505,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-champigny-sur-marne-94500--40104084",
    "ville": "Champigny-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "champigny-activite-1100"
+   "_id": "champigny-activite-1100",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "24 rue Massenet",
@@ -479,7 +536,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-entrepot-champigny-sur-marne-94500--40439038",
    "ville": "Champigny-sur-Marne",
    "vu": "2026-10-06",
-   "_id": "champigny-massenet-632"
+   "_id": "champigny-massenet-632",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "",
@@ -499,7 +559,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-champlan-un-entrepot-et-un-terrain--41033876",
    "ville": "Champlan",
    "vu": "2026-10-07",
-   "_id": "champlan-entrepot-900"
+   "_id": "champlan-entrepot-900",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Rue des Temps Modernes, 77600",
@@ -527,7 +590,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1027m2--42390640",
    "ville": "Chanteloup-en-Brie",
    "vu": "2026-10-08",
-   "_id": "chanteloup-en-brie-1027"
+   "_id": "chanteloup-en-brie-1027",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "6 rue des Cerisiers, 92290",
@@ -556,7 +622,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-batiment-independant-a-usage-mixtes-3-por--42382323",
    "ville": "Châtenay-Malabry",
    "vu": "2026-10-08",
-   "_id": "chatenay-malabry-cerisiers-985"
+   "_id": "chatenay-malabry-cerisiers-985",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Copropriété ou logements proches : règlement et voisinage à vérifier. Vendu occupé ou en partie loué : disponibilité à vérifier."
   },
   {
    "adresse": "22 rue de la Fontaine Henri IV",
@@ -590,7 +659,10 @@
    "url": "https://www.pap.fr/annonces/bureaux-chaville-92370-r464001289",
    "ville": "Chaville",
    "vu": "2026-10-06",
-   "_id": "chaville-487"
+   "_id": "chaville-487",
+   "typeV": "potentiel",
+   "profil": "associatif",
+   "analyseV": "Ancienne crèche déjà ERP et accessible PMR : profil d'équipement recevant du public, compatible avec un local associatif ou cultuel. Situé au 1er étage : effectif limité par les escaliers, à faire vérifier."
   },
   {
    "adresse": "",
@@ -610,7 +682,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-1520m2-a-vendre-chennevieres-sur--42501393",
    "ville": "Chennevières-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "chennevieres-entrepot-1520"
+   "_id": "chennevieres-entrepot-1520",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "rue Auguste Franchot",
@@ -637,7 +712,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactiviteentrepots--39316751",
    "ville": "Choisy-le-Roi",
    "vu": "2026-10-08",
-   "_id": "choisy-le-roi-franchot-770"
+   "_id": "choisy-le-roi-franchot-770",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "Adresse non publiée",
@@ -664,7 +742,10 @@
    "url": "https://www.pap.fr/annonces/bureaux-clamart-r450900862",
    "ville": "Clamart",
    "vu": "2026-10-06",
-   "_id": "clamart-batiment-470"
+   "_id": "clamart-batiment-470",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "",
@@ -684,7 +765,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-commercial-claye-souilly--42243408",
    "ville": "Claye-Souilly",
    "vu": "2026-10-08",
-   "_id": "claye-souilly-820"
+   "_id": "claye-souilly-820",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -704,7 +788,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/ensemble-immobilier-en-zone-commercial--40637053",
    "ville": "Coubron",
    "vu": "2026-10-06",
-   "_id": "coubron-ensemble-608"
+   "_id": "coubron-ensemble-608",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Surface en partie en étage : effectif accueilli limité par les dégagements. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "3 rue Pierre Curie",
@@ -739,7 +826,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42258793",
    "ville": "Courbevoie",
    "vu": "2026-10-06",
-   "_id": "courbevoie-pierre-curie-390"
+   "_id": "courbevoie-pierre-curie-390",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "56 boulevard de Courcerin",
@@ -767,7 +857,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42358960",
    "ville": "Croissy-Beaubourg",
    "vu": "2026-10-06",
-   "_id": "croissy-beaubourg-courcerin-251"
+   "_id": "croissy-beaubourg-courcerin-251",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "6 allée de l'Industrie",
@@ -795,7 +888,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-crosne-91560--42043711",
    "ville": "Crosne",
    "vu": "2026-10-06",
-   "_id": "crosne-industrie-570"
+   "_id": "crosne-industrie-570",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": null,
@@ -815,7 +911,10 @@
    "url": "https://www.paruvendu.fr/t/vente-local-commercial/1296004906A1KIIPVELCO",
    "ville": "Draveil",
    "vu": "2026-10-08",
-   "_id": "draveil-atelier-hangars-1160"
+   "_id": "draveil-atelier-hangars-1160",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "",
@@ -834,7 +933,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/immobilier-professionnel-a-vendre-ennery--42423840",
    "ville": "Ennery",
    "vu": "2026-10-08",
-   "_id": "ennery-985"
+   "_id": "ennery-985",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -854,7 +956,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-565-m2-a-vendre--42473505",
    "ville": "Éragny",
    "vu": "2026-10-06",
-   "_id": "eragny-commerce-564"
+   "_id": "eragny-commerce-564",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -875,7 +980,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-salle-de-reception-louee-eragny--41451285",
    "ville": "Éragny",
    "vu": "2026-10-06",
-   "_id": "eragny-reception"
+   "_id": "eragny-reception",
+   "typeV": "L",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Salle Type L existante : un usage cultuel régulier relève du type V (autorisation de travaux ERP et avis de la commission de sécurité). Vendu occupé ou en partie loué : disponibilité à vérifier.",
+   "archive": true,
+   "archiveMotif": "Vendue occupée avec un bail 3-6-9 signé en mars 2026 : indisponible pour un lieu de culte avant plusieurs années.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "",
@@ -894,7 +1005,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/les-essarts-le-roi-78-vente-entrepot-953-m2--41379096",
    "ville": "Les Essarts-le-Roi",
    "vu": "2026-10-08",
-   "_id": "essarts-le-roi-952"
+   "_id": "essarts-le-roi-952",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "6 rue Maryse Bastié",
@@ -922,7 +1036,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-independant-activites-bureaux-a--42452163",
    "ville": "Évry-Courcouronnes",
    "vu": "2026-10-06",
-   "_id": "evry-maryse-bastie-600"
+   "_id": "evry-maryse-bastie-600",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Zone commerciale et d'affaires, Ézanville (95460)",
@@ -942,7 +1059,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/pole-loisirs-a-vendre--42514583",
    "ville": "Ézanville",
    "vu": "2026-10-08",
-   "_id": "ezanville-pole-loisirs-3695"
+   "_id": "ezanville-pole-loisirs-3695",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "",
@@ -962,7 +1082,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-2000-m2-sur-6000-m2-de-terrain-a-vendre-a--40637245",
    "ville": "Faremoutiers",
    "vu": "2026-10-07",
-   "_id": "faremoutiers-entrepot-2000"
+   "_id": "faremoutiers-entrepot-2000",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "4 rue Henri de Toulouse-Lautrec",
@@ -990,7 +1113,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40575359",
    "ville": "Garges-lès-Gonesse",
    "vu": "2026-10-06",
-   "_id": "garges-toulouse-lautrec-690"
+   "_id": "garges-toulouse-lautrec-690",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "ZA du Bel Air (Gazeran), 78125",
@@ -1018,7 +1144,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-mixte-a-vendre-ou-a-louer--42022110",
    "ville": "Gazeran",
    "vu": "2026-10-08",
-   "_id": "gazeran-ex-ebp-1720"
+   "_id": "gazeran-ex-ebp-1720",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "1 rue de la Ferme Saint-Simon, 95500 Gonesse",
@@ -1039,7 +1168,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-gonesse-95500--40763525",
    "ville": "Gonesse",
    "vu": "2026-10-08",
-   "_id": "gonesse-creche-842"
+   "_id": "gonesse-creche-842",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices. Vendu occupé ou en partie loué : disponibilité à vérifier.",
+   "archive": true,
+   "archiveMotif": "Vendue occupée par une crèche jusqu'en 2034 : placement locatif, indisponible pour un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "",
@@ -1066,7 +1201,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivite-avec-bureaux-de-950-m2--40305714",
    "ville": "Goussainville",
    "vu": "2026-10-08",
-   "_id": "goussainville-activite-950"
+   "_id": "goussainville-activite-950",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Zone industrielle (adresse non publiée)",
@@ -1086,7 +1224,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-a-vendre--40636963",
    "ville": "Goussainville",
    "vu": "2026-10-08",
-   "_id": "goussainville-erp-1060"
+   "_id": "goussainville-erp-1060",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -1105,7 +1246,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42381843",
    "ville": "Guyancourt",
    "vu": "2026-10-08",
-   "_id": "guyancourt-801"
+   "_id": "guyancourt-801",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -1133,7 +1277,10 @@
    "url": "https://www.paruvendu.fr/t/vente-local-commercial/1293564065A1KIIPVELCO",
    "ville": "Le Kremlin-Bicêtre",
    "vu": "2026-10-06",
-   "_id": "kremlin-bicetre-303"
+   "_id": "kremlin-bicetre-303",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire."
   },
   {
    "adresse": "",
@@ -1153,7 +1300,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/activite-bureaux-a-vendre-ou-a-louer--39178364",
    "ville": "Le Mesnil-Amelot",
    "vu": "2026-10-08",
-   "_id": "le-mesnil-amelot-activite-765"
+   "_id": "le-mesnil-amelot-activite-765",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "Centre-ville, R+1",
@@ -1180,7 +1330,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-erp--42359451",
    "ville": "Les Lilas",
    "vu": "2026-10-06",
-   "_id": "les-lilas-erp5"
+   "_id": "les-lilas-erp5",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Surface en partie en étage : effectif accueilli limité par les dégagements. Stationnement sur place, utile lors des offices.",
+   "archive": true,
+   "archiveMotif": "Plateau en R+1 : jauge limitée par les escaliers, peu adapté à une assemblée de fidèles.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "Axe commerçant (adresse non publiée)",
@@ -1200,7 +1356,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/cabinet-medicale-de-250m2--42391212",
    "ville": "Livry-Gargan",
    "vu": "2026-10-06",
-   "_id": "livry-gargan-cabinet-250"
+   "_id": "livry-gargan-cabinet-250",
+   "typeV": "potentiel",
+   "profil": "associatif",
+   "analyseV": "Ancien cabinet médical de plain-pied, accessible PMR, sur axe commerçant : convient à une petite salle associative ou de prière après décloisonnement. ERP de type V non justifié ; changement de destination à instruire."
   },
   {
    "adresse": "Emplacement central (adresse non publiée)",
@@ -1228,7 +1387,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-966-m2-a-longjumeau--42243311",
    "ville": "Longjumeau",
    "vu": "2026-10-06",
-   "_id": "longjumeau-commerce-966"
+   "_id": "longjumeau-commerce-966",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "Avenue du Noyer de la Malice, ZAC de la Butte des Bergers",
@@ -1263,7 +1425,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-932m2--42390642",
    "ville": "Louvres",
    "vu": "2026-10-08",
-   "_id": "louvres-noyer-malice-932"
+   "_id": "louvres-noyer-malice-932",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "Maisons-Alfort (adresse non précisée), 94700",
@@ -1291,7 +1456,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--39345646",
    "ville": "Maisons-Alfort",
    "vu": "2026-10-08",
-   "_id": "maisons-alfort-1000"
+   "_id": "maisons-alfort-1000",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "4 rue des Perdrix",
@@ -1310,7 +1478,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-en-exclusivite-94520-mandres--39292420",
    "ville": "Mandres-les-Roses",
    "vu": "2026-10-08",
-   "_id": "mandres-les-roses-perdrix-1093"
+   "_id": "mandres-les-roses-perdrix-1093",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "8 rue de Bel Ebat, 91460 Marcoussis",
@@ -1330,7 +1501,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/rare-sur-le-territoire-paris-saclay-1-200-m2-a-ven--36973332",
    "ville": "Marcoussis",
    "vu": "2026-10-07",
-   "_id": "marcoussis-activites-1200"
+   "_id": "marcoussis-activites-1200",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "",
@@ -1350,7 +1524,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/marolles-en-brie-batiment-independant-de-850-m2-te--42513019",
    "ville": "Marolles-en-Brie",
    "vu": "2026-10-08",
-   "_id": "marolles-en-brie-batiment-850"
+   "_id": "marolles-en-brie-batiment-850",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "2 rue Thomas Edison, 77100 Meaux",
@@ -1385,7 +1562,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer-batiment-independant--40692573",
    "ville": "Meaux",
    "vu": "2026-10-08",
-   "_id": "meaux-thomas-edison-2300"
+   "_id": "meaux-thomas-edison-2300",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "Rue de l'Innovation, 77550 Moissy-Cramayel",
@@ -1420,7 +1600,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42419910",
    "ville": "Moissy-Cramayel",
    "vu": "2026-10-07",
-   "_id": "moissy-cramayel-innovation-839"
+   "_id": "moissy-cramayel-innovation-839",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Site isolé près de Montereau (adresse non publiée)",
@@ -1440,7 +1623,10 @@
    "url": "https://www.paruvendu.fr/t/vente-local-commercial/1293057732A1KIIPVELCO",
    "ville": "Montereau-Fault-Yonne",
    "vu": "2026-10-06",
-   "_id": "montereau-restaurant-reception-400"
+   "_id": "montereau-restaurant-reception-400",
+   "typeV": "L",
+   "profil": "salle",
+   "analyseV": "Classée « L » dans le radar d'origine, mais l'annonce laisse un doute (N ou L) : demander le procès-verbal de sécurité. Site isolé avec 200 places de parking, utile pour une assemblée ; très éloigné de Paris."
   },
   {
    "adresse": "Montgeron (adresse non précisée), 91230",
@@ -1475,7 +1661,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087828",
    "ville": "Montgeron",
    "vu": "2026-10-08",
-   "_id": "montgeron-lot-1202"
+   "_id": "montgeron-lot-1202",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -1502,7 +1691,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-a-montigny-le-bretonneux--40875758",
    "ville": "Montigny-le-Bretonneux",
    "vu": "2026-10-08",
-   "_id": "montigny-le-bretonneux-2039"
+   "_id": "montigny-le-bretonneux-2039",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "",
@@ -1521,7 +1713,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-ou-a-louer--42478864",
    "ville": "Montigny-le-Bretonneux",
    "vu": "2026-10-08",
-   "_id": "montigny-le-bretonneux-808"
+   "_id": "montigny-le-bretonneux-808",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Adresse non publiée (accès indépendant sur rue, cour)",
@@ -1556,7 +1751,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/petite-activite-avec-bureaux-daccompagnement--36225104",
    "ville": "Montreuil",
    "vu": "2026-10-06",
-   "_id": "montreuil-activite-erp5-413"
+   "_id": "montreuil-activite-erp5-413",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "18 rue Carnot",
@@ -1584,7 +1782,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-montreuil-93100--40709445",
    "ville": "Montreuil",
    "vu": "2026-10-06",
-   "_id": "montreuil-carnot-250"
+   "_id": "montreuil-carnot-250",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "avenue du Président Salvador Allende",
@@ -1612,7 +1813,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-montreuil-93100--39735366",
    "ville": "Montreuil",
    "vu": "2026-10-08",
-   "_id": "montreuil-mozinor-1080"
+   "_id": "montreuil-mozinor-1080",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "21 rue Poulin",
@@ -1647,7 +1851,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/loft-destination-mixte-possible--42243143",
    "ville": "Montreuil",
    "vu": "2026-10-06",
-   "_id": "montreuil-poulin-263"
+   "_id": "montreuil-poulin-263",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "31 rue du Progrès",
@@ -1689,7 +1896,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42400161",
    "ville": "Montreuil",
    "vu": "2026-10-06",
-   "_id": "montreuil-progres-570"
+   "_id": "montreuil-progres-570",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "261 rue de Paris",
@@ -1731,7 +1941,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/bureaux-au-pied-de-la-porte-de-montreuil--40608024",
    "ville": "Montreuil",
    "vu": "2026-10-06",
-   "_id": "montreuil-rue-de-paris-331"
+   "_id": "montreuil-rue-de-paris-331",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Surface en partie en étage : effectif accueilli limité par les dégagements.",
+   "archive": true,
+   "archiveMotif": "Plateau de bureaux au 1er étage d'un immeuble tertiaire : inadapté à un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "Secteur Fontainebleau, 77250 Moret-Loing-et-Orvanne",
@@ -1751,7 +1967,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-independant-a-vendre-secteur-fontainebleau-7--38364627",
    "ville": "Moret-Loing-et-Orvanne",
    "vu": "2026-10-07",
-   "_id": "moret-loing-fontainebleau-800"
+   "_id": "moret-loing-fontainebleau-800",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -1771,7 +1990,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41129499",
    "ville": "Mormant",
    "vu": "2026-10-07",
-   "_id": "mormant-activite-800"
+   "_id": "mormant-activite-800",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Adresse non publiée",
@@ -1806,7 +2028,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/ensemble-de-commerce-a-vendre--42137504",
    "ville": "Morsang-sur-Orge",
    "vu": "2026-10-06",
-   "_id": "morsang-ensemble-commerces-503"
+   "_id": "morsang-ensemble-commerces-503",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "131 voie de Compiègne",
@@ -1834,7 +2059,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivites-bureaux-situe-a-morsang--42452171",
    "ville": "Morsang-sur-Orge",
    "vu": "2026-10-06",
-   "_id": "morsang-voie-compiegne-270"
+   "_id": "morsang-voie-compiegne-270",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -1853,7 +2081,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-dactivite-et-terrai-a-vendre--40992445",
    "ville": "Les Mureaux",
    "vu": "2026-10-08",
-   "_id": "mureaux-activite-1000"
+   "_id": "mureaux-activite-1000",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "Nanterre (adresse non précisée), 92000",
@@ -1873,7 +2104,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-nanterre-92000--42422556",
    "ville": "Nanterre",
    "vu": "2026-10-08",
-   "_id": "nanterre-767"
+   "_id": "nanterre-767",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "1 rue du Centre (immeuble Le Fujy)",
@@ -1901,7 +2135,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42385782",
    "ville": "Noisy-le-Grand",
    "vu": "2026-10-06",
-   "_id": "noisy-le-grand-fujy-220"
+   "_id": "noisy-le-grand-fujy-220",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Surface en partie en étage : effectif accueilli limité par les dégagements. Copropriété ou logements proches : règlement et voisinage à vérifier.",
+   "archive": true,
+   "archiveMotif": "Plateau de bureaux au 1er étage, 220 m² : jauge et évacuation inadaptées à un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "",
@@ -1921,7 +2161,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivitesde-790m2--42449543",
    "ville": "Ollainville",
    "vu": "2026-10-08",
-   "_id": "ollainville-790"
+   "_id": "ollainville-790",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -1941,7 +2184,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-838m2--42243006",
    "ville": "Ollainville",
    "vu": "2026-10-08",
-   "_id": "ollainville-838"
+   "_id": "ollainville-838",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Zone commerciale, RN13",
@@ -1961,7 +2207,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre-dans-la-zone-commerciale--41968976",
    "ville": "Orgeval",
    "vu": "2026-10-06",
-   "_id": "orgeval-rn13-310"
+   "_id": "orgeval-rn13-310",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "avenue du Général Leclerc (selon la description)",
@@ -1981,7 +2230,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-entrepot--42389846",
    "ville": "Pantin",
    "vu": "2026-10-08",
-   "_id": "pantin-entrepot-1000"
+   "_id": "pantin-entrepot-1000",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "23 rue du Faubourg Saint-Denis",
@@ -2008,7 +2260,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-bureaux-300m2-a-proximite-de-la-gare-de-lest--38429792",
    "ville": "Paris 10e",
    "vu": "2026-10-06",
-   "_id": "paris10-fbg-st-denis"
+   "_id": "paris10-fbg-st-denis",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "119 avenue du Général Leclerc",
@@ -2043,7 +2298,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-erp-sur-cour--40828824",
    "ville": "Paris 14e",
    "vu": "2026-10-06",
-   "_id": "paris14-general-leclerc-285"
+   "_id": "paris14-general-leclerc-285",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Annoncé ERP sans type précisé : le passage au type V reste à instruire."
   },
   {
    "adresse": "rue de Vaugirard",
@@ -2078,7 +2336,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/bureaux-activites-299-m2-a-vendre-ou-a-louer--42439283",
    "ville": "Paris 15e",
    "vu": "2026-10-06",
-   "_id": "paris15-vaugirard-299"
+   "_id": "paris15-vaugirard-299",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "Adresse non publiée (Montmartre)",
@@ -2113,7 +2374,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-paris-75018--42422431",
    "ville": "Paris 18e",
    "vu": "2026-10-06",
-   "_id": "paris18-montmartre-252"
+   "_id": "paris18-montmartre-252",
+   "typeV": "potentiel",
+   "profil": "associatif",
+   "analyseV": "Destination réservée aux activités d'intérêt collectif : c'est la famille d'urbanisme où se rangent les lieux de culte, ce qui peut éviter un changement de destination (à confirmer en mairie). Seulement 98 m² en rez-de-chaussée : petite salle de prière ou local associatif, pas une grande assemblée."
   },
   {
    "adresse": "Adresse non publiée (Corentin Cariou / Crimée)",
@@ -2155,7 +2419,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-paris-75019--42359284",
    "ville": "Paris 19e",
    "vu": "2026-10-06",
-   "_id": "paris19-villette-367"
+   "_id": "paris19-villette-367",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "Adresse non publiée",
@@ -2175,7 +2442,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ancienne-salle-de-spectacles-a-renover-pa--37688761",
    "ville": "Paris 7e",
    "vu": "2026-10-06",
-   "_id": "paris7-ancienne-salle-de-spectacles-430"
+   "_id": "paris7-ancienne-salle-de-spectacles-430",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Ancienne salle de spectacles de 430 m² de plain-pied avec volume d'origine : configuration d'assemblée proche d'un lieu de culte, mais classement ERP caduc (fermée depuis 1986) et prix très élevé (10 465 €/m²)."
   },
   {
    "adresse": "",
@@ -2210,7 +2480,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-persan-95340--40671559",
    "ville": "Persan",
    "vu": "2026-10-07",
-   "_id": "persan-activite-1290"
+   "_id": "persan-activite-1290",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "rue Honoré d'Estienne d'Orves",
@@ -2238,7 +2511,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/atelier-idealement-situe-a-proximite-des-axes-rout--42494977",
    "ville": "Le Pré-Saint-Gervais",
    "vu": "2026-10-06",
-   "_id": "pre-saint-gervais-atelier-244"
+   "_id": "pre-saint-gervais-atelier-244",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles.",
+   "archive": true,
+   "archiveMotif": "126 m² seulement en rez-de-chaussée (le reste en sous-sol) : jauge trop faible pour un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "",
@@ -2265,7 +2544,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-de-1147m2--42243032",
    "ville": "Pringy",
    "vu": "2026-10-08",
-   "_id": "pringy-1147"
+   "_id": "pringy-1147",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -2285,7 +2567,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/emplacement-n1-de-1164m2--42420601",
    "ville": "Pringy",
    "vu": "2026-10-08",
-   "_id": "pringy-n1-1164"
+   "_id": "pringy-n1-1164",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "rue Pitois",
@@ -2320,7 +2605,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-commerciaux--42456584",
    "ville": "Puteaux",
    "vu": "2026-10-06",
-   "_id": "puteaux-pitois-861"
+   "_id": "puteaux-pitois-861",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "Rambouillet (adresse non communiquée)",
@@ -2341,7 +2629,10 @@
    "url": "https://www.paruvendu.fr/t/vente-local-commercial/1292209823A1KIIPVELCO",
    "ville": "Rambouillet",
    "vu": "2026-10-07",
-   "_id": "rambouillet-reception-950"
+   "_id": "rambouillet-reception-950",
+   "typeV": "L",
+   "profil": "salle",
+   "analyseV": "Salle Type L existante : salle de réception exploitée avec avis favorable de la commission de sécurité, grande jauge et grand parking. Probablement une cession de fonds avec bail (loyer annoncé) : vérifier que les murs sont vendus avant toute démarche. Usage cultuel = type V à instruire."
   },
   {
    "adresse": "12-32 rue Jules Ferry",
@@ -2383,7 +2674,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/bureaux-renoves-et-climatises--39962563",
    "ville": "Rosny-sous-Bois",
    "vu": "2026-10-06",
-   "_id": "rosny-jules-ferry-255"
+   "_id": "rosny-jules-ferry-255",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Surface en partie en étage : effectif accueilli limité par les dégagements.",
+   "archive": true,
+   "archiveMotif": "Plateau au 2e étage d'un immeuble de bureaux : inadapté à un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "5 rue de Rome",
@@ -2425,7 +2722,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur--42385787",
    "ville": "Rosny-sous-Bois",
    "vu": "2026-10-06",
-   "_id": "rosny-rue-de-rome-257"
+   "_id": "rosny-rue-de-rome-257",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "Adresse non publiée (proche métro / RER)",
@@ -2445,7 +2745,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--42389821",
    "ville": "Saint-Denis",
    "vu": "2026-10-06",
-   "_id": "saint-denis-angle-500"
+   "_id": "saint-denis-angle-500",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "119 rue Gabriel Péri, 93200 Saint-Denis",
@@ -2480,7 +2783,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40692209",
    "ville": "Saint-Denis",
    "vu": "2026-10-08",
-   "_id": "saint-denis-gabriel-peri-724"
+   "_id": "saint-denis-gabriel-peri-724",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Stationnement sur place, utile lors des offices. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "Adresse non publiée",
@@ -2522,7 +2828,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--42389677",
    "ville": "Saint-Denis",
    "vu": "2026-10-06",
-   "_id": "saint-denis-independant-247"
+   "_id": "saint-denis-independant-247",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "",
@@ -2549,7 +2858,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-vendre-a-saint-germain-de-la-g--40709458",
    "ville": "Saint-Germain-de-la-Grange",
    "vu": "2026-10-08",
-   "_id": "saint-germain-de-la-grange-1366"
+   "_id": "saint-germain-de-la-grange-1366",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "boulevard de Créteil",
@@ -2583,7 +2895,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-saint-maur-des-fosses-94100--36368929",
    "ville": "Saint-Maur-des-Fossés",
    "vu": "2026-10-06",
-   "_id": "saint-maur-bd-creteil-344"
+   "_id": "saint-maur-bd-creteil-344",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "10 avenue des Lacs",
@@ -2618,7 +2933,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-500m2--40636451",
    "ville": "Saint-Maur-des-Fossés",
    "vu": "2026-10-06",
-   "_id": "saint-maur-lacs-500"
+   "_id": "saint-maur-lacs-500",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "",
@@ -2638,7 +2956,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/batiment-de-1040m2-occupe-avec-600m2-de-cour-priva--42456778",
    "ville": "Saint-Ouen-l'Aumône",
    "vu": "2026-10-08",
-   "_id": "saint-ouen-l-aumone-1040-occupe"
+   "_id": "saint-ouen-l-aumone-1040-occupe",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices. Vendu occupé ou en partie loué : disponibilité à vérifier.",
+   "archive": true,
+   "archiveMotif": "Vendue occupée : investissement locatif, indisponible pour un lieu de culte.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "",
@@ -2658,7 +2982,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--42087831",
    "ville": "Saint-Pierre-du-Perray",
    "vu": "2026-10-08",
-   "_id": "saint-pierre-du-perray-928"
+   "_id": "saint-pierre-du-perray-928",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "",
@@ -2678,7 +3005,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-bureaux-de-1000-m2-a-vendre-a-santeny--40636932",
    "ville": "Santeny",
    "vu": "2026-10-07",
-   "_id": "santeny-entrepot-1200"
+   "_id": "santeny-entrepot-1200",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -2706,7 +3036,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-de-1121m2--42081670",
    "ville": "Sarcelles",
    "vu": "2026-10-08",
-   "_id": "sarcelles-1121"
+   "_id": "sarcelles-1121",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "29 avenue Jules Vallès, 77176",
@@ -2734,7 +3067,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/immeuble-independant-de-bureaux-proche-gare-a-vend--41755862",
    "ville": "Savigny-le-Temple",
    "vu": "2026-10-08",
-   "_id": "savigny-le-temple-jules-valles-884"
+   "_id": "savigny-le-temple-jules-valles-884",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": null,
@@ -2770,7 +3106,13 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-de-murs-occupes--42318597",
    "ville": "Savigny-le-Temple",
    "vu": "2026-10-08",
-   "_id": "savigny-le-temple-murs-occupes-940"
+   "_id": "savigny-le-temple-murs-occupes-940",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Vendu occupé ou en partie loué : disponibilité à vérifier.",
+   "archive": true,
+   "archiveMotif": "Murs vendus occupés : indisponibles pour un lieu de culte tant que le bail court.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "",
@@ -2804,7 +3146,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-serris-77700--42079423",
    "ville": "Serris",
    "vu": "2026-10-08",
-   "_id": "serris-792"
+   "_id": "serris-792",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "2 avenue Johannes Gutenberg, 77700",
@@ -2832,7 +3177,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41405740",
    "ville": "Serris",
    "vu": "2026-10-08",
-   "_id": "serris-gutenberg-1042"
+   "_id": "serris-gutenberg-1042",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "78 avenue du Château",
@@ -2867,7 +3215,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivites-dans-petite-compropriete--41383970",
    "ville": "Saint-Ouen-l'Aumône",
    "vu": "2026-10-06",
-   "_id": "st-ouen-l-aumone-chateau-265"
+   "_id": "st-ouen-l-aumone-chateau-265",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "rue Gaston Philippe",
@@ -2894,7 +3245,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-saint-denis-93200--40834808",
    "ville": "Saint-Denis",
    "vu": "2026-10-06",
-   "_id": "stdenis-gaston-philippe"
+   "_id": "stdenis-gaston-philippe",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles."
   },
   {
    "adresse": "9-11 avenue Michelet",
@@ -2935,7 +3289,13 @@
    "url": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/seine-saint-denis-93/vente-bureaux",
    "ville": "Saint-Ouen-sur-Seine",
    "vu": "2026-10-06",
-   "_id": "stouen-michelet"
+   "_id": "stouen-michelet",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Surface en partie en étage : effectif accueilli limité par les dégagements. Copropriété ou logements proches : règlement et voisinage à vérifier.",
+   "archive": true,
+   "archiveMotif": "Plateau de bureaux en étage, non ERP : accueil du public peu plausible.",
+   "archiveDate": "2026-11-09"
   },
   {
    "adresse": "4 ter rue Diderot",
@@ -2976,7 +3336,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/centre-ville--41212928",
    "ville": "Suresnes",
    "vu": "2026-10-06",
-   "_id": "suresnes-diderot-250"
+   "_id": "suresnes-diderot-250",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Copropriété ou logements proches : règlement et voisinage à vérifier."
   },
   {
    "adresse": "",
@@ -2996,7 +3359,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivite-a-vendre--41269540",
    "ville": "Thorigny-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "thorigny-sur-marne-1310"
+   "_id": "thorigny-sur-marne-1310",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "",
@@ -3023,7 +3389,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivites-a-louer-ou-a-vendre-a-trappes-ac--42243589",
    "ville": "Trappes",
    "vu": "2026-10-08",
-   "_id": "trappes-1183"
+   "_id": "trappes-1183",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "3 rue Johannes Kepler, 78190",
@@ -3058,7 +3427,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-entrepot-a-vendre--41893029",
    "ville": "Trappes",
    "vu": "2026-10-08",
-   "_id": "trappes-kepler-1344"
+   "_id": "trappes-kepler-1344",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Secteur ouest de Versailles",
@@ -3079,7 +3451,10 @@
    "url": "https://www.paruvendu.fr/t/vente-commerces/1295655948A1KIRCCO000",
    "ville": "Versailles",
    "vu": "2026-10-07",
-   "_id": "versailles-reception-1000"
+   "_id": "versailles-reception-1000",
+   "typeV": "L",
+   "profil": "salle",
+   "analyseV": "Salle Type L existante : salle de réception de 500 couverts rénovée en 2018. Loyer et bail cités : très probablement une cession de fonds et non les murs, à vérifier. Usage cultuel = type V à instruire."
   },
   {
    "adresse": "Villiers-sur-Marne (94350), adresse non communiquée",
@@ -3107,7 +3482,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/local-dactivites-a-vendre--42497098",
    "ville": "Villiers-sur-Marne",
    "vu": "2026-10-08",
-   "_id": "villiers-sur-marne-955"
+   "_id": "villiers-sur-marne-955",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "Immeuble de standing, terrasse privative",
@@ -3134,7 +3512,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-erp-situes-a-proximite-des-transports--40991452",
    "ville": "Vincennes",
    "vu": "2026-10-06",
-   "_id": "vincennes-consultim"
+   "_id": "vincennes-consultim",
+   "typeV": "L",
+   "profil": "salle",
+   "analyseV": "Salle Type L existante (ERP 5e catégorie, types M et L cités par l'annonce). Un usage cultuel régulier relève du type V : autorisation de travaux ERP et avis de la commission de sécurité à prévoir. Copropriété à consulter."
   },
   {
    "adresse": "RDC sur rue",
@@ -3153,7 +3534,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-erp-ideal-creche-ou-activite-medicale--41338478",
    "ville": "Vincennes",
    "vu": "2026-10-06",
-   "_id": "vincennes-evolis"
+   "_id": "vincennes-evolis",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Même bien que l'annonce Consult'Im (Salle Type L existante) proposé par une autre agence ; ERP 5e catégorie en rez-de-chaussée. Type V non justifié."
   },
   {
    "adresse": "Adresse non publiée",
@@ -3173,7 +3557,10 @@
    "url": "https://www.paruvendu.fr/t/vente-local-commercial/1296005551A1KIIPVELCO",
    "ville": "Vitry-sur-Seine",
    "vu": "2026-10-06",
-   "_id": "vitry-ancien-lieu-de-culte-1103"
+   "_id": "vitry-ancien-lieu-de-culte-1103",
+   "typeV": "potentiel",
+   "profil": "ancien_religieux",
+   "analyseV": "Ancien lieu de culte annoncé ERP, 1 103 m² de plain-pied : l'usage cultuel antérieur est un argument fort, mais le type V n'est pas cité par l'annonce et l'ancien classement peut être caduc. Demander le dernier procès-verbal de la commission de sécurité, l'effectif autorisé et la destination d'urbanisme. Hauteur de 3 m."
   },
   {
    "adresse": "Plateau / Parc des Lilas, près RN7",
@@ -3192,7 +3579,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/grand-espace-polyvalent-avec-acces-vehicules-vitry--40708906",
    "ville": "Vitry-sur-Seine",
    "vu": "2026-10-06",
-   "_id": "vitry-plateau-lilas"
+   "_id": "vitry-plateau-lilas",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Stationnement sur place, utile lors des offices."
   },
   {
    "adresse": "212 rue Edouard Tremblay",
@@ -3211,7 +3601,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/entrepot-logistique-a-vendre--40811808",
    "ville": "Vitry-sur-Seine",
    "vu": "2026-10-08",
-   "_id": "vitry-tremblay-980"
+   "_id": "vitry-tremblay-980",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "adresse": "",
@@ -3238,7 +3631,10 @@
    "url": "https://www.bureauxlocaux.com/annonce/locaux-dactivite-a-vendre-ou-a-louer-a-voisins-le--42439678",
    "ville": "Voisins-le-Bretonneux",
    "vu": "2026-10-08",
-   "_id": "voisins-le-bretonneux-1850"
+   "_id": "voisins-le-bretonneux-1850",
+   "typeV": "potentiel",
+   "profil": "transformation",
+   "analyseV": "Local à transformer : aucun usage cultuel n'est cité par l'annonce. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "_id": "sartrouville-restaurant-529",
@@ -3259,7 +3655,10 @@
    "occupe": true,
    "notes": "Murs et fonds vendus ensemble, avec salle d'environ 300 m², sous-sol d'environ 250 m² et 14 places privatives : l'annonce cite elle-même réception, banquets, séminaires et événements. Prix 2 722 €/m² (surface cotée 529 m², l'annonce parle de 635 m² avec l'appartement de fonction de 85 m²). À vérifier : type et catégorie ERP, licence, personnel à reprendre, adresse exacte non publiée.",
    "ajoute": 1791534911987,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices. Vendu occupé ou en partie loué : disponibilité à vérifier."
   },
   {
    "_id": "champs-sur-marne-amphitheatre-665",
@@ -3287,7 +3686,10 @@
    "statut": "en_vente",
    "notes": "Amphithéâtre de 120 places en rez-de-chaussée avec 18 places de parking : configuration proche d'une salle de conférence ou de formation (type R ou L à confirmer). Prix 1 825 €/m² ; l'agence indique 1 364 825 € HT avec parkings, hors frais. Même bien que l'annonce Evolis (champs-sur-marne-erpable-amphi-665) : deux agences, deux prix affichés.",
    "ajoute": 1791534911987,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Annoncé ERP sans type précisé : le passage au type V reste à instruire. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "_id": "champs-sur-marne-erpable-amphi-665",
@@ -3322,7 +3724,10 @@
    "statut": "en_vente",
    "notes": "Même bien que l'annonce Sergic (champs-sur-marne-amphitheatre-665), publié par une autre agence : gardé comme annonce distincte. Ici l'annonce parle de bureaux « ERPable » : classement ERP à confirmer. Taxe foncière provisionnée à 15 740 € HT/an (Hall 21) et 13 855 € HT/an (Hall 19).",
    "ajoute": 1791534911987,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "_id": "villeneuve-le-comte-reception-790",
@@ -3342,7 +3747,10 @@
    "statut": "en_vente",
    "notes": "Usage de réception déjà en place (2 salles et restaurant), proche de l'A104, l'A4 et l'A140. Prix 1 519 €/m². À vérifier : classement et catégorie ERP, capacité, exploitation en cours, adresse (non publiée), hauteur de 3 m limitante pour un spectacle.",
    "ajoute": 1791534911987,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "_id": "noisy-le-grand-lieu-de-culte-571",
@@ -3362,7 +3770,10 @@
    "statut": "en_vente",
    "notes": "Vente en état futur d'achèvement, aménagement libre (salle principale, annexes, accueil) : un lieu de culte relève plutôt du type V, mais le volume peut convenir à un rassemblement. Prix 3 415 €/m² TTC honoraires inclus. Vigilance : livraison février 2027, aménagement et mise aux normes à financer, adresse non publiée.",
    "ajoute": 1791534911987,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "culte_existant",
+   "analyseV": "Local explicitement destiné à un lieu de culte par l'annonce : le profil le plus direct du radar. Vendu en VEFA (livraison prévue en février 2027), brut de béton : l'aménagement peut être conçu dès le départ aux normes du type V (dégagements, effectif, accessibilité). Classement type V non justifié à ce jour : demander la destination prévue au permis et le règlement de copropriété."
   },
   {
    "_id": "gometz-la-ville-reception-390",
@@ -3382,7 +3793,10 @@
    "statut": "en_vente",
    "notes": "Prix bas : 1 250 €/m² (l'annonce indique 1 000 €/m² HT hors frais) pour une activité de salle de réception ou événementielle citée par l'agence. Locaux actuellement stockage et bureaux : mise en ERP, accès et PLU à vérifier ; secteur pavillonnaire, desserte surtout routière (N118).",
    "ajoute": 1791534911987,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "_id": "saint-denis-reception-2076",
@@ -3401,7 +3815,10 @@
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40636941. L'annonce décrit : Rez-de-chaussée – 1 027 m² : plusieurs salles, cuisine, réserve, salle de restaurant, grande salle de réception et entrepôt de stockage. Prix de 1 782 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791558976188,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Plain-pied ou rez-de-chaussée : atout pour l'accueil et l'évacuation des fidèles. Stationnement sur place, utile lors des offices."
   },
   {
    "_id": "savigny-le-temple-reception-3080",
@@ -3420,7 +3837,10 @@
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40637230. L'annonce décrit : À l'étage, salle des fêtes entièrement aménagée anciennement occupée par une association évangélique. Prix de 584 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791558976188,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "ancien_religieux",
+   "analyseV": "L'annonce indique une salle des fêtes à l'étage anciennement occupée par une association évangélique : usage cultuel antérieur, mais salle en étage (évacuation et jauge à vérifier). 3 080 m² à 584 €/m² : très grande emprise, prix bas. Classement ERP non précisé."
   },
   {
    "_id": "creteil-reception-519",
@@ -3439,7 +3859,10 @@
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 41951994. L'annonce évoque seulement comme possibilité : Un bien polyvalent et stratégique Parfait pour des activités de showroom automobile ou industriel, un espace logistique, un atelier haut de gamme ou encore un lieu de réception ou de création. Prix de 1 734 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791558976188,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   },
   {
    "_id": "saint-denis-reception-2192",
@@ -3458,7 +3881,10 @@
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 40837587. L'annonce évoque seulement comme possibilité : Toutes activités possibles : restauration, salle de sport, centre de formation, salle de réception, commerce de grande surface, showroom, stockage, etc. Prix de 1 596 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791558976188,
-   "vu": "2026-10-09"
+   "vu": "2026-10-09",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir. Stationnement sur place, utile lors des offices."
   },
   {
    "_id": "ozoir-la-ferriere-restaurant-657",
@@ -3477,7 +3903,10 @@
    "statut": "en_vente",
    "notes": "Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° 42243390. L'annonce décrit : Il dispose d'un restaurant de 90 couverts répartis sur plusieurs salles, d'une cuisine entièrement équipée et de sanitaires doubles. Prix de 2 085 €/m². ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.",
    "ajoute": 1791868497560,
-   "vu": "2026-10-13"
+   "vu": "2026-10-13",
+   "typeV": "potentiel",
+   "profil": "salle",
+   "analyseV": "Salle recevant déjà du public : configuration d'assemblée, réutilisable pour un culte après instruction ERP type V. Aucun classement ERP justifié : changement de destination (PLU), autorisation de travaux ERP et commission de sécurité à prévoir."
   }
  ]
 }

@@ -6,19 +6,21 @@ avec les domaines immobiliers), tous les jours à 6 h 55 (Europe/Paris), connect
 
 ---
 
-Tu exécutes la veille immobilière quotidienne du site « Radar ERP Type L » (dépôt GitHub moussandiaye1987/RADAR-immobilier-ACS, publié sur Netlify depuis main). Travaille en français. Tu es seul : ne pose pas de question, signale les doutes dans le bilan.
+Tu exécutes la veille immobilière quotidienne du site « Radar ERP Type V — Île-de-France » (recherche de locaux pouvant accueillir un lieu de culte) (dépôt GitHub moussandiaye1987/RADAR-immobilier-ACS, publié sur Netlify depuis main). Travaille en français. Tu es seul : ne pose pas de question, signale les doutes dans le bilan.
 
 PHASE DE TEST : tu prépares une Pull Request et tu ne fusionnes JAMAIS rien. Ne pousse jamais sur main.
 
 1. Dépôt
-- `git fetch origin`. Si `veille/CONSIGNES.md` existe sur origin/main, la base est `main`. Sinon (outillage pas encore fusionné), la base est `claude/intelligent-tesla-11l0n8`.
+- `git fetch origin`. La base est `main`.
 - Crée la branche `veille/AAAA-MM-JJ` (date de Paris) depuis origin/<base>. Si la poussée de ce nom de branche est refusée, utilise la branche de travail attribuée à ta session.
 
 2. Lis intégralement `veille/CONSIGNES.md` et `veille/sources.json`, puis applique-les à la lettre. Points non négociables :
 - 8 départements : 75, 77, 78, 91, 92, 93, 94, 95.
 - Aucune annonce existante supprimée ni passée en « vendu » ; les liens morts, redirigés ou non vérifiables sont seulement signalés, avec une décision proposée.
 - Chaque nouvelle annonce est ouverte et vérifiée (prix, surface, commune, ERP, date, lien) et dédoublonnée ; rien d'inventé.
-- `erp: "L"` seulement avec un justificatif écrit dans `erpSource`.
+- Priorité aux lieux de culte existants, anciens bâtiments religieux, locaux associatifs, puis salles recevant du public et grands locaux à transformer.
+- `typeV: "V"` (Type V confirmé) seulement avec un justificatif écrit dans `typeVSource` ; sinon `potentiel` (ou `L` si `erp: "L"` justifié dans `erpSource`). Chaque annonce ajoutée a un `profil`.
+- Aucune annonce archivée, désarchivée ou dont le `typeV` change sans décision du propriétaire.
 - Ne contourne aucune protection anti-robots (PAP, SeLoger, Leboncoin, Logic-Immo).
 - Le code de index.html ne change pas : seule la copie des données est resynchronisée avec `python3 scripts/sync_index.py`.
 

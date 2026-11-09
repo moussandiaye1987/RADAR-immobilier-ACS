@@ -10,7 +10,12 @@ const path = require('path');
 
 const racine = path.resolve(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(racine, 'annonces.json'), 'utf8'));
-const visibles = data.rows.filter(r => r.statut !== 'vendu');
+const STATUTS_V = { V: 'Type V confirmé', potentiel: 'Potentiel Type V — à vérifier', L: 'Salle Type L existante' };
+const PROFILS = { culte_existant: 'Lieu de culte existant', ancien_religieux: 'Ancien bâtiment religieux', associatif: 'Local associatif', salle: 'Salle recevant du public', transformation: 'Local à transformer' };
+const tv = r => (r.typeV in STATUTS_V ? r.typeV : 'potentiel');
+const enVente = data.rows.filter(r => r.statut !== 'vendu');
+const archivees = enVente.filter(r => r.archive);
+const visibles = enVente.filter(r => !r.archive);   // les annonces archivées sont masquées par défaut
 const DEFAUT = { bMin: 300000, bMax: 2000000, sMin: 250 };
 const parDefaut = visibles.filter(r =>
   (r.prix == null || (r.prix >= DEFAUT.bMin && r.prix <= DEFAUT.bMax)) && (r.surface || 0) >= DEFAUT.sMin);
@@ -43,6 +48,8 @@ async function lancer(executablePath) {
     const compte = async () => Number((await page.textContent('#kCount')).trim());
     const puce = (zone, texte) => page.locator(`#${zone} button`, { hasText: texte }).first();
 
+    verifier('titre de la page', await page.title(), 'Radar ERP Type V — Île-de-France');
+    verifier('titre principal', (await page.textContent('h1')).trim(), 'Radar ERP Type V — Île-de-France');
     verifier('bandeau', (await page.textContent('#snap')).trim(), `Données relevées le ${data.date} (${data.rows.length} annonces).`);
     verifier('annonces affichées (filtres par défaut)', await compte(), parDefaut.length);
     verifier('fiches affichées (filtres par défaut)', await page.locator('#list article.card').count(), parDefaut.length);
@@ -63,15 +70,28 @@ async function lancer(executablePath) {
       verifier(`filtre transport ${m}`, await compte(), visibles.filter(r => (r.transports || []).some(t => t.mode === m)).length);
       await puce('modeChips', m).click();
     }
-    for (const [cle, libelle, cls] of [['L', 'Type L confirmé', 'l'], ['ERP', 'ERP déclaré', 'erp'], ['verifier', 'ERP à vérifier', 'chk']]) {
+    for (const [cle, libelle, cls] of [['V', STATUTS_V.V, 'v'], ['potentiel', STATUTS_V.potentiel, 'chk'], ['L', STATUTS_V.L, 'lx']]) {
       await puce('erpChips', libelle).click();
-      verifier(`filtre statut ERP « ${libelle} »`, await compte(), visibles.filter(r => r.erp === cle).length);
+      verifier(`filtre statut « ${libelle} »`, await compte(), visibles.filter(r => tv(r) === cle).length);
       // Chaque fiche du filtre affiche l'étiquette exacte de son statut.
       verifier(`étiquette « ${libelle} » affichée sur chaque fiche`,
-        await page.locator(`#list article.card .tag.${cls}`).filter({ hasText: new RegExp(`^${libelle}$`) }).count(), visibles.filter(r => r.erp === cle).length);
+        await page.locator(`#list article.card .tag.${cls}`).filter({ hasText: new RegExp(`^${libelle}$`) }).count(), visibles.filter(r => tv(r) === cle).length);
       await puce('erpChips', libelle).click();
     }
-    verifier('statuts ERP des données reconnus', visibles.filter(r => !['L', 'ERP', 'verifier'].includes(r.erp)).length, 0);
+    verifier('KPI « Type V confirmé »', await page.textContent('#kL'), visibles.filter(r => tv(r) === 'V').length);
+    verifier('KPI « lieux de culte existants ou anciens »', await page.textContent('#kCulte'), visibles.filter(r => ['culte_existant', 'ancien_religieux'].includes(r.profil)).length);
+    verifier('statuts Type V des données reconnus', data.rows.filter(r => !(r.typeV in STATUTS_V)).length, 0);
+    verifier('aucun « Type V confirmé » sans justificatif', data.rows.filter(r => r.typeV === 'V' && !/[Tt]ypes?\s+(?:[A-Z]{1,2}\s*(?:,|et)\s*)*V\b|\bERP\s+V\b/.test(r.typeVSource || '')).length, 0);
+    for (const [cle, libelle] of Object.entries(PROFILS)) {
+      await puce('profChips', libelle).click();
+      verifier(`filtre profil « ${libelle} »`, await compte(), visibles.filter(r => (r.profil || 'transformation') === cle).length);
+      await puce('profChips', libelle).click();
+    }
+    await page.check('#showArchived');
+    verifier('annonces archivées affichées sur demande', await compte(), enVente.length);
+    verifier('étiquette « Archivée » sur chaque annonce archivée', await page.locator('#list article.card .tag.arc').count(), archivees.length);
+    await page.uncheck('#showArchived');
+    verifier('annonces archivées masquées par défaut', await compte(), visibles.length);
     await page.click('[data-park="sur_place"]');
     verifier('filtre parking sur place', await compte(), visibles.filter(r => r.parking === 'sur_place').length);
     await page.click('[data-park="near"]');
@@ -108,9 +128,14 @@ async function lancer(executablePath) {
     await puce('deptChips', '94').click(); await synchro('département 94');
     verifier('  … attendu (département 94)', await marqueurs(), parDefaut.filter(r => r.dept === '94').length);
     await puce('deptChips', '94').click();
-    await puce('erpChips', 'ERP à vérifier').click(); await synchro('statut ERP à vérifier');
-    verifier('  … attendu (ERP à vérifier)', await marqueurs(), parDefaut.filter(r => r.erp === 'verifier').length);
-    await puce('erpChips', 'ERP à vérifier').click();
+    await puce('erpChips', STATUTS_V.potentiel).click(); await synchro('statut Potentiel Type V');
+    verifier('  … attendu (Potentiel Type V)', await marqueurs(), parDefaut.filter(r => tv(r) === 'potentiel').length);
+    await puce('erpChips', STATUTS_V.potentiel).click();
+    await puce('profChips', PROFILS.salle).click(); await synchro('profil salle');
+    verifier('  … attendu (profil salle)', await marqueurs(), parDefaut.filter(r => r.profil === 'salle').length);
+    await puce('profChips', PROFILS.salle).click();
+    await page.check('#showArchived'); await synchro('annonces archivées incluses');
+    await page.uncheck('#showArchived');
     await page.$eval('#sMin', e => { e.value = 600; e.dispatchEvent(new Event('input', { bubbles: true })); }); await synchro('surface ≥ 600 m²');
     verifier('  … attendu (surface ≥ 600)', await marqueurs(), visibles.filter(r => (r.prix == null || (r.prix >= DEFAUT.bMin && r.prix <= DEFAUT.bMax)) && (r.surface || 0) >= 600).length);
     await page.fill('#bMax', '800000'); await synchro('budget max 800 000 €');
@@ -134,9 +159,10 @@ async function lancer(executablePath) {
     const ligne = data.rows.find(r => r.url === lien);
     verifier('fiche : lien de l\'annonce', Boolean(ligne), true);
     if (ligne) {
-      const libelle = { L: 'Type L confirmé', ERP: 'ERP déclaré', verifier: 'ERP à vérifier' }[ligne.erp];
+      const libelle = STATUTS_V[tv(ligne)];
       verifier('fiche : ville', texte.includes(ligne.ville), true);
-      verifier('fiche : statut ERP exact', texte.includes(libelle), true);
+      verifier('fiche : statut Type V exact', texte.includes(libelle), true);
+      verifier('fiche : profil du bien', texte.includes(PROFILS[ligne.profil || 'transformation']), true);
       verifier('fiche : surface', texte.replace(/\s/g, ' ').includes(`${ligne.surface} m²`), true);
       verifier('fiche : prix', ligne.prix == null ? texte.includes('Prix sur demande') : texte.replace(/[\s  ]/g, '').includes(String(ligne.prix).replace(/\B(?=(\d{3})+(?!\d))/g, '')) , true);
       verifier('fiche : position approximative signalée', texte.includes('Position approximative'), true);

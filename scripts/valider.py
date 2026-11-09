@@ -1,4 +1,4 @@
-"""Contrôle annonces.json et sa copie dans index.html.
+"""Contrôle annonces.json et sa copie dans index.html (Radar ERP Type V).
 
 Usage :
   python3 scripts/valider.py                    # contrôles du fichier seul
@@ -7,7 +7,11 @@ Usage :
 Avec --base, le script vérifie aussi que :
   - le code de index.html (hors données) est identique à la base ;
   - aucune annonce de la base n'a disparu ;
-  - aucune annonce n'est passée en « vendu » ou en « L » sans autorisation / justificatif.
+  - aucune annonce n'est passée en « vendu » ou en « L » sans autorisation / justificatif ;
+  - aucun statut Type V déjà publié n'est modifié sans autorisation, et « V » (Type V confirmé) exige une citation
+    écrite du type V dans « typeVSource ».
+Règles Type V vérifiées sur le fichier seul : `typeV` parmi V / potentiel / L, `profil` reconnu, « V » avec
+justificatif, « L » (Salle Type L existante) seulement si `erp` = « L », annonce archivée avec un motif.
 Les identifiants listés dans --autoriser (séparés par des virgules) peuvent être
 supprimés ou passés en « vendu » : réservé aux décisions explicites du propriétaire.
 
@@ -20,12 +24,13 @@ import subprocess
 import sys
 from collections import Counter
 
-from commun import ANNONCES, DEPTS, ERP, INDEX, MODES, PARKING, STATUTS, code_index, donnees_index
+from commun import (ANNONCES, DEPTS, ERP, INDEX, MODES, PARKING, PROFILS, STATUTS, TYPEV, V_EXPLICITE, code_index,
+                    donnees_index)
 
 CHAMPS = {
     "_id": str, "titre": str, "ville": str, "dept": str, "agence": str, "url": str,
     "notes": str, "erpDetail": str, "erp": str, "parking": str, "statut": str,
-    "surface": int, "ajoute": int, "vu": str, "transports": list,
+    "surface": int, "ajoute": int, "vu": str, "transports": list, "typeV": str, "profil": str,
 }
 
 
@@ -64,7 +69,7 @@ def main():
             erreurs.append(f"{ref} : « prix » doit être un entier ou null")
         if r.get("dept") not in DEPTS:
             erreurs.append(f"{ref} : département « {r.get('dept')} » hors Île-de-France")
-        for champ, valeurs in (("erp", ERP), ("parking", PARKING), ("statut", STATUTS)):
+        for champ, valeurs in (("erp", ERP), ("typeV", TYPEV), ("profil", PROFILS), ("parking", PARKING), ("statut", STATUTS)):
             if r.get(champ) not in valeurs:
                 erreurs.append(f"{ref} : {champ} « {r.get(champ)} » non reconnu par le site ({', '.join(valeurs)})")
         for t in r.get("transports") or []:
@@ -91,7 +96,21 @@ def main():
     # Type L : « L » exige une source écrite. Les annonces déjà publiées sans source sont signalées sans être modifiées.
     for r in rows:
         if r.get("erp") == "L" and not r.get("erpSource"):
-            alertes.append(f"{r.get('_id')} : classée « Type L confirmé » sans erpSource (statut conservé, à documenter)")
+            alertes.append(f"{r.get('_id')} : « Salle Type L existante » sans citation erpSource (statut hérité, à documenter)")
+
+    # Type V : « V » exige une citation écrite du type V ; « L » (Salle Type L existante) suit le classement ERP « L ».
+    for r in rows:
+        ref = r.get("_id")
+        if r.get("typeV") == "V" and not V_EXPLICITE.search(r.get("typeVSource") or ""):
+            erreurs.append(f"{ref} : « Type V confirmé » sans justificatif citant explicitement le type V (champ « typeVSource »)")
+        if r.get("typeV") == "L" and r.get("erp") != "L":
+            erreurs.append(f"{ref} : « Salle Type L existante » alors que le classement ERP n'est pas « L »")
+        if r.get("archive") is not None and not isinstance(r.get("archive"), bool):
+            erreurs.append(f"{ref} : « archive » doit valoir true ou false")
+        if r.get("archive") and not (isinstance(r.get("archiveMotif"), str) and r["archiveMotif"].strip()):
+            erreurs.append(f"{ref} : annonce archivée sans motif (« archiveMotif »)")
+        if r.get("analyseV") is not None and not isinstance(r.get("analyseV"), str):
+            erreurs.append(f"{ref} : « analyseV » doit être un texte")
 
     html = INDEX.read_text(encoding="utf-8")
     if donnees_index(html) != payload:
@@ -111,9 +130,15 @@ def main():
             if r["statut"] == "vendu" and avant.get("statut") != "vendu" and i not in autorises:
                 erreurs.append(f"{i} : passée en « vendu » (masquée du site) sans autorisation")
             if r["erp"] == "L" and avant.get("erp") != "L" and not r.get("erpSource"):
-                erreurs.append(f"{i} : classée « Type L confirmé » sans justificatif (champ « erpSource »)")
+                erreurs.append(f"{i} : classée « L » sans justificatif (champ « erpSource »)")
             if r["erp"] == "L" and avant.get("erp") != "L" and not re.search(r"[Tt]ypes?\s+(?:[A-Z]{1,2}\s*(?:,|et)\s*)*L\b|\bERP\s+L\b", r.get("erpSource") or ""):
                 erreurs.append(f"{i} : « erpSource » ne cite pas explicitement le type L")
+            if r.get("typeV") == "V" and avant.get("typeV") != "V" and i not in autorises and avant:
+                erreurs.append(f"{i} : passée en « Type V confirmé » : seule une décision du propriétaire le permet")
+            if avant.get("typeV") and r.get("typeV") != avant.get("typeV") and i not in autorises:
+                erreurs.append(f"{i} : statut Type V modifié ({avant.get('typeV')} → {r.get('typeV')}) : seule une décision du propriétaire le permet")
+            if avant and r.get("archive") and not avant.get("archive") and "typeV" in avant and i not in autorises:
+                erreurs.append(f"{i} : archivée sans autorisation")
             if avant and r["erp"] != avant.get("erp") and i not in autorises:
                 erreurs.append(f"{i} : statut ERP modifié ({avant.get('erp')} → {r['erp']}) : seule une décision du propriétaire le permet")
         nouvelles = len([i for i in actuels if i not in base])

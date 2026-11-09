@@ -1,4 +1,4 @@
-# Consignes de la veille quotidienne — Radar ERP Type L
+# Consignes de la veille quotidienne — Radar ERP Type V (lieux de culte)
 
 Ces consignes sont suivies à chaque exécution de la Routine Claude Code (tous les jours à 6 h 55, heure de Paris).
 Elles priment sur toute autre habitude. En cas de doute, **signaler dans le bilan plutôt que décider**.
@@ -13,15 +13,19 @@ Elles priment sur toute autre habitude. En cas de doute, **signaler dans le bila
 
 ## 1. Ce que l'on cherche
 
-Locaux **à vendre** en Île-de-France pouvant accueillir un **ERP de type L** : salles de réunion, de réception,
-de spectacle, d'événements, de séminaires, salles polyvalentes, lieux de culte, anciens cinémas/théâtres,
-restaurants ou discothèques à reconvertir, grands plateaux en rez-de-chaussée aménageables.
+Locaux **à vendre** en Île-de-France susceptibles d'accueillir une **activité cultuelle (ERP de type V)**, par priorité :
+
+1. **Lieux de culte existants** ou locaux destinés au culte (église, temple, mosquée, synagogue, salle de prière, association cultuelle) ;
+2. **Anciens bâtiments religieux** ou anciens usages cultuels (chapelle désaffectée, ancienne église, presbytère, couvent) ;
+3. **Locaux associatifs** et équipements d'intérêt collectif ;
+4. **Salles recevant déjà du public** (réception, fêtes, polyvalentes, spectacle, conférence) ;
+5. **Grands locaux à transformer** : plain-pied, grand volume, annoncés ERP ou ouverts au public.
 
 - Départements : 75, 77, 78, 91, 92, 93, 94, 95 (aucun autre).
-- Filtres par défaut du site : budget 300 000 € – 2 000 000 €, surface ≥ 250 m². Ces filtres sont **réglables**
-  par l'utilisateur : garder aussi les annonces pertinentes **hors de ces bornes** (jusqu'à ~6 M€, dès ~150 m²).
+- Filtres par défaut du site : budget 300 000 € – 2 000 000 €, surface ≥ 250 m². Ces filtres sont **réglables** :
+  garder aussi les annonces pertinentes **hors de ces bornes** (jusqu'à ~6 M€, dès ~150 m²).
 - Écarter : locations seules, cessions de fonds sans les murs, logements, terrains nus, biens hors Île-de-France,
-  plateaux de bureaux en étage sans accès public plausible.
+  plateaux de bureaux en étage, biens vendus occupés sans perspective de libération.
 
 ## 2. Sources (voir `veille/sources.json`)
 
@@ -61,28 +65,32 @@ Respecter exactement le format existant (voir une annonce récente) :
 | `ville`, `adresse`, `dept`, `agence`, `ref`, `url` | tels que publiés ; `adresse` vide si non publiée |
 | `prix` | entier en euros, `null` si « prix sur demande » |
 | `surface` | entier en m² |
-| `erp` | `L` **uniquement avec un justificatif** (voir ci-dessous) ; `ERP` si l'annonce déclare un ERP sans préciser le type ; sinon `verifier` |
+| `erp` | classement ERP cité par l'annonce : `L` **uniquement avec un justificatif** ; `ERP` si l'annonce déclare un ERP sans préciser le type ; sinon `verifier` |
+| `typeV` | `V` (**Type V confirmé**) **uniquement avec un justificatif écrit** dans `typeVSource` ; `L` (**Salle Type L existante**) seulement si `erp` = `L` ; sinon `potentiel` (**Potentiel Type V — à vérifier**) |
+| `typeVSource` | **obligatoire si `typeV` = `V`** : citation exacte de l'annonce ou du procès-verbal qui mentionne le type V, et son lien |
+| `profil` | `culte_existant`, `ancien_religieux`, `associatif`, `salle` ou `transformation` (voir § 1) |
 | `erpDetail` | ce que dit l'annonce : catégorie, capacité, type, PMR, hauteur sous plafond… |
 | `erpSource` | **obligatoire si `erp` = `L`** : citation exacte de l'annonce ou du document qui mentionne le type L, et son lien |
 | `parking` | `sur_place`, `proximite` ou `non_precise` |
 | `transports` | liste de `{mode, ligne, station, distance, confirme}` ; `mode` parmi Métro, RER, Tram, Transilien, Bus ; `distance` en mètres ou `null` ; `confirme: true` seulement si l'annonce le dit |
 | `statut` | `en_vente` (ou `sous_offre` si l'annonce l'indique) |
 | `occupe` | `true` si vendu occupé / bail en cours |
-| `notes` | 2 à 4 phrases : intérêt pour un ERP L, points de vigilance (travaux, PLU, copropriété, accessibilité), prix au m² |
+| `notes` | 2 à 4 phrases : intérêt pour un lieu de culte, points de vigilance (PLU et changement de destination, commission de sécurité, effectif, copropriété, stationnement, voisinage, accessibilité), prix au m² |
 | `nouveau` | `true` |
 | `ajoute` | horodatage en millisecondes de l'exécution |
 | `vu` | date du jour `AAAA-MM-JJ` |
 
 **Jamais** d'information inventée : ce qui n'est pas dans l'annonce reste vide, `null` ou « à vérifier ».
-Ne jamais présenter un classement **Type L comme confirmé sans justificatif** écrit.
+Ne jamais présenter un bien comme **Type V confirmé sans justificatif** écrit : un ancien lieu de culte, une salle
+de prière ou un « idéal lieu de culte » restent « Potentiel Type V — à vérifier ».
 
 Après ajout, mettre `"date"` du fichier à la date du jour (`JJ/MM/AAAA`). L'étiquette `nouveau` des annonces
 ajoutées lors des veilles précédentes est **retirée** quand elles ont plus de 7 jours (`vu` ancien).
 
 ## 5. Annonces existantes
 
-- **Ne jamais supprimer** une annonce, ni la passer en `vendu` (ce qui la masque du site), sans décision
-  explicite du propriétaire du radar.
+- **Ne jamais supprimer** une annonce, ni la passer en `vendu` ou l'archiver (`archive`), ni changer son `typeV`,
+  sans décision explicite du propriétaire du radar. Proposer ces décisions dans le bilan.
 - Lancer `python3 scripts/verifier_liens.py` : il met à jour `veille/etat_liens.json` (statut de chaque lien,
   date du premier échec consécutif) sans toucher à `annonces.json`.
 - Pour chaque lien `retiree`, `retiree_probable` ou `redirigee` : chercher si le bien est republié
@@ -96,7 +104,7 @@ ajoutées lors des veilles précédentes est **retirée** quand elles ont plus d
 
 ```bash
 python3 scripts/sync_index.py                          # recopie annonces.json dans index.html
-python3 scripts/valider.py --base origin/main          # JSON, champs, doublons, suppressions, Type L
+python3 scripts/valider.py --base origin/main          # JSON, champs, doublons, suppressions, Type V / Type L, archives
 NODE_PATH=$(npm root -g) node scripts/test_filtres.js  # page et filtres dans Chromium
 ```
 
@@ -117,7 +125,7 @@ En cas d'échec impossible à corriger : ouvrir quand même la PR, en **brouillo
 - Candidates restant à examiner : N (dont prioritaires N)
 
 ## Nouvelles annonces
-| _id | Commune (dept) | Surface | Prix | ERP | Lien | Pourquoi elle est retenue |
+| _id | Commune (dept) | Surface | Prix | Statut Type V | Profil | Lien | Pourquoi elle est retenue |
 
 ## Annonces actualisées
 | _id | Champ | Avant | Après | Vérifié sur |
