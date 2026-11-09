@@ -68,6 +68,7 @@ class Regles(unittest.TestCase):
 
     def test_faux_positifs_noms_de_lieux(self):
         for ville, desc in (("Savigny-le-Temple", "Local d'activités de 500 m² à Savigny-le-Temple."),
+                            ("Savigny-le-Temple", "Local d'activités de 500 m² à SAVIGNY LE TEMPLE, ZI."),
                             ("Pantin", "Local d'activités. Métro Église de Pantin (ligne 5)."),
                             ("Testville", "Entrepôt situé rue de l'Église, 500 m² de stockage."),
                             ("Testville", "Entrepôt à deux pas de l'église, stockage."),

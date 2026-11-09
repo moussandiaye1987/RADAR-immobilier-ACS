@@ -79,6 +79,7 @@ USAGES = {
 # Fragments à neutraliser avant la recherche : noms de communes, de rues, d'arrêts ou de repères.
 NEUTRES = re.compile(
     r"[\w'’]+(?:-[\w'’]+)*-(?:le|la|les|du|de|des|sur|en)-(?:temple|chapelle|[ée]glise)\b|\b(?:temple|chapelle)-[\w-]+|"
+    r"\b[\w'’]+\s+(?:le|la|du)\s+(?:temple|chapelle)\b|"
     r"\b(?:rue|place|avenue|bd|boulevard|all[ée]e|impasse|chemin|quartier|parvis|square|m[ée]tro|station|gare|arr[êe]t)\s+"
     r"(?:de\s+l['’]|du\s+|de\s+la\s+|des\s+)?[\w-]*\s*(?:[ée]glise|temple|chapelle|mosqu[ée]e|synagogue|abbaye|couvent)[\w-]*|"
     r"(?:face|pr[èe]s|proche|proximit[ée]|c[ôo]t[ée]|deux pas|derri[èe]re|devant|voisin(?:e|age)?)\s+"
@@ -406,7 +407,7 @@ def executer(candidats, payload, examinees, date_iso, max_ajouts, ts, max_transf
         else:
             retenues.append((c, infos))
     retenues.sort(key=lambda ci: (priorite(ci[1]), -ci[0].get("score", 0)))
-    transformations = 0
+    transformations, preuves = 0, {}
     for c, _ in retenues:
         verdict, infos = evaluer(c, rows + nouvelles, nouvelles)   # doublons avec les ajouts de cette exécution
         if verdict == "ambigue":
@@ -422,6 +423,7 @@ def executer(candidats, payload, examinees, date_iso, max_ajouts, ts, max_transf
         r["_id"] = identifiant(c, infos["profil"], ids | {n["_id"] for n in nouvelles})
         nouvelles.append(r)
         transformations += infos["profil"] == "transformation"
+        preuves[r["_id"]] = next((p for ps in infos["preuves"].values() for p in ps), "grand local ERP de plain-pied")[:160]
         examinees[numero_url(c["url"]) or c["numero"]] = {
             "date": date_iso, "decision": "retenue",
             "motif": f"ajout automatique par règles (profil {infos['profil']}, usage {infos['niveau']} ; statut : {r['typeV']})",
@@ -435,6 +437,7 @@ def executer(candidats, payload, examinees, date_iso, max_ajouts, ts, max_transf
             "ajoutees": [n["_id"] for n in nouvelles],
             "ajoutees_statut_type_v": {n["_id"]: n["typeV"] for n in nouvelles},
             "ajoutees_profil": {n["_id"]: n["profil"] for n in nouvelles},
+            "ajoutees_preuve": preuves,
             "reportees_plafond": reportees, "etiquette_nouveau_retiree": retires, "rejets_par_motif": rejets,
             "ambigues_non_publiees": ambigues[:200], "ambigues_total": len(ambigues)}
     return sortie, examinees, diag
@@ -488,6 +491,7 @@ def main():
           f"{diag['reportees_plafond']} reportée(s) (plafond)")
     for i in diag["ajoutees"]:
         print("  + ", i, f"[{diag['ajoutees_profil'][i]} · {diag['ajoutees_statut_type_v'][i]}]")
+        print("       « " + diag["ajoutees_preuve"][i] + " »")
     if args.simulation:
         print("Simulation : aucun fichier écrit.")
         return 0

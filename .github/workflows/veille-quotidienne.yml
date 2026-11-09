@@ -136,7 +136,8 @@ jobs:
         if: steps.garde.outputs.go == 'true'
         run: |
           set -euo pipefail
-          python3 scripts/valider.py --base origin/main
+          # Base = commit vérifié par cette exécution (sur main planifié : identique à origin/main).
+          python3 scripts/valider.py --base HEAD
           NODE_PATH=$(npm root -g) node scripts/test_filtres.js
 
       - name: Résumé
@@ -147,7 +148,7 @@ jobs:
             echo '```'
             tail -n 2 collecte.log 2>/dev/null || true
             head -n 1 liens.log 2>/dev/null || true
-            head -n 20 ajout.log 2>/dev/null || true
+            head -n 40 ajout.log 2>/dev/null || true
             echo '```'
             echo "Annonces ambiguës et motifs de refus : artefact « veille » (diagnostic.json)."
           } >> "$GITHUB_STEP_SUMMARY"
