@@ -1,4 +1,4 @@
-"""Outils partagés par les scripts de veille du Radar ERP Type L."""
+"""Outils partagés par les scripts de veille du Radar ERP Type V (lieux de culte)."""
 import json
 import re
 import subprocess
@@ -11,10 +11,12 @@ BALISE_DATA = re.compile(r'(<script id="data" type="application/json">)(.*?)(</s
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"
 
-# Valeurs reconnues par index.html (constantes DEPTS, MODES, ERP, PARK, STATUT).
+# Valeurs reconnues par index.html (constantes DEPTS, MODES, ERP, PROFIL, PARK, STATUT).
 DEPTS = ["75", "77", "78", "91", "92", "93", "94", "95"]
 MODES = ["Métro", "RER", "Tram", "Transilien", "Bus"]
-ERP = ["L", "ERP", "verifier"]
+# V = Type V confirmé (écrit dans l'annonce) · verifier = Potentiel Type V — à vérifier · L = Salle Type L existante.
+ERP = ["V", "verifier", "L"]
+PROFILS = ["culte", "associatif", "salle", "transformable"]
 PARKING = ["sur_place", "proximite", "non_precise"]
 STATUTS = ["en_vente", "sous_offre", "vendu"]
 

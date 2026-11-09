@@ -1,4 +1,4 @@
-"""Ajoute automatiquement à annonces.json les candidates BureauxLocaux suffisamment fiables.
+"""Ajoute automatiquement à annonces.json les candidates BureauxLocaux utiles à un projet de lieu de culte (ERP type V).
 
 Usage :
   python3 scripts/ajouter_candidats.py [--candidats veille/.candidats.json] [--max-ajouts 10]
@@ -8,20 +8,21 @@ Entrée : veille/.candidats.json, produit par scripts/collecter_bureauxlocaux.py
 Sorties (hors --simulation) : annonces.json et la copie de index.html (via commun.ecrire_annonces),
 veille/examinees.json (annonces ajoutées) et veille/diagnostic.json (trace des annonces ambiguës).
 
-Principes (aucun appel réseau, aucune IA : uniquement des règles) :
+Principes (aucun appel réseau, aucune IA : uniquement les règles de scripts/type_v.py) :
   - une candidate n'est ajoutée que si TOUS les critères « durs » sont remplis (en vente, 8 départements,
-    surface ≥ 150 m², prix connu ≤ 6 M€, commune, agence, lien https) ET si l'annonce présente un intérêt pour un ERP
-    de type L : usage de salle décrit (niveau « décrit »), usage de salle seulement évoqué comme possibilité
-    (niveau « évoqué ») ou type L explicitement écrit. Les niveaux « décrit » passent avant les niveaux « évoqués » ;
-  - l'incertitude sur le type L n'empêche PAS la publication : l'annonce est publiée « ERP à vérifier » ;
+    surface ≥ 150 m², prix connu ≤ 6 M€, commune, agence, lien https) ET si l'annonce présente un intérêt pour un
+    lieu de culte : lieu de culte ou bâtiment religieux, salle des fêtes / polyvalente / associative, salle recevant du
+    public, type V ou L écrit (niveau « décrit ») ; usage seulement évoqué comme possibilité ou destination d'intérêt
+    collectif / accueil du public (niveau « évoqué »). Les candidates passent par ordre de pertinence cultuelle
+    (lieu de culte d'abord), les niveaux « décrits » avant les « évoqués » ;
   - une candidate dont les DONNÉES sont ambiguës (doublon possible, cession de fonds, vente ou location, bien non
     livré, bureaux, prix incohérent, donnée manquante) n'est PAS ajoutée : elle est consignée dans veille/diagnostic.json ;
-  - statut ERP (champ `erp`, affiché par le site) : « verifier » = « ERP à vérifier » par défaut, y compris quand
-    l'annonce mentionne un ERP sans préciser le type ; « L » (« Type L confirmé ») UNIQUEMENT si une phrase de
-    l'annonce écrit explicitement « type L » sans réserve (citée mot pour mot dans `erpSource`) ; jamais « L » sur
-    une supposition, une possibilité ou une déduction du type de bien ;
+  - statut ERP (`erp`) : « verifier » = « Potentiel Type V — à vérifier » par défaut, y compris pour un lieu de culte
+    décrit ; « V » (« Type V confirmé ») UNIQUEMENT si une phrase écrit explicitement « type V » sans réserve ;
+    « L » (« Salle Type L existante ») si l'annonce écrit « type L » ou décrit une salle existante. La phrase est citée
+    mot pour mot dans `erpSource`. Profil (`profil`) et lecture type V (`analyseV`) sont calculés par type_v.py ;
     transports et référence restent vides, le parking n'est renseigné que si l'annonce le cite ;
-  - aucune annonce existante n'est modifiée, supprimée ni passée en « vendu » (seule l'étiquette
+  - aucune annonce existante n'est modifiée, supprimée, archivée ni passée en « vendu » (seule l'étiquette
     « nouveau » est retirée après 7 jours, comme le prévoient les consignes) ;
   - au plus --max-ajouts annonces par exécution ; le reste est repris aux exécutions suivantes.
 """
@@ -33,6 +34,7 @@ import sys
 import time
 import unicodedata
 
+import type_v as T
 from commun import DEPTS, RACINE, ecrire_annonces, lire_annonces
 
 CANDIDATS = RACINE / "veille" / ".candidats.json"
@@ -43,34 +45,11 @@ SURFACE_MIN = 150
 PRIX_MAX = 6_000_000
 ECART_DOUBLON = 0.03
 
-# Usage de salle décrit par l'annonce : étiquette -> motif.
-USAGES = {
-    "réception": r"salles? de r[ée]ception|lieux? de r[ée]ception|salles? des f[êe]tes|salles? de banquet",
-    "spectacle": r"salles? de spectacle|salles? de cin[ée]ma|anciens? (?:cin[ée]ma|th[ée][âa]tre)|ancienne? (?:salle de )?discoth[èe]que|discoth[èe]que (?:exploit|en activit)",
-    "culte": r"lieux? de culte|salles? de pri[èe]re|anciennes? [ée]glises?",
-    "conférence": r"amphith[ée][âa]tre de \d+|salles? polyvalentes?",
-    "restaurant": r"restaurant[^.]{0,80}\d+\s*couverts|\d+\s*couverts[^.]{0,80}restaurant",
-}
-# Phrases à ignorer : arrêts de transport, noms de rue ou de quartier, restauration d'entreprise.
-IGNORER = re.compile(r"situation/transports|\b(?:bus|m[ée]tro|rer|tram|gare|arr[êe]t|station|ligne)\b|inter-entreprise|\bRIE\b|"
-                     r"restaurant d'entreprise|proximit[ée] de l'[ée]glise", re.I)
-# Marqueurs d'une phrase seulement hypothétique : l'usage n'est pas celui du bien aujourd'hui.
-HYPOTHESE = re.compile(
-    r"possibilit[ée]|possibles?\b|peut\b|peuvent|pouvant|id[ée]al\b|id[ée]ale|convient|adapt[ée]|potentiel|"
-    r"permet(?:tant)?\b|envisag|susceptible|reconvert|sur demande|ou encore|toutes activit[ée]s|parfait|"
-    r"erpable|ou autre|projet|opportunit[ée] pour|vocation|\btype\b", re.I)
 # Exclusions : ce que le radar n'accepte pas.
 FONDS_SEUL = re.compile(r"cession (?:du )?(?:fonds|droit au bail)|vente (?:du )?fonds|fonds de commerce (?:seul|uniquement)|"
                         r"droit au bail", re.I)
 NON_LOCAL = re.compile(r"terrain (?:nu|constructible)|parcelle de terrain|appartement|logement|studio\b|"
                        r"\bmaison\b|pavillon|chambre", re.I)
-# Type L écrit explicitement par l'annonce (« ERP de type L », « types M et L », « usage type L »…).
-L_EXPLICITE = re.compile(r"\b[Tt]ypes?\s+(?:[A-Z]{1,2}\s*(?:,|et)\s*)*L\b|\bERP\s+L\b|\bcat[ée]gorie\s+[1-5]\s*,?\s*(?:de\s+)?[Tt]ype\s+L\b")
-# Réserves qui interdisent de retenir le type L : possibilité, projet, obligation, doute, alternative.
-L_RESERVE = re.compile(
-    r"possibilit|possibles?\b|transform|am[ée]nag|obten|obligat|sous r[ée]serve|[àa] (?:confirmer|v[ée]rifier|valider|d[ée]finir)|"
-    r"\bpeut\b|peuvent|pouvant|projet|[ée]ventuel|\bnon\b|\bpas\b|\bsans\b|sur demande|autoris|changement|mise (?:en conformit|aux normes)|"
-    r"erpable|futur|demande|\bsi\b|id[ée]al|potentiel|eventuel|[A-Z]/L\b|\bL/[A-Z]\b|type L ou|ou (?:de )?type L|\bou\b[^.]{0,15}\bL\b", re.I)
 TYPE_LIBELLE = {"vente-commerces": "Local commercial", "vente-entrepots": "Local d'activités", "vente-bureaux": "Bureaux"}
 
 
@@ -83,21 +62,20 @@ def slug(texte):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", sans_accents(texte))).strip("-")
 
 
-def phrases(texte):
-    """Découpe en phrases ; les puces « - » et les retours à la ligne séparent aussi."""
-    return [p.strip() for p in re.split(r"(?<=[.!?;])\s+|\s+-\s+|\n+", texte or "") if p.strip()]
-
-
-def usages_decrits(c):
-    """Renvoie ({usage: [phrases descriptives]}, {usage: [phrases hypothétiques]})."""
-    fermes, hypotheses = {}, {}
-    titre = c.get("titre") or ""
-    for ph in [titre] + phrases(c.get("description")):
-        for usage, motif in USAGES.items():
-            if not IGNORER.search(ph) and re.search(motif, ph, re.I):
-                cible = hypotheses if (HYPOTHESE.search(ph) and ph is not titre) else fermes
-                cible.setdefault(usage, []).append(ph[:220])
-    return fermes, hypotheses
+def interet(c):
+    """Renvoie (niveau, {nature: [phrases]}) : niveau « décrit », « évoqué » ou None (aucun intérêt pour un lieu de culte)."""
+    titre, desc = c.get("titre") or "", c.get("description") or ""
+    ind = T.indices(titre, desc)
+    erp = T.classer_erp(titre, desc)[0]
+    fermes = {n: v["fermes"] for n, v in ind.items() if n != "interet" and v["fermes"]}
+    if fermes or erp == "V" or (erp == "L" and T.L_EXPLICITE.search(f"{titre} {desc}")):
+        return "décrit", fermes or {"type écrit": [T.classer_erp(titre, desc)[1]]}
+    evoques = {n: v["hypotheses"] for n, v in ind.items() if n != "interet" and v["hypotheses"]}
+    if "interet" in ind:
+        evoques["intérêt collectif"] = ind["interet"]["fermes"] + ind["interet"]["hypotheses"]
+    if evoques:
+        return "évoqué", evoques
+    return None, {}
 
 
 def proches(a, b):
@@ -134,10 +112,9 @@ def evaluer(c, existantes, deja_ajoutees):
     if NON_LOCAL.search(corps):
         return "rejet", "logement ou terrain"
 
-    fermes, hypotheses = usages_decrits(c)
-    l_explicite = classer_erp(c)[0] == "L"
-    if not fermes and not hypotheses and not l_explicite:
-        return "rejet", "aucun indice d'usage de salle ni de type L dans l'annonce"
+    niveau, usages = interet(c)
+    if not niveau:
+        return "rejet", "aucun indice d'usage cultuel, associatif ou de salle dans l'annonce"
 
     # À partir d'ici, il existe au moins un indice d'usage : tout refus est consigné pour diagnostic.
     motifs = []
@@ -178,31 +155,12 @@ def evaluer(c, existantes, deja_ajoutees):
 
     if motifs:
         return "ambigue", motifs
-    niveau = "décrit" if (fermes or l_explicite) else "évoqué"
-    return "ajout", {"usages": fermes or hypotheses, "niveau": niveau}
-
-
-def classer_erp(c):
-    """Renvoie (erp, erpDetail, erpSource).
-
-    « L » seulement si une phrase de l'annonce écrit explicitement le type L sans réserve ; sinon « verifier »
-    (affiché « ERP à vérifier »). Ce que l'annonce dit de l'ERP est cité dans erpDetail, sans interprétation."""
-    corps = f"{c.get('titre') or ''}. {c.get('description') or ''}"
-    for ph in phrases(corps):
-        # Le « L » doit être majuscule dans le texte d'origine : on teste donc avec la casse conservée.
-        if L_EXPLICITE.search(ph) and not L_RESERVE.search(ph):
-            citation = ph.strip()[:300]
-            return ("L", f"Annonce : « {citation} »",
-                    f"« {citation} » — {c.get('url')}")
-    extraits = [p[:200] for p in phrases(corps) if re.search(r"\bERP\b|cat[ée]gorie [1-5]|recevant du public", p, re.I)]
-    if extraits:
-        return ("verifier", "Type L non confirmé. Annonce : « " + " / ".join(extraits[:2]) + " »", "")
-    return "verifier", "Type L non confirmé : l'annonce ne précise pas de classement ERP", ""
+    return "ajout", {"usages": usages, "niveau": niveau}
 
 
 def classer_parking(c):
     corps = f"{c.get('titre') or ''} {c.get('description') or ''}"
-    for ph in phrases(corps):
+    for ph in T.phrases(corps):
         if re.search(r"parking|stationnement", ph, re.I):
             if re.search(r"sans parking|pas de parking|aucun parking|parking public|parking [àa] proximit[ée]|parking en voirie", ph, re.I):
                 return "proximite" if re.search(r"proximit[ée]|public", ph, re.I) else "non_precise"
@@ -221,8 +179,8 @@ def adresse_publiee(c):
     return adr
 
 
-def identifiant(c, usages, ids):
-    usage = slug(next(iter(usages))) if usages else "salle"
+def identifiant(c, prof, ids):
+    usage = {"culte": "culte", "associatif": "salle-associative", "salle": "salle", "transformable": "local"}[prof]
     base = f"{slug(c['ville'])}-{usage}-{c['surface']}"
     if base in ids:
         base = f"{base}-{numero_url(c['url'])}"
@@ -230,17 +188,19 @@ def identifiant(c, usages, ids):
 
 
 def construire(c, infos, date_iso, ts):
-    """Fiche prête à publier. Le statut ERP est « verifier » (« ERP à vérifier ») sauf type L explicite."""
-    usages_txt = infos["usages"]
-    usages = list(usages_txt) or ["type L écrit"]
+    """Fiche prête à publier. Statut « verifier » (« Potentiel Type V — à vérifier ») sauf type V / salle L justifiés."""
+    titre, desc = c.get("titre") or "", c.get("description") or ""
     evoque = infos["niveau"] == "évoqué"
-    erp, erp_detail, erp_source = classer_erp(c)
+    erp, erp_detail, erp_source = T.classer_erp(titre, desc, c["url"])
+    prof, citation = T.profil(titre, desc)
     prix, surface = c["prix"], c["surface"]
-    preuve = "; ".join(p.strip(" .,;") for u in usages_txt for p in usages_txt[u][:1])[:300]
+    preuve = "; ".join(p.strip(" .,;") for u in infos["usages"] for p in infos["usages"][u][:1])[:300]
+    libelle = {"culte": "lieu de culte", "associatif": "salle associative", "salle": "salle", "transformable": "à transformer"}[prof]
+    atouts = T.atouts(titre, desc)
     r = {
         "_id": None,
         "titre": f"{TYPE_LIBELLE[c['type']]} de {surface} m² à {c['ville'].strip()} "
-                 f"(usage {'évoqué' if evoque else 'décrit'} : {', '.join(usages)})",
+                 f"({libelle}{', usage évoqué' if evoque else ''})",
         "ville": c["ville"].strip(),
         "adresse": adresse_publiee(c),
         "dept": c["dept"],
@@ -250,26 +210,30 @@ def construire(c, infos, date_iso, ts):
         "surface": surface,
         "erp": erp,
         "erpDetail": erp_detail,
+        "profil": prof,
         "parking": classer_parking(c),
         "transports": [],
         "statut": "en_vente",
+        "analyseV": (
+            f"{T.PROFILS[prof]} — l'annonce {'évoque seulement comme possibilité' if evoque else 'indique'} : « {preuve or citation} ». "
+            + (f"Atouts cités : {', '.join(atouts[:5])}. " if atouts else "")
+            + {"V": "Type V confirmé par l'annonce (voir la source).",
+               "L": "Salle de type L existante : conversion en lieu de culte (type V) à instruire.",
+               "verifier": "Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt "
+                           "collectif) à vérifier."}[erp]),
         "notes": (
             f"Ajout automatique par règles, sans relecture humaine, depuis l'annonce BureauxLocaux n° {numero_url(c['url'])}. "
-            + (f"L'annonce {'évoque seulement comme possibilité' if evoque else 'décrit'} : {preuve}. " if preuve else "")
-            + f"Prix de {format(prix // surface, ',').replace(',', ' ')} €/m². "
-            + ("Type L explicite dans l'annonce (voir la source) mais jamais contrôlé : capacité, accessibilité, PLU, adresse "
-               "et desserte non vérifiés."
-               if erp == "L" else
-               "ERP à vérifier : le type L n'est pas confirmé ; capacité, accessibilité, PLU, adresse et desserte non vérifiés.")),
+            f"Prix de {format(prix // surface, ',').replace(',', ' ')} €/m². "
+            "Capacité, accessibilité, PLU, adresse et desserte non vérifiés."),
         "nouveau": True,
         "ajoute": ts,
         "vu": date_iso,
     }
-    if erp == "L":
+    if erp in ("V", "L"):
         r["erpSource"] = erp_source
     if c.get("occupe"):
         r["occupe"] = True
-    return r, usages
+    return r, prof
 
 
 def retirer_nouveau_anciens(rows, date_iso):
@@ -291,7 +255,9 @@ def executer(candidats, payload, examinees, date_iso, max_ajouts, ts):
     rows = payload["rows"]
     ids = {r["_id"] for r in rows}
     nouvelles, ambigues, rejets = [], [], {}
-    ordre = sorted((c for c in candidats if not c.get("examinee")), key=lambda c: -c.get("score", 0))
+    # Ordre de passage : pertinence pour un lieu de culte (lieu de culte décrit d'abord), puis score de collecte.
+    ordre = sorted((c for c in candidats if not c.get("examinee")),
+                   key=lambda c: (-T.pertinence(c.get("titre"), c.get("description")), -c.get("score", 0)))
     reportees = 0
 
     def ambigue(c, motifs):
@@ -300,14 +266,15 @@ def executer(candidats, payload, examinees, date_iso, max_ajouts, ts):
                          "agence": c.get("agence"), "motifs": motifs})
 
     def ajouter(c, infos):
-        r, usages = construire(c, infos, date_iso, ts)
-        r["_id"] = identifiant(c, usages, ids | {n["_id"] for n in nouvelles})
+        r, prof = construire(c, infos, date_iso, ts)
+        r["_id"] = identifiant(c, prof, ids | {n["_id"] for n in nouvelles})
         nouvelles.append(r)
         examinees[numero_url(c["url"]) or c["numero"]] = {
             "date": date_iso, "decision": "retenue",
-            "motif": f"ajout automatique par règles (usage {infos['niveau']} ; statut ERP : {r['erp']})", "_id": r["_id"]}
+            "motif": f"ajout automatique par règles type V (profil {r['profil']}, intérêt {infos['niveau']} ; statut ERP : {r['erp']})",
+            "_id": r["_id"]}
 
-    # Passe 1 : intérêt avéré (usage décrit ou type L écrit). Passe 2 : usage seulement évoqué.
+    # Passe 1 : intérêt avéré (usage décrit, type V ou L écrit). Passe 2 : usage seulement évoqué.
     evoquees = []
     for c in ordre:
         verdict, infos = evaluer(c, rows + nouvelles, nouvelles)

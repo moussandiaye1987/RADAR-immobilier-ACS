@@ -4,12 +4,18 @@ Usage :
   python3 scripts/valider.py                    # contrôles du fichier seul
   python3 scripts/valider.py --base origin/main # + comparaison avec la version publiée
 
+Règles du radar Type V (toujours contrôlées) :
+  - `erp` vaut « V » (Type V confirmé), « verifier » (Potentiel Type V — à vérifier) ou « L » (Salle Type L existante) ;
+  - « V » exige un `erpSource` qui cite explicitement le type V ; « L » un `erpSource` qui cite le type L ou une salle ;
+  - `profil` vaut culte, associatif, salle ou transformable ;
+  - une annonce archivée garde toutes ses données et porte `archive` = {"date": "AAAA-MM-JJ", "motif": "…"}.
+
 Avec --base, le script vérifie aussi que :
-  - le code de index.html (hors données) est identique à la base ;
+  - le code de index.html (hors données) est identique à la base (sauf --accepter-code, pour une évolution du site) ;
   - aucune annonce de la base n'a disparu ;
-  - aucune annonce n'est passée en « vendu » ou en « L » sans autorisation / justificatif.
-Les identifiants listés dans --autoriser (séparés par des virgules) peuvent être
-supprimés ou passés en « vendu » : réservé aux décisions explicites du propriétaire.
+  - aucune annonce existante n'est passée en « vendu », n'a changé de statut ERP ni n'a été archivée, sauf si la décision
+    figure dans veille/migration_type_v.json (passage au type V) ou dans --autoriser.
+Les identifiants listés dans --autoriser (séparés par des virgules) : réservé aux décisions explicites du propriétaire.
 
 Code de sortie : 0 si tout est conforme, 1 sinon.
 """
@@ -20,7 +26,10 @@ import subprocess
 import sys
 from collections import Counter
 
-from commun import ANNONCES, DEPTS, ERP, INDEX, MODES, PARKING, STATUTS, code_index, donnees_index
+import type_v as T
+from commun import ANNONCES, DEPTS, ERP, INDEX, MODES, PARKING, PROFILS, RACINE, STATUTS, code_index, donnees_index
+
+MIGRATION = RACINE / "veille" / "migration_type_v.json"
 
 CHAMPS = {
     "_id": str, "titre": str, "ville": str, "dept": str, "agence": str, "url": str,
@@ -37,7 +46,9 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--base", help="référence git à comparer (ex. origin/main)")
     p.add_argument("--autoriser", default="", help="_id dont la suppression ou le passage en « vendu » est validé")
+    p.add_argument("--accepter-code", action="store_true", help="accepte une modification du code de index.html (évolution du site)")
     args = p.parse_args()
+    migration = json.loads(MIGRATION.read_text(encoding="utf-8"))["decisions"] if MIGRATION.exists() else {}
     autorises = {x for x in args.autoriser.split(",") if x}
 
     erreurs, alertes = [], []
@@ -64,7 +75,7 @@ def main():
             erreurs.append(f"{ref} : « prix » doit être un entier ou null")
         if r.get("dept") not in DEPTS:
             erreurs.append(f"{ref} : département « {r.get('dept')} » hors Île-de-France")
-        for champ, valeurs in (("erp", ERP), ("parking", PARKING), ("statut", STATUTS)):
+        for champ, valeurs in (("erp", ERP), ("profil", PROFILS), ("parking", PARKING), ("statut", STATUTS)):
             if r.get(champ) not in valeurs:
                 erreurs.append(f"{ref} : {champ} « {r.get(champ)} » non reconnu par le site ({', '.join(valeurs)})")
         for t in r.get("transports") or []:
@@ -88,10 +99,17 @@ def main():
         if n > 1:
             alertes.append(f"même référence « {ref} » ({agence}) sur {n} annonces")
 
-    # Type L : « L » exige une source écrite. Les annonces déjà publiées sans source sont signalées sans être modifiées.
+    # Statuts ERP : « V » et « L » exigent une source écrite qui le justifie ; archives documentées.
     for r in rows:
-        if r.get("erp") == "L" and not r.get("erpSource"):
-            alertes.append(f"{r.get('_id')} : classée « Type L confirmé » sans erpSource (statut conservé, à documenter)")
+        source = r.get("erpSource") or ""
+        if r.get("erp") == "V" and not T.V_EXPLICITE.search(source):
+            erreurs.append(f"{r.get('_id')} : « Type V confirmé » sans justificatif citant explicitement le type V (erpSource)")
+        if r.get("erp") == "L" and not (T.L_EXPLICITE.search(source) or T.SALLE_L.search(source)):
+            erreurs.append(f"{r.get('_id')} : « Salle Type L existante » sans justificatif citant le type L ou une salle (erpSource)")
+        a = r.get("archive")
+        if a is not None and not (isinstance(a, dict) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(a.get("date", "")))
+                                  and str(a.get("motif", "")).strip()):
+            erreurs.append(f"{r.get('_id')} : « archive » doit valoir {{\"date\": \"AAAA-MM-JJ\", \"motif\": \"…\"}}")
 
     html = INDEX.read_text(encoding="utf-8")
     if donnees_index(html) != payload:
@@ -99,7 +117,7 @@ def main():
 
     if args.base:
         base_html = git_show(args.base, "index.html")
-        if code_index(base_html) != code_index(html):
+        if code_index(base_html) != code_index(html) and not args.accepter_code:
             erreurs.append(f"le code de index.html (hors données) a changé par rapport à {args.base}")
         base = {r["_id"]: r for r in json.loads(git_show(args.base, "annonces.json"))["rows"]}
         actuels = {r["_id"]: r for r in rows}
@@ -110,12 +128,11 @@ def main():
             avant = base.get(i, {})
             if r["statut"] == "vendu" and avant.get("statut") != "vendu" and i not in autorises:
                 erreurs.append(f"{i} : passée en « vendu » (masquée du site) sans autorisation")
-            if r["erp"] == "L" and avant.get("erp") != "L" and not r.get("erpSource"):
-                erreurs.append(f"{i} : classée « Type L confirmé » sans justificatif (champ « erpSource »)")
-            if r["erp"] == "L" and avant.get("erp") != "L" and not re.search(r"[Tt]ypes?\s+(?:[A-Z]{1,2}\s*(?:,|et)\s*)*L\b|\bERP\s+L\b", r.get("erpSource") or ""):
-                erreurs.append(f"{i} : « erpSource » ne cite pas explicitement le type L")
-            if avant and r["erp"] != avant.get("erp") and i not in autorises:
+            decision = migration.get(i, {})
+            if avant and r["erp"] != avant.get("erp") and i not in autorises and decision.get("erp_apres") != r["erp"]:
                 erreurs.append(f"{i} : statut ERP modifié ({avant.get('erp')} → {r['erp']}) : seule une décision du propriétaire le permet")
+            if avant and r.get("archive") and not avant.get("archive") and i not in autorises and not decision.get("archive"):
+                erreurs.append(f"{i} : annonce archivée sans décision enregistrée (veille/migration_type_v.json ou --autoriser)")
         nouvelles = len([i for i in actuels if i not in base])
         print(f"Comparaison avec {args.base} : {len(base)} annonces avant, {len(actuels)} après, {nouvelles} nouvelles")
 
