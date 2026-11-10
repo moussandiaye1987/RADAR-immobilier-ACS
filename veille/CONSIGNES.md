@@ -1,7 +1,10 @@
-# Consignes de la veille quotidienne — Radar ERP Type L
+# Consignes de la veille quotidienne — Radar ERP Type V (lieux de culte)
 
 Ces consignes sont suivies à chaque exécution de la Routine Claude Code (tous les jours à 6 h 55, heure de Paris).
 Elles priment sur toute autre habitude. En cas de doute, **signaler dans le bilan plutôt que décider**.
+
+La publication automatique quotidienne (sans IA) est assurée séparément par le workflow GitHub Actions
+`.github/workflows/veille-quotidienne.yml` avec les mêmes règles (`scripts/type_v.py`) : voir `veille/AUTOMATISATION.md`.
 
 ## 0. Phase de test : règles de publication
 
@@ -13,15 +16,24 @@ Elles priment sur toute autre habitude. En cas de doute, **signaler dans le bila
 
 ## 1. Ce que l'on cherche
 
-Locaux **à vendre** en Île-de-France pouvant accueillir un **ERP de type L** : salles de réunion, de réception,
-de spectacle, d'événements, de séminaires, salles polyvalentes, lieux de culte, anciens cinémas/théâtres,
-restaurants ou discothèques à reconvertir, grands plateaux en rez-de-chaussée aménageables.
+Locaux **à vendre** en Île-de-France pouvant accueillir un **lieu de culte (ERP de type V)**, par ordre de priorité :
+
+1. **Lieux de culte existants ou anciens bâtiments religieux** : église, chapelle, temple, mosquée, synagogue,
+   salle de prière, couvent, presbytère, local d'association cultuelle ;
+2. **Salles des fêtes, salles polyvalentes, locaux ou salles associatives** ;
+3. **Salles recevant du public** (réception, spectacle, conférence, séminaire, ancien cinéma ou théâtre) : une salle
+   de type L existante se convertit en type V plus facilement qu'un local brut ;
+4. **Locaux à transformer** présentant un vrai potentiel : grand volume de plain-pied, rez-de-chaussée, hauteur,
+   bâtiment indépendant, parking, destination d'urbanisme « équipement d'intérêt collectif » (CINASPIC).
 
 - Départements : 75, 77, 78, 91, 92, 93, 94, 95 (aucun autre).
 - Filtres par défaut du site : budget 300 000 € – 2 000 000 €, surface ≥ 250 m². Ces filtres sont **réglables**
   par l'utilisateur : garder aussi les annonces pertinentes **hors de ces bornes** (jusqu'à ~6 M€, dès ~150 m²).
 - Écarter : locations seules, cessions de fonds sans les murs, logements, terrains nus, biens hors Île-de-France,
-  plateaux de bureaux en étage sans accès public plausible.
+  plateaux de bureaux en étage, biens vendus occupés (bail en cours).
+
+Mots-clés de recherche : « lieu de culte à vendre », « ancienne église », « chapelle à vendre », « salle de prière »,
+« salle des fêtes à vendre », « salle polyvalente », « local associatif », « équipement d'intérêt collectif », « ERP type V ».
 
 ## 2. Sources (voir `veille/sources.json`)
 
@@ -30,13 +42,17 @@ restaurants ou discothèques à reconvertir, grands plateaux en rez-de-chaussée
 2. **Geolocaux** (par département) et **ParuVendu** (Île-de-France) : lecture des pages de recherche
    avec `curl --compressed` ou le navigateur ; ne retenir que les annonces absentes du radar.
 3. **Cession PME**, **Bien'ici** : navigateur Playwright uniquement, en complément.
-4. **PAP, SeLoger, Leboncoin, Logic-Immo** : protégés contre les robots. **Ne pas tenter de contourner**
+4. **Ventes publiques et notariales** (Agorastore, cessions immobilières de l'État, Immonot, Licitor, Interenchères) :
+   sources de premier ordre pour les chapelles, églises désacralisées et salles des fêtes vendues par les communes.
+   **Bloquées dans l'environnement actuel** (voir `veille/sources.json`) : les consulter dès qu'elles sont autorisées.
+5. **PAP, SeLoger, Leboncoin, Logic-Immo** : protégés contre les robots. **Ne pas tenter de contourner**
    ces protections. Les annonces existantes de ces sites sont conservées et signalées « non vérifiables ».
 
 ## 3. Sélection et vérification des nouvelles annonces
 
 Dans `veille/.candidats.json`, examiner les candidates `connue: false` et `examinee: false`, **par score
-décroissant**, au maximum **30 fiches par exécution** (le reste sera vu les jours suivants).
+décroissant** (le score de `scripts/type_v.py` place les lieux de culte décrits en tête), au maximum **30 fiches
+par exécution** (le reste sera vu les jours suivants).
 
 Pour chaque candidate examinée :
 
@@ -56,33 +72,39 @@ Respecter exactement le format existant (voir une annonce récente) :
 
 | Champ | Règle |
 |---|---|
-| `_id` | `commune-detail-surface` en minuscules sans accents, unique (ex. `sartrouville-reception-529`) |
+| `_id` | `commune-detail-surface` en minuscules sans accents, unique (ex. `vitry-ancien-lieu-de-culte-1103`) |
 | `titre` | titre court et factuel, en français |
 | `ville`, `adresse`, `dept`, `agence`, `ref`, `url` | tels que publiés ; `adresse` vide si non publiée |
 | `prix` | entier en euros, `null` si « prix sur demande » |
 | `surface` | entier en m² |
-| `erp` | `L` **uniquement avec un justificatif** (voir ci-dessous) ; `ERP` si l'annonce déclare un ERP sans préciser le type ; sinon `verifier` |
+| `erp` | `V` (« Type V confirmé ») **uniquement** si l'annonce ou un document écrit explicitement « type V » sans réserve ; `L` (« Salle Type L existante ») si l'annonce écrit « type L » ou décrit une salle existante (réception, fêtes, spectacle, conférence) ; sinon `verifier` (« Potentiel Type V — à vérifier »), **y compris pour un lieu de culte décrit** |
+| `profil` | `culte` (lieu de culte ou bâtiment religieux), `associatif` (salle des fêtes, polyvalente, associative), `salle` (salle recevant du public), `transformable` (local à transformer) |
 | `erpDetail` | ce que dit l'annonce : catégorie, capacité, type, PMR, hauteur sous plafond… |
-| `erpSource` | **obligatoire si `erp` = `L`** : citation exacte de l'annonce ou du document qui mentionne le type L, et son lien |
+| `erpSource` | **obligatoire si `erp` = `V` ou `L`** : citation exacte de l'annonce ou du document, et son lien |
+| `analyseV` | 1 à 3 phrases : profil, ce que dit l'annonce (citation), atouts, ce qui reste à vérifier pour un ERP V |
 | `parking` | `sur_place`, `proximite` ou `non_precise` |
 | `transports` | liste de `{mode, ligne, station, distance, confirme}` ; `mode` parmi Métro, RER, Tram, Transilien, Bus ; `distance` en mètres ou `null` ; `confirme: true` seulement si l'annonce le dit |
 | `statut` | `en_vente` (ou `sous_offre` si l'annonce l'indique) |
 | `occupe` | `true` si vendu occupé / bail en cours |
-| `notes` | 2 à 4 phrases : intérêt pour un ERP L, points de vigilance (travaux, PLU, copropriété, accessibilité), prix au m² |
+| `notes` | 2 à 4 phrases : intérêt pour un lieu de culte, points de vigilance (PLU, copropriété, voisinage, stationnement, accessibilité, sanitaires et ablutions), prix au m² |
 | `nouveau` | `true` |
 | `ajoute` | horodatage en millisecondes de l'exécution |
 | `vu` | date du jour `AAAA-MM-JJ` |
 
 **Jamais** d'information inventée : ce qui n'est pas dans l'annonce reste vide, `null` ou « à vérifier ».
-Ne jamais présenter un classement **Type L comme confirmé sans justificatif** écrit.
+Ne jamais présenter un bien comme **conforme ou classé Type V sans justificatif** écrit (`erpSource`).
+`scripts/type_v.py` applique ces règles ; `scripts/valider.py` refuse un `V` ou un `L` sans citation.
 
 Après ajout, mettre `"date"` du fichier à la date du jour (`JJ/MM/AAAA`). L'étiquette `nouveau` des annonces
 ajoutées lors des veilles précédentes est **retirée** quand elles ont plus de 7 jours (`vu` ancien).
 
 ## 5. Annonces existantes
 
-- **Ne jamais supprimer** une annonce, ni la passer en `vendu` (ce qui la masque du site), sans décision
-  explicite du propriétaire du radar.
+- **Ne jamais supprimer** une annonce, ni la passer en `vendu` ou l'archiver (ce qui la masque du site), ni changer
+  son statut ERP, sans décision explicite du propriétaire du radar.
+- Une annonce **archivée** (`archive` = {date, motif}) reste dans `annonces.json` : le site la masque par défaut et
+  l'affiche avec la case « Afficher les annonces archivées ». Les archives du passage au type V (09/11/2026) sont
+  justifiées une à une dans `veille/migration_type_v.json`.
 - Lancer `python3 scripts/verifier_liens.py` : il met à jour `veille/etat_liens.json` (statut de chaque lien,
   date du premier échec consécutif) sans toucher à `annonces.json`.
 - Pour chaque lien `retiree`, `retiree_probable` ou `redirigee` : chercher si le bien est republié
@@ -96,7 +118,7 @@ ajoutées lors des veilles précédentes est **retirée** quand elles ont plus d
 
 ```bash
 python3 scripts/sync_index.py                          # recopie annonces.json dans index.html
-python3 scripts/valider.py --base origin/main          # JSON, champs, doublons, suppressions, Type L
+python3 scripts/valider.py --base origin/main          # JSON, champs, doublons, suppressions, types V et L
 NODE_PATH=$(npm root -g) node scripts/test_filtres.js  # page et filtres dans Chromium
 ```
 
@@ -117,7 +139,7 @@ En cas d'échec impossible à corriger : ouvrir quand même la PR, en **brouillo
 - Candidates restant à examiner : N (dont prioritaires N)
 
 ## Nouvelles annonces
-| _id | Commune (dept) | Surface | Prix | ERP | Lien | Pourquoi elle est retenue |
+| _id | Commune (dept) | Surface | Prix | Profil | ERP | Lien | Pourquoi elle est retenue pour un lieu de culte |
 
 ## Annonces actualisées
 | _id | Champ | Avant | Après | Vérifié sur |

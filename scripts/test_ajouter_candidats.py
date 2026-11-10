@@ -44,39 +44,55 @@ class Regles(unittest.TestCase):
         self.assertEqual(s["date"], "09/10/2026")
         self.assertIn(r["_id"], d["ajoutees"])
 
-    # --- Statuts ERP -------------------------------------------------------------------------
-    def test_statut_par_defaut_erp_a_verifier(self):
-        for desc in ("Lieu de réception de 500 m².",
-                     "Lieu de réception de 500 m², local conforme aux normes ERP catégorie 5.",
-                     "Lieu de réception de 500 m², ERP sur demande."):
-            (s, _, _), _ = lancer([cand(description=desc)])
+    # --- Statuts ERP (radar type V) -----------------------------------------------------------
+    def test_statut_par_defaut_potentiel_type_v(self):
+        for desc in ("Ancienne chapelle de 500 m², nef et sacristie.",
+                     "Local de 500 m² actuellement à usage de lieu de culte, conforme aux normes ERP catégorie 5.",
+                     "Salle de prière de 500 m², ERP sur demande."):
+            (s, _, _), _ = lancer([cand(titre="Local", description=desc)])
             r = s["rows"][-1]
-            self.assertEqual(r["erp"], "verifier", desc)           # affiché « ERP à vérifier »
+            self.assertEqual(r["erp"], "verifier", desc)           # affiché « Potentiel Type V — à vérifier »
+            self.assertEqual(r["profil"], "culte", desc)
             self.assertNotIn("erpSource", r)
-            self.assertIn("Type L non confirmé", r["erpDetail"])
+            self.assertIn("Type V non confirmé", r["erpDetail"] + r["analyseV"])
 
-    def test_type_l_explicite_est_identifie_avec_citation(self):
-        desc = "Salle de réception de 500 m². Établissement classé ERP de type L, catégorie 4."
-        (s, _, _), _ = lancer([cand(description=desc)])
+    def test_type_v_explicite_est_identifie_avec_citation(self):
+        desc = "Lieu de culte de 500 m². Établissement classé ERP de type V, catégorie 3."
+        (s, _, _), _ = lancer([cand(titre="Local", description=desc)])
         r = s["rows"][-1]
-        self.assertEqual(r["erp"], "L")
-        self.assertIn("ERP de type L", r["erpSource"])
+        self.assertEqual((r["erp"], r["profil"]), ("V", "culte"))
+        self.assertIn("ERP de type V", r["erpSource"])
         self.assertIn(r["url"], r["erpSource"])
 
-    def test_type_l_jamais_sur_supposition(self):
-        base = "Salle de réception de 500 m². "
-        for phrase in ("Possibilité de classement en ERP de type L.",
-                       "Local transformable en ERP type L après travaux.",
-                       "Classement ERP type L à confirmer.",
-                       "Le local n'est pas classé ERP type L.",
-                       "Aménageable en ERP type L sur demande.",
-                       "Types M ou L selon l'exploitation.",
-                       "Classement exact N/L à confirmer.",
-                       "ERP sur demande. Idéal pour un lieu de type L.",
-                       "Salle polyvalente idéale pour événements."):
-            (s, _, _), _ = lancer([cand(description=base + phrase)])
+    def test_type_v_jamais_sur_supposition(self):
+        base = "Ancienne chapelle de 500 m². "
+        for phrase in ("Possibilité de classement en ERP de type V.",
+                       "Local transformable en ERP type V après travaux.",
+                       "Classement ERP type V à confirmer.",
+                       "Le local n'est pas classé ERP type V.",
+                       "Aménageable en ERP type V sur demande.",
+                       "Types L ou V selon l'exploitation.",
+                       "Classement exact L/V à confirmer.",
+                       "ERP sur demande. Idéal pour un lieu de type V."):
+            (s, _, _), _ = lancer([cand(titre="Local", description=base + phrase)])
             self.assertEqual(s["rows"][-1]["erp"], "verifier", phrase)
             self.assertNotIn("erpSource", s["rows"][-1], phrase)
+
+    def test_salle_type_l_existante(self):
+        for desc, attendu in (("Salle de réception de 500 m². Établissement classé ERP de type L, catégorie 4.", "ERP de type L"),
+                              ("Salle des fêtes entièrement aménagée de 400 m² avec office.", "Salle des fêtes")):
+            (s, _, _), _ = lancer([cand(titre="Local", description=desc)])
+            r = s["rows"][-1]
+            self.assertEqual(r["erp"], "L", desc)                   # affiché « Salle Type L existante »
+            self.assertIn(attendu, r["erpSource"])
+
+    def test_pas_de_salle_l_sans_salle_existante(self):
+        for desc in ("Restaurant de 120 couverts en activité, cuisine équipée.",          # type N, pas L
+                     "Ancienne salle de spectacles désaffectée depuis 1986.",              # n'existe plus comme salle
+                     "Exemples d'usages : salle de réception, salle de sport."):            # simple exemple
+            (s, _, _), _ = lancer([cand(titre="Local", description=desc)])
+            if len(s["rows"]) > len(lire_annonces()["rows"]):
+                self.assertEqual(s["rows"][-1]["erp"], "verifier", desc)
 
     def test_type_l_explicite_seul_suffit_comme_interet(self):
         desc = "Local d'activité 500 m². Classé ERP type L."
@@ -86,11 +102,30 @@ class Regles(unittest.TestCase):
 
     def test_aucun_statut_autre_que_les_trois_connus(self):
         (s, _, _), avant = lancer([cand(), cand(numero="90000002", url="https://www.bureauxlocaux.com/annonce/x--90000002",
-                                                ville="Autre", description="Salle des fêtes classée ERP type L.")])
+                                                ville="Autre", description="Lieu de culte classé ERP type V.")])
         for r in s["rows"][len(avant["rows"]):]:
-            self.assertIn(r["erp"], ("L", "ERP", "verifier"))
-            if r["erp"] == "L":
+            self.assertIn(r["erp"], ("V", "L", "verifier"))
+            self.assertIn(r["profil"], ("culte", "associatif", "salle", "transformable"))
+            if r["erp"] in ("V", "L"):
                 self.assertTrue(r.get("erpSource"))
+
+    def test_lieu_de_culte_prioritaire(self):
+        salle = cand(numero="90000005", url="https://www.bureauxlocaux.com/annonce/s--90000005", ville="Salleville", score=99)
+        culte = cand(numero="90000006", url="https://www.bureauxlocaux.com/annonce/c--90000006", ville="Culteville", score=1,
+                     titre="Local", description="Ancienne église désacralisée de 500 m², parvis et parking.")
+        (s, _, d), avant = lancer([salle, culte], max=1)
+        self.assertEqual(s["rows"][-1]["ville"], "Culteville")       # le lieu de culte passe avant la salle de réception
+        self.assertEqual(s["rows"][-1]["profil"], "culte")
+        self.assertIn("lieu de culte", s["rows"][-1]["titre"])
+
+    def test_noms_propres_ne_sont_pas_des_lieux_de_culte(self):
+        (s, _, _), avant = lancer([cand(titre="Local", ville="Savigny-le-Temple",
+                                        description="Local situé à Savigny-le-Temple, rue du Temple, près de l'église Saint-Martin.")])
+        self.assertEqual(len(s["rows"]), len(avant["rows"]))
+        for desc in ("Paris 19e - FAUBOURG DU TEMPLE - Loft usage mixte à vendre.", "SECTEUR ARTS ET METIERS / TEMPLE, local commercial.",
+                     "Parc d'activités géré en ASL (Association Syndicale Libre), équipements mutualisés."):
+            (s, _, _), avant = lancer([cand(titre="Local", description=desc)])
+            self.assertEqual(len(s["rows"]), len(avant["rows"]), desc)
 
     def test_usage_evoque_publie_a_verifier_apres_les_usages_decrits(self):
         evoque = cand(numero="90000003", url="https://www.bureauxlocaux.com/annonce/e--90000003", ville="Evoque", score=99,
@@ -106,7 +141,7 @@ class Regles(unittest.TestCase):
         self.assertIn("évoqué", r["titre"])
 
     def test_statuts_existants_preserves(self):
-        (s, _, _), avant = lancer([cand(description="Salle des fêtes classée ERP type L.")])
+        (s, _, _), avant = lancer([cand(description="Lieu de culte classé ERP type V.")])
         anciens = {r["_id"]: r["erp"] for r in avant["rows"]}
         self.assertEqual({r["_id"]: r["erp"] for r in s["rows"] if r["_id"] in anciens}, anciens)
 
@@ -205,7 +240,7 @@ class Integration(unittest.TestCase):
             self.assertEqual(r.returncode, 1)
 
     def test_valider_controle_les_statuts_erp(self):
-        """valider.py : « L » sans citation du type L refusé, statut existant modifié refusé, « verifier » accepté."""
+        """valider.py : « V » / « L » sans citation refusés, statut existant modifié refusé, « verifier » accepté."""
         with tempfile.TemporaryDirectory() as tmp:
             t = Path(tmp)
             shutil.copytree(RACINE / "scripts", t / "scripts", ignore=shutil.ignore_patterns("__pycache__", "node_modules"))
@@ -244,6 +279,18 @@ class Integration(unittest.TestCase):
             git("checkout", "-q", "."), git("clean", "-fdq")
             appliquer(lambda rows: rows.append(nouvelle(erp="L", erpSource="« Classé ERP type L » — https://example.org/x")))
             self.assertEqual(valider().returncode, 0, "« L » avec citation explicite doit être accepté")
+            git("checkout", "-q", "."), git("clean", "-fdq")
+            appliquer(lambda rows: rows.append(nouvelle(erp="V", erpSource="« Ancienne église » — https://example.org/x")))
+            self.assertEqual(valider().returncode, 1, "« V » sans citation explicite du type V doit être refusé")
+            git("checkout", "-q", "."), git("clean", "-fdq")
+            appliquer(lambda rows: rows.append(nouvelle(erp="V", erpSource="« Classé ERP de type V, 3e catégorie » — https://example.org/x")))
+            self.assertEqual(valider().returncode, 0, "« V » avec citation explicite doit être accepté")
+            git("checkout", "-q", "."), git("clean", "-fdq")
+            appliquer(lambda rows: rows.append(nouvelle(profil="mosquee")))
+            self.assertEqual(valider().returncode, 1, "un profil inconnu doit être refusé")
+            git("checkout", "-q", "."), git("clean", "-fdq")
+            appliquer(lambda rows: rows[0].update(archive={"date": "2026-11-10", "motif": "test"}) if not rows[0].get("archive") else None)
+            self.assertEqual(valider().returncode, 1, "archiver une annonce existante sans décision doit être refusé")
             git("checkout", "-q", "."), git("clean", "-fdq")
             appliquer(lambda rows: rows[0].update(erp="L" if rows[0]["erp"] != "L" else "verifier"))
             self.assertEqual(valider().returncode, 1, "modifier le statut d'une annonce existante doit être refusé")

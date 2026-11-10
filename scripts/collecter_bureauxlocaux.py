@@ -7,11 +7,12 @@ pagination « /page/N »), extrait les données structurées de chaque page (blo
 <script id="react-context">) et écrit la liste des annonces candidates :
   - en vente, dans un des 8 départements, surface ≥ 150 m², prix ≤ 6 M€ ou sur demande ;
   - « connue » = déjà présente dans annonces.json (même numéro d'annonce BureauxLocaux) ;
-  - « mots_cles » = indices d'usage ERP / salle relevés dans le titre et la description ;
+  - « mots_cles » = indices d'usage cultuel, associatif, de salle ou d'ERP relevés dans le titre et la description ;
   - « doublon_possible » = annonce du radar ou autre candidate de même département,
     surface à ±3 % et prix égal à ±3 % (même bien publié sous un autre numéro ou par une autre agence) ;
   - « examinee » = déjà étudiée lors d'une veille précédente (veille/examinees.json) ;
-  - « score » = priorité d'examen (indices forts, puis adéquation aux filtres par défaut du site).
+  - « score » = priorité d'examen pour un lieu de culte (scripts/type_v.py : lieu de culte décrit > salle associative >
+    salle > usage évoqué > atouts physiques), puis adéquation aux filtres par défaut du site.
 Les candidates sont triées : non connues et non examinées d'abord, par score décroissant.
 Ce n'est qu'un tri préalable : chaque candidate retenue doit ensuite être lue et vérifiée
 (voir veille/CONSIGNES.md). Le script ne modifie pas annonces.json.
@@ -23,6 +24,7 @@ import re
 import time
 import unicodedata
 
+import type_v as T
 from commun import DEPTS, RACINE, lire_annonces, telecharger
 
 SOURCES = RACINE / "veille" / "sources.json"
@@ -30,13 +32,10 @@ EXAMINEES = RACINE / "veille" / "examinees.json"
 CONTEXTE = re.compile(r'<script type="text/json" id="react-context">(.*?)</script>', re.S)
 NUMERO = re.compile(r"--(\d+)/?$")
 MOTS_CLES = re.compile(
-    r"\bERP\b|salle|réception|reception|spectacle|séminaire|seminaire|réunion|événement|evenement|"
-    r"polyvalent|culte|cinéma|théâtre|theatre|discoth|restaurant|banquet|conférence|conference|"
-    r"type L\b|catégorie [1-5]|accueil du public|recevant du public", re.I)
-# Indices qui désignent directement un usage de salle (les autres, comme « ERP » ou
-# « restaurant », sont fréquents dans les annonces de commerces et pèsent moins).
-FORTS = re.compile(r"salle|réception|reception|spectacle|séminaire|seminaire|événement|evenement|polyvalent|"
-                   r"culte|cinéma|théâtre|theatre|discoth|banquet|conférence|conference|type l", re.I)
+    r"lieux? de culte|cultuel|\bculte\b|salles? de pri[èe]re|mosqu[ée]e|synagogue|[ée]glise|chapelle|temple|"
+    r"paroiss|presbyt[èe]re|couvent|association|salles? des f[êe]tes|polyvalent|\bERP\b|type [VL]\b|"
+    r"r[ée]ception|spectacle|s[ée]minaire|conf[ée]rence|amphith[ée][âa]tre|int[ée]r[êe]t collectif|"
+    r"accueil du public|recevant du public|plain[- ]pied", re.I)
 
 
 def ville_norm(v):
@@ -58,9 +57,8 @@ def proches(a, b):
 
 
 def score(c):
-    forts = sum(1 for k in c["mots_cles"] if FORTS.search(k))
     dans_filtres = (c["surface"] or 0) >= 250 and (c["prix"] is None or 300_000 <= c["prix"] <= 2_000_000)
-    return forts * 3 + (len(c["mots_cles"]) - forts) + (2 if dans_filtres else 0)
+    return T.pertinence(c["titre"], c["description"]) + (2 if dans_filtres else 0)
 
 
 def nombre(v):

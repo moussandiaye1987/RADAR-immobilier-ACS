@@ -1,5 +1,17 @@
 {
- "verifie_le": "2026-10-08",
+ "cible": "Radar ERP Type V : locaux à vendre pouvant accueillir un lieu de culte (Île-de-France)",
+ "mots_cles": [
+  "lieu de culte à vendre",
+  "ancienne église",
+  "chapelle à vendre",
+  "salle de prière",
+  "salle des fêtes à vendre",
+  "salle polyvalente",
+  "local associatif",
+  "équipement d'intérêt collectif",
+  "ERP type V"
+ ],
+ "verifie_le": "2026-11-09",
  "bureauxlocaux": {
   "acces": "ok",
   "base": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces",
@@ -14,7 +26,11 @@
    "94": "val-de-marne-94",
    "95": "val-doise-95"
   },
-  "types": ["vente-commerces", "vente-entrepots", "vente-bureaux"],
+  "types": [
+   "vente-commerces",
+   "vente-entrepots",
+   "vente-bureaux"
+  ],
   "remarque": "La page « ile-de-france » redirige vers la recherche nationale : toujours chercher par département. Collecte automatisée par scripts/collecter_bureauxlocaux.py."
  },
  "geolocaux": {
@@ -59,5 +75,16 @@
   "www.logic-immo.com": "Protection anti-robots DataDome.",
   "www.ght-immo.com": "Non autorisé dans l'environnement (annonces reprises sur BureauxLocaux).",
   "www.seloger-bureaux-commerces.com": "Non autorisé dans l'environnement."
+ },
+ "ventes_publiques": {
+  "acces": "bloque",
+  "remarque": "Sources prioritaires pour les chapelles, églises désacralisées et salles des fêtes vendues par les communes et l'État. Refusées par la liste de domaines de l'environnement Claude au 09/11/2026 : à ajouter dans les réglages réseau de l'environnement pour que la Routine puisse les consulter.",
+  "domaines": [
+   "www.agorastore.fr",
+   "cessions.immobilier-etat.gouv.fr",
+   "www.immonot.com",
+   "www.licitor.com",
+   "www.interencheres.com"
+  ]
  }
 }
