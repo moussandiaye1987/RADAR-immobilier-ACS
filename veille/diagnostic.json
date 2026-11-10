@@ -1,18 +1,208 @@
 {
- "date": "2026-10-21",
- "candidates_lues": 3501,
- "ajoutees": [],
- "ajoutees_statut_erp": {},
- "reportees_plafond": 0,
- "etiquette_nouveau_retiree": [
-  "ozoir-la-ferriere-restaurant-657"
+ "date": "2026-11-10",
+ "candidates_lues": 3521,
+ "ajoutees": [
+  "acheres-salle-associative-460",
+  "levallois-perret-local-210",
+  "cachan-local-304",
+  "saint-thibault-des-vignes-local-1484"
  ],
+ "ajoutees_statut_erp": {
+  "acheres-salle-associative-460": "verifier",
+  "levallois-perret-local-210": "verifier",
+  "cachan-local-304": "verifier",
+  "saint-thibault-des-vignes-local-1484": "verifier"
+ },
+ "reportees_plafond": 0,
+ "etiquette_nouveau_retiree": [],
  "rejets_par_motif": {
-  "aucun indice d'usage de salle ni de type L dans l'annonce": 3159,
-  "déjà sur le radar": 92,
-  "logement ou terrain": 215
+  "déjà sur le radar": 75,
+  "logement ou terrain": 211,
+  "aucun indice d'usage cultuel, associatif ou de salle dans l'annonce": 3157
  },
  "ambigues_non_publiees": [
+  {
+   "numero": "42476384",
+   "url": "https://www.bureauxlocaux.com/annonce/locationvente-bureaux-paris-75008--42476384",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 226,
+   "prix": 4500000,
+   "agence": "Leaseo",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "prix au m² incohérent (19911 €/m²)",
+    "doublon possible avec : 43013884"
+   ]
+  },
+  {
+   "numero": "41033545",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75019--41033545",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 245,
+   "prix": null,
+   "agence": "Groupe Babylone",
+   "motifs": [
+    "prix sur demande ou absent",
+    "doublon possible avec : 41021422, 40971259, 42421539, 42421538, 42380866, 42356682"
+   ]
+  },
+  {
+   "numero": "42515757",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75014--42515757",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 183,
+   "prix": 1661440,
+   "agence": "EVOLIS PARIS",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 42454607, 42539462"
+   ]
+  },
+  {
+   "numero": "42846484",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--42846484",
+   "ville": "Levallois-Perret",
+   "dept": "92",
+   "surface": 307,
+   "prix": 2100000,
+   "agence": "Nexim Conseil",
+   "motifs": [
+    "vente ou location : la vente n'est pas la seule offre",
+    "doublon possible avec : 41868396, 40113229"
+   ]
+  },
+  {
+   "numero": "42588941",
+   "url": "https://www.bureauxlocaux.com/annonce/batiment-mixte-independant-de-3244m2-sur-une-parce--42588941",
+   "ville": "Sarcelles",
+   "dept": "95",
+   "surface": 3244,
+   "prix": 3936800,
+   "agence": "OPE IMMO",
+   "motifs": [
+    "doublon possible avec : 40636905"
+   ]
+  },
+  {
+   "numero": "42356682",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-paris-75018--42356682",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 252,
+   "prix": 1850000,
+   "agence": "Immprove 1ERE COURONNE NORD ET OUEST",
+   "motifs": [
+    "doublon possible avec : paris18-montmartre-252, 41033545, 42422431, 42422428"
+   ]
+  },
+  {
+   "numero": "40541737",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer--40541737",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 409,
+   "prix": 1900000,
+   "agence": "Alex Bolton",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "vente ou location : la vente n'est pas la seule offre"
+   ]
+  },
+  {
+   "numero": "42422428",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75018--42422428",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 252,
+   "prix": 1850000,
+   "agence": "Immprove 1ERE COURONNE NORD ET OUEST",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : paris18-montmartre-252, 42356682, 41033545, 42422431"
+   ]
+  },
+  {
+   "numero": "38594263",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-bureaux-hyper-centre--38594263",
+   "ville": "Versailles",
+   "dept": "78",
+   "surface": 493,
+   "prix": 795000,
+   "agence": "CSI",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "42357521",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-rueil-malmaison-92500--42357521",
+   "ville": "Rueil Malmaison",
+   "dept": "92",
+   "surface": 15500,
+   "prix": 276000,
+   "agence": "Immprove SAO NORD",
+   "motifs": [
+    "prix au m² incohérent (17 €/m²)"
+   ]
+  },
+  {
+   "numero": "42836964",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureaux-paris-75018--42836964",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 265,
+   "prix": 1850000,
+   "agence": "Spliit",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 42513237, 42405358"
+   ]
+  },
+  {
+   "numero": "42588651",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-a-boulogne-billancourt-rooftop-ve--42588651",
+   "ville": "Boulogne-Billancourt",
+   "dept": "92",
+   "surface": 1500,
+   "prix": null,
+   "agence": "Arthur Loyd IDF Ouest Nanterre",
+   "motifs": [
+    "prix sur demande ou absent",
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 40696564, 42359081, 41970374"
+   ]
+  },
+  {
+   "numero": "42422848",
+   "url": "https://www.bureauxlocaux.com/annonce/locaux-erp-ideal-creche-ou-activite-medicale--42422848",
+   "ville": "Vincennes",
+   "dept": "94",
+   "surface": 350,
+   "prix": 1925000,
+   "agence": "EVOLIS ILE DE FRANCE EST",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : vincennes-consultim, vincennes-evolis",
+    "même bien probable que vincennes-consultim (déjà sur le radar)"
+   ]
+  },
+  {
+   "numero": "42851851",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-erp-type-centre-de-formation--42851851",
+   "ville": "Champs Sur Marne",
+   "dept": "77",
+   "surface": 665,
+   "prix": 1213625,
+   "agence": "EVOLIS ILE DE FRANCE EST",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : champs-sur-marne-amphitheatre-665, champs-sur-marne-erpable-amphi-665, 42423108",
+    "même bien probable que champs-sur-marne-amphitheatre-665 (déjà sur le radar)"
+   ]
+  },
   {
    "numero": "42479442",
    "url": "https://www.bureauxlocaux.com/annonce/bureaux-erp-type-centre-de-formation--42479442",
@@ -23,7 +213,258 @@
    "agence": "EVOLIS ILE DE FRANCE EST",
    "motifs": [
     "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
-    "doublon possible avec : 40944327"
+    "doublon possible avec : 43121100, 43105990, 42834089, 40944327"
+   ]
+  },
+  {
+   "numero": "42452576",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-showroom-activite-a-vendre--42452576",
+   "ville": "Serris",
+   "dept": "77",
+   "surface": 275,
+   "prix": 765000,
+   "agence": "KAREA",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 39259966"
+   ]
+  },
+  {
+   "numero": "42585309",
+   "url": "https://www.bureauxlocaux.com/annonce/boutique-a-vendre--42585309",
+   "ville": "Antony",
+   "dept": "92",
+   "surface": 255,
+   "prix": 765000,
+   "agence": "PROMOCOMM",
+   "motifs": [
+    "bien non livré (VEFA, brut de béton ou livraison future)"
+   ]
+  },
+  {
+   "numero": "40814441",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-bureaux-proximite-rer-a-ideal-cabinet-med--40814441",
+   "ville": "Maisons-Laffitte",
+   "dept": "78",
+   "surface": 246,
+   "prix": 986000,
+   "agence": "CSI",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "42356249",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-rueil-malmaison-92500--42356249",
+   "ville": "Rueil Malmaison",
+   "dept": "92",
+   "surface": 249,
+   "prix": 1200000,
+   "agence": "Immprove COMMERCE",
+   "motifs": [
+    "doublon possible avec : 42603482"
+   ]
+  },
+  {
+   "numero": "42621856",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-a-gennevilliers-parfait-etat-avec--42621856",
+   "ville": "Gennevilliers",
+   "dept": "92",
+   "surface": 240,
+   "prix": 553725,
+   "agence": "Arthur Loyd IDF Ouest Nanterre",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "39800727",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-vincennes-94300--39800727",
+   "ville": "Vincennes",
+   "dept": "94",
+   "surface": 455,
+   "prix": 4000000,
+   "agence": "RG Conseil",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "42346568",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75013--42346568",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 482,
+   "prix": 899360,
+   "agence": "Dôme Real Estate",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "42404722",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75019--42404722",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 840,
+   "prix": null,
+   "agence": "Groupe Babylone",
+   "motifs": [
+    "prix sur demande ou absent",
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 42712757"
+   ]
+  },
+  {
+   "numero": "43020696",
+   "url": "https://www.bureauxlocaux.com/annonce/surface-en-rdc-erp-5--43020696",
+   "ville": "Montreuil",
+   "dept": "93",
+   "surface": 480,
+   "prix": 1344000,
+   "agence": "CRENO REAL ESTATE",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "40937288",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-saint-maur-des-fosses-94100--40937288",
+   "ville": "Saint-Maur-des-Fossés",
+   "dept": "94",
+   "surface": 470,
+   "prix": 1200000,
+   "agence": "Immprove PARIS CAPITAL MARKET",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 40838957"
+   ]
+  },
+  {
+   "numero": "42531424",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-professionel-a-vendre--42531424",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 162,
+   "prix": 2025000,
+   "agence": "Groupe Babylone",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 40845020, 41130020"
+   ]
+  },
+  {
+   "numero": "42516308",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-louer-ou-a-vendre-paris-18eme--42516308",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 585,
+   "prix": 4680000,
+   "agence": "Groupe Babylone",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "vente ou location : la vente n'est pas la seule offre",
+    "doublon possible avec : 42561693, 42625969, 42385733, 37650658, 42485595"
+   ]
+  },
+  {
+   "numero": "40692383",
+   "url": "https://www.bureauxlocaux.com/annonce/bureau-a-vendre--40692383",
+   "ville": "Dammarie-les-Lys",
+   "dept": "77",
+   "surface": 622,
+   "prix": 3450000,
+   "agence": "ADVENIS REAL ESTATE SOLUTIONS IDF EST",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "42474578",
+   "url": "https://www.bureauxlocaux.com/annonce/bureau-de-236m2--42474578",
+   "ville": "Châtillon",
+   "dept": "92",
+   "surface": 236,
+   "prix": 1198000,
+   "agence": "SCAMAC-IMMO",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 40203757"
+   ]
+  },
+  {
+   "numero": "39345737",
+   "url": "https://www.bureauxlocaux.com/annonce/immeuble-independant-a-vendre--39345737",
+   "ville": "Saint-Cloud",
+   "dept": "92",
+   "surface": 2306,
+   "prix": 6000000,
+   "agence": "ADVENIS REAL ESTATE SOLUTIONS PARIS RIVE GAUCHE",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 41496532, 42359017, 43013564, 41952277, 38801075, 42359048"
+   ]
+  },
+  {
+   "numero": "40085958",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-tremblay-en-france-93290--40085958",
+   "ville": "Tremblay-en-France",
+   "dept": "93",
+   "surface": 2787,
+   "prix": 4042600,
+   "agence": "MyLocaux",
+   "motifs": [
+    "doublon possible avec : 42834163, 42846368, 42460172, 40623983"
+   ]
+  },
+  {
+   "numero": "42359700",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-les-lilas-93260--42359700",
+   "ville": "Les Lilas",
+   "dept": "93",
+   "surface": 729,
+   "prix": 2950000,
+   "agence": "Immprove IDF EST",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "40672734",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-saint-ouen-sur-seine-93400--40672734",
+   "ville": "Saint-Ouen-sur-Seine",
+   "dept": "93",
+   "surface": 980,
+   "prix": 4500000,
+   "agence": "BNP Paribas Nord & Est IDF moins de 5000m² (BNE)",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "42996761",
+   "url": "https://www.bureauxlocaux.com/annonce/la-minoterie-bureaux-a-vendre-ou-a-louer-ivry-sur--42996761",
+   "ville": "Ivry Sur Seine",
+   "dept": "94",
+   "surface": 190,
+   "prix": 850000,
+   "agence": "Evolis Première Couronne Sud",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "vente ou location : la vente n'est pas la seule offre",
+    "doublon possible avec : 42385746"
+   ]
+  },
+  {
+   "numero": "43124679",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-a-pontoise-investissement-locatif--43124679",
+   "ville": "Pontoise",
+   "dept": "95",
+   "surface": 188,
+   "prix": 449999,
+   "agence": "Arthur Loyd IDF Nord Ouest",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
    ]
   },
   {
@@ -35,9 +476,121 @@
    "prix": 1150000,
    "agence": "SCAMAC-IMMO",
    "motifs": [
-    "doublon possible avec : 41379870"
+    "doublon possible avec : 42847205"
+   ]
+  },
+  {
+   "numero": "42405310",
+   "url": "https://www.bureauxlocaux.com/annonce/evry-courcouronnes-bureaux-de-348-m2-a-vendre--42405310",
+   "ville": "Évry-Courcouronnes",
+   "dept": "91",
+   "surface": 348,
+   "prix": 348000,
+   "agence": "Sergic",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "37498808",
+   "url": "https://www.bureauxlocaux.com/annonce/la-defense-2-000-m2-de-bureaux-divisibles-a-vendre--37498808",
+   "ville": "Puteaux",
+   "dept": "92",
+   "surface": 1965,
+   "prix": null,
+   "agence": "CUSHMAN & WAKEFIELD VENTES",
+   "motifs": [
+    "prix sur demande ou absent",
+    "bien non livré (VEFA, brut de béton ou livraison future)",
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "40608002",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--40608002",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 176,
+   "prix": 1408000,
+   "agence": "Groupe Babylone",
+   "motifs": [
+    "doublon possible avec : 42384646, 42227323"
+   ]
+  },
+  {
+   "numero": "39088886",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--39088886",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 196,
+   "prix": 1580000,
+   "agence": "ADVENIS REAL ESTATE SOLUTIONS PARIS",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 42449931, 39424688, 36981400, 43034404"
+   ]
+  },
+  {
+   "numero": "40673434",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-courbevoie-92400--40673434",
+   "ville": "Courbevoie",
+   "dept": "92",
+   "surface": 1276,
+   "prix": 3700980,
+   "agence": "BNP Paribas Real Estate Bureaux Vente Utilisateurs",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble"
+   ]
+  },
+  {
+   "numero": "41801464",
+   "url": "https://www.bureauxlocaux.com/annonce/hangar-au-cur-daerosphalte-pole-n1-des-loisirs-mec--41801464",
+   "ville": "La Ferté-Gaucher",
+   "dept": "77",
+   "surface": 2900,
+   "prix": 300000,
+   "agence": "WE INVEST PRO",
+   "motifs": [
+    "prix au m² incohérent (103 €/m²)"
+   ]
+  },
+  {
+   "numero": "42979073",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75003--42979073",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 154,
+   "prix": 1890000,
+   "agence": "HARBOUR REAL ESTATE",
+   "motifs": [
+    "doublon possible avec : 40447696, 34580587"
+   ]
+  },
+  {
+   "numero": "39230360",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureaux-paris-75011--39230360",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 397,
+   "prix": 3499000,
+   "agence": "Leaseo",
+   "motifs": [
+    "annonce classée « bureaux » : salle probablement partagée de l'immeuble",
+    "doublon possible avec : 41413412, 36979416, 40111430, 42833113, 40671570"
+   ]
+  },
+  {
+   "numero": "36979416",
+   "url": "https://www.bureauxlocaux.com/annonce/locauxbiens-immobiliers--36979416",
+   "ville": "Paris",
+   "dept": "75",
+   "surface": 397,
+   "prix": 3500000,
+   "agence": "NCV Conseil",
+   "motifs": [
+    "doublon possible avec : 41413412, 40111430, 39230360, 42833113, 40671570"
    ]
   }
  ],
- "ambigues_total": 2
+ "ambigues_total": 45
 }
