@@ -220,5 +220,29 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles (usage décrit ; statut ERP : verifier)",
   "_id": "ozoir-la-ferriere-restaurant-657"
+ },
+ "41324767": {
+  "date": "2026-11-10",
+  "decision": "retenue",
+  "motif": "relu : bâtiment indépendant, « associations sportives ou religieuses » évoquées (profil transformable, ERP à vérifier)",
+  "_id": "acheres-batiment-460"
+ },
+ "39088691": {
+  "date": "2026-11-10",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles type V (profil transformable, intérêt évoqué ; statut ERP : verifier)",
+  "_id": "levallois-perret-local-210"
+ },
+ "43017330": {
+  "date": "2026-11-10",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles type V (profil transformable, intérêt évoqué ; statut ERP : verifier)",
+  "_id": "cachan-local-304"
+ },
+ "42841525": {
+  "date": "2026-11-10",
+  "decision": "retenue",
+  "motif": "ajout automatique par règles type V (profil transformable, intérêt évoqué ; statut ERP : verifier)",
+  "_id": "saint-thibault-des-vignes-local-1484"
  }
 }
