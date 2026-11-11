@@ -244,5 +244,191 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles type V (profil transformable, intérêt évoqué ; statut ERP : verifier)",
   "_id": "saint-thibault-des-vignes-local-1484"
+ },
+ "42837005": {
+  "date": "2026-11-11",
+  "decision": "retenue",
+  "motif": "fiche ouverte : ancienne biscuiterie 349 m², jardin, ERP possible (profil transformable, ERP à vérifier)",
+  "_id": "bagneux-ancienne-biscuiterie-349"
+ },
+ "40541737": {
+  "date": "2026-11-11",
+  "decision": "retenue",
+  "motif": "fiche ouverte : RDC 166 m² + sous-sol 243 m², associations citées, potentiel ERP 5 (transformable)",
+  "_id": "paris15-violet-409"
+ },
+ "42846484": {
+  "date": "2026-11-11",
+  "decision": "retenue",
+  "motif": "fiche ouverte : RDC plain-pied 307 m², sans copropriété, conforme ERP (transformable)",
+  "_id": "levallois-perret-rdc-307"
+ },
+ "43187307": {
+  "date": "2026-11-11",
+  "decision": "retenue",
+  "motif": "fiche ouverte : RDC 480 m², accès indépendant, ERP 5 possible ; distinct de Les Lilas n° 41049370",
+  "_id": "montreuil-croix-de-chavaux-480"
+ },
+ "42515757": {
+  "date": "2026-11-11",
+  "decision": "retenue",
+  "motif": "fiche ouverte : RDC 183 m², associations citées, potentiel ERP (transformable, petite surface)",
+  "_id": "paris14-catalogne-183"
+ },
+ "42356682": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "même bien que paris18-montmartre-252 (Immprove, 252 m², 1 850 000 €, réservé aux activités d'intérêt collectif)",
+  "_id": "paris18-montmartre-252"
+ },
+ "42422428": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "même bien que paris18-montmartre-252 (Immprove, même texte et prix)",
+  "_id": "paris18-montmartre-252"
+ },
+ "42836964": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "même bien que paris18-montmartre-252 via une autre agence (Spliit, 252 m² Cinaspic Montmartre, 1 850 000 €)",
+  "_id": "paris18-montmartre-252"
+ },
+ "42422848": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "republication de vincennes-evolis (EVOLIS, 350 m², 1 925 000 €) dont le lien d'origine renvoie vers une recherche",
+  "_id": "vincennes-evolis"
+ },
+ "42851851": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "republication de champs-sur-marne-erpable-amphi-665 (Evolis, 665 m², amphithéâtre 120 places, 1 213 625 €)",
+  "_id": "champs-sur-marne-erpable-amphi-665"
+ },
+ "43176970": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "republication de saint-thibault-des-vignes-local-1484 (WE INVEST, 1485 m², 1 995 000 €)",
+  "_id": "saint-thibault-des-vignes-local-1484"
+ },
+ "42833660": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "republication de gometz-la-ville-reception-390 (SCAMAC-IMMO, 390 m², 487 500 €)",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "42479442": {
+  "date": "2026-11-11",
+  "decision": "doublon",
+  "motif": "autre lot (475 m²) du même ensemble que champs-sur-marne-*-665, même amphithéâtre de 120 places ; doublon partiel à arbitrer",
+  "_id": ""
+ },
+ "42476384": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "bureaux au 3e étage, vente ou location ; « église » = vue sur la Madeleine",
+  "_id": ""
+ },
+ "41033545": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux de 199 m², prix non publié",
+  "_id": ""
+ },
+ "38594263": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en étage pour professions libérales ; « Paroisse » = nom de rue",
+  "_id": ""
+ },
+ "42588941": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "bâtiment partiellement loué (bureaux loués), entrepôt logistique",
+  "_id": ""
+ },
+ "42588651": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "prix non publié, immeuble de bureaux 1 500 m² à Boulogne probablement hors budget",
+  "_id": ""
+ },
+ "42452576": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "bureaux / showroom sur deux niveaux, 275 m², aucun usage d'accueil collectif",
+  "_id": ""
+ },
+ "42585309": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "local neuf en VEFA livré brut, rez-de-chaussée de résidence",
+  "_id": ""
+ },
+ "42357521": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en IGH (Tour Albert 1er)",
+  "_id": ""
+ },
+ "40265513": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "annonce divisible 308 à 1 904 m² : prix de 413 000 € non rattachable au lot de 415 m² (incohérence)",
+  "_id": ""
+ },
+ "43187248": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "prix global de 550 000 € incluant un « droit au bail » de 50 000 € : vente des murs non établie",
+  "_id": ""
+ },
+ "42346568": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en étage dans une copropriété",
+  "_id": ""
+ },
+ "42404722": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "prix non publié",
+  "_id": ""
+ },
+ "43183910": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "bureaux au R+1 en copropriété, livrés brut",
+  "_id": ""
+ },
+ "40937288": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "immeuble de bureaux R+3 aux petits plateaux, conformité ERP petite enfance",
+  "_id": ""
+ },
+ "40687383": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "l'annonce écrit « pas de salle des fêtes » ; vente et location",
+  "_id": ""
+ },
+ "40814441": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux de 246 m² pour cabinet médical",
+  "_id": ""
+ },
+ "42405310": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "bureaux au 1er étage",
+  "_id": ""
+ },
+ "42356249": {
+  "date": "2026-11-11",
+  "decision": "ecartee",
+  "motif": "local mixte de 249 m², aucun usage collectif cité",
+  "_id": ""
  }
 }

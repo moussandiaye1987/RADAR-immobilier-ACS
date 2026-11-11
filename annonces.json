@@ -1,5 +1,5 @@
 {
- "date": "10/11/2026",
+ "date": "11/11/2026",
  "rows": [
   {
    "adresse": "",
@@ -4417,6 +4417,166 @@
    "nouveau": true,
    "ajoute": 1794303009740,
    "vu": "2026-11-10"
+  },
+  {
+   "_id": "bagneux-ancienne-biscuiterie-349",
+   "titre": "Ancienne biscuiterie de 349 m² avec jardin privatif — Vieux Bagneux",
+   "ville": "Bagneux",
+   "adresse": "3 bis rue des Fossés, 92220 Bagneux",
+   "dept": "92",
+   "agence": "Cushman & Wakefield IDF Ouest",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivite-erp-de-349-m2-avec-jardin--42837005",
+   "prix": 1051313,
+   "surface": 349,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « Local d'activité / ERP de 349 m² avec jardin privatif / Le local pourrait accueillir une activité recevant du public (ERP) et pourrait faire l'objet d'une étude pour une transformation en bureaux, en locaux professionnels ou en logements, selon la réglemen »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Le local pourrait accueillir une activité recevant du public (ERP) et pourrait faire l'objet d'une étude pour une transformation en bureaux, en locaux professionnels ou en logements, selon la réglementation d'urbanisme e ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Bâtiment atypique (ancienne biscuiterie) au cœur du Vieux Bagneux, avec jardin privatif et monte-charge ; 193,5 m² en RDC, le reste à l'étage. L'annonce écrit que le local « pourrait accueillir une activité recevant du public (ERP) », sous réserve des autorisations : changement de destination, PLU et voisinage (centre ancien, secteur résidentiel) à vérifier. Prix de 3 010 €/m². Stationnement non mentionné. Annonce BureauxLocaux n° 42837005 ouverte et vérifiée le 11/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11"
+  },
+  {
+   "_id": "paris15-violet-409",
+   "titre": "RDC et sous-sol de 409 m² rue Violet (Paris 15e), potentiel ERP 5, associations citées",
+   "ville": "Paris 15e",
+   "adresse": "18 bis rue Violet, 75015 Paris",
+   "dept": "75",
+   "agence": "Alex Bolton",
+   "ref": "1301715-0",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer--40541737",
+   "prix": 1900000,
+   "surface": 409,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé : l'annonce ne précise pas de classement ERP",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "6",
+     "station": "Dupleix",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "6, 8, 10",
+     "station": "La Motte-Picquet - Grenelle",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Idéals pour des activités de formation, des crèches ou des associations, ces locaux peuvent être adaptés à différentes configurations grâce à leur potentiel d'ERP5 avec une ouverture de porte sur la rue Fallempin, comme  ». Atouts cités : rez-de-chaussée. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Locaux livrés curés en rez-de-chaussée (166 m²) et sous-sol (243 m²), « idéals pour des activités de formation, des crèches ou des associations », avec un potentiel d'ERP 5 grâce à une porte sur la rue Fallempin. Point de vigilance majeur : plus de la moitié de la surface est en sous-sol (effectif admissible limité pour un lieu de culte). Copropriété probable (immeuble parisien) : règlement et voisinage à vérifier. Prix de 4 645 €/m². Annonce BureauxLocaux n° 40541737 ouverte et vérifiée le 11/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11"
+  },
+  {
+   "_id": "levallois-perret-rdc-307",
+   "titre": "RDC de plain-pied de 307 m² à Levallois-Perret, sans copropriété, conforme ERP",
+   "ville": "Levallois-Perret",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Nexim Conseil",
+   "ref": "VLEV307FRL-5515",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--42846484",
+   "prix": 2100000,
+   "surface": 307,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « A louer ou a Vendre une surface d'environs 307m² bureaux ou commerce, situé en rez-de-chaussée de plain-pied, bénéficiant d'un accès direct sur l'extérieur avec plusieurs entrées indépendantes, offran »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Les locaux, conformes aux normes ERP, sont adaptés à l'accueil du public et disposent d'une rampe d'accès PMR. ». Atouts cités : rez-de-chaussée, plain-pied, hauteur sous plafond. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Rez-de-chaussée de plain-pied avec plusieurs entrées indépendantes, en pleine propriété « sans charges de copropriété », locaux « conformes aux normes ERP » avec rampe PMR et belle hauteur sous plafond. L'absence de copropriété facilite un changement d'usage ; catégorie ERP, type d'origine et PLU restent à vérifier. Prix élevé : 6 840 €/m² ; adresse non publiée, stationnement non mentionné. Annonce BureauxLocaux n° 42846484 ouverte et vérifiée le 11/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11"
+  },
+  {
+   "_id": "montreuil-croix-de-chavaux-480",
+   "titre": "Plateau de 480 m² en RDC à Montreuil (Croix-de-Chavaux), accès indépendant, ERP 5 possible",
+   "ville": "Montreuil",
+   "adresse": "",
+   "dept": "93",
+   "agence": "CRENO REAL ESTATE",
+   "ref": "2213748-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/surface-en-rdc-erp-5--43187307",
+   "prix": 1300000,
+   "surface": 480,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « Surface en RDC ERP 5. / Accueil du public possible (ERP 5). »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Croix-de-Chavaux",
+     "distance": 400,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Mairie de Montreuil",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Accueil du public possible (ERP 5). ». Atouts cités : rdc. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Surface de 480 m² entièrement en RDC, accès indépendant sur esplanade, peu de porteurs ; « Accueil du public possible (ERP 5) ». Immeuble mixte bureaux / habitation : règlement de copropriété et nuisances sonores pour les logements à examiner en priorité. Prix de 2 708 €/m². Bien distinct de l'annonce des Lilas de 482 m² (n° 41049370, autre agence, autre commune) signalée comme doublon possible. Annonce BureauxLocaux n° 43187307 ouverte et vérifiée le 11/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11"
+  },
+  {
+   "_id": "paris14-catalogne-183",
+   "titre": "Locaux indépendants de 183 m² en RDC près de la place de Catalogne (Paris 14e), associations citées",
+   "ville": "Paris 14e",
+   "adresse": "",
+   "dept": "75",
+   "agence": "EVOLIS PARIS",
+   "ref": "2204694-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75014--42515757",
+   "prix": 1661440,
+   "surface": 183,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « Ces locaux PMR accueilleront cabinets médicaux, établissements recevant du public, associations ou sociétés commerciales. »",
+   "profil": "transformable",
+   "parking": "proximite",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "Pernety",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "59, 88",
+     "station": "Pernety / Place de Catalogne",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Ces locaux PMR accueilleront cabinets médicaux, établissements recevant du public, associations ou sociétés commerciales. ». Atouts cités : rdc, parking. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Petite surface (183 m², sous le seuil par défaut de 250 m²) en RDC, PMR, double accès, cave en sous-sol ; l'annonce cite les « établissements recevant du public, associations » et un « Potentiel E.R.P. ». Adapté au mieux à une petite salle de prière : effectif limité, copropriété et voisinage à vérifier. Prix très élevé : 9 079 €/m². Annonce BureauxLocaux n° 42515757 ouverte et vérifiée le 11/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11"
   }
  ]
 }
