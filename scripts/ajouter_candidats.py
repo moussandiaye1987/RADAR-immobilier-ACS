@@ -35,6 +35,7 @@ import time
 import unicodedata
 
 import type_v as T
+import types_erp as TE
 from commun import DEPTS, RACINE, ecrire_annonces, lire_annonces
 
 CANDIDATS = RACINE / "veille" / ".candidats.json"
@@ -233,6 +234,8 @@ def construire(c, infos, date_iso, ts):
         r["erpSource"] = erp_source
     if c.get("occupe"):
         r["occupe"] = True
+    # Radar tous types : types d'ERP déclarés / potentiels (description comprise) et catégorie citée.
+    TE.appliquer(r, f"{titre}. {desc}")
     return r, prof
 
 

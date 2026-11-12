@@ -60,7 +60,7 @@ jobs:
       - name: Vérifier la présence des scripts
         run: |
           set -euo pipefail
-          for f in veille/sources.json scripts/commun.py scripts/type_v.py scripts/collecter_bureauxlocaux.py scripts/verifier_liens.py \
+          for f in veille/sources.json scripts/commun.py scripts/type_v.py scripts/types_erp.py scripts/collecter_bureauxlocaux.py scripts/verifier_liens.py \
                    scripts/ajouter_candidats.py scripts/test_ajouter_candidats.py scripts/sync_index.py \
                    scripts/valider.py scripts/test_filtres.js; do
             test -f "$f" || { echo "::error::$f absent de main"; exit 1; }

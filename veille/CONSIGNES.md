@@ -1,4 +1,8 @@
-# Consignes de la veille quotidienne — Radar ERP Type V (lieux de culte)
+# Consignes de la veille quotidienne — Radar ERP — Île-de-France (tous types d'ERP)
+
+> Depuis le 12/11/2026, le site couvre **tous les types d'ERP** (L, V, Y, M, N, O, P, R, S, T, U, W, X, J) avec un filtre « Type d'ERP ».
+> Les règles du type V ci-dessous (statut `erp`, `profil`, `analyseV`) restent appliquées ; chaque annonce porte en plus
+> `typesDeclares`, `typesPotentiels` et, si elle est citée, `categorie` (voir le tableau du §4).
 
 Ces consignes sont suivies à chaque exécution de la Routine Claude Code (tous les jours à 6 h 55, heure de Paris).
 Elles priment sur toute autre habitude. En cas de doute, **signaler dans le bilan plutôt que décider**.
@@ -82,6 +86,9 @@ Respecter exactement le format existant (voir une annonce récente) :
 | `erpDetail` | ce que dit l'annonce : catégorie, capacité, type, PMR, hauteur sous plafond… |
 | `erpSource` | **obligatoire si `erp` = `V` ou `L`** : citation exacte de l'annonce ou du document, et son lien |
 | `analyseV` | 1 à 3 phrases : profil, ce que dit l'annonce (citation), atouts, ce qui reste à vérifier pour un ERP V |
+| `typesDeclares` | codes ERP cités explicitement par l'annonce (« ERP type M », « types M et L ») ou activité recevant du public en exploitation (restaurant → N, salle de réception → L, crèche → R, hôtel → O) ; un `erp` V ou L justifié vaut type déclaré |
+| `typesPotentiels` | codes auxquels le local se prête sans être déclaré (grand volume de plain-pied → V, L, X ; vitrine → M ; bureaux → W ; cuisine/salle → N, L…), jamais un type déjà déclaré. `scripts/types_erp.py` les calcule |
+| `categorie` | 1 à 5 si l'annonce cite la catégorie ERP |
 | `parking` | `sur_place`, `proximite` ou `non_precise` |
 | `transports` | liste de `{mode, ligne, station, distance, confirme}` ; `mode` parmi Métro, RER, Tram, Transilien, Bus ; `distance` en mètres ou `null` ; `confirme: true` seulement si l'annonce le dit |
 | `statut` | `en_vente` (ou `sous_offre` si l'annonce l'indique) |
