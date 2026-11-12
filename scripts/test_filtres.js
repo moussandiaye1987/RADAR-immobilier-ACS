@@ -52,8 +52,8 @@ async function lancer(executablePath) {
     const nArch = data.rows.filter(r => r.archive).length;
     verifier('bandeau', (await page.textContent('#snap')).trim(),
       `Données relevées le ${data.date} (${data.rows.length - nArch} annonces actives${nArch ? `, ${nArch} archivées` : ''}).`);
-    verifier('titre de la page', await page.title(), 'Radar ERP Type V — Île-de-France');
-    verifier('titre principal', (await page.textContent('h1')).trim(), 'Radar ERP Type V — Île-de-France');
+    verifier('titre de la page', await page.title(), 'Radar ERP — Île-de-France');
+    verifier('titre principal', (await page.textContent('h1')).trim(), 'Radar ERP — Île-de-France');
     verifier('annonces affichées (filtres par défaut)', await compte(), parDefaut.length);
     verifier('fiches affichées (filtres par défaut)', await page.locator('#list article.card').count(), parDefaut.length);
 
@@ -62,6 +62,30 @@ async function lancer(executablePath) {
     await page.$eval('#sMin', e => { e.value = 0; e.dispatchEvent(new Event('input', { bubbles: true })); });
     verifier('annonces sans limite de budget ni de surface', await compte(), visibles.length);
     verifier('étiquettes « Nouveau »', await page.locator('.tag.new').count(), visibles.filter(r => r.nouveau).length);
+
+    // ---- Filtre « Type d'ERP » (tous types) : déclaré ou potentiel, case « déclaré uniquement », « Type non précisé » ----
+    const decl = r => { const d = [...(r.typesDeclares || [])]; if ((r.erp === 'V' || r.erp === 'L') && !d.includes(r.erp)) d.push(r.erp); return d; };
+    const potl = r => (r.typesPotentiels || []).filter(t => !decl(r).includes(t));
+    verifier('types d\'ERP présents sur chaque annonce', data.rows.filter(r => !Array.isArray(r.typesDeclares) || !Array.isArray(r.typesPotentiels)).length, 0);
+    verifier('puces « Type d\'ERP » (14 types + non précisé)', await page.locator('#typeChips button').count(), 15);
+    for (const t of ['L', 'V', 'M', 'N', 'R', 'U', 'W', 'X']) {
+      await page.locator(`#typeChips button[data-k="${t}"]`).click();
+      verifier(`filtre type ${t} (déclaré ou potentiel)`, await compte(), visibles.filter(r => decl(r).includes(t) || potl(r).includes(t)).length);
+      await page.check('#typesConfirmed');
+      verifier(`filtre type ${t} déclaré uniquement`, await compte(), visibles.filter(r => decl(r).includes(t)).length);
+      verifier(`pastilles « ${t} » déclarées sur chaque fiche`, await page.locator('#list article.card .tag.t-dec', { hasText: new RegExp(`^${t}`) }).count(), visibles.filter(r => decl(r).includes(t)).length);
+      await page.uncheck('#typesConfirmed');
+      await page.locator(`#typeChips button[data-k="${t}"]`).click();
+    }
+    await page.locator('#typeChips button[data-k="M"]').click();
+    await page.locator('#typeChips button[data-k="N"]').click();
+    verifier('filtre types M + N (union)', await compte(), visibles.filter(r => ['M', 'N'].some(t => decl(r).includes(t) || potl(r).includes(t))).length);
+    await page.click('#typesClear');
+    verifier('bouton « Tous » (types)', await compte(), visibles.length);
+    await page.locator('#typeChips button[data-k="NP"]').click();
+    verifier('filtre « Type non précisé »', await compte(), visibles.filter(r => !decl(r).length && !potl(r).length).length);
+    await page.click('#typesClear');
+    verifier('légende des types', await page.locator('#legend li').count(), 14);
 
     for (const d of ['75', '77', '78', '91', '92', '93', '94', '95']) {
       await puce('deptChips', d).click();
@@ -99,7 +123,7 @@ async function lancer(executablePath) {
     verifier('case « archivées » : motif affiché', await page.locator('#list article.card.arch .note.hist', { hasText: 'Archivée le' }).count(), archivees.length);
     await page.uncheck('#showArchived');
     verifier('case « archivées » décochée', await compte(), visibles.length);
-    verifier('lecture type V affichée sur chaque fiche', await page.locator('#list article.card .note', { hasText: 'Lecture type V' }).count(), visibles.filter(r => r.analyseV).length);
+    verifier('lecture type V affichée sur chaque fiche', await page.locator('#list article.card .note', { hasText: 'Lecture lieu de culte (type V)' }).count(), visibles.filter(r => r.analyseV).length);
     await page.click('[data-park="sur_place"]');
     verifier('filtre parking sur place', await compte(), visibles.filter(r => r.parking === 'sur_place').length);
     await page.click('[data-park="near"]');
