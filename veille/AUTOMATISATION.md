@@ -1,4 +1,19 @@
-# Veille automatique — Radar ERP Type V (GitHub Actions, sans API payante)
+# Veille du Radar ERP — Île-de-France : une seule veille quotidienne
+
+**Depuis le 13/11/2026, une seule veille tourne** (demande du propriétaire : éviter plusieurs agents en parallèle) :
+
+| Veille | État | Rôle |
+|---|---|---|
+| Routine Claude « Veille quotidienne Radar ERP (tous types) — site Netlify » (6 h 55, Paris) | **active** | recherche sur une vingtaine de sources, tous types d'ERP, publie elle-même sur `main` (PR du jour fusionnée si les contrôles passent) → Netlify. Texte : `veille/PROMPT_ROUTINE.md` |
+| Workflow GitHub Actions `veille-quotidienne.yml` (BureauxLocaux, règles Python) | planification **arrêtée**, lancement manuel possible | décrit ci-dessous, conservé pour mémoire |
+| Routine « Veille ERP tous types IDF (Radar ERP) » (tableau de bord artefact) | **désactivée** (réactivable) | alimentait un tableau de bord séparé, pas le site Netlify |
+
+Pour réactiver le workflow GitHub Actions : remettre le bloc `schedule` indiqué en commentaire en tête du fichier.
+
+---
+
+## Historique : workflow GitHub Actions (lancement manuel uniquement)
+
 
 Workflow : `.github/workflows/veille-quotidienne.yml` (tous les jours, déclenché à 05:00 UTC, soit 6 h à Paris en hiver
 et 7 h en été ; lancement manuel possible, avec une case « simulation » qui ne publie rien). Aucun secret à configurer.

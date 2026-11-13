@@ -244,5 +244,245 @@
   "decision": "retenue",
   "motif": "ajout automatique par règles type V (profil transformable, intérêt évoqué ; statut ERP : verifier)",
   "_id": "saint-thibault-des-vignes-local-1484"
+ },
+ "36749524": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "puteaux-boieldieu-erp-w-2748"
+ },
+ "40708878": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "41079939": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "asnieres-barbusse-erp-x-573"
+ },
+ "39708234": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "paris09-saint-lazare-erp5-531"
+ },
+ "40672734": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "saint-ouen-immeuble-erp5-980"
+ },
+ "42449930": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "sannois-franconville-depot-showroom-1764"
+ },
+ "42209417": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "argenteuil-centre-ancien-restaurant-600"
+ },
+ "39260282": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "ivry-jeanne-hachette-erp5-250"
+ },
+ "40673102": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "longjumeau-centre-immeuble-550"
+ },
+ "42420603": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "tremblay-ght-showroom-erp-593"
+ },
+ "40877253": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "persan-creno-cellules-erp5-466"
+ },
+ "39118574": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "boulogne-delafosse-erp5-159"
+ },
+ "42663213": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "paris03-beaumarchais-erp5-363"
+ },
+ "42445029": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "paris17-lantiez-ancienne-creche-570"
+ },
+ "geolocaux-744628": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "paris15-etienne-pernet-erp5-1607"
+ },
+ "paruvendu-1295439461": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "Ajoutée au radar (veille tous types ERP)",
+  "_id": "maisons-alfort-centre-boutique-atelier-340"
+ },
+ "40636293": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même immeuble que saint-cloud-carnot-erp3-2231 (Consult'Im, 2 306 m², 6 M€)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "38801075": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même immeuble que saint-cloud-carnot-erp3-2231 (Knight Frank)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "41496532": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même immeuble que saint-cloud-carnot-erp3-2231 (Groupe Babylone, 2 307 m², 5 999 999 €)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "39127314": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même local que boulogne-delafosse-erp5-159 (G2B, 889 923 €)",
+  "_id": "boulogne-delafosse-erp5-159"
+ },
+ "43073031": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même lot probable que paris03-beaumarchais-erp5-363 (Groupe Babylone, 4 000 000 €)",
+  "_id": "paris03-beaumarchais-erp5-363"
+ },
+ "42422848": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bien que vincennes-evolis (EVOLIS, 350 m², 1 925 000 €)",
+  "_id": "vincennes-evolis"
+ },
+ "42851851": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Doublon probable de champs-sur-marne-amphitheatre-665",
+  "_id": "champs-sur-marne-amphitheatre-665"
+ },
+ "42833660": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Doublon probable de gometz-la-ville-reception-390",
+  "_id": "gometz-la-ville-reception-390"
+ },
+ "40314697": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Doublon possible de vincennes-evolis / vincennes-consultim (Vincennes, RDC ERP 5, crèche) : non ajoutée sans confirmation",
+  "_id": "vincennes-evolis"
+ },
+ "40692378": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Doublon possible de vincennes-evolis / vincennes-consultim (350 m², crèche ou médical, prix 3,73 M€) : non ajoutée sans confirmation",
+  "_id": "vincennes-consultim"
+ },
+ "39249171": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Vente occupée (bail commercial en cours, école locataire)",
+  "_id": ""
+ },
+ "39178663": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Prix incohérent (595 200 € pour 1 000 m², vente ou location)",
+  "_id": ""
+ },
+ "40574228": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "VEFA (livraison 4T2026), surface de vente de 108 m² au RDC et 550 m² en sous-sol",
+  "_id": ""
+ },
+ "39048098": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux en étage dans un immeuble R+6",
+  "_id": ""
+ },
+ "39260857": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux en étage (ERP W) dans un programme neuf",
+  "_id": ""
+ },
+ "42355683": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Prix incohérent (114 700 € pour 1 572 m²), plateau divisible",
+  "_id": ""
+ },
+ "39178039": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Lots de 202 à 280 m² sur 2 niveaux, prix et surface incohérents",
+  "_id": ""
+ },
+ "42846520": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Destination exclusivement showroom / BtoB, ERP seulement possible",
+  "_id": ""
+ },
+ "43124679": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Investissement locatif (loué)",
+  "_id": ""
+ },
+ "41132989": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Investissement locatif 11 % (loué), 3e étage",
+  "_id": ""
+ },
+ "paruvendu-1297373587": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Bureaux sur 2 niveaux en copropriété, prix incohérent (1,8 M€ / 2,12 M€)",
+  "_id": ""
+ },
+ "paruvendu-1297244824": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux au 2e étage",
+  "_id": ""
+ },
+ "paruvendu-1296245608": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "VEFA livrable 4T2028",
+  "_id": ""
+ },
+ "geolocaux-745151": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Murs loués (5 750 €/mois)",
+  "_id": ""
  }
 }
