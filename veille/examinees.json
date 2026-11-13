@@ -694,5 +694,197 @@
   "decision": "ecartee",
   "motif": "plateau de bureaux sans accueil du public cité (Boulogne, autre immeuble)",
   "_id": ""
+ },
+ "42516308": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "paris18-marcadet-ancienne-ecole-erp5-585"
+ },
+ "43095945": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "paris16-flandrin-ancienne-creche-173"
+ },
+ "43095944": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "paris14-ancienne-creche-rdc-172"
+ },
+ "42410315": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "clamart-serpis-rdc-erp5-466"
+ },
+ "42587372": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "montrouge-rdc-jardin-erp5-295"
+ },
+ "36972445": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "coignieres-ex-terrasse-co-showroom-537"
+ },
+ "39088870": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "montrouge-perier-rdc-jardin-170"
+ },
+ "42503080": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "brie-comte-robert-batiment-independant-560"
+ },
+ "42474578": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "chatillon-stalingrad-rez-de-jardin-236"
+ },
+ "39088886": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "paris17-ampere-entree-independante-196"
+ },
+ "40159880": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "veille du 13/11/2026 (test 2) : fiche ouverte et vérifiée",
+  "_id": "le-mesnil-saint-denis-immeuble-independant-521"
+ },
+ "42385733": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même lot que paris18-marcadet-ancienne-ecole-erp5-585 (122 rue Marcadet, 585 m², 4 680 000 €, G2B)",
+  "_id": "paris18-marcadet-ancienne-ecole-erp5-585"
+ },
+ "42529180": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bien que coignieres-ex-terrasse-co-showroom-537 (Advenis)",
+  "_id": "coignieres-ex-terrasse-co-showroom-537"
+ },
+ "42588777": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bien que coignieres-ex-terrasse-co-showroom-537 (Arthur Loyd)",
+  "_id": "coignieres-ex-terrasse-co-showroom-537"
+ },
+ "42281802": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bien que coignieres-ex-terrasse-co-showroom-537 (AP Conseil)",
+  "_id": "coignieres-ex-terrasse-co-showroom-537"
+ },
+ "41496530": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même lot que montrouge-perier-rdc-jardin-170 (4 rue Périer, 171 m², 1 150 000 €)",
+  "_id": "montrouge-perier-rdc-jardin-170"
+ },
+ "42385642": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même lot que montrouge-perier-rdc-jardin-170 (Immprove, 170 m², 1 300 000 €)",
+  "_id": "montrouge-perier-rdc-jardin-170"
+ },
+ "42833756": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bâtiment que brie-comte-robert-batiment-independant-560 (EOL)",
+  "_id": "brie-comte-robert-batiment-independant-560"
+ },
+ "42359696": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bâtiment que brie-comte-robert-batiment-independant-560 (Immprove)",
+  "_id": "brie-comte-robert-batiment-independant-560"
+ },
+ "39317468": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bâtiment probable que brie-comte-robert-batiment-independant-560 (La Briarde, 545 m²)",
+  "_id": "brie-comte-robert-batiment-independant-560"
+ },
+ "40203757": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même bien que chatillon-stalingrad-rez-de-jardin-236 (Praedium)",
+  "_id": "chatillon-stalingrad-rez-de-jardin-236"
+ },
+ "36981400": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même local que paris17-ampere-entree-independante-196 (Spliit)",
+  "_id": "paris17-ampere-entree-independante-196"
+ },
+ "39345737": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même immeuble Riverside que saint-cloud-carnot-erp3-2231 (Advenis)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "42359017": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même immeuble Riverside que saint-cloud-carnot-erp3-2231 (Immprove)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "41952277": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Même immeuble Riverside que saint-cloud-carnot-erp3-2231 (Evolis)",
+  "_id": "saint-cloud-carnot-erp3-2231"
+ },
+ "42486078": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Boutique 300 m² (RDC 200 m² + sous-sol) aux Épinettes, probablement le même local que paris17-guy-moquet-300 (autre agence, Flagship, 1 980 000 €) : à confirmer",
+  "_id": "paris17-guy-moquet-300"
+ },
+ "42621469": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "Lot de 441 m² du même programme ZAC Butte des Bergers que louvres-noyer-malice-932 / -883",
+  "_id": "louvres-noyer-malice-932"
+ },
+ "42840206": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Titre « à louer » 311 m² contre 731 m² à 610 000 € en vente : offre incohérente",
+  "_id": ""
+ },
+ "42385387": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux au 2e étage, prix non communiqué",
+  "_id": ""
+ },
+ "41395257": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Plateaux de bureaux loués à un monolocataire (vendus occupés)",
+  "_id": ""
+ },
+ "42996761": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux de 190 m² dans un immeuble tertiaire, niveau non précisé, vente ou location",
+  "_id": ""
+ },
+ "42357559": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "Prix « à partir de » pour un lot divisible : prix du lot de 365 m² non publié",
+  "_id": ""
  }
 }
