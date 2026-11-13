@@ -1,15 +1,16 @@
-name: Veille quotidienne
+name: Veille quotidienne (manuelle)
 
 # Radar ERP Type V (lieux de culte). Veille 100 % gratuite : GitHub Actions + scripts Python du dépôt.
-# Aucune API d'IA, aucun secret. Publie sur main (donc Netlify) uniquement si des annonces ont été ajoutées
+# Aucune API d'IA, aucun secret. Publie sur main (donc Render) uniquement si des annonces ont été ajoutées
 # ET que tous les contrôles ont réussi.
 
 on:
-  schedule:
-    # Un seul déclencheur par jour : 05:00 UTC = 6 h à Paris en hiver, 7 h en été.
-    # GitHub retarde souvent les tâches planifiées de plusieurs heures : il n'y a volontairement PAS de garde horaire.
-    # (L'ancienne garde « 7 h à Paris » ignorait toutes les exécutions retardées : aucune veille du 22/10 au 09/11/2026.)
-    - cron: "0 5 * * *"
+  # Exécution planifiée ARRÊTÉE le 13/11/2026 à la demande du propriétaire : une seule veille quotidienne est
+  # conservée, la Routine Claude « Veille quotidienne Radar ERP (tous types) — site Render » (voir
+  # veille/AUTOMATISATION.md). Ce workflow reste disponible en lancement manuel (Actions → Run workflow).
+  # Pour le réactiver, remettre :
+  #   schedule:
+  #     - cron: "0 5 * * *"
   workflow_dispatch:
     inputs:
       simulation:
@@ -120,7 +121,7 @@ jobs:
           retention-days: 14
           if-no-files-found: ignore
 
-      # Sur main (exécution planifiée ou manuelle) : publication sur main, donc déploiement Netlify.
+      # Sur main (exécution planifiée ou manuelle) : publication sur main, donc déploiement Render.
       # Sur toute autre branche (test avant fusion) : poussée vers la branche jetable « ci-test-publication »,
       # ce qui éprouve les droits d'écriture sans jamais toucher à main.
       - name: Publier si des annonces ont changé
@@ -130,7 +131,7 @@ jobs:
         run: |
           set -euo pipefail
           if git diff --quiet -- annonces.json index.html; then
-            echo "Aucune modification des annonces : pas de commit, pas de déploiement Netlify." | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "Aucune modification des annonces : pas de commit, pas de déploiement Render." | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           git config user.name "github-actions[bot]"

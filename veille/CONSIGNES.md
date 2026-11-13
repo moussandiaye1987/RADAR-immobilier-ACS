@@ -7,16 +7,19 @@
 Ces consignes sont suivies à chaque exécution de la Routine Claude Code (tous les jours à 6 h 55, heure de Paris).
 Elles priment sur toute autre habitude. En cas de doute, **signaler dans le bilan plutôt que décider**.
 
-La publication automatique quotidienne (sans IA) est assurée séparément par le workflow GitHub Actions
-`.github/workflows/veille-quotidienne.yml` avec les mêmes règles (`scripts/type_v.py`) : voir `veille/AUTOMATISATION.md`.
+**Veille unique (depuis le 13/11/2026)** : cette Routine est la SEULE veille quotidienne du radar. Le workflow GitHub
+Actions `.github/workflows/veille-quotidienne.yml` n'est plus planifié (lancement manuel seulement) et l'ancienne
+Routine « tableau de bord artefact » est désactivée. Voir `veille/AUTOMATISATION.md`.
 
-## 0. Phase de test : règles de publication
+## 0. Publication automatique (sans validation manuelle)
 
-- Travailler sur une branche `veille/AAAA-MM-JJ` créée depuis `main` à jour.
-- Ouvrir une **Pull Request vers `main`** et **ne jamais la fusionner**. Ne jamais pousser sur `main`.
-- Si une branche ou une PR du même jour existe déjà, la mettre à jour au lieu d'en créer une autre.
-- Si rien n'a changé (aucune nouvelle annonce, aucun lien modifié), ouvrir quand même la PR avec le bilan
-  (seuls `veille/etat_liens.json`, `veille/examinees.json` et le bilan changent).
+- Travailler sur une branche `veille/AAAA-MM-JJ` créée depuis `origin/main` à jour.
+- Commit, poussée, puis **Pull Request vers `main`** intitulée « Veille du JJ/MM/AAAA ».
+- **Si les contrôles du § 6 réussissent, fusionner soi-même la PR** (fusion « squash ») : `main` est publié sur
+  Render automatiquement (https://radar-immobilier-acs.onrender.com). Si la fusion est refusée (conflit, protection), laisser la PR ouverte et le signaler.
+- Si un contrôle échoue et ne peut pas être corrigé : PR en **brouillon**, non fusionnée, erreur en tête du bilan.
+- Si rien n'a changé dans `annonces.json`, ne pas ouvrir de PR : le bilan est donné dans le message final.
+- Ne jamais réutiliser ni fusionner une ancienne PR « Veille du … » : seule celle du jour compte.
 
 ## 1. Ce que l'on cherche
 
@@ -121,16 +124,17 @@ ajoutées lors des veilles précédentes est **retirée** quand elles ont plus d
   de l'annonce** (à détailler dans le bilan, ancienne → nouvelle valeur), passage en `sous_offre` si l'annonce
   l'affiche.
 
-## 6. Contrôles obligatoires avant la PR
+## 6. Contrôles obligatoires avant la fusion
 
 ```bash
 python3 scripts/sync_index.py                          # recopie annonces.json dans index.html
+python3 scripts/test_ajouter_candidats.py              # tests des règles
 python3 scripts/valider.py --base origin/main          # JSON, champs, doublons, suppressions, types V et L
 NODE_PATH=$(npm root -g) node scripts/test_filtres.js  # page et filtres dans Chromium
 ```
 
 Les trois doivent réussir. Ne jamais modifier le code de `index.html` (seule la copie des données change).
-En cas d'échec impossible à corriger : ouvrir quand même la PR, en **brouillon**, avec l'erreur dans le bilan.
+En cas d'échec impossible à corriger : PR en **brouillon**, non fusionnée, avec l'erreur dans le bilan.
 
 ## 7. Bilan quotidien
 

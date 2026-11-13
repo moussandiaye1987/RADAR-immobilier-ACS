@@ -1,4 +1,19 @@
-# Veille automatique — Radar ERP Type V (GitHub Actions, sans API payante)
+# Veille du Radar ERP — Île-de-France : une seule veille quotidienne
+
+**Depuis le 13/11/2026, une seule veille tourne** (demande du propriétaire : éviter plusieurs agents en parallèle) :
+
+| Veille | État | Rôle |
+|---|---|---|
+| Routine Claude « Veille quotidienne Radar ERP (tous types) — site Render » (6 h 55, Paris) | **active** | recherche sur une vingtaine de sources, tous types d'ERP, publie elle-même sur `main` (PR du jour fusionnée si les contrôles passent) → Render. Texte : `veille/PROMPT_ROUTINE.md` |
+| Workflow GitHub Actions `veille-quotidienne.yml` (BureauxLocaux, règles Python) | planification **arrêtée**, lancement manuel possible | décrit ci-dessous, conservé pour mémoire |
+| Routine « Veille ERP tous types IDF (Radar ERP) » (tableau de bord artefact) | **désactivée** (réactivable) | alimentait un tableau de bord séparé, pas le site Render |
+
+Pour réactiver le workflow GitHub Actions : remettre le bloc `schedule` indiqué en commentaire en tête du fichier.
+
+---
+
+## Historique : workflow GitHub Actions (lancement manuel uniquement)
+
 
 Workflow : `.github/workflows/veille-quotidienne.yml` (tous les jours, déclenché à 05:00 UTC, soit 6 h à Paris en hiver
 et 7 h en été ; lancement manuel possible, avec une case « simulation » qui ne publie rien). Aucun secret à configurer.
@@ -16,7 +31,7 @@ garde « 7 h à Paris » ajoutée en octobre ignorait toutes les exécutions ret
    recevant du public, type V ou L écrit ; puis usage seulement **évoqué** (« idéal lieu de culte »…) ou destination
    d'intérêt collectif. Il faut prix, surface ≥ 150 m², commune, agence et lien, sans doublon. 10 ajouts maximum par jour.
 4. Resynchronisation de `index.html`, tests des règles, validation (`valider.py`), test du site (`test_filtres.js`).
-5. Commit direct sur `main` (donc déploiement Netlify) **seulement** si des annonces ont été ajoutées et si tout a réussi.
+5. Commit direct sur `main` (donc déploiement Render) **seulement** si des annonces ont été ajoutées et si tout a réussi.
    Aucune validation manuelle n'est nécessaire.
 
 ## Statuts ERP (règle importante)

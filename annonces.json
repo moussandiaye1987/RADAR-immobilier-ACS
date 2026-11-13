@@ -1,5 +1,5 @@
 {
- "date": "12/11/2026",
+ "date": "13/11/2026",
  "rows": [
   {
    "adresse": "",
@@ -11853,6 +11853,809 @@
    "vu": "2026-11-12",
    "nouveau": true,
    "ref": "BL-Y56944"
+  },
+  {
+   "_id": "puteaux-boieldieu-erp-w-2748",
+   "titre": "Bureaux ERP de type W (RDC + 1er), jusqu'à 1 300 personnes — La Défense",
+   "ville": "Puteaux",
+   "adresse": "100-101 Terrasse Boieldieu, 92800 Puteaux",
+   "dept": "92",
+   "agence": "Arthur Loyd IDF Ouest Nanterre",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-erp-a-vendre-a-puteaux-espace-modulable-pr--36749524",
+   "prix": 2563200,
+   "surface": 2748,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « bureaux ERP de type W » ; « Capacité d'accueil de 1 300 personnes » (RDC 800, 1er étage 500)",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "A",
+     "station": "La Défense Grande Arche",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "1",
+     "station": "La Défense Grande Arche",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T2",
+     "station": "La Défense Grande Arche",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rez-de-chaussée. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Bureaux ERP de type W déclarés (capacité 1 300 personnes : 800 au RDC, 500 au 1er ; RDC de 801 m²), livrés rénovés, accès indépendant, à 4 minutes à pied de La Défense Grande Arche. Se prête à une école ou un centre de formation (R) ; une salle de réunion / de culte (L, V) imposerait un changement de type et une étude de sécurité. Copropriété de bureaux (RIE, charges) à examiner. Environ 933 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "ALNT-1375161-0V-1",
+   "typesDeclares": [
+    "W"
+   ],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "R"
+   ],
+   "erpSource": "« À Puteaux La Défense, ces bureaux ERP de type W sont proposés à la vente et conviennent parfaitement à une école ou un centre de formation. L'espace peut accueillir jusqu'à 1 300 personnes, réparties entre le rez-de-chaussée et le premier étage. » — https://www.bureauxlocaux.com/annonce/bureaux-erp-a-vendre-a-puteaux-espace-modulable-pr--36749524"
+  },
+  {
+   "_id": "saint-cloud-carnot-erp3-2231",
+   "titre": "Immeuble indépendant de bureaux, ERP 3e catégorie (637 personnes), RDC de 770 m²",
+   "ville": "Saint-Cloud",
+   "adresse": "22-23 Quai du Président Carnot, 92210 Saint-Cloud",
+   "dept": "92",
+   "agence": "Arthur Loyd IDF Ouest Nanterre",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre-saint-cloud-proche-transports-act--40708878",
+   "prix": 6000000,
+   "surface": 2231,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP 3e catégorie (637 personnes) » ; « Classification ERP 3 possible » — type non précisé",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Tram",
+     "ligne": "T2",
+     "station": "Parc de Saint-Cloud",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Transilien",
+     "ligne": "L",
+     "station": "Saint-Cloud",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "10",
+     "station": "Boulogne Pont de Saint-Cloud",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rez-de-chaussée, hauteur sous plafond, parking, immeuble indépendant, rdc. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Immeuble indépendant (R+4) annoncé « ERP 3e catégorie (637 personnes) » sans type précisé ; RDC de 770 m² avec 4,50 m sous plafond, 37 places de parking, cour. Convient à une école / formation (R), une salle (L) ou un lieu de culte (V) au RDC ; travaux à prévoir. Même immeuble proposé par Consult'Im (n° 40636293, 2 306 m², 6 M€ net vendeur, « non divisible »), Knight Frank (n° 38801075) et Groupe Babylone (n° 41496532) : une seule fiche créée. Environ 2 690 €/m² ; prix au plafond du radar.",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "ALNT-1375068-0V-3",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "R",
+    "W"
+   ],
+   "categorie": 3
+  },
+  {
+   "_id": "asnieres-barbusse-erp-x-573",
+   "titre": "Espace ERP de type X (salle de sport) de 573 m², brut de béton",
+   "ville": "Asnières-sur-Seine",
+   "adresse": "106 bis avenue Henri Barbusse, 92600 Asnières-sur-Seine",
+   "dept": "92",
+   "agence": "Cushman & Wakefield IDF Ouest",
+   "url": "https://www.bureauxlocaux.com/annonce/local-erp-pmr-salle-de-sport-cabinet-medical--41079939",
+   "prix": null,
+   "surface": 573,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « un espace ERP de Type X idéal pour une salle de sport » ; accès PMR avec ascenseur ; brut de béton",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Transilien",
+     "ligne": "J",
+     "station": "Bois-Colombes",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : parking. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Espace ERP de type X déclaré, livré brut de béton dans un immeuble tertiaire restructuré (ascenseur PMR, parkings), à 3 minutes de la gare de Bois-Colombes. Prix publié incohérent (106 614 € pour 573 m², vraisemblablement un loyer ou un prix partiel) : prix laissé vide, à demander à l'agence. Annonce « vente et location ». Le niveau du lot n'est pas indiqué.",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "typesDeclares": [
+    "X"
+   ],
+   "typesPotentiels": [
+    "L",
+    "R",
+    "U"
+   ],
+   "erpSource": "« Cushman & Wakefield vous propose à la vente et à la location un espace ERP de Type X idéal pour une salle de sport mais aussi pour un cabinet médical ou un centre de formation » — https://www.bureauxlocaux.com/annonce/local-erp-pmr-salle-de-sport-cabinet-medical--41079939"
+  },
+  {
+   "_id": "paris09-saint-lazare-erp5-531",
+   "titre": "Surface ERP 5 (effectif 200 personnes) avec entrée indépendante sur cour et patio",
+   "ville": "Paris 9e",
+   "adresse": "76 rue Saint-Lazare, 75009 Paris",
+   "dept": "75",
+   "agence": "BNP Paribas Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75009--39708234",
+   "prix": 2100000,
+   "surface": 531,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « surface E.R.P 5 avec entrée indépendante sur cour » ; « Catégorie ERP : 5 Effectif théorique : 200 personne(s) »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "3",
+     "station": "Havre-Caumartin",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Havre-Caumartin",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "E",
+     "station": "Haussmann-Saint-Lazare",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Surface « E.R.P 5 », effectif théorique 200 personnes, entrée indépendante sur cour, patio d'environ 200 m² et terrasse ; aménagée en bureaux (dont R+1 : open space, salle de réunion). Se prête à une salle de réunion (L), un lieu de culte (V) ou de la formation (R) sous réserve de la répartition par niveau et de la copropriété. Environ 3 955 €/m², rare à Saint-Lazare.",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "OVBUR2428175",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "R",
+    "W"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "saint-ouen-immeuble-erp5-980",
+   "titre": "Immeuble indépendant ERP 5 (possibilité ERP 4) de 980 m² avec cour et rooftop",
+   "ville": "Saint-Ouen-sur-Seine",
+   "adresse": "",
+   "dept": "93",
+   "agence": "BNP Paribas Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-saint-ouen-sur-seine-93400--40672734",
+   "prix": 4500000,
+   "surface": 980,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « l'immeuble est classé ERP 5 avec une possibilité ERP 4 » ; « ERP catégories 4 et 5 conforme pour établissements recevant du public »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "14",
+     "station": "",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : immeuble indépendant. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Immeuble indépendant « classé ERP 5 avec une possibilité ERP 4 », PMR à tous les étages, 2 escaliers de secours, cour privative ; l'annonce cite écoles, formation et « activité de réception de public ». Bon support pour R, W, L ou V ; surélévation possible. Le texte dit à la fois « à la location » et « à la vente » : à confirmer. Environ 4 590 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "OVBUR2532553",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "R",
+    "U",
+    "W"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "sannois-franconville-depot-showroom-1764",
+   "titre": "Bâtiment indépendant : dépôt 6 m sous plafond + showroom, ERP / PMR, terrain 1 600 m²",
+   "ville": "Sannois",
+   "adresse": "",
+   "dept": "95",
+   "agence": "GHT Immo",
+   "url": "https://www.bureauxlocaux.com/annonce/batiment-independant-denviron-1-764m-m-a-vendre-f--42449930",
+   "prix": 2800000,
+   "surface": 1764,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP / PMR » ; dépôt de 1 000 m² avec 6 m sous plafond, showroom de 157 m² — type et catégorie non précisés",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : bâtiment indépendant, hauteur sous plafond. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Bâtiment indépendant en limite Sannois / Franconville : environ 1 000 m² de dépôt avec 6 m sous plafond, showroom de 157 m², mezzanine, logement à l'étage, 1 600 m² de terrain extérieur ; mention « ERP / PMR ». Grand volume adapté à un lieu de culte, une salle (V, L) ou un équipement sportif (X). Surface incohérente dans l'annonce (1 764 m² au titre, « environ 1 300 m² » dans le texte). Environ 1 590 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "9400411567",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "M",
+    "X"
+   ]
+  },
+  {
+   "_id": "argenteuil-centre-ancien-restaurant-600",
+   "titre": "Immeuble commercial R+1 en centre-ville : ancien restaurant de 300 m² au RDC",
+   "ville": "Argenteuil",
+   "adresse": "",
+   "dept": "95",
+   "agence": "EVOLIS Paris",
+   "url": "https://www.bureauxlocaux.com/annonce/immeuble-commercial-a-vendre-en-centre-ville-dar--42209417",
+   "prix": 800000,
+   "surface": 600,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « Au rez-de-chaussée, un ancien restaurant d'une surface de 300 m² » ; « Possibilité ERP »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Transilien",
+     "ligne": "J",
+     "station": "Argenteuil",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rez-de-chaussée, immeuble indépendant, rdc. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Immeuble indépendant de 600 m² près de la mairie : RDC de 300 m² (ancien restaurant, locaux curés) et 300 m² à l'étage avec entrées indépendantes ; « Possibilité ERP ». Se prête à un restaurant (N), une salle (L) ou un lieu de culte (V). Prix : le texte indique « 800.000 euros + 5% honoraires HT », mais le champ prix affiche 399 999 € — retenu 800 000 €, à confirmer. Environ 1 333 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "2198054-0V",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "M",
+    "N",
+    "W"
+   ]
+  },
+  {
+   "_id": "ivry-jeanne-hachette-erp5-250",
+   "titre": "Bureaux ERP 5e catégorie de 250 m² au centre Jeanne-Hachette (Renaudie)",
+   "ville": "Ivry-sur-Seine",
+   "adresse": "",
+   "dept": "94",
+   "agence": "G2B Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-centre-jeanne-hachette--39260282",
+   "prix": 1200000,
+   "surface": 250,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie » ; « Possibilité ERP » ; « Surface RDC : 250 m² »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "7",
+     "station": "Mairie d'Ivry",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "C",
+     "station": "Ivry-sur-Seine",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rdc. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Plateau dans l'ensemble Jeanne-Hachette (architecture Renaudie), annoncé « ERP : 5ème catégorie », « Surface RDC : 250 m² », 2 cuisines, au pied du métro 7. Convient à des bureaux recevant du public (W), un cabinet de soins (U) ou une petite salle (L). Copropriété complexe (terrasses, accès) à vérifier. Environ 4 800 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "1292623-0V",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "U",
+    "W"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "longjumeau-centre-immeuble-550",
+   "titre": "Immeuble indépendant R+2 en centre-ville, projet d'aménagement ERP validé (2022)",
+   "ville": "Longjumeau",
+   "adresse": "",
+   "dept": "91",
+   "agence": "Orpi Pro / Immo Entre Pro",
+   "url": "https://www.bureauxlocaux.com/annonce/local-commercial-a-vendre--40673102",
+   "prix": 560000,
+   "surface": 550,
+   "erp": "verifier",
+   "erpDetail": "Annonce : projet de restructuration « (façade, lucarnes, création de devantures commerciales, aménagement ERP) » instruit et validé fin 2022",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : immeuble indépendant, rez-de-chaussée. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Immeuble indépendant de 550 m² de plancher avec ascenseur et façade commerciale de 11 m en centre-ville ; un projet de restructuration incluant un « aménagement ERP » a été instruit et validé fin 2022 avec l'accord de l'ABF. Travaux importants. Support possible pour commerce (M), centre médical (U) ou bureaux (W). Environ 1 018 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "91_0972",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "M",
+    "U",
+    "W"
+   ]
+  },
+  {
+   "_id": "tremblay-ght-showroom-erp-593",
+   "titre": "Entrepôt-bureaux-showroom de 593 m² avec vitrine, normes ERP et PMR",
+   "ville": "Tremblay-en-France",
+   "adresse": "",
+   "dept": "93",
+   "agence": "GHT Immo",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-593-m-entrepot-bureaux-a-tremblay-en-france--42420603",
+   "prix": 1140000,
+   "surface": 593,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « NORME PMR ET ERP - 2 ACCES PIETON PMR » ; vitrine ; RDC de 276 m²",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rdc, hauteur sous plafond, parking. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Parc d'activités gardienné : 276 m² de bureaux / showroom au RDC avec vitrine, 277 m² de stockage au R+1 (5 m sous plafond), réserve ; « NORME PMR ET ERP - 2 ACCES PIETON PMR ». Support pour showroom (M), bureaux (W) ou petite salle (L) au RDC ; RER B à 20 minutes à pied. Environ 1 922 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "940049672",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "W"
+   ]
+  },
+  {
+   "_id": "persan-creno-cellules-erp5-466",
+   "titre": "Cellules d'activité neuves ERP 5e catégorie, 7 m sous poutre (466 à 2 590 m²)",
+   "ville": "Persan",
+   "adresse": "",
+   "dept": "95",
+   "agence": "CRENO Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/cellules-dactivite-neuves-avec-bureaux-daccompag--40877253",
+   "prix": 694340,
+   "surface": 466,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie » ; « Haut. libre max. ss poutre : 7 m » ; « Surface RDC : 366 m² »",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : parking, hsp, rdc, plain pied. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Parc tertiaire neuf (8 bâtiments) : cellules « ERP : 5ème catégorie », RDC de 366 m², 7 m sous poutre, sanitaires PMR, parkings attribués ; divisibilité de 450 à 2 590 m². Grand volume adapté à un lieu de culte, une salle ou du sport (V, L, X) en zone d'activités. Différent de persan-chemin-herbu-eol-900 et persan-activite-1290 (autres agences et programmes, à confirmer). Environ 1 490 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "2178943-0V",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "X"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "boulogne-delafosse-erp5-159",
+   "titre": "Local neuf de plain-pied ERP 5 avec vitrine et accès indépendant sur rue",
+   "ville": "Boulogne-Billancourt",
+   "adresse": "2 bis rue Maurice Delafosse, 92100 Boulogne-Billancourt",
+   "dept": "92",
+   "agence": "CRENO Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/bureau-local-commercial-neuf--39118574",
+   "prix": 890000,
+   "surface": 159,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « accès indépendant sur rue par double porte permettant une activité ERP 5 » ; « ERP : 5ème catégorie »",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "10",
+     "station": "Boulogne-Jean-Jaurès",
+     "distance": 750,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : parking, plain-pied, rdc. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Local neuf de 159 m² de plain-pied, livré brut, accès indépendant sur rue « permettant une activité ERP 5 », vitrine, PMR, 1 parking. Petite surface : commerce (M), bureaux recevant du public (W) ou cabinet (U). Même bien proposé par G2B Real Estate (n° 39127314, 889 923 €) : une seule fiche. Environ 5 600 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "2203082-0V",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "M",
+    "U",
+    "W"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "paris03-beaumarchais-erp5-363",
+   "titre": "Locaux commerciaux traversants ERP 5 / PMR, double adresse boulevard Beaumarchais",
+   "ville": "Paris 3e",
+   "adresse": "95 boulevard Beaumarchais, 75003 Paris",
+   "dept": "75",
+   "agence": "Leaseo",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureaux-paris-75003--42663213",
+   "prix": 4690000,
+   "surface": 363,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « Locaux ERP 5 / PMR » ; « salle de réunion (capacité de 20 personnes) »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rez-de-chaussée. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Surface traversante de 363 m² sur deux niveaux de rez-de-chaussée (rue et cour), « Locaux ERP 5 / PMR », triple accès, salle de réunion de 20 personnes ; idéal showroom selon l'annonce. Support pour commerce (M) ou bureaux recevant du public (W). Le même lot semble proposé par Groupe Babylone à 4 000 000 € (n° 43073031) : écart de prix à éclaircir. Environ 12 900 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "29262BL",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "M",
+    "W"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "paris17-lantiez-ancienne-creche-570",
+   "titre": "Bureaux de 570 m² ERP / PMR, ancienne crèche, accès direct sur rue et cour",
+   "ville": "Paris 17e",
+   "adresse": "12-14 rue Lantiez, 75017 Paris",
+   "dept": "75",
+   "agence": "Cushman & Wakefield Paris",
+   "url": "https://www.bureauxlocaux.com/annonce/560m-a-lachat-paris-17-erp-pmr--42445029",
+   "prix": 6000000,
+   "surface": 570,
+   "erp": "verifier",
+   "erpDetail": "Annonce : titre « 560m² à l'achat Paris 17 ERP / PMR » ; « Anciennement une crèche »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Bureaux de 570 m² dans un immeuble mixte, « anciennement une crèche », titre « ERP / PMR », accès direct sur rue et cour intérieure. Retour possible à une crèche ou école (R), bureaux recevant du public (W). Prix au plafond du radar (environ 10 500 €/m²).",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "R",
+    "W"
+   ]
+  },
+  {
+   "_id": "paris15-etienne-pernet-erp5-1607",
+   "titre": "Ancienne concession automobile ERP 5e catégorie : 1 607 m² divisibles dès 300 m²",
+   "ville": "Paris 15e",
+   "adresse": "10-18 place Étienne-Pernet, 75015 Paris",
+   "dept": "75",
+   "agence": "Cushman & Wakefield",
+   "url": "https://www.geolocaux.com/annonce/vente-bureaux-paris-15-place-etienne-pernet-metro-ligne-10-744628.html",
+   "prix": null,
+   "surface": 1607,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie » ; « Ancienne concession automobile (ERP) »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "10",
+     "station": "",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — atouts cités : rez-de-chaussée, rdc, hsp. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Ensemble de 1 607 m² (RDC 1 000 m², mezzanine 307 m², sous-sol 300 m²) avec verrière, « ERP : 5ème catégorie », « Ancienne concession automobile (ERP) », divisible dès 300 m². Grand RDC très adapté à un commerce (M), une salle (L), un lieu de culte (V) ou du sport (X). « Prix sur demande » ; le tableau indique 9 000 €/m² HD HT (soit environ 14,5 M€ pour l'ensemble, hors budget ; un lot de 300 m² ≈ 2,7 M€).",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "M",
+    "W",
+    "X"
+   ],
+   "categorie": 5
+  },
+  {
+   "_id": "maisons-alfort-centre-boutique-atelier-340",
+   "titre": "Boutique + atelier (ancien garage) de 340 m² en centre-ville",
+   "ville": "Maisons-Alfort",
+   "adresse": "",
+   "dept": "94",
+   "agence": "Citya (Maisons-Alfort)",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1295439461A1KIIPVELCO",
+   "prix": 990000,
+   "surface": 340,
+   "erp": "verifier",
+   "erpDetail": "L'annonce ne précise pas de classement ERP (boutique + atelier, ancien garage)",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier pour un lieu de culte.",
+   "notes": "Boutique avec atelier (ancien garage) et réserve de 60 m² au sous-sol, 340 m² au total, en centre-ville de Maisons-Alfort, « beaux volumes ». Support pour commerce (M) ; salle ou lieu de culte (L, V) à étudier selon la répartition RDC / sous-sol (non précisée). Différent de maisons-alfort-1000 (DELOUSTAL, 1 000 m²). Environ 2 910 €/m².",
+   "nouveau": true,
+   "ajoute": 1794549832786,
+   "vu": "2026-11-13",
+   "ref": "TAUT479-972636",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "M"
+   ]
+  },
+  {
+   "_id": "bagneux-ancienne-biscuiterie-349",
+   "titre": "Ancienne biscuiterie de 349 m² avec jardin privatif — Vieux Bagneux",
+   "ville": "Bagneux",
+   "adresse": "3 bis rue des Fossés, 92220 Bagneux",
+   "dept": "92",
+   "agence": "Cushman & Wakefield IDF Ouest",
+   "ref": "",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-local-dactivite-erp-de-349-m2-avec-jardin--42837005",
+   "prix": 1051313,
+   "surface": 349,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « Local d'activité / ERP de 349 m² avec jardin privatif / Le local pourrait accueillir une activité recevant du public (ERP) et pourrait faire l'objet d'une étude pour une transformation en bureaux, en locaux professionnels ou en logements, selon la réglemen »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Le local pourrait accueillir une activité recevant du public (ERP) et pourrait faire l'objet d'une étude pour une transformation en bureaux, en locaux professionnels ou en logements, selon la réglementation d'urbanisme e ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Bâtiment atypique (ancienne biscuiterie) au cœur du Vieux Bagneux, avec jardin privatif et monte-charge ; 193,5 m² en RDC, le reste à l'étage. L'annonce écrit que le local « pourrait accueillir une activité recevant du public (ERP) », sous réserve des autorisations : changement de destination, PLU et voisinage (centre ancien, secteur résidentiel) à vérifier. Prix de 3 010 €/m². Stationnement non mentionné. Annonce BureauxLocaux n° 42837005 ouverte et vérifiée le 11/11/2026.",
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "R",
+    "W",
+    "X"
+   ],
+   "nouveau": true
+  },
+  {
+   "_id": "paris15-violet-409",
+   "titre": "RDC et sous-sol de 409 m² rue Violet (Paris 15e), potentiel ERP 5, associations citées",
+   "ville": "Paris 15e",
+   "adresse": "18 bis rue Violet, 75015 Paris",
+   "dept": "75",
+   "agence": "Alex Bolton",
+   "ref": "1301715-0",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-ou-a-louer--40541737",
+   "prix": 1900000,
+   "surface": 409,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé : l'annonce ne précise pas de classement ERP",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "6",
+     "station": "Dupleix",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "6, 8, 10",
+     "station": "La Motte-Picquet - Grenelle",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Idéals pour des activités de formation, des crèches ou des associations, ces locaux peuvent être adaptés à différentes configurations grâce à leur potentiel d'ERP5 avec une ouverture de porte sur la rue Fallempin, comme  ». Atouts cités : rez-de-chaussée. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Locaux livrés curés en rez-de-chaussée (166 m²) et sous-sol (243 m²), « idéals pour des activités de formation, des crèches ou des associations », avec un potentiel d'ERP 5 grâce à une porte sur la rue Fallempin. Point de vigilance majeur : plus de la moitié de la surface est en sous-sol (effectif admissible limité pour un lieu de culte). Copropriété probable (immeuble parisien) : règlement et voisinage à vérifier. Prix de 4 645 €/m². Annonce BureauxLocaux n° 40541737 ouverte et vérifiée le 11/11/2026.",
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "R",
+    "X"
+   ],
+   "nouveau": true
+  },
+  {
+   "_id": "levallois-perret-rdc-307",
+   "titre": "RDC de plain-pied de 307 m² à Levallois-Perret, sans copropriété, conforme ERP",
+   "ville": "Levallois-Perret",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Nexim Conseil",
+   "ref": "VLEV307FRL-5515",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-a-vendre--42846484",
+   "prix": 2100000,
+   "surface": 307,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « A louer ou a Vendre une surface d'environs 307m² bureaux ou commerce, situé en rez-de-chaussée de plain-pied, bénéficiant d'un accès direct sur l'extérieur avec plusieurs entrées indépendantes, offran »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Les locaux, conformes aux normes ERP, sont adaptés à l'accueil du public et disposent d'une rampe d'accès PMR. ». Atouts cités : rez-de-chaussée, plain-pied, hauteur sous plafond. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Rez-de-chaussée de plain-pied avec plusieurs entrées indépendantes, en pleine propriété « sans charges de copropriété », locaux « conformes aux normes ERP » avec rampe PMR et belle hauteur sous plafond. L'absence de copropriété facilite un changement d'usage ; catégorie ERP, type d'origine et PLU restent à vérifier. Prix élevé : 6 840 €/m² ; adresse non publiée, stationnement non mentionné. Annonce BureauxLocaux n° 42846484 ouverte et vérifiée le 11/11/2026.",
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "V",
+    "M",
+    "W",
+    "X"
+   ],
+   "nouveau": true
+  },
+  {
+   "_id": "montreuil-croix-de-chavaux-480",
+   "titre": "Plateau de 480 m² en RDC à Montreuil (Croix-de-Chavaux), accès indépendant, ERP 5 possible",
+   "ville": "Montreuil",
+   "adresse": "",
+   "dept": "93",
+   "agence": "CRENO REAL ESTATE",
+   "ref": "2213748-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/surface-en-rdc-erp-5--43187307",
+   "prix": 1300000,
+   "surface": 480,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « Surface en RDC ERP 5. / Accueil du public possible (ERP 5). »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Croix-de-Chavaux",
+     "distance": 400,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Mairie de Montreuil",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Accueil du public possible (ERP 5). ». Atouts cités : rdc. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Surface de 480 m² entièrement en RDC, accès indépendant sur esplanade, peu de porteurs ; « Accueil du public possible (ERP 5) ». Immeuble mixte bureaux / habitation : règlement de copropriété et nuisances sonores pour les logements à examiner en priorité. Prix de 2 708 €/m². Bien distinct de l'annonce des Lilas de 482 m² (n° 41049370, autre agence, autre commune) signalée comme doublon possible. Annonce BureauxLocaux n° 43187307 ouverte et vérifiée le 11/11/2026.",
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "V"
+   ],
+   "nouveau": true
+  },
+  {
+   "_id": "paris14-catalogne-183",
+   "titre": "Locaux indépendants de 183 m² en RDC près de la place de Catalogne (Paris 14e), associations citées",
+   "ville": "Paris 14e",
+   "adresse": "",
+   "dept": "75",
+   "agence": "EVOLIS PARIS",
+   "ref": "2204694-0V",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75014--42515757",
+   "prix": 1661440,
+   "surface": 183,
+   "erp": "verifier",
+   "erpDetail": "Type V non confirmé. Annonce : « Ces locaux PMR accueilleront cabinets médicaux, établissements recevant du public, associations ou sociétés commerciales. »",
+   "profil": "transformable",
+   "parking": "proximite",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "13",
+     "station": "Pernety",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "59, 88",
+     "station": "Pernety / Place de Catalogne",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer — l'annonce indique : « Ces locaux PMR accueilleront cabinets médicaux, établissements recevant du public, associations ou sociétés commerciales. ». Atouts cités : rdc, parking. Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
+   "notes": "Petite surface (183 m², sous le seuil par défaut de 250 m²) en RDC, PMR, double accès, cave en sous-sol ; l'annonce cite les « établissements recevant du public, associations » et un « Potentiel E.R.P. ». Adapté au mieux à une petite salle de prière : effectif limité, copropriété et voisinage à vérifier. Prix très élevé : 9 079 €/m². Annonce BureauxLocaux n° 42515757 ouverte et vérifiée le 11/11/2026.",
+   "ajoute": 1794377006744,
+   "vu": "2026-11-11",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "V",
+    "M",
+    "U"
+   ],
+   "nouveau": true
   }
  ]
 }
