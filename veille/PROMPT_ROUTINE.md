@@ -1,6 +1,6 @@
 # Texte de la Routine quotidienne (veille unique du radar)
 
-Texte en place dans la Routine « Veille quotidienne Radar ERP (tous types) — site Render » (claude.ai → Code → Routines),
+Texte en place dans la Routine « Veille quotidienne Radar ERP — Tous types » (claude.ai → Code → Routines),
 tous les jours à 6 h 55 (Europe/Paris). C'est la seule veille quotidienne du radar depuis le 13/11/2026.
 
 ---

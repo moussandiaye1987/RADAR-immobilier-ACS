@@ -6,7 +6,7 @@ name: Veille quotidienne (manuelle)
 
 on:
   # Exécution planifiée ARRÊTÉE le 13/11/2026 à la demande du propriétaire : une seule veille quotidienne est
-  # conservée, la Routine Claude « Veille quotidienne Radar ERP (tous types) — site Render » (voir
+  # conservée, la Routine Claude « Veille quotidienne Radar ERP — Tous types » (voir
   # veille/AUTOMATISATION.md). Ce workflow reste disponible en lancement manuel (Actions → Run workflow).
   # Pour le réactiver, remettre :
   #   schedule:

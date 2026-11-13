@@ -4,9 +4,13 @@
 
 | Veille | État | Rôle |
 |---|---|---|
-| Routine Claude « Veille quotidienne Radar ERP (tous types) — site Render » (6 h 55, Paris) | **active** | recherche sur une vingtaine de sources, tous types d'ERP, publie elle-même sur `main` (PR du jour fusionnée si les contrôles passent) → Render. Texte : `veille/PROMPT_ROUTINE.md` |
+| Routine Claude « Veille quotidienne Radar ERP — Tous types » (6 h 55, Paris) | **active** | recherche sur une vingtaine de sources, tous types d'ERP, publie elle-même sur `main` (PR du jour fusionnée si les contrôles passent) → Render. Texte : `veille/PROMPT_ROUTINE.md` |
 | Workflow GitHub Actions `veille-quotidienne.yml` (BureauxLocaux, règles Python) | planification **arrêtée**, lancement manuel possible | décrit ci-dessous, conservé pour mémoire |
 | Routine « Veille ERP tous types IDF (Radar ERP) » (tableau de bord artefact) | **désactivée** (réactivable) | alimentait un tableau de bord séparé, pas le site Render |
+
+Hébergement : **Render** (https://radar-immobilier-acs.onrender.com, site statique, déploiement automatique à chaque commit sur
+`main`). La connexion **Netlify** (projet `radar-immobilier-acs`) est conservée telle quelle, pour une reprise lorsque les crédits
+seront disponibles : la veille n'y fait rien directement, Netlify se met à jour depuis `main` s'il est réactivé.
 
 Pour réactiver le workflow GitHub Actions : remettre le bloc `schedule` indiqué en commentaire en tête du fichier.
 
