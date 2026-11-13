@@ -1,12 +1,12 @@
 name: Veille quotidienne (manuelle)
 
 # Radar ERP Type V (lieux de culte). Veille 100 % gratuite : GitHub Actions + scripts Python du dépôt.
-# Aucune API d'IA, aucun secret. Publie sur main (donc Netlify) uniquement si des annonces ont été ajoutées
+# Aucune API d'IA, aucun secret. Publie sur main (donc Render) uniquement si des annonces ont été ajoutées
 # ET que tous les contrôles ont réussi.
 
 on:
   # Exécution planifiée ARRÊTÉE le 13/11/2026 à la demande du propriétaire : une seule veille quotidienne est
-  # conservée, la Routine Claude « Veille quotidienne Radar ERP (tous types) — site Netlify » (voir
+  # conservée, la Routine Claude « Veille quotidienne Radar ERP (tous types) — site Render » (voir
   # veille/AUTOMATISATION.md). Ce workflow reste disponible en lancement manuel (Actions → Run workflow).
   # Pour le réactiver, remettre :
   #   schedule:
@@ -121,7 +121,7 @@ jobs:
           retention-days: 14
           if-no-files-found: ignore
 
-      # Sur main (exécution planifiée ou manuelle) : publication sur main, donc déploiement Netlify.
+      # Sur main (exécution planifiée ou manuelle) : publication sur main, donc déploiement Render.
       # Sur toute autre branche (test avant fusion) : poussée vers la branche jetable « ci-test-publication »,
       # ce qui éprouve les droits d'écriture sans jamais toucher à main.
       - name: Publier si des annonces ont changé
@@ -131,7 +131,7 @@ jobs:
         run: |
           set -euo pipefail
           if git diff --quiet -- annonces.json index.html; then
-            echo "Aucune modification des annonces : pas de commit, pas de déploiement Netlify." | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "Aucune modification des annonces : pas de commit, pas de déploiement Render." | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           git config user.name "github-actions[bot]"

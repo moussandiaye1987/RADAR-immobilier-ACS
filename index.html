@@ -97,7 +97,7 @@ input[type=number],select{width:100%;background:var(--bg);border:1px solid var(-
 <label class="fld">Distance max à la station (m)<select id="dMax"><option value="0">Peu importe</option><option value="300">300 m</option><option value="500">500 m</option><option value="800">800 m</option><option value="1200">1,2 km</option></select></label>
 <label class="toggle"><input type="checkbox" id="onlyConfirmed"> Desserte citée dans l'annonce uniquement</label></div>
 <div class="fgroup"><div class="eyebrow">Parking</div><div class="seg"><button type="button" data-park="any">Peu importe</button><button type="button" data-park="sur_place">Sur place</button><button type="button" data-park="near">Sur place ou proche</button></div></div>
-<div class="fgroup"><div class="eyebrow">Profil du bien</div><div class="chips" id="profilChips"></div><p class="hint">Lieu de culte décrit par l'annonce, salle associative, salle recevant du public ou local à transformer.</p></div><div class="fgroup"><div class="eyebrow">Statut lieu de culte (type V)</div><div class="chips" id="erpChips"></div><p class="hint">« Type V confirmé » exige une mention écrite du type V dans l'annonce, citée dans la fiche.</p></div><div class="fgroup"><div class="eyebrow">Annonces archivées</div><label class="toggle"><input type="checkbox" id="showArchived"> Afficher les annonces archivées</label><p class="hint">Biens inadaptés à un lieu de culte (vendus occupés, plateaux en étage, annonces retirées), conservés pour mémoire.</p></div>
+<div class="fgroup"><div class="eyebrow">Profil du bien</div><div class="chips" id="profilChips"></div><p class="hint">Lieu de culte décrit par l'annonce, salle associative, salle recevant du public ou local à transformer.</p></div><div class="fgroup"><div class="eyebrow">Classement ERP</div><div class="chips" id="erpChips"></div><p class="hint">« ERP à vérifier » : aucun type n'est confirmé par l'annonce. Un type est confirmé seulement s'il est cité dans l'annonce ou si l'activité est en exploitation.</p></div><div class="fgroup"><div class="eyebrow">Annonces archivées</div><label class="toggle"><input type="checkbox" id="showArchived"> Afficher les annonces archivées</label><p class="hint">Biens inadaptés à un lieu de culte (vendus occupés, plateaux en étage, annonces retirées), conservés pour mémoire.</p></div>
 <div class="fgroup"><div class="eyebrow">Hypothèses de coût</div><div class="row2"><label class="fld">Frais d'acquisition (%)<input type="number" id="hFrais" step="0.5" min="0" max="20"></label><label class="fld">Travaux (€/m²)<input type="number" id="hTrav" step="50" min="0"></label></div>
 <p class="hint">Coût total = prix × (1 + frais) + surface × travaux. 600 €/m² couvre une mise aux normes ERP courante (dégagements et issues de secours, désenfumage, éclairage de sécurité, sanitaires, accessibilité PMR) ; ajustez selon le type visé.</p></div>
 </aside>
@@ -105,7 +105,7 @@ input[type=number],select{width:100%;background:var(--bg);border:1px solid var(-
 <section class="kpis"><div class="kpi"><b class="num" id="kCount">–</b><span>annonces correspondantes</span></div><div class="kpi"><b class="num" id="kFit">–</b><span>dans le budget (coût total)</span></div><div class="kpi"><b class="num" id="kM2">–</b><span>prix médian au m²</span></div><div class="kpi"><b class="num" id="kDec">–</b><span id="kDecLbl">avec un type ERP déclaré</span></div><div class="kpi"><b class="num" id="kCulte">–</b><span>lieux de culte ou bâtiments religieux</span></div><div class="kpi"><b class="num" id="kV">–</b><span>type V confirmé par écrit</span></div></section>
 <div class="toolbar"><h2 id="listTitle">Annonces</h2><div class="seg viewseg" id="viewSeg" role="group" aria-label="Affichage des annonces"><button type="button" data-view="list" aria-pressed="true">Liste</button><button type="button" data-view="map" aria-pressed="false">Carte</button></div><label class="fld" style="display:flex;gap:8px;align-items:center">Trier<select id="sort"><option value="total">Coût total croissant</option><option value="prix">Prix croissant</option><option value="m2">Prix au m² croissant</option><option value="surface">Surface décroissante</option><option value="recent">Ajout récent</option></select></label></div>
 <section id="mapWrap" hidden aria-label="Carte des annonces"><div id="map" role="region" aria-label="Carte interactive des annonces"></div>
-<div class="maplegend hint"><span><i class="pin v"></i>Type V confirmé</span><span><i class="pin chk"></i>Potentiel Type V — à vérifier</span><span><i class="pin l"></i>Salle Type L existante</span></div>
+<div class="maplegend hint"><span><i class="pin l"></i>ERP déclaré (type confirmé)</span><span><i class="pin v"></i>Type V confirmé</span><span><i class="pin chk"></i>ERP à vérifier</span></div>
 <p class="hint" id="mapInfo" aria-live="polite"></p></section>
 <div class="list" id="list"></div>
 <section class="panel"><h2>Les types d'ERP</h2><ul class="legend" id="legend"></ul><p class="hint">« Déclaré » : type cité dans l'annonce ou activité en exploitation. « Potentiel » : déduit de la nature du local (grand volume, vitrine, bureaux…) ; changement de destination, avis de la commission de sécurité et PLU restent à vérifier.</p></section>
@@ -122,7 +122,9 @@ input[type=number],select{width:100%;background:var(--bg);border:1px solid var(-
 <script>
 const DEPTS={"75":"Paris","77":"Seine-et-Marne","78":"Yvelines","91":"Essonne","92":"Hauts-de-Seine","93":"Seine-Saint-Denis","94":"Val-de-Marne","95":"Val-d'Oise"};
 const MODES=["Métro","RER","Tram","Transilien","Bus"];
-const ERP={V:{label:"Type V confirmé",cls:"v"},verifier:{label:"Potentiel Type V — à vérifier",cls:"chk"},L:{label:"Salle Type L existante",cls:"l"}};
+/* Classement ERP affiché : « ERP à vérifier » tant qu'aucun type n'est confirmé (cité dans l'annonce ou activité en exploitation). */
+const ERP={declare:{label:"ERP déclaré (type confirmé)",cls:"l"},V:{label:"Type V confirmé",cls:"v"},L:{label:"Type L confirmé",cls:"l"},verifier:{label:"ERP à vérifier",cls:"chk"}};
+const statut=r=>r.erp==="V"||r.erp==="L"?r.erp:(dec(r).length?"declare":"verifier");
 const PROFIL={culte:"Lieu de culte ou bâtiment religieux",associatif:"Salle des fêtes, polyvalente ou associative",salle:"Salle recevant du public",transformable:"Local à transformer"};
 const PARK={sur_place:"Parking sur place",proximite:"Parking à proximité",non_precise:"Parking non précisé"};
 const STATUT={en_vente:"En vente",sous_offre:"Sous offre",vendu:"Vendu"};
@@ -132,7 +134,7 @@ const TORDER=["L","V","Y","M","N","O","P","R","S","T","U","W","X","J","NP"];
 const DEFAULTS={types:[],typesConfirmed:false,bMin:300000,bMax:2000000,basis:"prix",incNoPrice:true,sMin:250,depts:[],modes:[],dMax:0,onlyConfirmed:false,park:"any",erp:[],profils:[],showArchived:false,frais:8,trav:600,sort:"total"};
 const PAYLOAD=JSON.parse(document.getElementById("data").textContent);let rows=PAYLOAD.rows;
 let F=load();
-function load(){try{return Object.assign({},DEFAULTS,JSON.parse(localStorage.getItem("erpAll.filters")||"null")||{})}catch(e){return Object.assign({},DEFAULTS)}}
+function load(){try{const f=Object.assign({},DEFAULTS,JSON.parse(localStorage.getItem("erpAll.filters")||"null")||{});f.erp=(Array.isArray(f.erp)?f.erp:[]).filter(k=>k in ERP);return f}catch(e){return Object.assign({},DEFAULTS)}}
 function save(){try{localStorage.setItem("erpAll.filters",JSON.stringify(F))}catch(e){}}
 const $=id=>document.getElementById(id);
 const eur=n=>n==null?"–":new Intl.NumberFormat("fr-FR",{maximumFractionDigits:0}).format(Math.round(n))+" €";
@@ -156,7 +158,7 @@ function baseMatch(r){
  if(base==null){if(!F.incNoPrice)return false}else{if(F.bMin&&base<F.bMin)return false;if(F.bMax&&base>F.bMax)return false}
  if(F.sMin&&(r.surface||0)<F.sMin)return false;
  if(F.depts.length&&!F.depts.includes(r.dept))return false;
- if(F.erp.length&&!F.erp.includes(r.erp))return false;
+ if(F.erp.length&&!F.erp.includes(statut(r)))return false;
  if(F.park==="sur_place"&&r.parking!=="sur_place")return false;
  if(F.park==="near"&&!(r.parking==="sur_place"||r.parking==="proximite"))return false;
  if(F.modes.length||F.dMax||F.onlyConfirmed){
@@ -183,7 +185,7 @@ function render(){
  $("list").innerHTML=shown.length?shown.map(card).join(""):`<div class="empty">Aucune annonce ne passe ces filtres. Élargissez le budget ou la surface.</div>`;
  if(view==="map")mapUpdate()}
 function card(r){
- const t=total(r),fit=t!=null&&t<=F.bMax,m2=r.prix!=null&&r.surface?Math.round(r.prix/r.surface):null,e=ERP[r.erp]||ERP.verifier;
+ const t=total(r),fit=t!=null&&t<=F.bMax,m2=r.prix!=null&&r.surface?Math.round(r.prix/r.surface):null,e=ERP[statut(r)];
  const trans=(r.transports||[]).map(x=>`<span class="t${x.confirme?"":" unc"}"><i>${esc(x.mode)}${x.ligne?" "+esc(x.ligne):""}</i>${esc(x.station||"")}${x.distance!=null?` · <span class="num">${x.distance} m</span>`:""}</span>`).join("")||`<span class="hint">Desserte non précisée dans l'annonce</span>`;
  let bar="";
  if(t!=null){const max=Math.max(t,F.bMax)*1.05,pct=Math.min(100,t/max*100),cap=F.bMax/max*100,col=fit?"var(--accent)":(t<=F.bMax*1.25?"var(--warn)":"var(--bad)");
@@ -192,7 +194,7 @@ function card(r){
  return `<article class="card${fit?" fit":""}${r.archive?" arch":""}"><div class="chead"><div><div class="where">${esc(r.dept)} · ${esc(DEPTS[r.dept]||"")} — ${esc(r.ville)}${r.adresse?", "+esc(r.adresse):""}</div><h3>${esc(r.titre)}</h3></div>
  <div class="price"><b>${r.prix!=null?eur(r.prix):"Sur demande"}</b><span class="num">${r.surface||"?"} m²${m2?" · "+new Intl.NumberFormat("fr-FR").format(m2)+" €/m²":""}</span></div></div>
  <div class="facts">${r.archive?`<span class="tag arch">Archivée</span>`:""}${r.nouveau?`<span class="tag new">Nouveau</span>`:""}${typeTags(r)}</div>
- <div class="facts"><span class="tag ${e.cls}">${e.label}</span><span class="tag prof">${esc(PROFIL[r.profil]||PROFIL.transformable)}</span>${r.erpDetail?`<span class="tag">${esc(r.erpDetail)}</span>`:""}<span class="tag ${r.parking==="non_precise"?"":"park"}">${PARK[r.parking]||PARK.non_precise}</span>${r.statut&&r.statut!=="en_vente"?`<span class="tag bad">${STATUT[r.statut]}</span>`:""}${r.occupe?`<span class="tag chk">Vendu occupé</span>`:""}</div>
+ <div class="facts"><span class="tag ${e.cls}">${statut(r)==="declare"?"ERP déclaré : type "+esc(dec(r).join(", ")):e.label}</span><span class="tag prof">${esc(PROFIL[r.profil]||PROFIL.transformable)}</span>${r.erpDetail?`<span class="tag">${esc(r.erpDetail)}</span>`:""}<span class="tag ${r.parking==="non_precise"?"":"park"}">${PARK[r.parking]||PARK.non_precise}</span>${r.statut&&r.statut!=="en_vente"?`<span class="tag bad">${STATUT[r.statut]}</span>`:""}${r.occupe?`<span class="tag chk">Vendu occupé</span>`:""}</div>
  <div class="tline">${trans}</div>${bar}
  ${r.archive?`<div class="note hist"><b>Archivée le ${esc(r.archive.date)} —</b> ${esc(r.archive.motif)}</div>`:""}${r.analyseV?`<div class="note"><b>Lecture lieu de culte (type V) —</b> ${esc(r.analyseV)}</div>`:""}${r.erpSource?`<div class="hint"><b>Justificatif :</b> ${esc(r.erpSource)}</div>`:""}${r.notes?`<div class="note${r.migration?" hist":""}"><b>${r.migration?"Analyse initiale (radar type L) —":"Avis d'expert —"}</b> ${esc(r.notes)}</div>`:""}
  <div class="cfoot">${r.agence?esc(r.agence)+" · ":""}${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">Voir l'annonce</a>`:"Sans lien"}${r.vu?` · relevée le ${esc(r.vu)}`:""}</div></article>`}
@@ -242,7 +244,7 @@ function ensureMap(){
   window.radarMap={map:MAP,layer:LAYER};
  })().catch(e=>{mapLoading=null;throw e}))}
 function popup(r,approx){
- const e=ERP[r.erp]||ERP.verifier,m2=r.prix!=null&&r.surface?Math.round(r.prix/r.surface):null;
+ const e=ERP[statut(r)],m2=r.prix!=null&&r.surface?Math.round(r.prix/r.surface):null;
  return `<div class="mp"><b>${esc(r.ville)}</b><div>${esc(r.titre)}</div><div class="num">${r.prix!=null?eur(r.prix):"Prix sur demande"} · ${r.surface||"?"} m²${m2?" · "+new Intl.NumberFormat("fr-FR").format(m2)+" €/m²":""}</div>
  <div class="facts">${typeTags(r)}</div><div><span class="tag ${e.cls}">${e.label}</span> <span class="tag prof">${esc(PROFIL[r.profil]||PROFIL.transformable)}</span></div>${/^https?:\/\//.test(r.url||"")?`<div><a href="${esc(r.url)}" target="_blank" rel="noopener">Voir l'annonce</a></div>`:""}
  ${approx?`<div class="hint">Position approximative : centre de la commune, pas l'adresse du bien.</div>`:""}</div>`}
@@ -250,7 +252,7 @@ function mapUpdate(){
  if(!MAP)return;
  LAYER.clearLayers();const ms=[];let sans=0,approx=0;
  lastShown.forEach(r=>{const c=coords(r);if(!c){sans++;return}if(c.approx)approx++;
-  const e=ERP[r.erp]||ERP.verifier;
+  const e=ERP[statut(r)];
   ms.push(L.marker(c.ll,{title:`${r.ville} — ${r.prix!=null?eur(r.prix):"prix sur demande"}`,icon:L.divIcon({className:"",html:`<span class="pin ${e.cls}"></span>`,iconSize:[18,18],iconAnchor:[9,9],popupAnchor:[0,-9]})}).bindPopup(popup(r,c.approx),{maxWidth:280}))});
  LAYER.addLayers(ms);
  const info=$("mapInfo");info.dataset.markers=ms.length;info.dataset.unlocated=sans;

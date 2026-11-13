@@ -14,7 +14,11 @@ const data = JSON.parse(fs.readFileSync(path.join(racine, 'annonces.json'), 'utf
 const nonVendues = data.rows.filter(r => r.statut !== 'vendu');
 const visibles = nonVendues.filter(r => !r.archive);
 const archivees = nonVendues.filter(r => r.archive);
-const STATUTS = [['V', 'Type V confirmé', 'v'], ['verifier', 'Potentiel Type V — à vérifier', 'chk'], ['L', 'Salle Type L existante', 'l']];
+// Classement ERP affiché (même règle que statut() dans index.html) : « ERP à vérifier » tant qu'aucun type n'est confirmé.
+const STATUTS = [['declare', 'ERP déclaré (type confirmé)', 'l'], ['V', 'Type V confirmé', 'v'], ['L', 'Type L confirmé', 'l'], ['verifier', 'ERP à vérifier', 'chk']];
+const declares = r => { const d = [...(r.typesDeclares || [])]; if ((r.erp === 'V' || r.erp === 'L') && !d.includes(r.erp)) d.push(r.erp); return d; };
+const statut = r => (r.erp === 'V' || r.erp === 'L' ? r.erp : (declares(r).length ? 'declare' : 'verifier'));
+const etiquette = r => (statut(r) === 'declare' ? `ERP déclaré : type ${declares(r).join(', ')}` : Object.fromEntries(STATUTS.map(([k, l]) => [k, l]))[statut(r)]);
 const PROFILS = [['culte', 'Lieu de culte ou bâtiment religieux'], ['associatif', 'Salle des fêtes, polyvalente ou associative'],
                  ['salle', 'Salle recevant du public'], ['transformable', 'Local à transformer']];
 const DEFAUT = { bMin: 300000, bMax: 2000000, sMin: 250 };
@@ -99,10 +103,10 @@ async function lancer(executablePath) {
     }
     for (const [cle, libelle, cls] of STATUTS) {
       await puce('erpChips', libelle).click();
-      verifier(`filtre statut ERP « ${libelle} »`, await compte(), visibles.filter(r => r.erp === cle).length);
+      verifier(`filtre classement ERP « ${libelle} »`, await compte(), visibles.filter(r => statut(r) === cle).length);
       // Chaque fiche du filtre affiche l'étiquette exacte de son statut.
       verifier(`étiquette « ${libelle} » affichée sur chaque fiche`,
-        await page.locator(`#list article.card .tag.${cls}`).filter({ hasText: new RegExp(`^${libelle}$`) }).count(), visibles.filter(r => r.erp === cle).length);
+        await page.locator(`#list article.card .tag.${cls}`).filter({ hasText: cle === 'declare' ? /^ERP déclaré : type / : new RegExp(`^${libelle}$`) }).count(), visibles.filter(r => statut(r) === cle).length);
       verifier(`indicateur « type V confirmé » (filtre ${libelle})`, Number((await page.textContent('#kV')).trim()), cle === 'V' ? visibles.filter(r => r.erp === 'V').length : 0);
       await puce('erpChips', libelle).click();
     }
@@ -153,8 +157,8 @@ async function lancer(executablePath) {
     verifier('repères = annonces filtrées (filtres par défaut)', await marqueurs(), parDefaut.length);
     verifier('annonces sans position', await page.getAttribute('#mapInfo', 'data-unlocated'), '0');
     verifier('repères regroupés (grappes visibles)', (await page.locator('.marker-cluster').count()) > 0, true);
-    verifier('légende de la carte (statuts type V)', (await page.$$eval('.maplegend span', ls => ls.map(l => l.textContent.trim()))).join(' | '),
-      'Type V confirmé | Potentiel Type V — à vérifier | Salle Type L existante');
+    verifier('légende de la carte (classement ERP)', (await page.$$eval('.maplegend span', ls => ls.map(l => l.textContent.trim()))).join(' | '),
+      'ERP déclaré (type confirmé) | Type V confirmé | ERP à vérifier');
     verifier('attribution OpenStreetMap affichée', (await page.locator('.leaflet-control-attribution').textContent()).includes('OpenStreetMap'), true);
 
     // Synchronisation avec chaque famille de filtres : le nombre de repères suit toujours le nombre d'annonces affichées.
@@ -162,9 +166,9 @@ async function lancer(executablePath) {
     await puce('deptChips', '94').click(); await synchro('département 94');
     verifier('  … attendu (département 94)', await marqueurs(), parDefaut.filter(r => r.dept === '94').length);
     await puce('deptChips', '94').click();
-    await puce('erpChips', 'Potentiel Type V — à vérifier').click(); await synchro('statut potentiel type V');
-    verifier('  … attendu (potentiel type V)', await marqueurs(), parDefaut.filter(r => r.erp === 'verifier').length);
-    await puce('erpChips', 'Potentiel Type V — à vérifier').click();
+    await puce('erpChips', 'ERP à vérifier').click(); await synchro('classement ERP à vérifier');
+    verifier('  … attendu (ERP à vérifier)', await marqueurs(), parDefaut.filter(r => statut(r) === 'verifier').length);
+    await puce('erpChips', 'ERP à vérifier').click();
     await puce('profilChips', 'Lieu de culte ou bâtiment religieux').click(); await synchro('profil lieu de culte');
     verifier('  … attendu (lieux de culte)', await marqueurs(), parDefaut.filter(r => r.profil === 'culte').length);
     await puce('profilChips', 'Lieu de culte ou bâtiment religieux').click();
@@ -193,7 +197,7 @@ async function lancer(executablePath) {
     const ligne = data.rows.find(r => r.url === lien);
     verifier('fiche : lien de l\'annonce', Boolean(ligne), true);
     if (ligne) {
-      const libelle = Object.fromEntries(STATUTS.map(([k, l]) => [k, l]))[ligne.erp];
+      const libelle = etiquette(ligne);
       verifier('fiche : profil du bien', texte.includes(Object.fromEntries(PROFILS)[ligne.profil]), true);
       verifier('fiche : ville', texte.includes(ligne.ville), true);
       verifier('fiche : statut ERP exact', texte.includes(libelle), true);

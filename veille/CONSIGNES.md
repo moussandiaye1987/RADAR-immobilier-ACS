@@ -16,7 +16,7 @@ Routine « tableau de bord artefact » est désactivée. Voir `veille/AUTOMATISA
 - Travailler sur une branche `veille/AAAA-MM-JJ` créée depuis `origin/main` à jour.
 - Commit, poussée, puis **Pull Request vers `main`** intitulée « Veille du JJ/MM/AAAA ».
 - **Si les contrôles du § 6 réussissent, fusionner soi-même la PR** (fusion « squash ») : `main` est publié sur
-  Netlify automatiquement. Si la fusion est refusée (conflit, protection), laisser la PR ouverte et le signaler.
+  Render automatiquement (https://radar-immobilier-acs.onrender.com). Si la fusion est refusée (conflit, protection), laisser la PR ouverte et le signaler.
 - Si un contrôle échoue et ne peut pas être corrigé : PR en **brouillon**, non fusionnée, erreur en tête du bilan.
 - Si rien n'a changé dans `annonces.json`, ne pas ouvrir de PR : le bilan est donné dans le message final.
 - Ne jamais réutiliser ni fusionner une ancienne PR « Veille du … » : seule celle du jour compte.
