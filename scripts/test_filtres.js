@@ -231,6 +231,48 @@ async function lancer(executablePath) {
     verifier('mobile : pas de défilement horizontal', dims.sw <= dims.w, true);
     verifier('mobile : repères affichés', Number(await mobile.getAttribute('#mapInfo', 'data-markers')), parDefaut.length);
     verifier('mobile : erreurs JavaScript', erreursMobile.length, 0);
+    verifier('mobile : lien « Voir les annonces » visible', await mobile.locator('a.tolist').isVisible(), true);
+
+    // ---- Audit du 14/11/2026 : nature de la vente, annonces masquées, anciens réglages, échec d'actualisation ----
+    const NATURES = { vente: 'Vente des murs', murs_occupes: 'Murs vendus occupés (bail en cours)', murs_et_fonds: 'Murs et fonds de commerce',
+      fonds: 'Fonds de commerce ou droit au bail seul', vente_ou_location: 'Vente ou location : à confirmer' };
+    const audit = await (await navigateur.newContext()).newPage();
+    await audit.context().route('**/tile.openstreetmap.org/**', r => r.abort());
+    await audit.goto(`http://127.0.0.1:${port}/index.html`); await audit.waitForTimeout(500);
+    const cpt = async () => Number((await audit.textContent('#kCount')).trim());
+    verifier('nature de la vente renseignée sur chaque annonce', data.rows.filter(r => !(r.nature in NATURES)).length, 0);
+    for (const [cle, libelle] of Object.entries(NATURES)) {
+      await audit.locator('#natureChips button', { hasText: libelle }).first().click();
+      verifier(`filtre nature « ${libelle} »`, await cpt(), parDefaut.filter(r => r.nature === cle).length);
+      await audit.locator('#natureChips button', { hasText: libelle }).first().click();
+    }
+    verifier('étiquette de nature sur les fiches (hors vente simple)', await audit.locator('#list article.card .tag.chk', { hasText: /occupés|fonds|à confirmer/ }).count(),
+      parDefaut.filter(r => r.nature && r.nature !== 'vente').length);
+    const masquees = visibles.length - parDefaut.length;
+    verifier('bandeau : annonces masquées par les filtres par défaut', masquees > 0 ? (await audit.textContent('#masque')).includes(`${masquees} annonce`) : await audit.locator('#masque').isHidden(), true);
+    await audit.click('#toutAfficher');
+    verifier('« Tout afficher » : toutes les annonces actives', await cpt(), visibles.length);
+    verifier('« Tout afficher » : bandeau masqué', await audit.locator('#masque').isHidden(), true);
+    await audit.click('#resetBtn');
+    // Ancien réglage enregistré (budget 300-600 k€ de l'ancien tableau de bord et type V) : signalé, et « Tout afficher » le lève.
+    await audit.evaluate(() => localStorage.setItem('erpAll.filters', JSON.stringify({ bMin: 300000, bMax: 600000, types: ['V'] })));
+    await audit.reload(); await audit.waitForTimeout(500);
+    verifier('ancien réglage enregistré signalé', (await audit.textContent('#masque')).includes('visite précédente'), true);
+    await audit.click('#toutAfficher');
+    verifier('ancien réglage levé par « Tout afficher »', await cpt(), visibles.length);
+    await audit.evaluate(() => localStorage.clear());
+    // Échec de l'actualisation : signalé dans le bandeau de fraîcheur, les données publiées avec la page restent affichées.
+    const panne = await (await navigateur.newContext()).newPage();
+    await panne.context().route('**/annonces.json*', r => r.fulfill({ status: 503, body: '' }));
+    await panne.goto(`http://127.0.0.1:${port}/index.html`); await panne.waitForTimeout(600);
+    verifier('échec d\'actualisation signalé', (await panne.textContent('#snap')).includes('Actualisation impossible'), true);
+    verifier('échec d\'actualisation : annonces toujours affichées', Number((await panne.textContent('#kCount')).trim()), parDefaut.length);
+    // Date de dernière veille (champ facultatif « veille » écrit par la routine).
+    const veille = await (await navigateur.newContext()).newPage();
+    await veille.context().route('**/annonces.json*', r => r.fulfill({ status: 200, contentType: 'application/json',
+      body: JSON.stringify(Object.assign({}, data, { veille: { date: '14/11/2026', statut: 'ok', ajouts: 0 } })) }));
+    await veille.goto(`http://127.0.0.1:${port}/index.html`); await veille.waitForTimeout(600);
+    verifier('date de dernière veille affichée (aucune nouvelle annonce)', (await veille.textContent('#snap')).includes('Dernière veille : 14/11/2026 — 0 nouvelle annonce'), true);
 
     verifier('erreurs JavaScript', erreursJs.length, 0);
   } catch (e) {

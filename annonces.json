@@ -37,10 +37,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Nationale 20",
@@ -76,9 +76,9 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "8 avenue du Cinq Mars, 95100",
@@ -108,9 +108,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -140,10 +140,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Rue Notre-Dame, 95100",
@@ -181,9 +181,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -212,9 +212,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Quartier résidentiel, près des Quatre-Chemins",
@@ -251,10 +251,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "RDC de la résidence « Caractère » (adresse non publiée)",
@@ -284,9 +284,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "43 rue Lénine",
@@ -324,10 +324,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "adresse": "Adresse non publiée",
@@ -372,9 +372,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "27 rue Yves Kermen, 92100 Boulogne-Billancourt",
@@ -433,11 +433,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -467,9 +467,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -504,9 +504,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "423 rue Audemars, 78530",
@@ -551,10 +551,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "5 rue du Petit Albi (Cergy-Préfecture)",
@@ -595,9 +595,9 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "13 route de Mantes",
@@ -635,10 +635,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -668,10 +668,10 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "24 rue Massenet",
@@ -709,10 +709,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -742,10 +742,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Rue des Temps Modernes, 77600",
@@ -783,9 +783,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "6 rue des Cerisiers, 92290",
@@ -824,10 +824,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "22 rue de la Fontaine Henri IV",
@@ -875,11 +875,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -909,10 +909,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "rue Auguste Franchot",
@@ -949,9 +949,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée",
@@ -988,9 +988,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1020,9 +1020,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -1052,11 +1052,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "N",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "3 rue Pierre Curie",
@@ -1101,10 +1101,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "56 boulevard de Courcerin",
@@ -1142,10 +1142,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "6 allée de l'Industrie",
@@ -1183,9 +1183,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": null,
@@ -1215,9 +1215,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1246,9 +1246,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Zone commerciale (adresse non publiée)",
@@ -1278,10 +1278,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1316,9 +1316,8 @@
    "typesDeclares": [
     "L"
    ],
-   "typesPotentiels": [
-    "V"
-   ]
+   "typesPotentiels": [],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "",
@@ -1347,9 +1346,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "6 rue Maryse Bastié",
@@ -1387,10 +1386,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Zone commerciale et d'affaires, Ézanville (95460)",
@@ -1420,10 +1419,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "P",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1453,10 +1452,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "4 rue Henri de Toulouse-Lautrec",
@@ -1494,10 +1493,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "N",
     "O"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "ZA du Bel Air (Gazeran), 78125",
@@ -1535,9 +1534,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "1 rue de la Ferme Saint-Simon, 95500 Gonesse",
@@ -1574,9 +1573,9 @@
    ],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "",
@@ -1613,10 +1612,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Zone industrielle (adresse non publiée)",
@@ -1646,10 +1645,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1678,9 +1677,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1722,9 +1721,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -1754,10 +1753,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "adresse": "Centre-ville, R+1",
@@ -1797,9 +1796,9 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Axe commerçant (adresse non publiée)",
@@ -1829,9 +1828,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "U"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Emplacement central (adresse non publiée)",
@@ -1869,9 +1868,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Avenue du Noyer de la Malice, ZAC de la Butte des Bergers",
@@ -1916,13 +1915,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "R",
     "U",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Maisons-Alfort (adresse non précisée), 94700",
@@ -1960,10 +1959,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "4 rue des Perdrix",
@@ -1992,9 +1991,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "8 rue de Bel Ebat, 91460 Marcoussis",
@@ -2024,9 +2023,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2056,9 +2055,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "2 rue Thomas Edison, 77100 Meaux",
@@ -2103,9 +2102,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Rue de l'Innovation, 77550 Moissy-Cramayel",
@@ -2150,10 +2149,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Site isolé près de Montereau (adresse non publiée)",
@@ -2183,9 +2182,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "N"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Montgeron (adresse non précisée), 91230",
@@ -2230,9 +2229,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2269,9 +2268,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2300,9 +2299,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "adresse": "Adresse non publiée (accès indépendant sur rue, cour)",
@@ -2347,10 +2346,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "18 rue Carnot",
@@ -2388,9 +2387,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "avenue du Président Salvador Allende",
@@ -2428,10 +2427,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "21 rue Poulin",
@@ -2476,10 +2475,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "31 rue du Progrès",
@@ -2531,9 +2530,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "261 rue de Paris",
@@ -2589,10 +2588,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "Secteur Fontainebleau, 77250 Moret-Loing-et-Orvanne",
@@ -2622,9 +2621,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2654,10 +2653,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée",
@@ -2702,9 +2701,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "131 voie de Compiègne",
@@ -2742,10 +2741,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2774,9 +2773,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Nanterre (adresse non précisée), 92000",
@@ -2805,9 +2804,9 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "1 rue du Centre (immeuble Le Fujy)",
@@ -2849,9 +2848,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2881,9 +2880,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -2913,9 +2912,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Zone commerciale, RN13",
@@ -2945,10 +2944,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "avenue du Général Leclerc (selon la description)",
@@ -2978,9 +2977,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "23 rue du Faubourg Saint-Denis",
@@ -3016,9 +3015,9 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "119 avenue du Général Leclerc",
@@ -3063,10 +3062,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "P",
     "R"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "rue de Vaugirard",
@@ -3111,9 +3110,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée (Montmartre)",
@@ -3158,11 +3157,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "U",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée (Corentin Cariou / Crimée)",
@@ -3214,9 +3213,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée",
@@ -3246,9 +3245,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -3293,10 +3292,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "rue Honoré d'Estienne d'Orves",
@@ -3334,9 +3333,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -3373,10 +3372,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -3406,9 +3405,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "rue Pitois",
@@ -3453,9 +3452,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Rambouillet (adresse non communiquée)",
@@ -3490,9 +3489,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "P"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "12-32 rue Jules Ferry",
@@ -3547,10 +3546,10 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
+    "L"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "5 rue de Rome",
@@ -3602,9 +3601,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée (proche métro / RER)",
@@ -3634,9 +3633,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "119 rue Gabriel Péri, 93200 Saint-Denis",
@@ -3681,10 +3680,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée",
@@ -3736,9 +3735,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -3775,9 +3774,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "boulevard de Créteil",
@@ -3820,9 +3819,9 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "10 avenue des Lacs",
@@ -3867,10 +3866,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -3904,10 +3903,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "",
@@ -3937,9 +3936,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -3969,10 +3968,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -4010,9 +4009,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "29 avenue Jules Vallès, 77176",
@@ -4050,9 +4049,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": null,
@@ -4102,10 +4101,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "",
@@ -4149,9 +4148,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "2 avenue Johannes Gutenberg, 77700",
@@ -4189,9 +4188,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "78 avenue du Château",
@@ -4236,10 +4235,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "rue Gaston Philippe",
@@ -4276,10 +4275,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "9-11 avenue Michelet",
@@ -4334,9 +4333,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "4 ter rue Diderot",
@@ -4387,10 +4386,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -4420,9 +4419,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -4459,9 +4458,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "adresse": "3 rue Johannes Kepler, 78190",
@@ -4506,9 +4505,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Secteur ouest de Versailles",
@@ -4543,9 +4542,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "N"
-   ]
+   ],
+   "nature": "murs_occupes"
   },
   {
    "adresse": "Villiers-sur-Marne (94350), adresse non communiquée",
@@ -4583,10 +4582,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Immeuble de standing, terrasse privative",
@@ -4624,10 +4623,9 @@
     "L",
     "M"
    ],
-   "typesPotentiels": [
-    "V"
-   ],
-   "categorie": 5
+   "typesPotentiels": [],
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "RDC sur rue",
@@ -4655,10 +4653,10 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
+    "L"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "Adresse non publiée",
@@ -4690,7 +4688,8 @@
     "L",
     "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "Plateau / Parc des Lilas, près RN7",
@@ -4718,10 +4717,10 @@
    },
    "typesDeclares": [],
    "typesPotentiels": [
-    "L",
-    "V"
+    "L"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "adresse": "212 rue Edouard Tremblay",
@@ -4750,9 +4749,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "adresse": "",
@@ -4789,9 +4788,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "_id": "sartrouville-restaurant-529",
@@ -4823,9 +4822,9 @@
     "N"
    ],
    "typesPotentiels": [
-    "L",
-    "V"
-   ]
+    "L"
+   ],
+   "nature": "murs_et_fonds"
   },
   {
    "_id": "champs-sur-marne-amphitheatre-665",
@@ -4865,10 +4864,10 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "R",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "champs-sur-marne-erpable-amphi-665",
@@ -4915,10 +4914,10 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "R",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "villeneuve-le-comte-reception-790",
@@ -4950,11 +4949,11 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "N",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "noisy-le-grand-lieu-de-culte-571",
@@ -4984,7 +4983,8 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "V"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "gometz-la-ville-reception-390",
@@ -5014,11 +5014,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "saint-denis-reception-2076",
@@ -5049,12 +5049,12 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "M",
     "N",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "savigny-le-temple-reception-3080",
@@ -5089,7 +5089,8 @@
     "M",
     "N",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "creteil-reception-519",
@@ -5119,10 +5120,10 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "saint-denis-reception-2192",
@@ -5151,12 +5152,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "R",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "ozoir-la-ferriere-restaurant-657",
@@ -5185,10 +5186,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "acheres-salle-associative-460",
@@ -5217,7 +5218,8 @@
     "V",
     "U",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "levallois-perret-local-210",
@@ -5243,9 +5245,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "cachan-local-304",
@@ -5271,10 +5273,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "saint-thibault-des-vignes-local-1484",
@@ -5300,12 +5302,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "U",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "persan-chemin-herbu-eol-900",
@@ -5347,9 +5349,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "torcy-evolis-900",
@@ -5391,10 +5393,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "la-ville-du-bois-immprove-1400",
@@ -5429,10 +5431,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "la-ville-du-bois-graviers-2205",
@@ -5467,10 +5469,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "stains-stalingrad-lot-264",
@@ -5519,9 +5521,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "belloy-en-france-wit-350",
@@ -5548,10 +5550,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "noisy-le-sec-evolis-310",
@@ -5593,9 +5595,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "vaux-le-penil-justice-535",
@@ -5630,10 +5632,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "vaux-le-penil-copro-350",
@@ -5660,10 +5662,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "vaux-le-penil-ght-400",
@@ -5690,10 +5692,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "_id": "bailly-romainvilliers-villa-g2-360",
@@ -5728,10 +5730,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "champigny-copro-400",
@@ -5758,10 +5760,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "champigny-joinville-460",
@@ -5796,11 +5798,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "villiers-champigny-255",
@@ -5835,9 +5837,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "montigny-les-cormeilles-commerce-530",
@@ -5879,10 +5881,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "saint-maur-ght-300",
@@ -5909,9 +5911,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "le-thillay-sistom-305",
@@ -5937,10 +5939,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris17-guy-moquet-300",
@@ -5982,10 +5984,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "palaiseau-orpi-300",
@@ -6012,11 +6014,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "eragny-rosa-luxemburg-1839",
@@ -6072,9 +6074,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "neuilly-plaisance-evolis-965",
@@ -6116,10 +6118,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "mery-sur-oise-immprove-903",
@@ -6146,9 +6148,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "ennery-bnp-953",
@@ -6204,10 +6206,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "sarcelles-eol-1232",
@@ -6249,9 +6251,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "_id": "montreuil-ght-entrepot-habitation-860",
@@ -6278,9 +6280,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "grigny-dl-1400",
@@ -6315,9 +6317,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "grigny-ght-770",
@@ -6344,10 +6346,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "bagnolet-delescluze-1774",
@@ -6396,10 +6398,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "choisy-le-roi-bleuets-859",
@@ -6448,10 +6450,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "_id": "marines-parc-spirit-1133",
@@ -6486,10 +6488,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "vaujours-batiment-independant-1373",
@@ -6524,9 +6526,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "noisy-le-sec-ght-entrepot-860",
@@ -6561,10 +6563,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "montreuil-mairie-ght-805-hsp-8m80",
@@ -6606,9 +6608,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "varennes-sur-seine-breau-770",
@@ -6630,13 +6632,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Local de plain-pied à 8 m sous plafond avec parkings privatifs et deux portes arrière, dans une zone commerciale sans habitations : bon gabarit pour une salle polyvalente, mais 770 m² reste un peu sous la surface cible de 810 m². Le lot est en copropriété (7 000 € HT de charges par an) : le règlement devra autoriser une activité de type L et ses horaires. 924 000 € net vendeur + 5 % d'honoraires, très confortable dans le budget, mais situé à l'extrême sud de la Seine-et-Marne. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "77_001168"
+   "ref": "77_001168",
+   "nature": "vente"
   },
   {
    "_id": "taverny-centre-ville-salles-791",
@@ -6663,7 +6665,8 @@
    "notes": "Local de centre-ville déjà utilisé pour recevoir du public (salles de cours, vestiaires), à 750 000 € soit moins de 950 €/m² : prix très accessible par rapport au budget. Mais la surface se répartit en 450 m² au RDC et 341 m² en sous-sol, ce qui limite fortement l'effectif admissible en type L (dégagements, désenfumage et accès PMR du sous-sol) ; la surface annoncée varie entre 741 et 791 m². Copropriété, hauteur sous plafond et stationnement à vérifier. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "940046804"
+   "ref": "940046804",
+   "nature": "vente"
   },
   {
    "_id": "meaux-showroom-entrepot-910",
@@ -6685,13 +6688,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Volume intéressant pour un type L avec 7,5 m sous plafond, bonne visibilité et parking, plus un logement de 140 m² utilisable pour un gardien. Les surfaces de l'annonce sont incohérentes (910 m² dans le texte, 1 050 m² dans le titre) et aucun classement ERP n'est mentionné : mesurage et dossier de sécurité à demander. 1,25 M€, dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "940050478"
+   "ref": "940050478",
+   "nature": "vente"
   },
   {
    "_id": "villabe-zone-commerciale-1200",
@@ -6713,13 +6716,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Grand plateau de plain-pied de 1 200 m² à 5,90 m sous plafond en zone commerciale, sans riverains : volume bien adapté à une salle polyvalente ou de réception, à 900 €/m². L'annonce prévoit des travaux sur la climatisation et la sécurité incendie, à chiffrer avec le changement de type ERP (M vers L) ; le local est loué en bail civil pour du stockage mais libérable sous un mois. 1,08 M€, bien placé dans le budget, avec une taxe foncière élevée (42 482 €/an) ; stationnement mutualisé de la zone à confirmer. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "cannes-ecluse-batiment-commercial-1328",
@@ -6744,7 +6747,8 @@
    "notes": "Bâtiment indépendant de 1 328 m² sur 7 741 m² de terrain avec 124 places de stationnement : la capacité de parking est idéale pour une salle de réception ou de culte de grande jauge, sans copropriété ni mitoyenneté. Ancienne surface de vente déjà dotée d'issues de secours, à reclasser en type L ; hauteur sous plafond non indiquée. 1,7 M€ hors droits + 5 % d'honoraires, dans le budget mais avec peu de marge pour les travaux, et secteur de Montereau très éloigné de Paris. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "77_001313"
+   "ref": "77_001313",
+   "nature": "vente"
   },
   {
    "_id": "ozoir-la-ferriere-immeuble-restaurant-800",
@@ -6769,7 +6773,8 @@
    "notes": "Seuls les 552 m² du restaurant en RDC sont exploitables en salle, ce qui est en dessous de la surface cible de 810 m², l'étage étant destiné à des logements. L'ERP existant (type N a priori) et la licence IV facilitent un usage réception, mais la présence de logements au-dessus et le centre-ville rendent la question du bruit sensible, avec seulement 9 places de parking privé. 1,49 M€ frais d'agence inclus, dans le budget mais cher au m² utile. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "VP45396-BROKERS"
+   "ref": "VP45396-BROKERS",
+   "nature": "vente"
   },
   {
    "_id": "pringy-showroom-parking-955",
@@ -6791,13 +6796,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Excellente base pour une salle type L : 875 m² de plain-pied à 7 m sous plafond et surtout un parking extérieur sécurisé de 4 465 m², atout rare pour une salle de réception ou de culte. Ancien commerce, donc ERP type M probable à transformer en type L (issues de secours, désenfumage, acoustique) ; aucune desserte en transports citée. 1,3 M€ hors honoraires, dans le budget avec une marge pour les travaux. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "940050705"
+   "ref": "940050705",
+   "nature": "vente"
   },
   {
    "_id": "mantes-la-jolie-zone-commerciale-915",
@@ -6822,7 +6827,8 @@
    "notes": "Local indépendant de 915 m² avec 50 places de parking sur 1 600 m² de terrain, en zone commerciale donc sans problème de voisinage nocturne. La salle principale ne fait que 621 m² et ni la hauteur sous plafond ni le classement ERP ne sont indiqués ; passage en type L à instruire. 1,725 M€, dans le budget mais cher (1 885 €/m²) pour un bien non encore ERP type L. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "9400410933"
+   "ref": "9400410933",
+   "nature": "vente"
   },
   {
    "_id": "coulommiers-showrooms-erp-1930",
@@ -6844,14 +6850,14 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant déjà ERP avec 1 127 m² de showrooms, 680 m² de dépôts et parking privatif, pour 518 €/m² : un des meilleurs rapports surface/prix de la base, sans copropriété ni voisinage d'habitation direct. La hauteur de 3,5 à 5 m est correcte pour une salle polyvalente mais limite pour du spectacle, et le passage du type M au type L imposera une autorisation de travaux (désenfumage, dégagements). Environ 1,08 M€ honoraires de 8 % inclus, largement dans le budget ; point faible : Coulommiers est à une heure de Paris, aucun transport cité. Le même bien est aussi affiché à 995 000 € et 1 155 000 € sur d'autres annonces. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
-   "ref": "940050269"
+   "ref": "940050269",
+   "nature": "vente"
   },
   {
    "_id": "villabe-local-erp-loue-1200",
@@ -6873,14 +6879,14 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Local ERP de plain-pied récemment rénové avec stationnement visiteurs, techniquement intéressant pour un type L. Il est toutefois vendu occupé avec un bail en cours (loyer de 120 000 € HT HC/an), donc c'est un investissement locatif et non un local disponible pour exploiter une salle. 1,6 M€ net vendeur + 5 % d'honoraires, dans le budget de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-10-09).",
    "ajoute": 1791533619133,
    "vu": "2026-10-09",
    "ref": "91_0950",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "villeneuve-le-roi-plateau-1467",
@@ -6937,13 +6943,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Près de 1 200 m² d'activité à environ 5 m de hauteur en petite couronne pour 1,215 M€ hors honoraires : un prix rare dans le Val-de-Marne. La cour est commune, ce qui suppose une copropriété ou une servitude à étudier, les gares sont à un kilomètre ou plus, et le secteur est sous les couloirs aériens d'Orly (isolation acoustique). Pas de classement ERP ni de stationnement précisé. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "OVACT2638246V"
+   "ref": "OVACT2638246V",
+   "nature": "vente"
   },
   {
    "_id": "meaux-zi-nord-loue-815",
@@ -6964,14 +6970,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Local sur 2 000 m² de terrain avec jusqu'à 6 m de hauteur, pour 575 000 € hors honoraires, avec possibilité d'acheter le bâtiment mitoyen. Il est loué en totalité depuis novembre 2023 (48 000 € HT par an, bail 3/6/9) : c'est un placement, indisponible pour un usage propre avant la fin du bail. La surface de plain-pied n'est que d'environ 560 m², sous le minimum demandé. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
    "ref": "VP371-JAULY",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "les-loges-en-josas-batiment-1200",
@@ -6992,14 +6998,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant de 1 200 m² en bon état général avec stationnement extérieur, à 1 000 €/m² près de Versailles et Vélizy. L'annonce ne donne ni hauteur, ni répartition des surfaces, ni classement ERP : à compléter avant toute visite, la desserte étant uniquement routière. À 1,2 M€ hors honoraires, il est dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "SLdKQSkXoL"
+   "ref": "SLdKQSkXoL",
+   "nature": "vente"
   },
   {
    "_id": "villiers-sur-marne-erp-possible-805",
@@ -7028,14 +7034,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "L'annonce écrit « ERP possible », avec 600 m² d'activité à 4,5 m de hauteur, 13 places extérieures et une gare RER à 500 m : c'est l'un des rares biens de la veille où l'accueil du public est envisagé par le vendeur. Le site est clos et gardienné, donc en copropriété ou parc d'activités : règlement, horaires d'accès du public le soir et le week-end, et bruit sont à valider, et 13 places restent peu. À 1,45 M€ plus 3 % d'honoraires, il tient dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "BL-M54469"
+   "ref": "BL-M54469",
+   "nature": "vente"
   },
   {
    "_id": "ivry-sur-seine-salle-de-sport-1086",
@@ -7078,14 +7084,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plateau de 1 086 m² de plain-pied, double façade vitrée, accès PMR, au pied du métro 7 : il reçoit déjà du public comme salle de sport, donc les dégagements et l'accessibilité sont en place. Il est vendu loué (loyer d'environ 163 000 € par an), en pied d'immeuble mixte récent : c'est un placement, pas un local libre, et la copropriété avec logements au-dessus rend le bruit d'une salle de type L délicat. À 2,35 M€ plus honoraires, il dépasse le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
    "ref": "14282620-0010V",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "montreuil-val-de-fontenay-1139",
@@ -7114,13 +7120,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant proche du pôle Val de Fontenay (RER A et E), avec parking et accès direct à l'A86 : bonne desserte pour une salle. La surface est partagée entre 571 m² au rez-de-chaussée à 4 m de hauteur et 568 m² de bureaux à l'étage : la salle serait limitée au rez-de-chaussée, l'étage imposant escaliers encloisonnés et ascenseur pour le public. À 1,749 M€, il est dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "2139606-0V"
+   "ref": "2139606-0V",
+   "nature": "vente"
   },
   {
    "_id": "dampierre-en-yvelines-hotel-restaurant-950",
@@ -7149,7 +7155,8 @@
    "notes": "Hôtel-restaurant de 1884 sur environ un hectare, avec parc utilisé pour les réceptions, grand parking et discothèque au sous-sol : un vrai lieu d'événements déjà exploité, vendu murs et fonds. La plus grande salle ne fait qu'environ 216 m², le sous-sol pose des questions d'évacuation et d'accès PMR, et le site n'est accessible qu'en voiture. À 1,3 M€, il est dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "2131435"
+   "ref": "2131435",
+   "nature": "murs_et_fonds"
   },
   {
    "_id": "persan-cellules-commerciales-1340",
@@ -7171,13 +7178,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Cellules brutes de béton, toutes en rez-de-chaussée, 6,5 m sous plafond et 43 places pour le site : réunir plusieurs lots contigus donnerait un volume de salle intéressant, à aménager entièrement en ERP dès l'origine. Il faut vérifier que les murs séparatifs peuvent être ouverts et que le règlement de l'ensemble commercial admet un type L. Seul un prix « à partir de 255 200 € » par lot est affiché ; le prix de l'ensemble est à demander. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "95_0051"
+   "ref": "95_0051",
+   "nature": "vente"
   },
   {
    "_id": "pontault-combault-zone-commerciale-1850",
@@ -7203,7 +7210,8 @@
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
    "ref": "77_000203",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "epinay-sur-seine-restaurant-350-places-915",
@@ -7228,7 +7236,8 @@
    "notes": "Restaurant de 350 places assises en exploitation, presque entièrement en rez-de-chaussée, avec 40 places de parking : la jauge, les dégagements et le stationnement d'une salle de réception existent déjà. Il faudra déclarer le passage du type N au type L, vérifier le classement actuel et la hauteur sous plafond ; la surface est de 885 m² dans le texte contre 915 m² en titre. À 2,12 M€ honoraires inclus pour murs et fonds, il dépasse légèrement le plafond. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "MZ1-11611"
+   "ref": "MZ1-11611",
+   "nature": "murs_et_fonds"
   },
   {
    "_id": "coulommiers-batiment-activite-1480",
@@ -7250,13 +7259,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Bâtiment d'activité de 1 480 m² avec showroom, grand atelier en rez-de-chaussée et parking privatif, distinct du bâtiment ERP de 1 930 m² déjà suivi à Coulommiers. Aucun classement ERP ni hauteur sous plafond indiqués ; la mezzanine de bureaux ne compte pas dans la surface de salle. À 1,365 M€ honoraires à la charge du vendeur, il est dans le budget, pour un secteur éloigné et peu desservi. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "VP3690"
+   "ref": "VP3690",
+   "nature": "vente"
   },
   {
    "_id": "saint-ouen-l-aumone-vert-galant-1500",
@@ -7277,13 +7286,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Halle de 1 100 m² au sol avec 7,5 m au faîtage sur une parcelle de 3 360 m², extensible de 1 080 m² : le volume et le foncier d'une grande salle de spectacle ou de culte, avec de quoi créer le stationnement. C'est un bâtiment industriel (pont roulant) en zone d'activité : changement de destination, désenfumage et isolation sont à instruire, et aucun transport n'est cité. À 1,45 M€ plus 5 % d'honoraires, il est dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "VP847-OPE IMMO"
+   "ref": "VP847-OPE IMMO",
+   "nature": "vente"
   },
   {
    "_id": "montlhery-local-independant-1621",
@@ -7304,13 +7313,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plus de 1 600 m² entièrement de plain-pied sur plus de 4 000 m² de terrain, avec trois accès et une division possible : une grande surface au sol pour un prix au mètre carré modéré. La hauteur plafonne à 4 m, des travaux sont annoncés et il n'y a ni classement ERP ni transport cité. À 1,5 M€, il est dans le budget, hors travaux. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "SLg21U94SB"
+   "ref": "SLg21U94SB",
+   "nature": "vente"
   },
   {
    "_id": "chilly-mazarin-vigne-aux-loups-981",
@@ -7339,13 +7348,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Local de 981 m² avec 7,5 m sous plafond et 19 places, desservi par le RER C et les bus, proche de l'A6 : hauteur et accès routier conviennent à une salle de spectacle ou de culte. Il est en zone industrielle sans classement ERP : compatibilité du PLU avec un établissement recevant du public, désenfumage et stationnement supplémentaire à vérifier. À 1,2 M€ hors honoraires, il est bien placé dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "SLg2anGkaL"
+   "ref": "SLg2anGkaL",
+   "nature": "vente"
   },
   {
    "_id": "saint-fargeau-ponthierry-entrepot-972",
@@ -7366,14 +7375,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Halle d'environ 900 m² à 5,2 m de hauteur avec accès de plain-pied, pour 780 000 € : un volume de salle très abordable. C'est un entrepôt à quais, sans classement ERP : changement de destination, désenfumage, isolation thermique et acoustique sont à prévoir, et le stationnement (4 à 8 places selon la fiche) est très insuffisant. Le prix laisse une enveloppe de travaux importante sous le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "940049751"
+   "ref": "940049751",
+   "nature": "vente"
   },
   {
    "_id": "meaux-wok-murs-fonds-1700",
@@ -7398,7 +7407,8 @@
    "notes": "Restaurant de grande capacité déjà exploité, avec 1 400 m² en rez-de-chaussée et un parking : l'établissement reçoit déjà du public, ce qui facilite un passage en salle de réception (changement du type N vers L à déclarer). Le classement ERP exact, la hauteur sous plafond et le nombre de places de stationnement ne figurent pas dans l'annonce. À 2,6 M€ murs et fonds, honoraires en sus, il est nettement au-dessus du budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "940050528"
+   "ref": "940050528",
+   "nature": "murs_et_fonds"
   },
   {
    "_id": "nanterre-batiment-independant-1660",
@@ -7427,13 +7437,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant de 1 660 m² à Nanterre, desservi par le RER A, avec stationnement et rampe d'accès à l'étage : deux plateaux de 830 m² permettent une salle au rez-de-chaussée et des annexes au-dessus. L'annonce ne donne ni hauteur sous plafond ni classement ERP, deux points à lever avant toute visite. À 2,5 M€, il dépasse le budget de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "OVACT2638489"
+   "ref": "OVACT2638489",
+   "nature": "vente"
   },
   {
    "_id": "mareuil-les-meaux-hayette-reception-908",
@@ -7457,7 +7467,8 @@
    ],
    "notes": "Bâtiment de 1984 sur 3 000 m² de terrain comprenant un grand espace de réception, plusieurs salles dont certaines à grande hauteur, des vestiaires et 40 places privées, avec accessibilité PMR : il a manifestement déjà reçu du public. Il est sur trois niveaux (R+2) avec un appartement loué au deuxième étage, et aucun transport en commun n'est cité : classement ERP et accès aux étages à vérifier. À 795 000 €, c'est l'un des biens les mieux placés par rapport au budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
-   "vu": "2026-10-10"
+   "vu": "2026-10-10",
+   "nature": "vente"
   },
   {
    "_id": "montreuil-murs-a-peches-800",
@@ -7478,13 +7489,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant de 800 m² de plain-pied avec 8,80 m sous plafond et deux entrées : un volume de salle de spectacle, sans copropriété, en petite couronne. L'annonce est très succincte : pas de classement ERP, ni transport, ni stationnement indiqués, et le secteur du Mur à Pêches est mal desservi par le métro. À 1,7 M€ plus 5 % d'honoraires, il reste sous le plafond mais laisse peu de marge pour les travaux. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "12709600-0003V"
+   "ref": "12709600-0003V",
+   "nature": "vente"
   },
   {
    "_id": "saint-aubin-route-de-l-orme-1096",
@@ -7505,14 +7516,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Près de 1 100 m² pour 742 000 € honoraires inclus sur le plateau de Saclay : le prix au mètre carré le plus bas de cette veille. Ce sont des bureaux cloisonnés : hauteur sous plafond courante, niveaux, structure et stationnement ne sont pas décrits, et créer une grande salle suppose de lourds travaux de décloisonnement et de sécurité incendie. À visiter seulement si la trame porteuse permet un grand plateau. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "2130027"
+   "ref": "2130027",
+   "nature": "vente"
   },
   {
    "_id": "buchelay-batiment-independant-782",
@@ -7535,13 +7546,13 @@
     "L",
     "M",
     "N",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant d'environ 782 m² sur un site clos de 1 776 m², avec une cuisine professionnelle déjà en place, près de l'A13 et de la zone commerciale de Buchelay : un bon point de départ pour une salle de réception avec traiteur. Classement ERP, hauteur, niveaux et stationnement ne sont pas précisés, et la surface est juste sous le minimum demandé de 810 m². À 1,05 M€ plus 5 % d'honoraires, il est dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "78_1315"
+   "ref": "78_1315",
+   "nature": "vente"
   },
   {
    "_id": "montfermeil-entrepot-bureaux-2150",
@@ -7562,14 +7573,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Près de 2 150 m² pour 1,28 M€, soit un prix au mètre carré très bas, avec 980 m² de dépôt en rez-de-chaussée libres et un parking. Le reste est loué (40 000 € HT par an), aucune hauteur ni classement ERP ne sont indiqués, et Montfermeil reste mal desservie en transports lourds. Le prix laisse une vraie enveloppe de travaux pour la mise aux normes ERP, sous réserve de l'état du bâti. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
    "ref": "940049306",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "mareuil-les-meaux-cellules-erp-1847",
@@ -7602,7 +7613,8 @@
    "notes": "Cellules commerciales annoncées conformes aux normes ERP, en zone commerciale avec parking mutualisé : l'accueil du public, le stationnement et le bruit y posent peu de difficulté. L'ERP déclaré est commercial (type M) : un passage en type L demande un dossier de changement d'activité, et l'annonce se contredit sur la surface (1 847 m² en titre, « deux cellules de 1 480 m² » dans le texte). Prix de 2 M€ hors honoraires, au plafond du budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "2179809-0V"
+   "ref": "2179809-0V",
+   "nature": "vente"
   },
   {
    "_id": "le-plessis-pate-local-independant-869",
@@ -7623,13 +7635,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Local indépendant de plain-pied, 770 m² d'un seul tenant entre 4,5 et 5,5 m de hauteur, toiture refaite en bac acier après désamiantage : un volume sain pour une salle polyvalente. Pas de classement ERP, seulement 8 places de stationnement et une desserte routière par la N104. À 1,35 M€, il est dans le budget mais cher au mètre carré pour un bien à transformer. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "9400411079"
+   "ref": "9400411079",
+   "nature": "vente"
   },
   {
    "_id": "cergy-francis-combe-1651",
@@ -7658,14 +7670,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant avec 1 081 m² de plain-pied sur un grand terrain et de nombreux stationnements, à environ 1 km du RER A : l'emprise foncière règle la question du parking et du voisinage. La hauteur de 3,6 à 4,5 m sous poutre est modeste pour une salle de spectacle mais suffit pour réception ou conférence ; aucun classement ERP. À 2,3 M€ plus 5 % d'honoraires, il dépasse le plafond de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "BL-C58954"
+   "ref": "BL-C58954",
+   "nature": "vente"
   },
   {
    "_id": "varennes-sur-seine-plain-pied-978",
@@ -7687,13 +7699,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Local commercial entièrement de plain-pied sur 4 039 m² de terrain avec 65 places : la configuration la plus simple pour une salle de réception ou de réunion, sans copropriété apparente. La hauteur de 4 m exclut le spectacle avec gradins, le secteur est éloigné de Paris et sans transport cité, et la fiche mentionne aussi un loyer de 90 000 € par an sans préciser si le bien est loué. À 1 M€ hors honoraires, il est bien placé dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "OVCOM2638237V"
+   "ref": "OVCOM2638237V",
+   "nature": "vente"
   },
   {
    "_id": "claye-souilly-deux-cellules-1080",
@@ -7714,13 +7726,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment de deux cellules totalisant 1 080 m² avec 25 places, près de la N3 et de la Francilienne. Aucune hauteur ni classement ERP indiqués, et la réunion des deux cellules en une salle dépend du mur séparatif ; la desserte est uniquement routière. À 1,4 M€, il est dans le budget (honoraires annoncés tantôt à la charge du vendeur, tantôt 5 % en sus). Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "940051547"
+   "ref": "940051547",
+   "nature": "vente"
   },
   {
    "_id": "groslay-d301-1200",
@@ -7757,13 +7769,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Local commercial libre, site clos, accessible PMR, à 350 m de la gare de Groslay (ligne H) avec stationnement sur place : la desserte est un vrai atout pour une salle. Le volume est coupé en deux niveaux (700 m² + 500 m²) avec 4 m de hauteur seulement, ce qui limite la jauge et la scénographie ; le même bâtiment est aussi diffusé par NOVA Immobilier pour 1 450 m² au même prix. À 2,55 M€ hors honoraires, il dépasse nettement le plafond de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "VP53685-BROKERS"
+   "ref": "VP53685-BROKERS",
+   "nature": "vente"
   },
   {
    "_id": "taverny-verdun-la-plaine-1090",
@@ -7785,13 +7797,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant en zone commerciale, environ 670 m² au sol avec jusqu'à 6,54 m de hauteur, grande vitrine et cour privative d'environ 500 m² pour le stationnement. La mezzanine de 400 m² ne pourra recevoir du public qu'avec des escaliers et un accès PMR conformes ; aucun classement ERP ni transport cité. À 1,26 M€, il est dans le budget (la fiche hésite entre prix hors honoraires et honoraires inclus). Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "VP53924-BROKERS"
+   "ref": "VP53924-BROKERS",
+   "nature": "vente"
   },
   {
    "_id": "corbeil-essonnes-delattre-874",
@@ -7827,13 +7839,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Halle de 774 m² d'un seul tenant en rez-de-chaussée, jusqu'à 6,8 m de hauteur, à 500 m d'une gare RER : volume et desserte très adaptés à une salle de type L, pour un prix bien en dessous du budget. C'est un local d'activité sans classement ERP : changement de destination, désenfumage, issues de secours, isolation acoustique et stationnement (non précisé) sont à instruire. L'en-tête affiche 789 000 € mais le texte indique 870 000 € hors honoraires : prix à faire confirmer. Repris du tableau de bord Radar ERP (relevé du 2026-10-10).",
    "ajoute": 1791631646123,
    "vu": "2026-10-10",
-   "ref": "L_2406_91_001_14_V"
+   "ref": "L_2406_91_001_14_V",
+   "nature": "vente"
   },
   {
    "_id": "noisy-le-grand-ballon-1458",
@@ -7869,14 +7881,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Prix affiché à partir de 900 005 € pour le bâtiment 1 (721 m² : 445 m² d'activité + 275 m² de bureaux) ; prix de l'ensemble à demander. Hauteur de 3,5 m et statut de copropriété sont des freins réels pour une salle type L (volume, accord du syndicat, nuisances sonores). À garder en option pour une salle de réunion/conférence de capacité moyenne. 11/11/2026 : annonce republiée par Immprove (réf. 13657790-0001V, https://www.bureauxlocaux.com/annonce/a-vendre-rare-sur-le-secteur-batiment-independant--43136512) toujours à 900 005 €, deux bâtiments indépendants sur ~2 800 m² de parcelle, vendables séparément. Repris du tableau de bord Radar ERP (relevé du 2026-10-13).",
    "ajoute": 1791909585389,
    "vu": "2026-10-13",
-   "ref": "13657790-0001V"
+   "ref": "13657790-0001V",
+   "nature": "vente"
   },
   {
    "_id": "crecy-la-chapelle-domaine-reception-3106",
@@ -7907,14 +7919,14 @@
    ],
    "typesPotentiels": [
     "N",
-    "V",
     "X"
    ],
    "notes": "Le seul bien de cette veille déjà exploité comme salle de réception (jusqu'à 4 mariages en même temps, plus de 100 places de parking) : l'usage type L est en place, il faut obtenir le PV de la commission de sécurité et vérifier la catégorie. Avec ses 40 chambres, c'est aussi un ERP type O, donc un ensemble lourd à exploiter et à entretenir (taxe foncière de 8 500 €), avec des surfaces contradictoires dans l'annonce (3 106 ou 3 900 m²). 1 950 000 € honoraires vendeur inclus, juste sous le plafond de 2 M€ ; très éloigné de Paris (45 min) et peu desservi. Repris du tableau de bord Radar ERP (relevé du 2026-10-13).",
    "ajoute": 1791909585389,
    "vu": "2026-10-13",
    "erpSource": "« Lieu de réceptions, séminaires et traiteur en exploitation · 6 salles de réception + 9 salles de réunion · hébergement 40 chambres » — https://www.espaces-atypiques.com/en/for-sale/77580-crecy-la-chapelle-venue-for-exceptional-receptions-seminars-and-catering-sm1215/",
-   "ref": "SM1215"
+   "ref": "SM1215",
+   "nature": "vente"
   },
   {
    "_id": "villepinte-erables-800",
@@ -7943,14 +7955,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant rénové avec 18 places privatives, hall d'accueil et salle de réunion, dans un parc tertiaire sans voisinage résidentiel (bruit peu sensible). Le plateau d'activité de 400 m² en RDC à 4 m de HSP limite la salle à environ 250–300 personnes ; l'étage de bureaux ne servirait qu'aux annexes. 1 500 000 € (1 875 €/m²), dans le budget ; RER B Parc des Expositions à 17 min à pied. Repris du tableau de bord Radar ERP (relevé du 2026-10-13).",
    "ajoute": 1791909585389,
    "vu": "2026-10-13",
-   "ref": "ALBG-2156891-0V-1"
+   "ref": "ALBG-2156891-0V-1",
+   "nature": "vente"
   },
   {
    "_id": "ennery-heinrich-hertz-1100",
@@ -7979,13 +7991,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plateau de 864 m² en rez-de-chaussée avec 7,95 m sous plafond et 16 places : volume idéal pour une salle type L avec gradins ou scène, plain-pied favorable à l'évacuation et au PMR. Zone d'activités éloignée des transports (gare à 5 km), donc public surtout motorisé et parking à renforcer ; changement de destination et désenfumage à prévoir. Prix 1 575 000 € HT (≈ 1 430 €/m²), dans le budget ; disponible dans 6 mois, divisible (lot d'environ 550 m² à partir de 787 500 €). Repris du tableau de bord Radar ERP (relevé du 2026-10-13).",
    "ajoute": 1791909585389,
    "vu": "2026-10-13",
-   "ref": "95_0623"
+   "ref": "95_0623",
+   "nature": "vente"
   },
   {
    "_id": "montigny-le-bretonneux-frenes-2170",
@@ -8021,7 +8033,6 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
@@ -8029,7 +8040,8 @@
    "ajoute": 1791909585389,
    "vu": "2026-10-13",
    "ref": "BL-Y42973",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "louvres-noyer-malice-883",
@@ -8065,14 +8077,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Construction neuve et isolée, de plain-pied, avec 589 m² d'entrepôt à 7 m sous plafond : volume adapté à une salle type L, avec un accueil de 84 m² déjà en place. ZAC excentrée (RER D à 2 km) et parking non précisé alors que le terrain ne fait que 700 m² : capacité de stationnement à vérifier en priorité. 1 721 850 € (≈ 1 950 €/m²), dans le haut du budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-13).",
    "ajoute": 1791909585389,
    "vu": "2026-10-13",
-   "ref": "L_2311_95_006_29_V"
+   "ref": "L_2311_95_006_29_V",
+   "nature": "vente"
   },
   {
    "_id": "guyancourt-batiment-bureaux-1126",
@@ -8112,7 +8124,8 @@
    "notes": "Bâtiment indépendant avec 32 places de parking et bus au pied, mais conçu en bureaux sur deux niveaux : la hauteur sous plafond probablement standard rend une grande salle type L difficile sans travaux lourds (trémie, double hauteur). Plutôt adapté à des salles de réunion ou de formation. 2 M€, au plafond du budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "1438423-0V"
+   "ref": "1438423-0V",
+   "nature": "vente"
   },
   {
    "_id": "courbevoie-sous-sol-1000",
@@ -8133,13 +8146,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Emplacement très bien desservi en petite couronne et prix bas pour le secteur (1 450 €/m²), mais le local est en sous-sol d'un immeuble mixte : l'exploitation d'une salle type L y est très contraignante (évacuation vers l'extérieur, désenfumage, effectif limité, accord de copropriété). À n'envisager qu'après avis d'un bureau de contrôle. 1,45 M€ + 3 % HT. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "KG1-719"
+   "ref": "KG1-719",
+   "nature": "vente"
   },
   {
    "_id": "palaiseau-leon-blum-1841",
@@ -8160,12 +8173,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Grande surface (1 841 m²) en bâtiment indépendant pour moins de 2 M€, soit environ 1 080 €/m² : rapport prix/surface très favorable. Répartition activité/bureaux, hauteur et stationnement inconnus, à obtenir auprès d'Agilys avant visite. Dans le budget, au plafond. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
-   "vu": "2026-10-16"
+   "vu": "2026-10-16",
+   "nature": "vente"
   },
   {
    "_id": "trappes-einstein-862",
@@ -8194,14 +8207,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Entrée de gamme de la veille (environ 900 k€, prix affiché « à partir de ») avec 30 places de parking, mais seulement 470 m² de plain-pied à 4,50 m : jauge limitée pour une salle type L, l'étage servant aux annexes. L'achat des deux cellules (1 724 m²) doublerait la salle possible ; prix exact par lot à confirmer. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "13290830X-0045"
+   "ref": "13290830X-0045",
+   "nature": "vente"
   },
   {
    "_id": "villepinte-vanesses-1002",
@@ -8230,13 +8243,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "1 002 m² entièrement en RDC avec sanitaires PMR, parking extérieur et RER B à 13 minutes à pied, dans une zone d'activités sans riverains. La hauteur de 4,50 m convient à une salle de réunion ou de réception type L, moins à une salle de spectacle. Les deux lots sont à acheter ensemble (1,855 M€ HD + 7 % HT). Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "ALBG-1332054-0V-1"
+   "ref": "ALBG-1332054-0V-1",
+   "nature": "vente"
   },
   {
    "_id": "argenteuil-entrepot-1130-ght",
@@ -8257,13 +8270,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plain-pied de 1 000 m² avec double accès, utile pour les dégagements et l'évacuation d'une salle type L. La hauteur variable (3,40 à 5 m) limite la zone exploitable en grande salle ; adresse et transports non communiqués. 1,69 M€ hors honoraires, dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "9400410186"
+   "ref": "9400410186",
+   "nature": "vente"
   },
   {
    "_id": "stains-stalingrad-792",
@@ -8292,13 +8305,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Neuf, 7 m sous plafond, avec métro 13 à 11 minutes à pied et un espace d'accueil déjà prévu, mais seulement 426 m² d'activité utilisable en grande salle : jauge type L limitée. Prix affiché « à partir de » 543 840 € mais la fiche cite 1 774 080 € HT : à confirmer, comme le régime de copropriété (parc d'activités). Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "L_2312_93_002_26_V"
+   "ref": "L_2312_93_002_26_V",
+   "nature": "vente"
   },
   {
    "_id": "argenteuil-guy-moquet-1230",
@@ -8327,13 +8340,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant de plain-pied avec 1 060 m² d'activité d'un seul tenant et 4,90 m sous plafond : volume compatible avec une grande salle type L, sans copropriété, avec parking clos sur une grande parcelle. Vigilance : gare à 2 km (accessibilité public en transports faible), changement de destination et isolation acoustique à prévoir. 1,7 M€ + 5 % HT d'honoraires, dans l'enveloppe. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "95_0672"
+   "ref": "95_0672",
+   "nature": "vente"
   },
   {
    "_id": "plaisir-neuf-992",
@@ -8354,13 +8367,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment neuf, 7,5 m sous poutre et accès de plain-pied PMR : excellent volume pour une salle type L, sans travaux de structure. Vigilance : copropriété d'activités (règlement à vérifier pour un ERP), aucun transport en commun cité, accès essentiellement routier (N12). 1,835 M€ pour 992 m² + 2,8 % HT d'honoraires, haut de budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-16).",
    "ajoute": 1792167748054,
    "vu": "2026-10-16",
-   "ref": "BLdKUBWZXL"
+   "ref": "BLdKUBWZXL",
+   "nature": "vente"
   },
   {
    "_id": "varennes-sur-seine-arthur-loyd-1500",
@@ -8381,7 +8394,6 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
@@ -8389,7 +8401,8 @@
    "ajoute": 1792226069048,
    "vu": "2026-10-17",
    "ref": "77_001364",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "garges-les-gonesse-ibi-1538",
@@ -8418,12 +8431,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Prix très bas (≈ 645 €/m²) pour un bâtiment indépendant sur terrain privatif de 1 843 m², à proximité du RER D : c'est l'une des entrées les moins chères de la base. Les surfaces par niveau ne sont pas données et une salle type L devra tenir au RDC (évacuation, PMR) ; l'agence prévient elle-même que des travaux de mise en conformité sont nécessaires. Très confortable par rapport au budget, même avec 5 % d'honoraires et une enveloppe de travaux importante. Repris du tableau de bord Radar ERP (relevé du 2026-10-17).",
    "ajoute": 1792226069048,
-   "vu": "2026-10-17"
+   "vu": "2026-10-17",
+   "nature": "vente"
   },
   {
    "_id": "palaiseau-bsk-activites-1900",
@@ -8444,14 +8457,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment autonome sur terrain clos avec 15 places privatives, honoraires à la charge du vendeur : environ 870 €/m², ce qui laisse une vraie marge pour les travaux. Le grand volume du RDC (surface et hauteur non chiffrées) peut accueillir une salle, mais il faudra vérifier la destination au PLU, le désenfumage et les issues ; aucun transport en commun n'est cité (accès N118/A10). Peut-être le même bâtiment que l'annonce Agilys rue Léon Blum (1 841 m² à 1,99 M€) : à recouper avant tout contact. Repris du tableau de bord Radar ERP (relevé du 2026-10-17).",
    "ajoute": 1792226069048,
    "vu": "2026-10-17",
-   "ref": "341055"
+   "ref": "341055",
+   "nature": "vente"
   },
   {
    "_id": "romainville-ght-840",
@@ -8472,13 +8485,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bien en proche couronne avec terrain traversant à double accès (environ 350 à 440 m²), mais le seul volume exploitable pour une salle est l'entrepôt de 450 m² au RDC, avec 3 m sous plafond : c'est limite pour une salle type L (acoustique, désenfumage). Les étages ne conviendraient qu'en annexes (loges, bureaux, stockage). Prix dans le budget (≈ 1 630 €/m², honoraires non précisés). Repris du tableau de bord Radar ERP (relevé du 2026-10-17).",
    "ajoute": 1792226069048,
    "vu": "2026-10-17",
-   "ref": "940049792"
+   "ref": "940049792",
+   "nature": "vente"
   },
   {
    "_id": "gretz-armainvilliers-sistom-806",
@@ -8507,13 +8520,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "656 m² de plain-pied avec de nombreux parkings privatifs : bonne base pour une salle de 300 à 400 personnes. Le faux plafond laisse penser à une hauteur modeste, à vérifier. 1 750 €/m² HT, plus 5 % d'honoraires : au-dessus du budget de 600 k€, en zone d'activité (peu de voisins, donc moins de risques liés au bruit). Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "77_1883"
+   "ref": "77_1883",
+   "nature": "vente"
   },
   {
    "_id": "lieusaint-restaurant-salle-reception-850",
@@ -8544,14 +8557,14 @@
     "N"
    ],
    "typesPotentiels": [
-    "V",
     "X"
    ],
    "notes": "Seul bien de la veille déjà exploité avec une salle de réception (100 pers.) et un parking privé fermé, à 896 €/m². Point clé à lever : l'annonce évoque un bail commercial neuf à 6 000 € HT/mois, il faut confirmer qu'il s'agit bien des murs et pas seulement du fonds. Deux niveaux d'environ 350 m² (total annoncé 850 m² à vérifier) : la salle au RDC est le bon point de départ, l'étage demandera un deuxième dégagement pour monter en capacité. Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
    "erpSource": "« Complexe restaurant avec salle de réception 100 pers., 850 m² sur 2 niveaux » — https://www.lesiteimmo.com/acheter/commerce/lieusaint-77127/32122151",
-   "ref": "1877246"
+   "ref": "1877246",
+   "nature": "vente"
   },
   {
    "_id": "arpajon-centre-827-occupe",
@@ -8582,14 +8595,14 @@
    ],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "827 m² de plain-pied en centre-ville, déjà ERP et accessible PMR. Mais les murs sont vendus occupés (loyer de 72 k€ HT par an) : c'est un placement, pas une salle disponible, sauf si le bail arrive à échéance. Au-dessus du budget, à réserver pour un usage différé. Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
    "ref": "15-271991",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "evry-marquis-de-raies-870",
@@ -8632,14 +8645,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bien desservi (tram T12 et RER D à environ 1 km) et 1 207 €/m², mais il n'y a qu'environ 320 m² au rez-de-chaussée : la grande salle serait petite. L'étage de bureaux (551 m²) conviendrait à des salles de réunion ou de formation (type L, catégorie modeste) si l'escalier et l'ascenseur le permettent. 20 places extérieures mentionnées, à confirmer. Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "1190372-0"
+   "ref": "1190372-0",
+   "nature": "vente_ou_location"
   },
   {
    "_id": "montigny-les-cormeilles-boutique-1200",
@@ -8670,13 +8683,13 @@
    ],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "1 080 m² d'un seul tenant au rez-de-chaussée avec parking client : la configuration idéale pour une grande salle type L, à 1 050 €/m². Vente aussi évoquée par cellules : vérifier si l'ensemble est libre ou en partie loué. Passage d'ERP M à L à prévoir, avec étude acoustique (zone commerciale, moins de voisins) et calcul des dégagements pour plusieurs centaines de personnes. Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "9400411637"
+   "ref": "9400411637",
+   "nature": "vente"
   },
   {
    "_id": "linas-cevert-1144",
@@ -8712,13 +8725,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Prix des lots à partir de 419 999 € : un ou deux lots (environ 500 à 630 m²) entrent dans le budget, mais l'ensemble approcherait 1,9 M€. La hauteur de 6 m et les 5 places par lot sont un vrai plus pour une salle. En copropriété d'activité, il faudra l'accord de la copropriété pour un ERP, et le RER est loin (4 km). Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "2156386-0V"
+   "ref": "2156386-0V",
+   "nature": "vente"
   },
   {
    "_id": "buc-fourny-1203",
@@ -8754,13 +8767,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Le lot 1 (492 m², 590 520 €) est le seul bien de la veille sous les 600 k€. Mais il n'a que 243 m² d'activité au RDC, plus des bureaux à l'étage : cela suffit pour une petite salle de réunion ou de conférence. Le bien entier ferait environ 1,32 M€ au tarif global (6 % d'honoraires en plus). Copropriété, taxe foncière élevée (27,8 k€) et aucune desserte lourde à pied. Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "ALBG-843897-0V-2"
+   "ref": "ALBG-843897-0V-2",
+   "nature": "vente"
   },
   {
    "_id": "gretz-armainvilliers-eol-910",
@@ -8789,14 +8802,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Le volume de l'atelier (530 m², 5 à 7 m sous plafond) se prête bien à une salle avec gradins ou scène, et le RER E est à proximité. Il faudra changer la destination (activité vers ERP) et revoir isolation et désenfumage. Prix annoncé 1,5 M€, soit 1 650 à 1 770 €/m² selon la surface retenue (849 ou 910 m², à faire préciser). Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "BLdz13fuWL"
+   "ref": "BLdz13fuWL",
+   "nature": "vente"
   },
   {
    "_id": "longjumeau-rubis-928",
@@ -8826,13 +8839,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Le meilleur prix au m² de la veille (808 €/m²), libre immédiatement et accessible PMR. Mais la vraie surface exploitable en salle se limite aux 444 m² du rez-de-chaussée : un sous-sol ne peut recevoir qu'un effectif très limité en type L (désenfumage, dégagements). Correspond à une salle d'environ 200 à 300 personnes, avec le sous-sol en annexes et rangements. Repris du tableau de bord Radar ERP (relevé du 2026-10-19).",
    "ajoute": 1792437739518,
    "vu": "2026-10-19",
-   "ref": "15-166856"
+   "ref": "15-166856",
+   "nature": "vente"
   },
   {
    "_id": "coignieres-activite-1550",
@@ -8861,13 +8874,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Volume idéal pour une grande salle type L : 1 260 m² d'un seul tenant de plain-pied, 5,6 à 6,6 m sous poutre, bâtiment indépendant (pas de copropriété) et 15 places privatives. Gare à 4,2 km et zone d'activités : prévoir changement de destination, désenfumage, issues de secours, isolation phonique et un stationnement complémentaire pour l'effectif. Environ 1 000 €/m² et 1,55 M€ HT/HD + 5 % d'honoraires, dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-20).",
    "ajoute": 1792489322899,
    "vu": "2026-10-20",
-   "ref": "OVACT2533803"
+   "ref": "OVACT2533803",
+   "nature": "vente"
   },
   {
    "_id": "chennevieres-activite-1947",
@@ -8903,13 +8916,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plateau RDC de 1 060 m² sous 6,5 m avec hall d'accueil indépendant et 24 places : bonne base pour une salle type L, les bureaux de l'étage pouvant servir de loges/locaux annexes. À vérifier : mitoyenneté et voisinage (bruit), désenfumage, nombre d'issues pour l'effectif visé et distance réelle au RER A. À 2 M€ HT/HD (+5 %), il est pile au plafond du budget, l'annonce mentionnant aussi « à louer » : faire confirmer la vente. Repris du tableau de bord Radar ERP (relevé du 2026-10-20).",
    "ajoute": 1792489322900,
    "vu": "2026-10-20",
-   "ref": "OVACT2532061"
+   "ref": "OVACT2532061",
+   "nature": "vente_ou_location"
   },
   {
    "_id": "dourdan-poussepin-3326",
@@ -8945,13 +8958,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Très grand volume de plain-pied (2 606 m²) sur un hectare, de quoi créer une salle type L de grande capacité avec parking sur place, pour moins de 600 €/m². Revers : sud de l'Essonne, gare RER C à 2 km, et une transformation lourde d'un entrepôt industriel (HSP non précisée, isolation, chauffage, désenfumage, sanitaires PMR) avec une taxe foncière de 18 k€/an. À 1,95 M€ (+5 % HT), dans le budget, mais les travaux le feront dépasser. Repris du tableau de bord Radar ERP (relevé du 2026-10-20).",
    "ajoute": 1792489322901,
    "vu": "2026-10-20",
-   "ref": "ALBG-2205304-0V-1"
+   "ref": "ALBG-2205304-0V-1",
+   "nature": "vente"
   },
   {
    "_id": "serris-activite-954",
@@ -8980,14 +8993,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment neuf avec 18 places privatives au cœur du Val d'Europe, proche RER A et A4. Mais la partie exploitable en salle se limite aux 482 m² du RDC sous 4,5 m, l'étage étant en bureaux : salle type L de capacité moyenne seulement, et les bureaux neufs se valorisent mal dans ce projet. 1,89 M€ HT + 3 %, dans le budget mais cher pour la surface utile en salle. Repris du tableau de bord Radar ERP (relevé du 2026-10-20).",
    "ajoute": 1792489322902,
    "vu": "2026-10-20",
-   "ref": "77_13011"
+   "ref": "77_13011",
+   "nature": "vente"
   },
   {
    "_id": "creteil-entrepot-860",
@@ -9008,13 +9021,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Local indépendant sous 6 m sur une parcelle de 3 000 m² entièrement goudronnée : volume et stationnement potentiel adaptés à une salle type L en proche couronne. L'annonce est incohérente (vente/location, « à rénover »/« aucun travaux ») et ne donne ni adresse ni desserte : à faire préciser avant visite. À 2 M€, soit plus de 2 300 €/m², c'est cher et au plafond du budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-20).",
    "ajoute": 1792489322903,
    "vu": "2026-10-20",
-   "ref": "VP9451-DLRE"
+   "ref": "VP9451-DLRE",
+   "nature": "vente_ou_location"
   },
   {
    "_id": "buc-activite-797",
@@ -9035,14 +9048,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant à prix contenu (1,15 M€ HT/HD + 5 %), avec 7 places, près de la N12 et de l'A86. Mais seulement 320 m² au RDC pour la salle, le reste en bureaux sur deux étages : une salle type L y serait petite et les étages imposent dégagements et accessibilité PMR. Libre au 31/12/2026 ; à garder en second choix. Repris du tableau de bord Radar ERP (relevé du 2026-10-20).",
    "ajoute": 1792489322904,
    "vu": "2026-10-20",
-   "ref": "OVACT2643055"
+   "ref": "OVACT2643055",
+   "nature": "vente"
   },
   {
    "_id": "nemours-angle-mixte-1030",
@@ -9072,13 +9085,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "W",
     "X"
    ],
    "notes": "Très bon ratio prix/surface (≈ 573 €/m², 590 000 € HT + 6,55 % d'honoraires) : le seul bien de cette veille qui laisse une vraie marge de travaux sous 600 000 €… hors travaux. Bâtiment indépendant d'angle avec un espace commercial existant, ce qui facilite l'accueil du public, mais la hauteur sous plafond et la répartition activité/bureaux sont à vérifier ; création ERP type L à prévoir (désenfumage, deux issues, isolation phonique, PMR). Localisation excentrée (sud 77) : l'accès en Transilien R est déduit, pas cité dans l'annonce. Repris du tableau de bord Radar ERP (relevé du 2026-10-21).",
    "ajoute": 1792620024198,
-   "vu": "2026-10-21"
+   "vu": "2026-10-21",
+   "nature": "vente"
   },
   {
    "_id": "montereau-zac-ormeaux-972",
@@ -9107,13 +9120,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "780 m² de plain-pied à 6 m sous poutre, sur un grand terrain clos : de quoi aménager une grande salle et un parking. Le prix (650 000 € HT + 5 %, soit environ 682 500 €) dépasse un peu 600 000 €, et les travaux ERP type L (désenfumage, issues, isolation, sanitaires PMR) seraient en plus ; vérifier aussi que le PLU de la ZAC autorise une salle recevant du public. Le même bien est proposé par GHT Immo à 699 000 €, donc il y a de la marge pour négocier. Repris du tableau de bord Radar ERP (relevé du 2026-10-21).",
    "ajoute": 1792620025198,
    "vu": "2026-10-21",
-   "ref": "L_2011_77_004_67_V"
+   "ref": "L_2011_77_004_67_V",
+   "nature": "vente"
   },
   {
    "_id": "marines-metairie-849",
@@ -9149,13 +9162,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Un bâtiment neuf de plain-pied avec 7 m libres permet de prévoir l'aménagement ERP type L dès la conception, mais la surface d'activité utile n'est que de 646 m² et il n'y a que 5 places de parking. Prix bien au-dessus d'un budget de 600 000 € (≈ 1 550 €/m²), livraison prévue mi-2027. Site rural du Vexin, à 4 km des gares : accès difficile pour le public. Repris du tableau de bord Radar ERP (relevé du 2026-10-21).",
    "ajoute": 1792620026198,
    "vu": "2026-10-21",
-   "ref": "19361"
+   "ref": "19361",
+   "nature": "vente"
   },
   {
    "_id": "ezanville-batiment-f-1026",
@@ -9191,13 +9204,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Ce parc neuf accepte explicitement des usages loisirs et restauration, ce qui joue en faveur d'un changement de destination vers une salle type L, et il y a 900 m² de plain-pied à 7,5 m. Attention : le lot F2 (1 026 m²) est annoncé sous option, le lot F1 n'est livré qu'au 4e trimestre 2027, et le prix « à partir de 1 795 500 € » est très au-dessus de 600 000 €. Gare Transilien H de Domont à environ 1 km. Repris du tableau de bord Radar ERP (relevé du 2026-10-21).",
    "ajoute": 1792620027198,
    "vu": "2026-10-21",
-   "ref": "ALCE-1360799-0V-3"
+   "ref": "ALCE-1360799-0V-3",
+   "nature": "vente"
   },
   {
    "_id": "chennevieres-entrepot-900",
@@ -9218,13 +9231,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant avec un terrain utilisable pour le stationnement, mais une grande salle n'y disposerait que de 600 m² de plain-pied (la mezzanine ne se prête pas à un ERP sans gros travaux). Prix de 1,8 M€ sur la fiche (1,6 M€ affiché sur la liste de résultats, à clarifier), soit trois fois un budget de 600 000 €. Pas de transport cité ; zone d'activité excentrée, à vérifier avec le PLU. Repris du tableau de bord Radar ERP (relevé du 2026-10-21).",
    "ajoute": 1792620028198,
    "vu": "2026-10-21",
-   "ref": "9400411277"
+   "ref": "9400411277",
+   "nature": "vente"
   },
   {
    "_id": "cuisy-glaisiere-824-occupe",
@@ -9245,14 +9258,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Ensemble de rapport (58 073 € HT/an de loyers) sur terrain de 1 479 m² avec parking privé : seuls les 240 m² de stockage sont libres, donc une salle type L supposerait de libérer le local d'activité. Commune rurale sans transport en commun cité (CDG à 30 min), cohabitation avec 3 logements à gérer pour le bruit. À 850 000 € HT + 5 %, c'est l'un des prix les plus bas de la veille, mais au-dessus de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-10-24).",
    "ajoute": 1792880490466,
    "vu": "2026-10-24",
    "ref": "VP937-OPE_IMMO",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "les-loges-en-josas-croix-blanche-1800",
@@ -9295,13 +9308,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Seul le RDC de 600 m² à 4,3 m sous plafond est exploitable pour une salle type L (jauge d'environ 300-400 personnes selon aménagement) ; l'étage et le sous-sol (2,5 m) serviraient de stockage ou loges, mais un ERP en sous-sol ou à l'étage impose des contraintes fortes d'évacuation. Parc tertiaire sécurisé avec gardien et parkings extérieurs, proche A86/N118. À 1,4 M€ + 5 % HT, le prix au m² est bas mais nettement au-dessus de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-10-24).",
    "ajoute": 1792880490466,
    "vu": "2026-10-24",
-   "ref": "2150315-0V"
+   "ref": "2150315-0V",
+   "nature": "vente"
   },
   {
    "_id": "fontenay-sous-bois-entrepot-815",
@@ -9322,14 +9335,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Emplacement très recherché aux portes de Paris, avec parking avant et arrière, mais la partie exploitable en salle se limite à environ 420 m² de stockage au RDC, hauteur non communiquée. Transformation en ERP type L à étudier (volume, issues, voisinage résidentiel). À 1,94 M€, il touche le plafond de 2 M€ et reste très loin d'un budget de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-10-24).",
    "ajoute": 1792880490466,
    "vu": "2026-10-24",
-   "ref": "9400410971"
+   "ref": "9400410971",
+   "nature": "vente"
   },
   {
    "_id": "malakoff-voltaire-796",
@@ -9365,13 +9378,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant à 5 minutes à pied du métro 13 et du tram T3a : desserte exceptionnelle pour un public. La zone d'activité réelle ne fait que 411 m² et le quartier est résidentiel, donc isolation acoustique et évacuation à soigner ; DPE F à prévoir dans les travaux. À 2,1 M€ + 5 %, il dépasse légèrement le plafond de 2 M€ ; annonce ancienne, vérifier qu'elle est toujours disponible. Repris du tableau de bord Radar ERP (relevé du 2026-10-24).",
    "ajoute": 1792880490466,
    "vu": "2026-10-24",
-   "ref": "17431"
+   "ref": "17431",
+   "nature": "vente"
   },
   {
    "_id": "varennes-sur-seine-3-batiments-1331-occupe",
@@ -9392,14 +9405,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Investissement loué (rendement brut d'environ 7,6 %) sur grand terrain clos et bitumé avec stationnement : intéressant à terme, mais aucune salle n'est disponible tant que les baux courent. Hauteur et ERP non communiqués, desserte faible (secteur Montereau). À 2 M€ net vendeur + 5 % HT, il est au plafond et inadapté à un budget de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-10-24).",
    "ajoute": 1792880490466,
    "vu": "2026-10-24",
    "ref": "77_001314",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "lisses-cantal-1092",
@@ -9428,14 +9441,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Plateau d'activité de 932 m² à 6,5 m sous plafond, libre immédiatement : volume idéal pour une grande salle type L de plain-pied avec gradins ou scène. Situé en parc d'activités sécurisé (vérifier règlement de zone/PLU et copropriété pour un ERP, et le stationnement non précisé), RER D à 2 km seulement. À 1,3 M€ + 5 % HT d'honoraires (taxe foncière 17 637 €/an), il est dans le budget de 2 M€ mais au-dessus de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-10-24).",
    "ajoute": 1792880490466,
    "vu": "2026-10-24",
-   "ref": "91_018543"
+   "ref": "91_018543",
+   "nature": "vente"
   },
   {
    "_id": "buchelay-parc-du-mantois-cellules-2339",
@@ -9464,12 +9477,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Programme neuf vendu par cellules à partir de 577 500 € pour 350 m², soit environ 1 650 €/m² : compter environ 1,3 M€ pour 800 m², dans le budget. Avec 7,5 m de hauteur libre et 5 places par cellule, une salle type L est réalisable, à condition de prévoir l'aménagement ERP complet et de faire valider l'usage par le règlement de la zone d'activités. Le site est loin de Paris (A13, gare de Mantes) et l'EOLE (RER E) est annoncé à terme. Repris du tableau de bord Radar ERP (relevé du 2026-10-25).",
    "ajoute": 1792915280377,
-   "vu": "2026-10-25"
+   "vu": "2026-10-25",
+   "nature": "vente"
   },
   {
    "_id": "ormoy-rue-des-activites-785",
@@ -9505,14 +9518,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant sur un terrain clos de 3 075 m², ce qui laisse de la place pour un parking et limite les conflits de voisinage. Le plateau de 500 m² au RDC est adapté à une salle type L de taille moyenne ; hauteur sous plafond à mesurer, ERP à créer (issues, désenfumage, PMR). Prix modéré (≈ 1 401 €/m²) mais gares RER D à 3 km : accès surtout en voiture ou en bus. Repris du tableau de bord Radar ERP (relevé du 2026-10-25).",
    "ajoute": 1792915280377,
    "vu": "2026-10-25",
-   "ref": "2175218-0V"
+   "ref": "2175218-0V",
+   "nature": "vente"
   },
   {
    "_id": "conflans-sainte-honorine-zac-970",
@@ -9533,14 +9546,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Volume de 530 m² à 6,7 m sous plafond, exploitable pour une salle type L avec gradins ou mezzanine, et 1 000 m² de terrain pour le stationnement. Bâtiment non ERP en ZAC : vérifier que le PLU admet l'accueil du public et prévoir désenfumage, issues de secours et isolation acoustique. Prix (≈ 1 433 €/m²) dans le budget, mais il faut prévoir les travaux de transformation ; aucune desserte en transports en commun n'est indiquée. Repris du tableau de bord Radar ERP (relevé du 2026-10-25).",
    "ajoute": 1792915280377,
    "vu": "2026-10-25",
-   "ref": "9400410231"
+   "ref": "9400410231",
+   "nature": "vente"
   },
   {
    "_id": "villepinte-paris-nord-2-1394",
@@ -9569,7 +9582,6 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
@@ -9577,7 +9589,8 @@
    "ajoute": 1792915280377,
    "vu": "2026-10-25",
    "ref": "BL-N56300",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "cormeilles-en-vexin-cellules-neuves-1157",
@@ -9613,13 +9626,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Ce programme neuf de 5 cellules, vendues séparément ou réunies, permet d'acheter quatre lots (≈ 925 m², environ 1,48 M€ HT) ou les cinq (1,855 M€ HT). Les 6 m sous plafond et la livraison mi-2027 permettraient de concevoir dès le départ une salle de type L : cloisons à supprimer, issues et PMR à intégrer avec le promoteur. Mêmes réserves que pour le bâtiment voisin : site excentré en zone d'activité, gare à 4 km, et accord du règlement de copropriété nécessaire pour un ERP. Repris du tableau de bord Radar ERP (relevé du 2026-10-27).",
    "ajoute": 1793085751489,
    "vu": "2026-10-27",
-   "ref": "95_0730"
+   "ref": "95_0730",
+   "nature": "vente"
   },
   {
    "_id": "cormeilles-en-vexin-terres-rouges-2446",
@@ -9655,13 +9668,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant sur un grand terrain. Avec 6,5 m sous plafond et de la place pour un vrai parking, c'est une base très confortable pour une grande salle de type L, sans contrainte de copropriété ni de voisinage proche. En revanche, le site est isolé (gare Transilien à 4 km, pas d'accès à pied), ce qui pèse sur la fréquentation, et le prix de 2,2 M€ dépasse d'environ 10 % le budget de 2 M€. Le changement de destination ERP sera à faire valider (isolement, issues de secours, désenfumage). Repris du tableau de bord Radar ERP (relevé du 2026-10-27).",
    "ajoute": 1793085751489,
-   "vu": "2026-10-27"
+   "vu": "2026-10-27",
+   "nature": "vente"
   },
   {
    "_id": "villepinte-parinor-2-1635",
@@ -9697,14 +9710,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Les 1 160 m² d'activité (deux entrepôts de 610 et 550 m², 4 à 5 m sous plafond) pourraient accueillir une salle de 800 m² ou plus s'ils sont contigus. Les bureaux à l'étage serviraient de loges ou d'administratif. Le prix total de 1,655 M€ (lot de 610 m² « sur demande ») reste dans le budget de 2 M€. Points de vigilance : copropriété de zone d'activité, hauteur un peu juste pour une scène, RER B à environ 2 km seulement en voiture, parkings en location (500 €/place/an). Repris du tableau de bord Radar ERP (relevé du 2026-10-27).",
    "ajoute": 1793085751489,
    "vu": "2026-10-27",
-   "ref": "9165"
+   "ref": "9165",
+   "nature": "vente"
   },
   {
    "_id": "pavillons-sous-bois-allee-de-londres-1746",
@@ -9740,13 +9753,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Les 6,5 m de hauteur libre permettent une vraie salle avec gradins ou scène, mais il faudrait réunir au moins deux lots contigus (lots 3+4 ≈ 941 m²) pour atteindre la surface visée. Le prix global n'est pas publié (seulement « à partir de 234 967 € », à faire préciser par lot) et les transports lourds sont à environ 2 km. Points ERP : copropriété de parc d'activités (règlement à vérifier pour un usage recevant du public), dégagements et PMR à créer, parking non précisé. Repris du tableau de bord Radar ERP (relevé du 2026-10-27).",
    "ajoute": 1793085751489,
    "vu": "2026-10-27",
-   "ref": "14179410-0001V"
+   "ref": "14179410-0001V",
+   "nature": "vente"
   },
   {
    "_id": "brie-comte-robert-vefa-922",
@@ -9768,12 +9781,12 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Coque neuve en VEFA avec 618 m² de plain-pied sous 8 m de hauteur et 19 places de parking : un volume idéal pour aménager une salle type L dès la conception (issues, sanitaires PMR, isolation acoustique). Points de vigilance : destination commerce à faire évoluer et compatibilité avec le règlement de la zone, desserte en transports faible (pas de gare RER à Brie-Comte-Robert). À 2,01 M€, le prix est légèrement au-dessus du plafond de 2 M€, avant frais et aménagement. Repris du tableau de bord Radar ERP (relevé du 2026-10-28).",
    "ajoute": 1793173967463,
-   "vu": "2026-10-28"
+   "vu": "2026-10-28",
+   "nature": "vente"
   },
   {
    "_id": "breau-entrepot-terrain-1500",
@@ -9794,14 +9807,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant sur un très grand terrain (18 105 m²), donc un stationnement important et des dégagements d'évacuation faciles, et sans voisinage gênant pour le bruit. En revanche, le site est rural et desservi uniquement par la route (A5), et le changement de destination d'un entrepôt en ERP type L sera à valider avec la mairie et la commission de sécurité. À 1,5 M€ + 5 % d'honoraires et une taxe foncière de 17 374 €/an, il reste dans le budget, mais il faut prévoir un gros poste de travaux. Repris du tableau de bord Radar ERP (relevé du 2026-10-28).",
    "ajoute": 1793173967464,
    "vu": "2026-10-28",
-   "ref": "77_001316"
+   "ref": "77_001316",
+   "nature": "vente"
   },
   {
    "_id": "limeil-brevannes-cellules-1707",
@@ -9822,13 +9835,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Programme neuf de 4 cellules (C1 à C3 à 1 000 500 € HT pour 435 m², C4 à 924 600 € HT pour 402 m²), avec 6 places par lot. Pour une salle type L, il faudrait réunir au moins 2 cellules contiguës (environ 870 m², environ 2 M€ HT) et vérifier qu'on peut décloisonner, car chaque cellule n'offre que 270 à 312 m² d'activité au sol, le reste étant en bureaux à l'étage. C'est en limite haute du budget, et la hauteur n'est pas précisée. Repris du tableau de bord Radar ERP (relevé du 2026-10-28).",
    "ajoute": 1793173967465,
    "vu": "2026-10-28",
-   "ref": "94_000011"
+   "ref": "94_000011",
+   "nature": "vente"
   },
   {
    "_id": "bretigny-plain-pied-1200-70-places",
@@ -9850,13 +9863,13 @@
    "typesPotentiels": [
     "L",
     "M",
-    "V",
     "X"
    ],
    "notes": "Très bon gabarit pour une salle type L : 1 200 m² d'un seul niveau, 7 m de hauteur libre, 25 m de vitrine et surtout 70 places privatives, ce qui règle la question du stationnement. Plain-pied sans copropriété apparente, donc évacuation et accès PMR simples à traiter ; reste à vérifier le classement ERP actuel et l'isolation acoustique vis-à-vis du voisinage. À 1,70 M€ hors frais (environ 1,83 M€ avec 8 % de frais), le bien est dans votre budget de 2 M€ mais laisse peu de marge pour les 600 000 € de travaux. Repris du tableau de bord Radar ERP (relevé du 2026-10-29).",
    "ajoute": 1793289864810,
    "vu": "2026-10-29",
-   "ref": "9400410243"
+   "ref": "9400410243",
+   "nature": "vente"
   },
   {
    "_id": "montigny-le-bretonneux-frenes-2000-data-immo",
@@ -9892,14 +9905,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Rare combinaison pour une salle type L : bâtiment indépendant avec 1 057 m² d'activité sous 9 m de hauteur, accès ERP/PMR déjà mentionné, parking clos de 30 places et gare RER C / Transilien à 1 km. Il faudra confirmer la catégorie ERP et l'effectif admissible, et prévoir des dégagements pour la partie activité. À 1,58 M€ (environ 1,71 M€ avec frais), c'est un bon rapport surface/prix ; il s'agit peut-être du même bâtiment que l'autre annonce Avenue des Frênes déjà en base (Advenis, 2 170 m²), à recouper. Repris du tableau de bord Radar ERP (relevé du 2026-10-29).",
    "ajoute": 1793289864811,
    "vu": "2026-10-29",
-   "ref": "19368"
+   "ref": "19368",
+   "nature": "vente"
   },
   {
    "_id": "pommeuse-entrepot-3-halles-2746",
@@ -9920,13 +9933,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Prix au m² très bas (environ 290 €/m²) pour un volume de 2 746 m² en trois halles de grande hauteur avec bureaux, cuisine et sanitaires : de quoi créer une grande salle et des locaux annexes. Mais le site est rural (environ 40 min de Paris) et le stationnement n'est pas précisé ; la transformation d'un entrepôt en ERP type L (désenfumage, issues de secours, isolation phonique, PMR) sera coûteuse et doit passer par un permis de changement de destination. L'URL de l'annonce contient « location » alors que le titre parle de vente : à confirmer avec l'agence. Prix largement sous le budget, ce qui laisse de la marge pour les travaux. Repris du tableau de bord Radar ERP (relevé du 2026-10-29).",
    "ajoute": 1793289864812,
    "vu": "2026-10-29",
-   "ref": "85002123979"
+   "ref": "85002123979",
+   "nature": "vente_ou_location"
   },
   {
    "_id": "argenteuil-vercruysse-1472",
@@ -9962,13 +9975,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Volume de plain-pied de 8 m sous plafond sur un grand terrain avec parking : idéal pour une grande salle type L avec scène ou gradins, et bâtiment a priori hors copropriété. Gares à 2 km seulement (rabattement bus nécessaire), dégagements, isolation acoustique et accès PMR à créer. Prix 2,1 M€ (+5 % de frais) légèrement au-dessus du plafond de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-10-30).",
    "ajoute": 1793383200000,
    "vu": "2026-10-30",
-   "ref": "40816900"
+   "ref": "40816900",
+   "nature": "vente"
   },
   {
    "_id": "aubergenville-entrepot-independant-1969",
@@ -9997,14 +10010,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant sur 2 301 m² de terrain clos avec 25 places : grande liberté pour créer une salle type L et ses dégagements, sans copropriété. Hauteur sous plafond non précisée et desserte limitée au bus (A13 en voiture). Prix 2 M€ net vendeur + 5 % de frais, à la limite haute du budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-30).",
    "ajoute": 1793383200002,
    "vu": "2026-10-30",
-   "ref": "BLdL102KCL"
+   "ref": "BLdL102KCL",
+   "nature": "vente"
   },
   {
    "_id": "lisses-dauphine-1132",
@@ -10040,14 +10053,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Plateau de 958 m² de plain-pied à 8 m sous plafond : excellent volume pour une salle de spectacle ou de réception type L, bureaux à l'étage pour loges et administration. RER D à 2 km, parking non précisé (à vérifier, crucial pour un ERP). À 1,3 M€ HT, très bien placé dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-30).",
    "ajoute": 1793383200003,
    "vu": "2026-10-30",
-   "ref": "L_1105_91_039_116_V"
+   "ref": "L_1105_91_039_116_V",
+   "nature": "vente"
   },
   {
    "_id": "chennevieres-rer-a-1288",
@@ -10076,13 +10089,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Grand volume de 1 288 m² sur 2 600 m² de terrain avec de nombreuses places de parking, disponible immédiatement : la configuration est idéale pour une grande salle type L avec stationnement autonome. L'annonce cite la proximité du RER A sans gare précise ; hauteur, isolation et voisinage restent à vérifier. Prix 1,9 M€ (honoraires charge vendeur), en haut de fourchette. Repris du tableau de bord Radar ERP (relevé du 2026-10-31).",
    "ajoute": 1793431163183,
    "vu": "2026-10-31",
-   "ref": "175673-0V"
+   "ref": "175673-0V",
+   "nature": "vente"
   },
   {
    "_id": "argenteuil-rer-c-1440",
@@ -10111,13 +10124,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Grand volume de 1 440 m² avec 6 m sous plafond, proche de l'A15 et du RER C : adapté à une salle de réception ou de spectacle de grande capacité. Parking non mentionné, ce qui est un point critique pour un ERP type L en zone d'activité ; changement de destination à valider. Prix 2,15 M€, légèrement au-dessus du plafond de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-10-31).",
    "ajoute": 1793431163183,
    "vu": "2026-10-31",
-   "ref": "53467-0V"
+   "ref": "53467-0V",
+   "nature": "vente"
   },
   {
    "_id": "noisy-le-grand-rer-a-832",
@@ -10146,13 +10159,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Volume de plain-pied de 832 m² avec parking et desserte RER A annoncée, un bon profil pour une salle type L d'environ 300 à 400 personnes. Hauteur sous plafond non indiquée, et disponibilité seulement en janvier 2027 ; isolation acoustique, issues de secours et accès PMR à créer. Prix 1,75 M€ (honoraires charge vendeur), dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-10-31).",
    "ajoute": 1793431163183,
    "vu": "2026-10-31",
-   "ref": "84330-0V"
+   "ref": "84330-0V",
+   "nature": "vente"
   },
   {
    "_id": "viry-chatillon-n7-1000",
@@ -10173,13 +10186,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "1 000 m² avec environ 6 m sous plafond pour 1,1 M€ : c'est le meilleur rapport surface/prix de la veille, avec une hauteur suffisante pour une scène ou un gradin. L'annonce ne cite aucun transport en commun (RER D à vérifier selon l'adresse), ni de parking. Disponible 3 mois après accord ; budget confortable pour financer la mise aux normes ERP. Repris du tableau de bord Radar ERP (relevé du 2026-10-31).",
    "ajoute": 1793431163183,
    "vu": "2026-10-31",
-   "ref": "151410-0V"
+   "ref": "151410-0V",
+   "nature": "vente"
   },
   {
    "_id": "montreuil-haut-labo-1032",
@@ -10215,13 +10228,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Rez-de-chaussée de 731 m² exploitable en salle, avec bureaux en R+1/R+2 pour loges et administratif, à 5 min des métros 9 et 11 : desserte rare pour ce volume. Hauteur sous plafond non communiquée et quartier mixte : à vérifier pour l'acoustique, les dégagements et le changement de destination vers un ERP type L. Prix 1,8 M€ dans le budget, frais et travaux à ajouter. Repris du tableau de bord Radar ERP (relevé du 2026-10-31).",
    "ajoute": 1793431163183,
    "vu": "2026-10-31",
-   "ref": "21918200-0001V"
+   "ref": "21918200-0001V",
+   "nature": "vente"
   },
   {
    "_id": "villiers-sur-marne-immeuble-erp3-3070",
@@ -10262,7 +10275,8 @@
    "ajoute": 1793521400652,
    "vu": "2026-11-01",
    "categorie": 3,
-   "ref": "174132-0V"
+   "ref": "174132-0V",
+   "nature": "vente"
   },
   {
    "_id": "stains-stalingrad-1056",
@@ -10298,13 +10312,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Grande cellule du même parc que la 792 m² déjà suivie : 568 m² d'entrepôt à 7 m sous plafond, idéal pour une salle avec scène, plus un accueil de 140 m² au rez-de-chaussée. Le site est clos, neuf et en copropriété (ASL) : le changement de destination en ERP doit être validé par le règlement et par la mairie. Il faudra aussi prévoir les dégagements et l'isolation acoustique. 2,33 M€ HT hors frais, soit environ 17 % au-dessus du budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-01).",
    "ajoute": 1793521400652,
    "vu": "2026-11-01",
-   "ref": "L_2312_93_002_27_V"
+   "ref": "L_2312_93_002_27_V",
+   "nature": "vente"
   },
   {
    "_id": "chanteloup-les-vignes-batiment-1000",
@@ -10333,13 +10347,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Un bâtiment indépendant sur un grand terrain de 2 800 m² facilite les issues de secours et le stationnement d'une salle type L, sans voisins directs. La hauteur est annoncée grande mais non chiffrée, et le prix n'est pas communiqué : dans ce secteur, il devrait rester sous les 2 M€. La desserte se limite au Transilien J (gare non précisée) et à l'A13, ce qui convient pour une clientèle motorisée. Repris du tableau de bord Radar ERP (relevé du 2026-11-01).",
    "ajoute": 1793521400652,
    "vu": "2026-11-01",
-   "ref": "159394-0V"
+   "ref": "159394-0V",
+   "nature": "vente"
   },
   {
    "_id": "choisy-le-roi-activite-906",
@@ -10360,13 +10374,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Le terrain indépendant de 3 000 m² avec 30 places est un vrai atout pour un ERP : le stationnement et l'évacuation se font sans voisinage direct. La zone de stockage de 560 m² en rez-de-chaussée accueillerait la salle, mais sa hauteur n'est pas indiquée. L'annonce ne cite aucun transport en commun (gare RER C de Choisy à vérifier selon l'adresse). 2,12 M€, soit 6 % au-dessus du plafond, donc négociable vers le budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-01).",
    "ajoute": 1793521400652,
    "vu": "2026-11-01",
-   "ref": "9400411671"
+   "ref": "9400411671",
+   "nature": "vente"
   },
   {
    "_id": "mormant-domaine-reception-1500",
@@ -10397,14 +10411,14 @@
    ],
    "typesPotentiels": [
     "N",
-    "V",
     "X"
    ],
    "notes": "Seul bien de la veille déjà exploité en salle de réception (type L), vendu murs et fonds avec des réservations actées pour 2027 et plus de 140 places de parking, à 2 min de la gare de Mormant. Mais la salle ne fait que 283 m² sur 1 500 m² bâtis (manoir de 1670, gîte, granges à réhabiliter) : le reste n'est pas une salle, et l'éloignement (35 min de Paris) limite la clientèle. 2,39 M€ FAI, soit environ 20 % au-dessus du plafond de 2 M€ ; vérifier le PV de la commission de sécurité et la surface de terrain (3 ou 27 ha selon l'annonce). Repris du tableau de bord Radar ERP (relevé du 2026-11-01).",
    "ajoute": 1793521400652,
    "vu": "2026-11-01",
    "erpSource": "« Domaine événementiel en activité, salle de réception 283 m² (murs + fonds) » — https://www.ma-propriete.fr/en/touristique/gites/seine-et-marne/mormant-77-a-vendre-propriete-evenementiel-en-activite-salle-de-reception-283-m2",
-   "ref": "340931135333"
+   "ref": "340931135333",
+   "nature": "murs_et_fonds"
   },
   {
    "_id": "breuillet-entrepot-logement-1200",
@@ -10433,13 +10447,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Site clos et isolé (pas de voisinage visible) avec grand parking privatif : atouts majeurs pour une salle de type L côté nuisances sonores et stationnement. Vigilance : entrepôt sur deux niveaux (seul le RDC est exploitable en salle, étage à vérifier pour l'évacuation), HSP non communiquée, changement de destination vers ERP à faire valider, desserte RER C mais secteur boisé excentré. À 1,1 M€ (≈ 920 €/m²), largement dans le budget, avec un logement de gardien en bonus. Repris du tableau de bord Radar ERP (relevé du 2026-11-02).",
    "ajoute": 1793629014657,
    "vu": "2026-11-02",
-   "ref": "VP8932-DLRE"
+   "ref": "VP8932-DLRE",
+   "nature": "vente"
   },
   {
    "_id": "villeneuve-saint-georges-n6-900",
@@ -10468,12 +10482,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment en pleine propriété (hors copropriété) avec 680 m² de plain-pied, deux entrées et 25 m de façade : bonne base pour une salle type L avec deux dégagements. Vigilance : HSP variable (3 à 5 m) à confirmer sur la zone de salle, pas de parking (cour de 45 m² seulement), voisinage de centre-ville et zone PPRI de la Seine/Yerres à vérifier. 1,95 M€ + 5 % d'honoraires, soit en limite haute du budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-02).",
    "ajoute": 1793629014658,
-   "vu": "2026-11-02"
+   "vu": "2026-11-02",
+   "nature": "vente"
   },
   {
    "_id": "chanteloup-en-brie-temps-modernes-867",
@@ -10502,13 +10516,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Cellule neuve de 747 m² d'activité + 120 m² de bureaux, 7 m de hauteur libre et 11 places : bonne base pour une salle polyvalente. Vigilance : parc d'activités en copropriété/ASL dont le règlement peut interdire l'ERP, mezzanine de stockage à neutraliser, RER A à 2 km seulement. Lots B et F (781-782 m², ~1,68 M€ HT) aussi proposés ; prix bien au-dessus d'un budget total de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-11-03).",
    "ajoute": 1793694213761,
    "vu": "2026-11-03",
-   "ref": "BL-M55764"
+   "ref": "BL-M55764",
+   "nature": "vente"
   },
   {
    "_id": "flins-sur-seine-chevries-886",
@@ -10537,13 +10551,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plus grand lot (886 m²) d'un parc neuf au pied de l'A13, 6,5 m sous poutre, accès de plain-pied et 5 places par cellule : volume adapté à une salle de réception. Prix total non affiché (1 750 €/m² HD, soit environ 1,55 M€ à confirmer), règlement de copropriété et nuisances sonores pour les voisins à vérifier. Desserte limitée (ligne J à 2 km), donc public surtout motorisé. Repris du tableau de bord Radar ERP (relevé du 2026-11-03).",
    "ajoute": 1793694213761,
    "vu": "2026-11-03",
-   "ref": "ALCE-1245970-0V-3"
+   "ref": "ALCE-1245970-0V-3",
+   "nature": "vente"
   },
   {
    "_id": "dammarie-les-lys-rue-de-seine-1597",
@@ -10572,13 +10586,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant de plain-pied (1 367 m² d'entrepôt, 5 m sous plafond) sur 4 250 m² de terrain clos : volume et stationnement sur place idéaux pour une salle type L sans contrainte de copropriété. Changement de destination vers ERP à instruire (dégagements, isolement acoustique, PMR), et la desserte en transports reste faible (gare de Vosves à 2 km). À 1,35 M€ HT hors frais, dans le budget prix mais au-delà de 600 000 € de coût total. Repris du tableau de bord Radar ERP (relevé du 2026-11-03).",
    "ajoute": 1793694213761,
    "vu": "2026-11-03",
-   "ref": "L_2504_77_003_13_V"
+   "ref": "L_2504_77_003_13_V",
+   "nature": "vente"
   },
   {
    "_id": "eragny-bnp-1000",
@@ -10628,14 +10642,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Bâtiment indépendant sur 1 900 m² de terrain avec 47 places et RER A/Transilien L et J à proximité : excellent pour l'accès du public. En revanche, la salle ne pourrait occuper que les 500 m² du RDC (l'étage est en bureaux avec faux plafond), ce qui limite la jauge et impose un escalier/ascenseur PMR si l'étage est utilisé. Prix (1 M€) bien placé dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-04).",
    "ajoute": 1793814210349,
    "vu": "2026-11-04",
-   "ref": "OVACT2641843"
+   "ref": "OVACT2641843",
+   "nature": "vente"
   },
   {
    "_id": "etampes-sudessor-980",
@@ -10656,13 +10670,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Grand volume de plain-pied (7–8 m sous poutre), structure métallique, 30 places de stationnement et ERP jugé possible par l'agence : bonne base pour une salle de type L de grande jauge. Attention : prix affiché 950 000 € mais le texte mentionne 1 250 000 € (+5 % d'honoraires acquéreur), à clarifier ; zone industrielle excentrée sans transport en commun cité, isolation phonique et désenfumage à prévoir. Dans le budget dans les deux hypothèses. Repris du tableau de bord Radar ERP (relevé du 2026-11-04).",
    "ajoute": 1793814210349,
    "vu": "2026-11-04",
-   "ref": "L_2404_91_011_13_V"
+   "ref": "L_2404_91_011_13_V",
+   "nature": "vente"
   },
   {
    "_id": "palaiseau-cbre-983",
@@ -10705,13 +10719,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Surface au-dessus du minimum avec 34 places privatives et une desserte RER B/C et T12 annoncée, atout majeur pour l'accueil du public. Aucune information ERP ni hauteur sous plafond : changement de destination, issues de secours et désenfumage à étudier. Prix (1,3 M€, honoraires vendeur) dans la fourchette. Repris du tableau de bord Radar ERP (relevé du 2026-11-04).",
    "ajoute": 1793814210349,
    "vu": "2026-11-04",
-   "ref": "175899-0V"
+   "ref": "175899-0V",
+   "nature": "vente"
   },
   {
    "_id": "noisy-le-sec-cbre-2540",
@@ -10754,12 +10768,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Prix calculé à partir des 830 €/m² HT affichés × 2 540 m² (≈ 2,1 M€ + 5 % d'honoraires), légèrement au-dessus du budget. Le plateau de 1 652 m² en RDC jusqu'à 8 m de haut, à 5 km de Paris près du RER E et du T1, conviendrait à une grande salle type L, mais le bien est non divisible et la taxe foncière élevée (21 031 €/an). Vérifier le PLU, le stationnement et le voisinage (bruit). Repris du tableau de bord Radar ERP (relevé du 2026-11-04).",
    "ajoute": 1793814210349,
-   "vu": "2026-11-04"
+   "vu": "2026-11-04",
+   "nature": "vente"
   },
   {
    "_id": "verrieres-le-buisson-noisette-985",
@@ -10795,13 +10809,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant avec 6,5 à 7 m de hauteur, mais la plus grande surface d'un seul tenant (lot A, 583 m²) limite la jauge d'une salle type L ; le lot B est loué (surface annoncée 943 à 985 m² selon le texte). Vigilance : stationnement non précisé, gares à environ 2 km, quartier résidentiel sensible au bruit. 1,625 M€ HD, dans le budget mais cher au m² utile pour l'usage visé. Repris du tableau de bord Radar ERP (relevé du 2026-11-05).",
    "ajoute": 1793879536473,
    "vu": "2026-11-05",
-   "ref": "91_019127"
+   "ref": "91_019127",
+   "nature": "vente"
   },
   {
    "_id": "moret-loing-et-orvanne-arthur-loyd-3000",
@@ -10822,14 +10836,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Grand ensemble à 600 €/m² environ avec parking extérieur : la partie libre (~1 300 m² d'activité de plain-pied) pourrait accueillir une salle type L, tandis que la partie louée apporte 62 k€ de loyer. Vigilance : situation excentrée en sud 77, aucun transport en commun cité, hauteur sous plafond non communiquée et cohabitation ERP / activité industrielle à valider (isolement coupe-feu). Prix de 1,8 M€ honoraires inclus, dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-05).",
    "ajoute": 1793879536473,
    "vu": "2026-11-05",
    "ref": "77_000878",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "bezons-cbre-1820",
@@ -10850,13 +10864,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant sur environ 3 000 m² de terrain : l'emprise permet en théorie stationnement et dégagements, ce qui est un atout pour un ERP type L. Prix non communiqué (à demander à CBRE) et hauteur sous plafond inconnue ; vérifier la desserte réelle (tram T2 Pont de Bezons selon l'adresse exacte) et le zonage PLU d'activités. Repris du tableau de bord Radar ERP (relevé du 2026-11-05).",
    "ajoute": 1793879536473,
    "vu": "2026-11-05",
-   "ref": "65036-0V"
+   "ref": "65036-0V",
+   "nature": "vente"
   },
   {
    "_id": "boissy-saint-leger-eol-1078",
@@ -10877,14 +10891,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Volume intéressant (jusqu'à 7 m sous poutres, charge 3 t/m²) mais vendu loué à trois sociétés : pas de libération rapide possible pour y créer une salle type L. Vigilance : transports en commun non cités, stationnement non précisé. Prix de 1,4 M€ dans le budget, à considérer seulement comme investissement ou à moyen terme. Repris du tableau de bord Radar ERP (relevé du 2026-11-05).",
    "ajoute": 1793879536473,
    "vu": "2026-11-05",
    "ref": "BLgyuk05tB",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "trappes-politzer-1587",
@@ -10913,13 +10927,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Plateau d'activité de 790 m² à 7 m sous poutre, de plain-pied, et 30 places extérieures : bonne base pour une salle type L de taille moyenne, avec bureaux réutilisables en loges/annexes. Vigilance : parc en copropriété récent (2023), à vérifier que le règlement autorise un ERP et la réception de public le soir ; charge au sol 1,5 t et isolation phonique à prévoir. À 1,3 M€ + 5 % d'honoraires, nettement dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-05).",
    "ajoute": 1793879536473,
    "vu": "2026-11-05",
-   "ref": "78_002373"
+   "ref": "78_002373",
+   "nature": "vente"
   },
   {
    "_id": "pontault-combault-sistom-820",
@@ -10948,13 +10962,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment indépendant en très bon état avec 600 m² d'activité à 6 m sous poutre et parking extérieur sur un terrain de 1 600 m² : volume adapté à une salle type L d'environ 400-500 personnes, sans contrainte de copropriété apparente. Vigilance : changement de destination vers ERP (dégagements, isolement acoustique, accessibilité PMR des bureaux à l'étage) et gare RER E à 3 km seulement, donc accès surtout en voiture. Prix de 1,3 M€ au cœur de la fourchette visée. Repris du tableau de bord Radar ERP (relevé du 2026-11-06).",
    "ajoute": 1793961028151,
    "vu": "2026-11-06",
-   "ref": "77_1950"
+   "ref": "77_1950",
+   "nature": "vente"
   },
   {
    "_id": "saint-fargeau-ponthierry-domaine-reception-1500",
@@ -10976,14 +10990,14 @@
     "L"
    ],
    "typesPotentiels": [
-    "V",
     "X"
    ],
    "notes": "Rare bien déjà exploité en lieu de réception (deux grandes salles, cuisine professionnelle, 5 000 m² de terrain avec parking) : l'usage type L est a priori acquis, à confirmer par le dernier PV de la commission de sécurité et la capacité autorisée. Vigilance : les 18 chambres relèvent d'un type O (hébergement) avec des exigences propres, et le site est éloigné de Paris (~1 h). À 2,2 M€, il dépasse légèrement le budget maximum de 2 M€ : marge de négociation à tester. Repris du tableau de bord Radar ERP (relevé du 2026-11-06).",
    "ajoute": 1793961028152,
    "vu": "2026-11-06",
    "erpSource": "« Domaine événementiel avec 2 salles de réception et 18 chambres (~1 500 m²) » — https://www.espaces-atypiques.com/en/for-sale/77300-fontainebleau-event-area-with-reception-rooms-and-guest-rooms-sm1060/",
-   "ref": "SM1223"
+   "ref": "SM1223",
+   "nature": "vente"
   },
   {
    "_id": "lisses-arthur-loyd-1075",
@@ -11004,14 +11018,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
    ],
    "notes": "Plateau d'activité de 725 m² à 5,5 m sous plafond, exploitable pour une salle type L de capacité moyenne après changement de destination et création des dégagements (porte de livraison 5 m utile pour le décor/matériel). Desserte en transports en commun non précisée (zone A6) et environnement de zone d'activités favorable côté bruit, mais vérifier le règlement de zone du PLU. 1,7 M€ + 5 % HT d'honoraires : dans le budget max, hors travaux ERP conséquents. Repris du tableau de bord Radar ERP (relevé du 2026-11-07).",
    "ajoute": 1794049800000,
    "vu": "2026-11-07",
-   "ref": "91_000864"
+   "ref": "91_000864",
+   "nature": "vente"
   },
   {
    "_id": "villenoy-immprove-800",
@@ -11032,12 +11046,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Volume de 8 m sous plafond très favorable à une salle type L (gradins, régie, traitement acoustique) pour un prix d'entrée de 620 000 € qui laisse une vraie enveloppe travaux. Surface juste sous le minimum (800 m² vs 810) et 7 places seulement : le stationnement sera le point bloquant pour l'effectif ERP, à négocier en zone d'activités. Desserte TC non précisée dans l'annonce (secteur de Meaux) ; vérifier le PLU pour l'usage salle. Repris du tableau de bord Radar ERP (relevé du 2026-11-07).",
    "ajoute": 1794049800001,
-   "vu": "2026-11-07"
+   "vu": "2026-11-07",
+   "nature": "vente"
   },
   {
    "_id": "limours-roussigny-cbre-930",
@@ -11058,13 +11072,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Bâtiment non divisible de 930 m² avec parking, disponible immédiatement, honoraires à la charge du vendeur. Pour une salle type L, l'isolement en hameau limite les nuisances sonores mais l'accès se fait quasi exclusivement en voiture (proximité A10, aucun transport en commun cité) et la hauteur sous plafond est à vérifier. Prix légèrement au-dessus du budget max (2,1 M€ vs 2 M€). Repris du tableau de bord Radar ERP (relevé du 2026-11-07).",
    "ajoute": 1794049800002,
    "vu": "2026-11-07",
-   "ref": "178362-0V"
+   "ref": "178362-0V",
+   "nature": "vente"
   },
   {
    "_id": "egly-meuniers-1500",
@@ -11100,13 +11114,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Prix très bas (≈ 333 €/m²) pour un bâtiment indépendant sur site clos avec stationnement autour : seule la moitié RDC (750 m²) est exploitable en salle type L, l'étage de bureaux pouvant servir de loges, locaux annexes ou salles de réunion. HSP du RDC non communiquée (à vérifier, double porte palettes seulement) et zone d'activités en bord de N20 : bon pour le bruit et le stationnement, mais desserte TC faible et changement de destination à instruire. Très largement dans le budget, laissant une forte enveloppe travaux. Repris du tableau de bord Radar ERP (relevé du 2026-11-08).",
    "ajoute": 1794124894547,
    "vu": "2026-11-08",
-   "ref": "176016-0V"
+   "ref": "176016-0V",
+   "nature": "vente"
   },
   {
    "_id": "egly-cbre-1012",
@@ -11135,13 +11149,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Volume d'un seul tenant d'environ 1 000 m² avec nombreuses places de stationnement : bonne base pour une salle type L de grande capacité après changement de destination. HSP et répartition activité/bureaux non communiquées, aucun transport en commun cité (RER C Égly déduit de la commune). ≈ 1,05 M€ honoraires vendeur, dans le budget avec marge pour la mise en conformité ERP (dégagements, désenfumage, PMR). Repris du tableau de bord Radar ERP (relevé du 2026-11-08).",
    "ajoute": 1794124895547,
    "vu": "2026-11-08",
-   "ref": "51829-0V"
+   "ref": "51829-0V",
+   "nature": "vente"
   },
   {
    "_id": "egly-scamac-1040",
@@ -11177,13 +11191,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Hauteur de 6 m sur 750 m² d'entrepôt, gare RER C d'Égly à 800 m et 16 places privatives : une des configurations les plus cohérentes du secteur pour une salle type L, les bureaux rénovés servant d'annexes. Le bâtiment est en deux lots séparés (2 × 375 m²) : vérifier la possibilité de décloisonner et le coût de la création de dégagements. 1,58 M€ HD + 5 % d'honoraires acquéreur, dans le budget mais cher par rapport au 1 500 m² voisin à 500 k€. Repris du tableau de bord Radar ERP (relevé du 2026-11-08).",
    "ajoute": 1794124896547,
    "vu": "2026-11-08",
-   "ref": "L_2105_91_001_79_V"
+   "ref": "L_2105_91_001_79_V",
+   "nature": "vente"
   },
   {
    "_id": "serris-cbre-962-ght",
@@ -11212,13 +11226,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "7,2 m sous poutre et une réservation d'ascenseur prévue pour un usage ERP : le volume se prête bien à une salle de spectacle ou de conférence type L avec gradins. Prix non communiqué (« nous consulter ») et transports en commun non cités dans l'annonce (RER A Val d'Europe déduit) ; 18 places privatives, un atout pour l'effectif. À distinguer de l'annonce Serris 954 m² déjà suivie (HSP 4,5 m). Repris du tableau de bord Radar ERP (relevé du 2026-11-08).",
    "ajoute": 1794124897547,
    "vu": "2026-11-08",
-   "ref": "165997-0V"
+   "ref": "165997-0V",
+   "nature": "vente"
   },
   {
    "_id": "saint-fargeau-ponthierry-mare-aux-loups-1749",
@@ -11254,13 +11268,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Programme neuf divisible : on peut viser une ou deux cellules (≈ 800–900 m²) pour une salle type L, avec une construction récente facilitant la mise en conformité (structure, isolation). Prix et HSP non communiqués, et une ZAC à 12 portes sectionnelles reste un environnement logistique : vérifier le règlement de ZAC (ERP autorisé ?) et le stationnement. Excentré (A6/D607), desserte TC limitée aux bus. Repris du tableau de bord Radar ERP (relevé du 2026-11-08).",
    "ajoute": 1794124898547,
    "vu": "2026-11-08",
-   "ref": "173782-0V"
+   "ref": "173782-0V",
+   "nature": "vente"
   },
   {
    "_id": "ennery-portes-du-vexin-835-occupe",
@@ -11289,14 +11303,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
    "notes": "Belle hauteur libre (7,15 m) et 14 places dont 2 PMR, mais le bien est vendu avec un bail ferme de 9 ans (locataire en place depuis plus de 15 ans) : inexploitable en salle type L à court terme. Zone d'activités excentrée, gare à 4 km. À ne retenir que comme placement, 1,25 M€ + 5 % HT. Repris du tableau de bord Radar ERP (relevé du 2026-11-09).",
    "ajoute": 1794205782955,
    "vu": "2026-11-09",
    "ref": "95_0476",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "moret-loing-auberge-evenementiel-513",
@@ -11330,7 +11344,8 @@
    "notes": "Seul bien du lot déjà conçu pour recevoir du public en réception (4 salles, salon de 180 m², grande cuisine, terrasse sur le Loing) : la reconversion en salle type L ou N/L est la plus naturelle. Gros travaux à prévoir après un dégât des eaux en 2020, 3 bâtiments distincts à mettre aux normes (évacuation, PMR), stationnement public seulement à 100 m et gare à 7 min en voiture. 579 000 € honoraires vendeur : dans un budget total de 600 000 € hors travaux, qui seront importants. Repris du tableau de bord Radar ERP (relevé du 2026-11-09).",
    "ajoute": 1794259846727,
    "vu": "2026-11-09",
-   "ref": "174-IDPRESTIGE"
+   "ref": "174-IDPRESTIGE",
+   "nature": "vente"
   },
   {
    "_id": "orsay-evolis-erp-800",
@@ -11364,13 +11379,12 @@
    ],
    "statut": "en_vente",
    "typesDeclares": [],
-   "typesPotentiels": [
-    "V"
-   ],
+   "typesPotentiels": [],
    "notes": "Déjà classé ERP et desservi par le RER B (et la future ligne 18), ce qui facilite l'accès des fidèles. Mais un lieu de culte au 2e étage impose deux escaliers dimensionnés, un ascenseur PMR et l'accord de la copropriété probable ; l'effectif admissible sera limité. À 2,08 M€, légèrement au-dessus du budget de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-11-10).",
    "ajoute": 1794300578054,
    "vu": "2026-11-10",
-   "ref": "2198089-0"
+   "ref": "2198089-0",
+   "nature": "vente"
   },
   {
    "_id": "argenteuil-local-independant-267",
@@ -11390,14 +11404,14 @@
    "statut": "en_vente",
    "typesDeclares": [],
    "typesPotentiels": [
-    "V",
     "L",
     "X"
    ],
    "notes": "Petit bâtiment indépendant (sans copropriété) à 450 000 €, l'un des rares biens franciliens de cette taille dans le budget. Une salle de prière ou de réunion de jauge modeste (V ou L, 5e catégorie) est envisageable si la hauteur et les dégagements le permettent. L'annonce donne très peu d'informations (adresse, hauteur, parking) : à demander avant une visite, avec la vérification du PLU pour le changement de destination. Repris du tableau de bord Radar ERP (relevé du 2026-11-12).",
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "avon-face-gare-bureaux-erp-pmr-903",
@@ -11432,7 +11446,8 @@
    "notes": "Plateaux neufs livrés bruts, annoncés ERP et accessibles PMR, face à la gare (Transilien R) : très adaptés à un ERP de type W (bureaux recevant du public), R (formation) ou U (centre de santé), divisibles dès 240 m². Vigilance : immeuble en étage/copropriété, donc peu adapté à un lieu de culte ou une salle (bruit, effectif, dégagements) ; parkings en sous-sol en option à 15 000 € HT l'unité. À 2 031 750 € HT (2 300 €/m²), légèrement au-dessus du plafond de 2 M€. Repris du tableau de bord Radar ERP (relevé du 2026-11-12).",
    "ajoute": 1794504304256,
    "vu": "2026-11-12",
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "chelles-chilperic-bureaux-erp5-222",
@@ -11476,7 +11491,8 @@
    "vu": "2026-11-12",
    "nouveau": true,
    "categorie": 5,
-   "ref": "1304189-0V"
+   "ref": "1304189-0V",
+   "nature": "vente"
   },
   {
    "_id": "clamart-carnets-creche-237",
@@ -11510,7 +11526,8 @@
    "notes": "Local de plain-pied avec 41 m² de jardin devant et 171 m² derrière, déjà fléché crèche (type R) ou médical (type U) par la ville : la destination est donc acquise, ce qui est rare. Vigilance : livré brut de béton sans vitrines (budget d'aménagement important), prix HT donc TVA possible, et usage limité à ces deux activités. À 550 000 € HT, le coût total dépassera probablement 600 000 € avec frais et travaux. Repris du tableau de bord Radar ERP (relevé du 2026-11-12).",
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "evry-mazieres-rez-de-dalle-325",
@@ -11554,7 +11571,8 @@
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "1397489-0"
+   "ref": "1397489-0",
+   "nature": "vente_ou_location"
   },
   {
    "_id": "la-verriere-murs-occupes-273",
@@ -11593,7 +11611,8 @@
    "vu": "2026-11-12",
    "nouveau": true,
    "ref": "AAL 839364",
-   "occupe": true
+   "occupe": true,
+   "nature": "murs_occupes"
   },
   {
    "_id": "le-plessis-robinson-immprove-neuf-1170",
@@ -11636,7 +11655,8 @@
    "notes": "Programme neuf (livraison T4 2027) annoncé « ERP possible », avec rampe de plain-pied, accès PMR et belle hauteur sous plafond : intéressant pour une salle polyvalente (L), une salle de sport (X) ou un centre de formation (R) sans travaux lourds de mise aux normes. Vigilance : prix affiché « à partir de 912 000 € » pour le plus petit lot, prix des 1 170 m² à demander (probablement au-delà de 2 M€) ; copropriété de parc d'activités et délai de livraison. Repris du tableau de bord Radar ERP (relevé du 2026-11-12).",
    "ajoute": 1794504304260,
    "vu": "2026-11-12",
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "meaux-local-mixte-boutique-300",
@@ -11657,14 +11677,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "M",
-    "L",
-    "V"
+    "L"
    ],
    "notes": "Bien atypique et bon marché, avec une vitrine (M) et un logement de gardien, mais la surface recevant du public se limite à la boutique de 50 m² : le stockage et le garage devraient être transformés pour une salle (L ou V). La partie logement ne compte pas en ERP. À 425 000 €, il laisse une marge pour les travaux dans le budget de 600 000 €. Repris du tableau de bord Radar ERP (relevé du 2026-11-12).",
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "940051645"
+   "ref": "940051645",
+   "nature": "vente"
   },
   {
    "_id": "montreuil-vincennes-ght-805",
@@ -11692,7 +11712,8 @@
    "ajoute": 1794504304259,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "9400410977"
+   "ref": "9400410977",
+   "nature": "vente"
   },
   {
    "_id": "sainte-genevieve-des-bois-route-de-corbeil-960",
@@ -11729,7 +11750,8 @@
    "ajoute": 1794504304257,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "91_0919"
+   "ref": "91_0919",
+   "nature": "vente"
   },
   {
    "_id": "vitry-ardoines-bureaux-265",
@@ -11772,7 +11794,8 @@
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "2211264-0V"
+   "ref": "2211264-0V",
+   "nature": "vente"
   },
   {
    "_id": "voisins-espace-des-vergers-246",
@@ -11808,7 +11831,8 @@
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "BL-Y57676"
+   "ref": "BL-Y57676",
+   "nature": "vente"
   },
   {
    "_id": "voisins-jean-bart-257",
@@ -11845,14 +11869,14 @@
    "typesPotentiels": [
     "X",
     "L",
-    "V",
     "R"
    ],
    "notes": "Plateau de 180 m² au RDC avec 6 places de parking : convient à une salle de sport (X), à une petite salle de réunion ou de prière (L, V) ou à de la formation (R), en 5e catégorie. Il est en zone d'activités, donc avec peu de nuisances pour les riverains, mais le RER est à 3 km. La hauteur n'est pas indiquée et le changement de destination est à valider. À 449 000 € + 5 %, il est dans le budget. Repris du tableau de bord Radar ERP (relevé du 2026-11-12).",
    "ajoute": 1794504502894,
    "vu": "2026-11-12",
    "nouveau": true,
-   "ref": "BL-Y56944"
+   "ref": "BL-Y56944",
+   "nature": "vente"
   },
   {
    "_id": "puteaux-boieldieu-erp-w-2748",
@@ -11903,10 +11927,10 @@
    ],
    "typesPotentiels": [
     "L",
-    "V",
     "R"
    ],
-   "erpSource": "« À Puteaux La Défense, ces bureaux ERP de type W sont proposés à la vente et conviennent parfaitement à une école ou un centre de formation. L'espace peut accueillir jusqu'à 1 300 personnes, réparties entre le rez-de-chaussée et le premier étage. » — https://www.bureauxlocaux.com/annonce/bureaux-erp-a-vendre-a-puteaux-espace-modulable-pr--36749524"
+   "erpSource": "« À Puteaux La Défense, ces bureaux ERP de type W sont proposés à la vente et conviennent parfaitement à une école ou un centre de formation. L'espace peut accueillir jusqu'à 1 300 personnes, réparties entre le rez-de-chaussée et le premier étage. » — https://www.bureauxlocaux.com/annonce/bureaux-erp-a-vendre-a-puteaux-espace-modulable-pr--36749524",
+   "nature": "vente"
   },
   {
    "_id": "saint-cloud-carnot-erp3-2231",
@@ -11955,11 +11979,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W"
    ],
-   "categorie": 3
+   "categorie": 3,
+   "nature": "vente"
   },
   {
    "_id": "asnieres-barbusse-erp-x-573",
@@ -11998,7 +12022,8 @@
     "R",
     "U"
    ],
-   "erpSource": "« Cushman & Wakefield vous propose à la vente et à la location un espace ERP de Type X idéal pour une salle de sport mais aussi pour un cabinet médical ou un centre de formation » — https://www.bureauxlocaux.com/annonce/local-erp-pmr-salle-de-sport-cabinet-medical--41079939"
+   "erpSource": "« Cushman & Wakefield vous propose à la vente et à la location un espace ERP de Type X idéal pour une salle de sport mais aussi pour un cabinet médical ou un centre de formation » — https://www.bureauxlocaux.com/annonce/local-erp-pmr-salle-de-sport-cabinet-medical--41079939",
+   "nature": "vente"
   },
   {
    "_id": "paris09-saint-lazare-erp5-531",
@@ -12047,11 +12072,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "saint-ouen-immeuble-erp5-980",
@@ -12093,12 +12118,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "U",
     "W"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente_ou_location"
   },
   {
    "_id": "sannois-franconville-depot-showroom-1764",
@@ -12125,10 +12150,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "argenteuil-centre-ancien-restaurant-600",
@@ -12163,11 +12188,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "ivry-jeanne-hachette-erp5-250",
@@ -12212,7 +12237,8 @@
     "U",
     "W"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "longjumeau-centre-immeuble-550",
@@ -12241,7 +12267,8 @@
     "M",
     "U",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "tremblay-ght-showroom-erp-593",
@@ -12270,7 +12297,8 @@
     "L",
     "M",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "persan-creno-cellules-erp5-466",
@@ -12297,10 +12325,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "boulogne-delafosse-erp5-159",
@@ -12338,7 +12366,8 @@
     "U",
     "W"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "paris03-beaumarchais-erp5-363",
@@ -12367,7 +12396,8 @@
     "M",
     "W"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "paris17-lantiez-ancienne-creche-570",
@@ -12394,7 +12424,8 @@
    "typesPotentiels": [
     "R",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris15-etienne-pernet-erp5-1607",
@@ -12428,12 +12459,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "maisons-alfort-centre-boutique-atelier-340",
@@ -12460,9 +12491,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "bagneux-ancienne-biscuiterie-349",
@@ -12488,12 +12519,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W",
     "X"
    ],
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "paris15-violet-409",
@@ -12534,11 +12565,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "X"
    ],
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "levallois-perret-rdc-307",
@@ -12564,12 +12595,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
    ],
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente_ou_location"
   },
   {
    "_id": "montreuil-croix-de-chavaux-480",
@@ -12608,10 +12639,9 @@
    "ajoute": 1794377006744,
    "vu": "2026-11-11",
    "typesDeclares": [],
-   "typesPotentiels": [
-    "V"
-   ],
-   "nouveau": true
+   "typesPotentiels": [],
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "paris14-catalogne-183",
@@ -12651,11 +12681,11 @@
    "vu": "2026-11-11",
    "typesDeclares": [],
    "typesPotentiels": [
-    "V",
     "M",
     "U"
    ],
-   "nouveau": true
+   "nouveau": true,
+   "nature": "vente"
   },
   {
    "_id": "boulogne-billancourt-erp5-type-r-1500",
@@ -12699,11 +12729,11 @@
     "R"
    ],
    "typesPotentiels": [
-    "V",
     "W",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente_ou_location"
   },
   {
    "_id": "paris19-david-d-angers-immeuble-erp-840",
@@ -12730,9 +12760,9 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "saint-maur-immeuble-petite-enfance-470",
@@ -12766,11 +12796,11 @@
    "ref": "21467880-0003V",
    "typesDeclares": [],
    "typesPotentiels": [
-    "V",
     "R",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "antony-rue-pascal-rdc-jardin-255",
@@ -12797,11 +12827,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "U",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris15-convention-murs-libres-390",
@@ -12828,12 +12858,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "U",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris07-universite-erp5-162",
@@ -12860,12 +12890,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "U",
     "W",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "serris-karea-showroom-275",
@@ -12892,12 +12922,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "R",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "moussy-le-neuf-ensemble-700",
@@ -12924,10 +12954,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "X"
-   ]
+   ],
+   "nature": "vente_ou_location"
   },
   {
    "_id": "rueil-angle-commerce-bureau-249",
@@ -12962,11 +12992,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "lesigny-centre-commercial-erp-260",
@@ -12993,13 +13023,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "U",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris18-marcadet-ancienne-ecole-erp5-585",
@@ -13041,12 +13071,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente_ou_location"
   },
   {
    "_id": "paris16-flandrin-ancienne-creche-173",
@@ -13086,12 +13116,12 @@
    "vu": "2026-11-13",
    "typesDeclares": [],
    "typesPotentiels": [
-    "V",
     "M",
     "R",
     "U",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris14-ancienne-creche-rdc-172",
@@ -13117,13 +13147,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "R",
     "U",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "clamart-serpis-rdc-erp5-466",
@@ -13149,12 +13179,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "U",
     "W",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "montrouge-rdc-jardin-erp5-295",
@@ -13189,12 +13219,12 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "N",
     "W",
     "X"
    ],
-   "categorie": 5
+   "categorie": 5,
+   "nature": "vente"
   },
   {
    "_id": "coignieres-ex-terrasse-co-showroom-537",
@@ -13221,11 +13251,11 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "montrouge-perier-rdc-jardin-170",
@@ -13259,14 +13289,14 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "R",
     "U",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "brie-comte-robert-batiment-independant-560",
@@ -13293,10 +13323,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "chatillon-stalingrad-rez-de-jardin-236",
@@ -13323,10 +13353,10 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "R",
     "W"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "paris17-ampere-entree-independante-196",
@@ -13367,13 +13397,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "U",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   },
   {
    "_id": "le-mesnil-saint-denis-immeuble-independant-521",
@@ -13400,13 +13430,13 @@
    "typesDeclares": [],
    "typesPotentiels": [
     "L",
-    "V",
     "M",
     "N",
     "R",
     "W",
     "X"
-   ]
+   ],
+   "nature": "vente"
   }
  ]
 }

@@ -301,7 +301,7 @@ def executer(candidats, payload, examinees, date_iso, max_ajouts, ts):
             else:
                 ajouter(c, infos)
     retires = retirer_nouveau_anciens(rows, date_iso)
-    sortie = {"date": payload["date"], "rows": rows + nouvelles}
+    sortie = dict(payload, rows=rows + nouvelles)  # conserve les autres clés (bloc « veille »)
     if nouvelles:
         aaaa, mm, jj = date_iso.split("-")
         sortie["date"] = f"{jj}/{mm}/{aaaa}"

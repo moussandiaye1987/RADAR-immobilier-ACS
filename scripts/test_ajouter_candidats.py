@@ -296,5 +296,49 @@ class Integration(unittest.TestCase):
             self.assertEqual(valider().returncode, 1, "modifier le statut d'une annonce existante doit être refusé")
 
 
+class TypesErpAudit(unittest.TestCase):
+    """Audit du 14/11/2026 : pas de potentiel « V » déduit d'un simple volume ; nature de la vente."""
+
+    def setUp(self):
+        import types_erp
+        self.T = types_erp
+
+    def fiche(self, **kw):
+        r = {"_id": "x", "titre": "Local d'activités de 800 m² de plain-pied, 7 m sous plafond", "erpDetail": "",
+             "profil": "transformable", "erp": "verifier", "typesDeclares": [], "typesPotentiels": [], "notes": "",
+             "analyseV": "Grand volume : potentiel lieu de culte, salle polyvalente."}
+        r.update(kw)
+        return r
+
+    def test_volume_sans_v(self):
+        d, p, _ = self.T.types(self.fiche())
+        self.assertNotIn("V", p)
+        self.assertTrue({"L", "X"} <= set(p))
+
+    def test_v_retire_si_injustifie_et_garde_si_justifie(self):
+        self.assertNotIn("V", self.T.types(self.fiche(typesPotentiels=["V", "W"]))[1])
+        self.assertIn("W", self.T.types(self.fiche(typesPotentiels=["V", "W"]))[1])
+        self.assertIn("V", self.T.types(self.fiche(titre="Ancien lieu de culte de 500 m²"))[1])
+        self.assertIn("V", self.T.types(self.fiche(profil="culte"))[1])
+        self.assertNotIn("V", self.T.types(self.fiche(titre="Entrepôt à Savigny-le-Temple, rue de l'Église"))[1])
+
+    def test_nature_vente(self):
+        n = lambda **kw: self.T.nature_vente(self.fiche(**kw))
+        self.assertEqual(n(), "vente")
+        self.assertEqual(n(notes="Bien vendu loué, bail en cours."), "murs_occupes")
+        self.assertEqual(n(occupe=True), "murs_occupes")
+        self.assertEqual(n(titre="Restaurant, murs et fonds"), "murs_et_fonds")
+        self.assertEqual(n(titre="Cession de fonds de commerce, restaurant"), "fonds")
+        self.assertEqual(n(erpDetail="vente ou location"), "vente_ou_location")
+        self.assertEqual(n(notes="3 parkings en location"), "vente")
+
+    def test_donnees_publiees(self):
+        rows = lire_annonces()["rows"]
+        for r in rows:
+            self.assertIn(r.get("nature"), self.T.NATURES, r["_id"])
+            self.assertEqual("V" in self.T.types(r)[1], "V" in r["typesPotentiels"], r["_id"])
+        self.assertLess(sum("V" in r["typesPotentiels"] for r in rows), len(rows) // 10)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
