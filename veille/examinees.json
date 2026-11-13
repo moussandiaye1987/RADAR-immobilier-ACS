@@ -484,5 +484,215 @@
   "decision": "ecartee",
   "motif": "Murs loués (5 750 €/mois)",
   "_id": ""
+ },
+ "42588651": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "boulogne-billancourt-erp5-type-r-1500"
+ },
+ "42404722": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "paris19-david-d-angers-immeuble-erp-840"
+ },
+ "40937288": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "saint-maur-immeuble-petite-enfance-470"
+ },
+ "42585309": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "antony-rue-pascal-rdc-jardin-255"
+ },
+ "42837010": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "paris15-convention-murs-libres-390"
+ },
+ "42531424": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "paris07-universite-erp5-162"
+ },
+ "42452576": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "serris-karea-showroom-275"
+ },
+ "40687383": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "moussy-le-neuf-ensemble-700"
+ },
+ "42356249": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "rueil-angle-commerce-bureau-249"
+ },
+ "paruvendu-1291061507": {
+  "date": "2026-11-13",
+  "decision": "retenue",
+  "motif": "vérifiée sur la page de l'annonce (veille du soir)",
+  "_id": "lesigny-centre-commercial-erp-260"
+ },
+ "40696564": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même immeuble que boulogne-billancourt-erp5-type-r-1500 (56 rue de Billancourt, Corpimmo)",
+  "_id": "boulogne-billancourt-erp5-type-r-1500"
+ },
+ "42359081": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même immeuble que boulogne-billancourt-erp5-type-r-1500 (Immprove, 3 504 000 €, texte « à la location »)",
+  "_id": "boulogne-billancourt-erp5-type-r-1500"
+ },
+ "41033545": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "plateau RDC 199 m² probablement du même immeuble que paris19-david-d-angers-immeuble-erp-840 (même agence, Mouzaïa)",
+  "_id": "paris19-david-d-angers-immeuble-erp-840"
+ },
+ "42356682": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même local Cinaspic de 252 m² que paris18-montmartre-252",
+  "_id": "paris18-montmartre-252"
+ },
+ "42422428": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même local Cinaspic de 252 m² que paris18-montmartre-252",
+  "_id": "paris18-montmartre-252"
+ },
+ "42836964": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même local Cinaspic de 252 m² que paris18-montmartre-252",
+  "_id": "paris18-montmartre-252"
+ },
+ "39638235": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même local Cinaspic de 252 m² que paris18-montmartre-252",
+  "_id": "paris18-montmartre-252"
+ },
+ "42479442": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "probable autre lot / republication du bâtiment de champs-sur-marne-erpable-amphi-665 (même agence, même amphithéâtre de 120 places) : à confirmer",
+  "_id": "champs-sur-marne-erpable-amphi-665"
+ },
+ "43176970": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même bien que saint-thibault-des-vignes-local-1484",
+  "_id": "saint-thibault-des-vignes-local-1484"
+ },
+ "43183910": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même bien probable que nanterre-batiment-independant-1660 ; bureaux au R+1 brut de béton",
+  "_id": "nanterre-batiment-independant-1660"
+ },
+ "42439281": {
+  "date": "2026-11-13",
+  "decision": "doublon",
+  "motif": "même bien que paris15-vaugirard-299",
+  "_id": "paris15-vaugirard-299"
+ },
+ "42476384": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux au 3e étage, bail 3-6-9 (location/vente)",
+  "_id": ""
+ },
+ "43204689": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "murs commerciaux vendus occupés",
+  "_id": ""
+ },
+ "38594263": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateaux en VEFA (disponibilité 14/01/2028), lot minimal 106 m² : prix non rapportable à 493 m²",
+  "_id": ""
+ },
+ "42588941": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "bâtiment partiellement loué (association + école), vacant = entrepôt",
+  "_id": ""
+ },
+ "42357521": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "tour IGH, prix incohérent (276 000 € pour 15 500 m²)",
+  "_id": ""
+ },
+ "43187248": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "« Droit au bail : 50 000 euros » à côté du prix : vente des murs non certaine",
+  "_id": ""
+ },
+ "42346568": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux en étage (3e-4e ERP)",
+  "_id": ""
+ },
+ "40838957": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "entrepôt/atelier avec bureaux à l'étage, pas d'accueil du public cité",
+  "_id": ""
+ },
+ "42405310": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux au 1er étage",
+  "_id": ""
+ },
+ "37498808": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateaux de tour (12e étage), vendus occupés",
+  "_id": ""
+ },
+ "39424783": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux libres ou occupés",
+  "_id": ""
+ },
+ "39800727": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "immeuble entièrement loué",
+  "_id": ""
+ },
+ "42621856": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "bureaux en étage dans un parc tertiaire",
+  "_id": ""
+ },
+ "41970374": {
+  "date": "2026-11-13",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux sans accueil du public cité (Boulogne, autre immeuble)",
+  "_id": ""
  }
 }
