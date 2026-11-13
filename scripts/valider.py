@@ -27,6 +27,7 @@ import sys
 from collections import Counter
 
 import type_v as T
+from types_erp import NATURES, V_JUSTIFIE, _sans_accents
 from commun import ANNONCES, DEPTS, ERP, INDEX, MODES, PARKING, PROFILS, RACINE, STATUTS, code_index, donnees_index
 
 MIGRATION = RACINE / "veille" / "migration_type_v.json"
@@ -63,6 +64,10 @@ def main():
     if not re.fullmatch(r"\d{2}/\d{2}/\d{4}", payload["date"]):
         erreurs.append(f"date « {payload['date']} » : format JJ/MM/AAAA attendu")
     rows = payload["rows"]
+    v = payload.get("veille")
+    if v is not None and not (isinstance(v, dict) and re.fullmatch(r"\d{2}/\d{2}/\d{4}", str(v.get("date", "")))
+                              and v.get("statut") in ("ok", "echec") and isinstance(v.get("ajouts", 0), int)):
+        erreurs.append("« veille » doit valoir {\"date\": \"JJ/MM/AAAA\", \"statut\": \"ok\" | \"echec\", \"ajouts\": N, \"message\": \"…\"}")
 
     for i, r in enumerate(rows):
         ref = r.get("_id", f"ligne {i}")
@@ -78,6 +83,11 @@ def main():
         for champ, valeurs in (("erp", ERP), ("profil", PROFILS), ("parking", PARKING), ("statut", STATUTS)):
             if r.get(champ) not in valeurs:
                 erreurs.append(f"{ref} : {champ} « {r.get(champ)} » non reconnu par le site ({', '.join(valeurs)})")
+        if r.get("nature") is not None and r.get("nature") not in NATURES:
+            erreurs.append(f"{ref} : nature de la vente « {r.get('nature')} » non reconnue ({', '.join(NATURES)})")
+        if "V" in (r.get("typesPotentiels") or []) and r.get("profil") not in ("culte", "associatif") and not re.search(
+                V_JUSTIFIE, _sans_accents(" ".join(str(r.get(k) or "") for k in ("titre", "erpDetail", "erpSource"))).lower()):
+            erreurs.append(f"{ref} : potentiel « V » (lieu de culte) sans justification dans la description du bien")
         for t in r.get("transports") or []:
             if t.get("mode") not in MODES:
                 erreurs.append(f"{ref} : mode de transport « {t.get('mode')} » non reconnu ({', '.join(MODES)})")

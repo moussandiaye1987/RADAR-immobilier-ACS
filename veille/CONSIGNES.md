@@ -18,7 +18,9 @@ Routine « tableau de bord artefact » est désactivée. Voir `veille/AUTOMATISA
 - **Si les contrôles du § 6 réussissent, fusionner soi-même la PR** (fusion « squash ») : `main` est publié sur
   Render automatiquement (https://radar-immobilier-acs.onrender.com). Si la fusion est refusée (conflit, protection), laisser la PR ouverte et le signaler.
 - Si un contrôle échoue et ne peut pas être corrigé : PR en **brouillon**, non fusionnée, erreur en tête du bilan.
-- Si rien n'a changé dans `annonces.json`, ne pas ouvrir de PR : le bilan est donné dans le message final.
+- **À chaque exécution**, mettre à jour le bloc `veille` de `annonces.json` : `{"date": "JJ/MM/AAAA", "statut": "ok" | "echec", "ajouts": N, "message": "…"}`.
+  `ok` avec `ajouts: 0` = recherche faite, aucun bien nouveau ; `echec` = collecte impossible (sources inaccessibles, erreur) avec le motif.
+  Ce bloc change donc chaque jour : la PR du jour est toujours ouverte puis fusionnée, et le site affiche la date de la dernière veille.
 - Ne jamais réutiliser ni fusionner une ancienne PR « Veille du … » : seule celle du jour compte.
 
 ## 1. Ce que l'on cherche
@@ -36,6 +38,8 @@ Locaux **à vendre** en Île-de-France pouvant accueillir un **lieu de culte (ER
 - Départements : 75, 77, 78, 91, 92, 93, 94, 95 (aucun autre).
 - Filtres par défaut du site : budget 300 000 € – 2 000 000 €, surface ≥ 250 m². Ces filtres sont **réglables**
   par l'utilisateur : garder aussi les annonces pertinentes **hors de ces bornes** (jusqu'à ~6 M€, dès ~150 m²).
+- Renseigner `nature` (nature de la vente) avec `scripts/types_erp.py` : `vente`, `murs_occupes`, `murs_et_fonds`,
+  `vente_ou_location` (à confirmer) ; `fonds` (fonds ou droit au bail seul) n'est pas retenu.
 - Écarter : locations seules, cessions de fonds sans les murs, logements, terrains nus, biens hors Île-de-France,
   plateaux de bureaux en étage, biens vendus occupés (bail en cours).
 
@@ -90,7 +94,7 @@ Respecter exactement le format existant (voir une annonce récente) :
 | `erpSource` | **obligatoire si `erp` = `V` ou `L`** : citation exacte de l'annonce ou du document, et son lien |
 | `analyseV` | 1 à 3 phrases : profil, ce que dit l'annonce (citation), atouts, ce qui reste à vérifier pour un ERP V |
 | `typesDeclares` | codes ERP cités explicitement par l'annonce (« ERP type M », « types M et L ») ou activité recevant du public en exploitation (restaurant → N, salle de réception → L, crèche → R, hôtel → O) ; un `erp` V ou L justifié vaut type déclaré |
-| `typesPotentiels` | codes auxquels le local se prête sans être déclaré (grand volume de plain-pied → V, L, X ; vitrine → M ; bureaux → W ; cuisine/salle → N, L…), jamais un type déjà déclaré. `scripts/types_erp.py` les calcule |
+| `typesPotentiels` | codes auxquels le local se prête sans être déclaré (grand volume de plain-pied → L, X ; vitrine → M ; bureaux → W ; cuisine/salle → N, L…), jamais un type déjà déclaré. **V (lieu de culte) seulement si la description du bien le justifie** (lieu de culte, salle de prière, église, association cultuelle…) : jamais déduit d'un simple volume (`valider.py` le refuse). `scripts/types_erp.py` les calcule |
 | `categorie` | 1 à 5 si l'annonce cite la catégorie ERP |
 | `parking` | `sur_place`, `proximite` ou `non_precise` |
 | `transports` | liste de `{mode, ligne, station, distance, confirme}` ; `mode` parmi Métro, RER, Tram, Transilien, Bus ; `distance` en mètres ou `null` ; `confirme: true` seulement si l'annonce le dit |
