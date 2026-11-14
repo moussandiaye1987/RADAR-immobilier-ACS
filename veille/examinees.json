@@ -886,5 +886,113 @@
   "decision": "ecartee",
   "motif": "Prix « à partir de » pour un lot divisible : prix du lot de 365 m² non publié",
   "_id": ""
+ },
+ "43231213": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "ERP 5e cat. de plain-pied, verrière",
+  "_id": "ville-d-avray-local-plain-pied-erp5-verriere-303"
+ },
+ "43231212": {
+  "date": "2026-11-14",
+  "decision": "doublon",
+  "motif": "Même bien que n° 43231213 (CSI, publié en bureaux)",
+  "_id": "ville-d-avray-local-plain-pied-erp5-verriere-303"
+ },
+ "43231214": {
+  "date": "2026-11-14",
+  "decision": "doublon",
+  "motif": "Même bien que n° 43231213 (CSI, publié en entrepôts)",
+  "_id": "ville-d-avray-local-plain-pied-erp5-verriere-303"
+ },
+ "43008535": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "Locaux PMR et ERP en RDC, Paris 13e",
+  "_id": "paris13-quai-panhard-levassor-rdc-erp-311"
+ },
+ "43165050": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "Atelier sur cour ERP 5e cat.",
+  "_id": "montreuil-croix-de-chavaux-atelier-erp5-226"
+ },
+ "43074456": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "ERP cat. 5 type M cité",
+  "_id": "osny-ancienne-pharmacie-erp5-type-m-150"
+ },
+ "42833916": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "Murs libres de restaurant-bar",
+  "_id": "versailles-murs-libres-restaurant-bar-150"
+ },
+ "43136509": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "RDC d angle avec 3 extractions",
+  "_id": "colombes-rdc-angle-brut-3-extractions-295"
+ },
+ "43124606": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "Actif indépendant, RDC haute HSP",
+  "_id": "puteaux-pitois-locaux-commerciaux-hsp-861"
+ },
+ "43172604": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "Salle de boxe/fitness en exploitation (X), murs occupés",
+  "_id": "boulogne-vieux-pont-de-sevres-salle-boxe-occupee-289"
+ },
+ "41210369": {
+  "date": "2026-11-14",
+  "decision": "retenue",
+  "motif": "DP hébergement hôtelier acceptée (O)",
+  "_id": "paris03-archives-hebergement-hotelier-278"
+ },
+ "43089035": {
+  "date": "2026-11-14",
+  "decision": "doublon",
+  "motif": "Probablement le même bâtiment que l annonce iad ParuVendu 2069483 (635 m², ~1,5 M€, partie louée) retenue",
+  "_id": "choisy-le-roi-batiment-showroom-hsp7-635"
+ },
+ "43033122": {
+  "date": "2026-11-14",
+  "decision": "doublon",
+  "motif": "Même bien Evolis que n° 43089035",
+  "_id": "choisy-le-roi-batiment-showroom-hsp7-635"
+ },
+ "43230545": {
+  "date": "2026-11-14",
+  "decision": "ecartee",
+  "motif": "Lot de 463 m² du même ensemble Evolis de Choisy (partiellement occupé), déjà couvert",
+  "_id": ""
+ },
+ "43020640": {
+  "date": "2026-11-14",
+  "decision": "ecartee",
+  "motif": "Prix publié 397 752 € pour 765 m² neufs à Nanterre : incohérent, à confirmer",
+  "_id": ""
+ },
+ "43165051": {
+  "date": "2026-11-14",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux en immeuble tertiaire, ERP seulement possible",
+  "_id": ""
+ },
+ "43034399": {
+  "date": "2026-11-14",
+  "decision": "ecartee",
+  "motif": "Plateau de bureaux, ERP seulement possible, niveau non précisé",
+  "_id": ""
+ },
+ "43030790": {
+  "date": "2026-11-14",
+  "decision": "ecartee",
+  "motif": "Surface réelle 78,1 m² (781 m² dans les données), sous le seuil",
+  "_id": ""
  }
 }

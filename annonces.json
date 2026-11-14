@@ -1,5 +1,5 @@
 {
- "date": "13/11/2026",
+ "date": "14/11/2026",
  "rows": [
   {
    "adresse": "",
@@ -13437,6 +13437,523 @@
     "X"
    ],
    "nature": "vente"
+  },
+  {
+   "_id": "montreuil-croix-de-chavaux-restaurant-murs-fonds-180",
+   "titre": "Restaurant de 150 couverts vendu murs et fonds, 180 m² (Montreuil, Croix de Chavaux)",
+   "ville": "Montreuil",
+   "adresse": "",
+   "dept": "93",
+   "agence": "SAFTI (Dragana Letic)",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1297397285A1KIIPVELCO",
+   "prix": 680000,
+   "surface": 180,
+   "erp": "verifier",
+   "erpDetail": "Catégorie ERP non citée. Restaurant en exploitation avec licence 3 : salle de 50 places au RDC, seconde salle de 60 places à l'étage, « Capacité totale de 150 couverts » ; cuisine professionnelle avec extraction ; vente des murs et fonds",
+   "erpSource": "« Il s'agit d'une vente indissociable des murs et du fonds de commerce. » ; « L'établissement clé en main est vendu avec sa licence 3 » ; « Capacité totale de 150 couverts » — https://www.paruvendu.fr/t/vente-local-commercial/1297397285A1KIIPVELCO",
+   "profil": "salle",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Croix de Chavaux",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Salle recevant du public (restaurant, type N en exploitation). L'annonce indique : « Capacité totale de 150 couverts » et une salle à l'étage « idéale pour privatiser cet espace dans le cadre d'événements ». Type V non confirmé : changement de destination, accessibilité et PLU à vérifier.",
+   "notes": "Restaurant en activité (cédé pour cause de maladie) dans un passage calme à quelques pas du métro Croix de Chavaux ; vente indissociable des murs et du fonds avec matériel et licence 3. Prix d'environ 3 778 €/m² FAI (650 000 € net vendeur). Surface sur deux niveaux (RDC + étage) : accessibilité de l'étage, copropriété et voisinage à vérifier. Annonce ouverte et vérifiée le 14/11/2026 (mise à jour du 13/11/2026).",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "1738132_35664",
+   "typesDeclares": [
+    "N"
+   ],
+   "typesPotentiels": [
+    "L",
+    "M"
+   ],
+   "nature": "murs_et_fonds"
+  },
+  {
+   "_id": "saint-michel-sur-orge-batiment-traiteur-salle-reception-693",
+   "titre": "Bâtiment indépendant de 693 m² avec cuisine professionnelle et salle de réception de 110 m² (Saint-Michel-sur-Orge)",
+   "ville": "Saint-Michel-sur-Orge",
+   "adresse": "",
+   "dept": "91",
+   "agence": "123 Commerce",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1296004917A1KIIPVELCO",
+   "prix": 770000,
+   "surface": 693,
+   "erp": "verifier",
+   "erpDetail": "Classement ERP non cité. Bâtiment indépendant sur 3 niveaux (RDC 563 m² : cuisine professionnelle, 2 laboratoires, 2 chambres froides, salle de réception de 110 m²) ; cour de 300 m², 13 places ; aménagement pour handicapés ; activité de traiteur cédée avec l'ensemble (murs et fonds à confirmer)",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique une « Salle de réception de 110 m² » et un bâtiment « Ouvert à tout type d'activité : restauration, commerce, bureaux, événementiel ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Bâtiment indépendant de 693 m² sur une parcelle de 1 300 m² avec cour fermée, vendu avec une activité de traiteur (CA 2024 annoncé 600 000 €) : murs et fonds à confirmer. Prix d'environ 1 111 €/m². Le R+1 (100 m²) et le R+2 (30 m²) sont des logements : seul le RDC de 563 m² se prête à l'accueil du public. Annonce ouverte et vérifiée le 14/11/2026 (mise à jour du 15/10/2026).",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "292",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "N",
+    "W",
+    "X"
+   ],
+   "nature": "murs_et_fonds"
+  },
+  {
+   "_id": "villeparisis-murs-cabinet-medical-257",
+   "titre": "Murs d'un cabinet médical pluridisciplinaire de 257 m² (Villeparisis)",
+   "ville": "Villeparisis",
+   "adresse": "",
+   "dept": "77",
+   "agence": "L'Adresse Villeparisis",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1290886586A1KIIPVELCO",
+   "prix": 525000,
+   "surface": 257,
+   "erp": "verifier",
+   "erpDetail": "Catégorie ERP non citée. Cabinet médical en exploitation sur plusieurs niveaux : plusieurs praticiens en place (médecine générale, sommeil, psychologie, ostéopathie, pédicurie), deux salles d'attente, un bureau libre",
+   "erpSource": "« ce complexe fonctionnel accueille déjà plusieurs praticiens (médecine générale, sommeil, psychologie, ostéopathie, pédicurie). Le bien dispose de deux salles d'attente » — https://www.paruvendu.fr/t/vente-local-commercial/1290886586A1KIIPVELCO",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer, aujourd'hui cabinet médical (soins, type U) en exploitation. L'annonce le présente comme « parfaite pour un investissement locatif sécurisé ». Type V non confirmé : occupation par les praticiens, accessibilité des niveaux et PLU à vérifier.",
+   "notes": "Vente des murs d'un cabinet médical de 257 m² sur plusieurs niveaux, praticiens en place : présenté comme « investissement locatif » (murs occupés à confirmer). Prix d'environ 2 043 €/m². Adresse non publiée ; accessibilité PMR et occupation à vérifier. Annonce ouverte et vérifiée le 14/11/2026 (mise à jour du 14/11/2026).",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "459",
+   "typesDeclares": [
+    "U"
+   ],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "W"
+   ],
+   "nature": "murs_occupes"
+  },
+  {
+   "_id": "choisy-le-roi-batiment-showroom-hsp7-635",
+   "titre": "Bâtiment d'activités indépendant de 635 m² (showroom, HSP 7 m) sur terrain de 800 m² (Choisy-le-Roi)",
+   "ville": "Choisy-le-Roi",
+   "adresse": "",
+   "dept": "94",
+   "agence": "iad France (Sébastien Vicente)",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1293031800A1KIIPVELCO",
+   "prix": 1495000,
+   "surface": 635,
+   "erp": "verifier",
+   "erpDetail": "Classement ERP non cité. Bâtiment indépendant, partie showroom / bureaux / entrepôt avec hauteur sous plafond de 7 m ; partie de 170 m² louée 3 000 €/mois ; cour privative de 200 m² (une dizaine de véhicules)",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique un bâtiment indépendant « aménagé en showroom, bureaux et entrepôt avec une hauteur sous plafond de 7 mètres ». Type V non confirmé : classement ERP, accessibilité et PLU à vérifier.",
+   "notes": "Bâtiment indépendant près de l'A86, 635 m² annoncés (600 m² dans le descriptif) sur 800 à 856 m² de terrain. Une partie d'environ 170 m² est louée (3 000 €/mois) : bail en cours sur cette partie. Prix d'environ 2 354 €/m². Desserte, PLU et voisinage à vérifier. Annonce ouverte et vérifiée le 14/11/2026 (mise à jour du 13/11/2026).",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "2069483",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "W",
+    "X"
+   ],
+   "nature": "murs_occupes"
+  },
+  {
+   "_id": "serris-parc-international-locaux-commerciaux-361",
+   "titre": "Locaux commerciaux neufs de 361 m² en RDC avec terrasse, accès PMR (Serris, Parc International d'Entreprises)",
+   "ville": "Serris",
+   "adresse": "",
+   "dept": "77",
+   "agence": "Evolis Île-de-France Est",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1297409959A1KIIPVELCO",
+   "prix": 1064596,
+   "surface": 361,
+   "erp": "verifier",
+   "erpDetail": "Classement ERP non cité. Locaux commerciaux de 360,88 m² en RDC, non divisibles, bruts de béton ; accès PMR ; extraction ; terrasse de 88 m² ; site clos et sécurisé ; 150 places visiteurs et parkings extérieurs et en sous-sol",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique des « locaux commerciaux d'environ 360 m² non divisibles » en RDC avec accès PMR et extraction. Type V non confirmé : classement ERP, règlement de copropriété du parc et PLU à vérifier.",
+   "notes": "Cellule commerciale neuve (certification BREEAM Very Good) livrée brut de béton dans un parc d'entreprises clos : aménagement complet à prévoir. Prix d'environ 2 949 €/m². Stationnement abondant (150 places visiteurs). Règlement de copropriété du parc à vérifier pour un accueil du public. Annonce ouverte et vérifiée le 14/11/2026 (mise à jour du 13/11/2026).",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "2214750-0V",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "M",
+    "W"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "paris03-archives-hebergement-hotelier-278",
+   "titre": "Surface de 278 m² avec DP de changement de sous-destination en hébergement hôtelier acceptée (Paris 3e, rue des Archives)",
+   "ville": "Paris 3e",
+   "adresse": "",
+   "dept": "75",
+   "agence": "Alex Bolton",
+   "url": "https://www.bureauxlocaux.com/annonce/hebergement-hotelier-a-vendre-avec-dp--41210369",
+   "prix": 4300000,
+   "surface": 278,
+   "erp": "verifier",
+   "erpDetail": "Classement ERP non cité. 216,76 m² de bureaux au 1er étage (4 accès indépendants, ascenseur), 28,23 m² de commerce en RDC et 33,98 m² en sous-sol ; « DP de changement de sous destination en hébergement hôtelier acceptée, en cours de purge »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique un « Plan fonctionnel pour de l'hébergement hôtelier » et une « DP de changement de sous destination en hébergement hôtelier acceptée, en cours de purge ». Type V non confirmé : la surface est surtout en étage ; usage hôtelier (type O) à instruire.",
+   "notes": "Rare piste de type O (hôtel) à Paris : la DP de changement de sous-destination en hébergement hôtelier est acceptée (en cours de purge). Prix très élevé (environ 15 470 €/m², 15 500 €/m² HD affiché). Surface surtout au 1er étage (217 m²) : peu adaptée à une salle recevant du public au RDC. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "2181957-0V",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "M",
+    "O",
+    "W"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "ville-d-avray-local-plain-pied-erp5-verriere-303",
+   "titre": "Local commercial de plain-pied de 245 m² classé ERP 5 avec verrière, et appartement de 58 m² (Ville-d'Avray)",
+   "ville": "Ville-d'Avray",
+   "adresse": "",
+   "dept": "92",
+   "agence": "CSI",
+   "url": "https://www.bureauxlocaux.com/annonce/rare-a-vendre-local-commercial-de-plain-pied-de-ca--43231213",
+   "prix": 1765000,
+   "surface": 303,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « vaste local professionnel de plain-pied de 245 m², classé ERP de 5e catégorie » ; grande hauteur sous plafond, verrière zénithale ; boutique avec accès indépendant, atelier avec accès véhicule ; appartement indépendant de 58 m² au 1er étage",
+   "profil": "transformable",
+   "parking": "proximite",
+   "transports": [
+    {
+     "mode": "Transilien",
+     "ligne": "L",
+     "station": "Sèvres-Ville-d'Avray",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "426",
+     "station": "",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique un « local professionnel de plain-pied de 245 m², classé ERP de 5e catégorie », configuré pour garage automobile, showroom ou atelier. Type V non confirmé : capacité, PLU et voisinage à vérifier.",
+   "notes": "Ensemble de caractère sur l'axe principal du centre-ville : RDC de 245 m² classé ERP 5e catégorie (verrière, grande hauteur) et appartement de 58 m² vendu avec. Prix d'environ 5 825 €/m² (303 m² au total). Stationnement public à proximité seulement ; publiée trois fois par CSI (n° 43231212, 43231213, 43231214). Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43231213",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "W",
+    "X"
+   ],
+   "categorie": 5,
+   "nature": "vente"
+  },
+  {
+   "_id": "paris13-quai-panhard-levassor-rdc-erp-311",
+   "titre": "Locaux PMR et ERP de 311 m² en RDC d'angle avec extraction, face à Bercy (Paris 13e)",
+   "ville": "Paris 13e",
+   "adresse": "Quai Panhard et Levassor, 75013 Paris",
+   "dept": "75",
+   "agence": "Harbour Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-bureau-paris-75013--43008535",
+   "prix": 1750000,
+   "surface": 311,
+   "erp": "verifier",
+   "erpDetail": "Catégorie ERP non citée. Annonce : « Locaux PMR et ERP développant 311m² » : 271 m² en RDC + 40 m² en sous-sol (monte-charge) ; plusieurs accès indépendants sur rue ; extraction ; belle hauteur sous plafond",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique des « Locaux PMR et ERP » de 271 m² en rez-de-chaussée avec plusieurs accès indépendants sur rue et extraction. Type V non confirmé : catégorie, capacité et PLU à vérifier.",
+   "notes": "RDC d'angle dans un immeuble moderne face à Bercy, plusieurs accès sur rue, extraction (restauration possible). Prix d'environ 5 627 €/m² net vendeur. Copropriété et voisinage à vérifier. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43008535",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "N",
+    "W",
+    "X"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "montreuil-croix-de-chavaux-atelier-erp5-226",
+   "titre": "Bâtiment sur cour de type atelier (loft), 226 m², ERP 5e catégorie (Montreuil, Croix de Chavaux)",
+   "ville": "Montreuil",
+   "adresse": "",
+   "dept": "93",
+   "agence": "Creno Real Estate",
+   "url": "https://www.bureauxlocaux.com/annonce/bureaux-atypiques-proche-metro-croix-de-chavaux--43165050",
+   "prix": 950000,
+   "surface": 226,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « ERP : 5ème catégorie » ; bâtiment sur cour « à usage d'atelier et magasin », aménagé en loft ; RDC 159 m² + mezzanine ; hauteur au faîtage 6,10 m ; accès indépendant sur cour ; RCP autorisant habitation, profession libérale, artisanale ou commerciale",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "9",
+     "station": "Croix de Chavaux",
+     "distance": 350,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique « ERP : 5ème catégorie » pour un bâtiment sur cour « à usage d'atelier et magasin » aménagé en loft. Type V non confirmé : capacité, accès sur cour en copropriété et voisinage à vérifier.",
+   "notes": "Lot de copropriété mixte (habitation, atelier, magasin) sur cour, aménagé en loft avec cuisine et salles de bains : adapté à une petite activité recevant du public plutôt qu'à une grande salle. Prix d'environ 4 204 €/m² net vendeur. Voisinage résidentiel et règlement de copropriété à vérifier. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43165050",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "W",
+    "X"
+   ],
+   "categorie": 5,
+   "nature": "vente"
+  },
+  {
+   "_id": "osny-ancienne-pharmacie-erp5-type-m-150",
+   "titre": "Local commercial indépendant de 150 m², ancienne pharmacie ERP 5e catégorie type M, 7 places (Osny)",
+   "ville": "Osny",
+   "adresse": "",
+   "dept": "95",
+   "agence": "Arthur Loyd IDF Nord Ouest",
+   "url": "https://www.bureauxlocaux.com/annonce/location-vente-local-commercial-osny-batiment-inde--43074456",
+   "prix": 435000,
+   "surface": 150,
+   "erp": "verifier",
+   "erpDetail": "Annonce : « Le bâtiment comprend une accessibilité ERP catégorie 5 type M » ; ancienne pharmacie ; conforme PMR ; terrain clos de 515 m² avec portail et 7 places ; proposé à la location ou à la vente",
+   "erpSource": "« Le bâtiment comprend une accessibilité ERP catégorie 5 type M et est conforme à la réglementation pour les personnes à mobilité réduite. » — https://www.bureauxlocaux.com/annonce/location-vente-local-commercial-osny-batiment-inde--43074456",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Transilien",
+     "ligne": "J",
+     "station": "Osny",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique un bâtiment indépendant « ERP catégorie 5 type M » (ancienne pharmacie), conforme PMR, avec 7 places. Type V non confirmé : petite surface (150 m²), capacité et PLU à vérifier.",
+   "notes": "Petit bâtiment indépendant de plain-pied sur terrain clos, proposé à la location ou à la vente (vente ou location à confirmer). Prix d'environ 2 900 €/m² honoraires inclus. Surface au seuil bas du radar (150 m²). Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43074456",
+   "typesDeclares": [
+    "M"
+   ],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "categorie": 5,
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "versailles-murs-libres-restaurant-bar-150",
+   "titre": "Murs libres d'un restaurant-bar de 150 m² avec licence 4, terrasse et extraction (Versailles)",
+   "ville": "Versailles",
+   "adresse": "",
+   "dept": "78",
+   "agence": "Propriétés Privées (Stéphanie Bouyges)",
+   "url": "https://www.bureauxlocaux.com/annonce/secteur-versailles-murs-commerciaux-libres-restaur--42833916",
+   "prix": 435000,
+   "surface": 150,
+   "erp": "verifier",
+   "erpDetail": "Catégorie ERP non citée. Murs libres d'un restaurant-bar : vitrine de 8 m, bar avec licence 4, terrasse, cuisine de plain-pied avec grosse extraction en toiture, réserves et cave",
+   "profil": "transformable",
+   "parking": "proximite",
+   "transports": [],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique les « murs libres d'un restaurant bar » avec cuisine et extraction. Type V non confirmé : capacité, accessibilité et PLU à vérifier.",
+   "notes": "Murs libres (sans fonds) d'un ancien restaurant-bar « à proximité de Versailles » (code postal 78000 publié, commune exacte à confirmer). Prix d'environ 2 900 €/m², honoraires à la charge du vendeur. Parking clientèle à proximité. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "467699",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "N",
+    "X"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "colombes-rdc-angle-brut-3-extractions-295",
+   "titre": "Local commercial de 295 m² en RDC d'angle, brut de béton avec trois extractions (Colombes)",
+   "ville": "Colombes",
+   "adresse": "",
+   "dept": "92",
+   "agence": "Immprove",
+   "url": "https://www.bureauxlocaux.com/annonce/vente-commerce-colombes-92700--43136509",
+   "prix": 1750000,
+   "surface": 295,
+   "erp": "verifier",
+   "erpDetail": "Classement ERP non cité. RDC de 295 m² d'un immeuble résidentiel, vaste façade vitrée en angle, trois extractions, bac à graisse, terrasse possible ; livré brut de béton, vitrines posées ; « Location possible »",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Tram",
+     "ligne": "T2",
+     "station": "Les Fauvelles",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Transilien",
+     "ligne": "L",
+     "station": "Le Stade",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique un local commercial de 295 m² en RDC avec « trois extractions » et façade vitrée en angle. Type V non confirmé : classement ERP, affectation juridique et PLU à vérifier.",
+   "notes": "Cellule neuve en pied d'immeuble résidentiel, adaptée à la restauration (trois extractions) ou au commerce ; vente ou location à confirmer (« Location possible ») et « affectation juridique en cours de détermination ». Prix d'environ 5 932 €/m². Voisinage résidentiel à prendre en compte. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43136509",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "N"
+   ],
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "puteaux-pitois-locaux-commerciaux-hsp-861",
+   "titre": "Actif indépendant de 861 m², locaux commerciaux avec belle hauteur en RDC, PMR (Puteaux, centre historique)",
+   "ville": "Puteaux",
+   "adresse": "Rue Pitois, 92800 Puteaux",
+   "dept": "92",
+   "agence": "CSI",
+   "url": "https://www.bureauxlocaux.com/annonce/a-vendre-locaux-commerciaux--43124606",
+   "prix": 1700000,
+   "surface": 861,
+   "erp": "verifier",
+   "erpDetail": "Classement ERP non cité. Actif indépendant de deux lots communicants (RDC + R+1 + mezzanine + sous-sol), « très belle HSP en rez-de-chaussée », plusieurs accès sur rue, PMR, peu de contraintes d'aménagement",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Tram",
+     "ligne": "T2",
+     "station": "Puteaux",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Transilien",
+     "ligne": "L",
+     "station": "Puteaux",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "analyseV": "Local à transformer. L'annonce indique un « actif indépendant » avec « très belle HSP en rez-de-chaussée », plusieurs accès sur rue et PMR. Type V non confirmé : classement ERP, répartition des surfaces par niveau et PLU à vérifier.",
+   "notes": "Bâtiment de caractère au cœur du quartier historique de Puteaux, à quelques minutes de la gare (L, U, T2). Prix bas pour le secteur (environ 1 974 €/m²) : surface par niveau et état à vérifier. Environnement résidentiel. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43124606",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "X"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "boulogne-vieux-pont-de-sevres-salle-boxe-occupee-289",
+   "titre": "Murs occupés d'une salle de boxe et fitness de 289 m² (RDC + sous-sol), bail de 10 ans (Boulogne-Billancourt)",
+   "ville": "Boulogne-Billancourt",
+   "adresse": "154 Rue Du Vieux Pont De Sèvres, 92100 Boulogne-Billancourt",
+   "dept": "92",
+   "agence": "Agences de France",
+   "url": "https://www.bureauxlocaux.com/annonce/local-commercial-boulogne-billancourt-289m2--43172604",
+   "prix": 1245000,
+   "surface": 289,
+   "erp": "verifier",
+   "erpDetail": "Catégorie ERP non citée. Local commercial d'angle « loué à une société de boxe et fitness » : RDC 211,89 m² + sous-sol 77,39 m² ; bail commercial de 10 ans depuis le 23/12/2024, loyer annuel 72 231,64 € HT ; deux parkings extérieurs",
+   "erpSource": "« Un local commercial loué à une société de boxe et fitness. » — https://www.bureauxlocaux.com/annonce/local-commercial-boulogne-billancourt-289m2--43172604",
+   "profil": "salle",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "occupe": true,
+   "analyseV": "Salle recevant du public (sport, type X en exploitation). L'annonce indique « Un local commercial loué à une société de boxe et fitness » avec un bail de 10 ans. Type V non envisageable à court terme : murs vendus occupés.",
+   "notes": "Murs vendus occupés (bail commercial de 10 ans depuis décembre 2024, rendement brut d'environ 5,8 %) : investissement, pas d'usage personnel possible avant la fin du bail. Prix d'environ 4 308 €/m². Rare activité sportive en exploitation dans le 92. Annonce ouverte et vérifiée le 14/11/2026.",
+   "nouveau": true,
+   "ajoute": 1794636113563,
+   "vu": "2026-11-14",
+   "ref": "43172604",
+   "typesDeclares": [
+    "X"
+   ],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "W"
+   ],
+   "nature": "murs_occupes"
   }
- ]
+ ],
+ "veille": {
+  "date": "14/11/2026",
+  "statut": "ok",
+  "ajouts": 14,
+  "message": "Veille du 14/11/2026 : 14 nouvelles annonces vérifiées (BureauxLocaux, ParuVendu), 362 → 376 annonces."
+ }
 }
