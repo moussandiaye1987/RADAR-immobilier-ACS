@@ -54,8 +54,11 @@ async function lancer(executablePath) {
     const puce = (zone, texte) => page.locator(`#${zone} button`, { hasText: texte }).first();
 
     const nArch = data.rows.filter(r => r.archive).length;
-    verifier('bandeau', (await page.textContent('#snap')).trim(),
-      `Données relevées le ${data.date} (${data.rows.length - nArch} annonces actives${nArch ? `, ${nArch} archivées` : ''}).`);
+    // Le bandeau peut être suivi de « Dernière veille : … » quand annonces.json contient le bloc `veille`.
+    const bandeau = `Données relevées le ${data.date} (${data.rows.length - nArch} annonces actives${nArch ? `, ${nArch} archivées` : ''}).`;
+    const snap = (await page.textContent('#snap')).trim();
+    verifier('bandeau', snap.startsWith(bandeau) ? bandeau : snap, bandeau);
+    if (data.veille) verifier('bandeau : dernière veille', snap.includes(`Dernière veille : ${data.veille.date}`), true);
     verifier('titre de la page', await page.title(), 'Radar ERP — Île-de-France');
     verifier('titre principal', (await page.textContent('h1')).trim(), 'Radar ERP — Île-de-France');
     verifier('annonces affichées (filtres par défaut)', await compte(), parDefaut.length);
