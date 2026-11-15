@@ -10,7 +10,18 @@
     "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
     "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249"
    ],
-   "note": "1 467 m² = 1 196 m² d'activité + 271 m² de logement ; offre aussi à la location"
+   "note": "1 467 m² = 1 196 m² d'activité + 271 m² de logement ; offre aussi à la location",
+   "preuves": {
+    "date": "2026-11-15",
+    "fiches_ouvertes": [
+     "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
+     "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249"
+    ],
+    "constat": "les deux fiches redirigent vers la page de recherche « villeneuve-le-roi-94290/vente-entrepots » : annonces retirées de BureauxLocaux",
+    "concordances": [],
+    "ecarts": [],
+    "conclusion": "comparaison impossible ; statut laissé « probable »"
+   }
   },
   "montlhery-local-independant-1621": {
    "agence": "EOL (et SCAMAC-IMMO, même surface et même prix)",
@@ -26,7 +37,15 @@
    "urls": [
     "https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774"
    ],
-   "note": "titre 1 847 m², texte « deux cellules de 1 480 m² » : surface à confirmer"
+   "note": "titre 1 847 m², texte « deux cellules de 1 480 m² » : surface à confirmer",
+   "preuves": {
+    "date": "2026-11-15",
+    "fiche_ouverte": "https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774",
+    "constat": "la fiche redirige vers la page de recherche « mareuil-les-meaux-77100/vente-commerces » : annonce retirée de BureauxLocaux",
+    "concordances": [],
+    "ecarts": [],
+    "conclusion": "comparaison impossible ; statut laissé « probable »"
+   }
   },
   "saint-ouen-l-aumone-vert-galant-1500": {
    "agence": "OPE Immo",
