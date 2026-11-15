@@ -1,17 +1,22 @@
 {
- "cible": "Radar ERP Type V : locaux à vendre pouvant accueillir un lieu de culte (Île-de-France)",
+ "cible": "Radar ERP — Île-de-France, tous types d'ERP : locaux à VENDRE pouvant recevoir du public (75, 77, 78, 91, 92, 93, 94, 95)",
  "mots_cles": [
+  "local ERP vente",
+  "ERP 5e catégorie à vendre",
+  "murs commerciaux à vendre",
+  "local commercial vente",
+  "immeuble mixte commerce vente",
+  "salle de réception à vendre",
+  "salle polyvalente à vendre",
+  "restaurant murs à vendre",
+  "hôtel murs à vendre",
+  "crèche ou école murs à vendre",
+  "salle de sport murs à vendre",
+  "cabinet médical murs à vendre",
   "lieu de culte à vendre",
-  "ancienne église",
-  "chapelle à vendre",
-  "salle de prière",
-  "salle des fêtes à vendre",
-  "salle polyvalente",
-  "local associatif",
-  "équipement d'intérêt collectif",
-  "ERP type V"
+  "local d'activité grande hauteur vente"
  ],
- "verifie_le": "2026-11-09",
+ "verifie_le": "2026-11-15",
  "bureauxlocaux": {
   "acces": "ok",
   "base": "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces",
@@ -74,7 +79,7 @@
   "www.leboncoin.fr": "Protection anti-robots DataDome.",
   "www.logic-immo.com": "Protection anti-robots DataDome.",
   "www.ght-immo.com": "Non autorisé dans l'environnement (annonces reprises sur BureauxLocaux).",
-  "www.seloger-bureaux-commerces.com": "Non autorisé dans l'environnement."
+  "www.seloger-bureaux-commerces.com": "Autorisé par le réseau depuis le 14/11/2026, mais réponse 403 avec CAPTCHA (protection anti-robots) : ne pas contourner. Aucun flux, alerte ou API officiels en lecture trouvés (seulement des extracteurs tiers non autorisés). Voie autorisée : les mêmes agences publient souvent sur BureauxLocaux (déjà collecté) ou sur leur propre site. Les annonces existantes de ce site restent « non vérifiables »."
  },
  "ventes_publiques": {
   "acces": "bloque",
@@ -86,5 +91,67 @@
    "www.licitor.com",
    "www.interencheres.com"
   ]
+ },
+ "foncia": {
+  "acces": "ok (testé le 15/11/2026, HTML rendu côté serveur)",
+  "recherche": [
+   "https://fr.foncia.com/achat/ile-de-france/local-commercial",
+   "https://fr.foncia.com/achat/ile-de-france/immeuble"
+  ],
+  "pagination": "/page-N (ex. …/local-commercial/page-2)",
+  "origine": "liens de https://fr.foncia.com/achat/ile-de-france, page citée par le sitemap https://fr.foncia.com/achat-listing.xml",
+  "lecture": "15 annonces par page dans le HTML : prix, « À vendre », type, m², commune, code postal, lien vers la fiche (/achat/<ville>-<cp>/<type>/<numero>.htm)",
+  "remarque": "robots.txt interdit les URL avec paramètres (/*?) : n'utiliser que ces chemins. Beaucoup de lots < 150 m² : filtrer la surface. Ouvrir chaque fiche retenue."
+ },
+ "laforet": {
+  "acces": "ok (testé le 15/11/2026, HTML ; les mentions « recaptcha » ne concernent que les formulaires)",
+  "recherche": {
+   "local_commercial": "https://www.laforet.com/departement/achat-local-commercial-{departement}",
+   "bureau": "https://www.laforet.com/departement/achat-bureau-{departement}",
+   "national": [
+    "https://www.laforet.com/acheter/achat-local-commercial",
+    "https://www.laforet.com/acheter/achat-bureau"
+   ]
+  },
+  "departements_vus": {
+   "local_commercial": [
+    "paris",
+    "seine-et-marne",
+    "essonne",
+    "hauts-de-seine",
+    "seine-saint-denis",
+    "val-de-marne",
+    "val-doise"
+   ],
+   "bureau": [
+    "paris",
+    "seine-et-marne",
+    "yvelines",
+    "essonne",
+    "hauts-de-seine",
+    "seine-saint-denis",
+    "val-de-marne",
+    "val-doise"
+   ]
+  },
+  "pagination": "?page=N (40 annonces par page)",
+  "origine": "liens de l'accueil https://www.laforet.com/ et des pages nationales achat-local-commercial / achat-bureau",
+  "lecture": "titre de fiche = type, ville, m², prix ; corps : « Référence web », « Référence Agence », description",
+  "remarque": "Ne PAS utiliser /acheter/rechercher?filter[...] : les filtres ne sont pas appliqués côté serveur (tout le stock, surtout des logements). Beaucoup de petites boutiques (< 150 m²) ; « bureau » peut désigner une maison à usage mixte et « immeuble » un immeuble surtout d'habitation : vérifier la fiche. Aucune fiche testée ne mentionnait l'ERP : « ERP à vérifier »."
+ },
+ "fnaim": {
+  "acces": "ok (testé le 15/11/2026, HTML)",
+  "recherche": "https://www.fnaim.fr/liste-annonces-immobilieres/17-acheter-localcommercial-ile-de-france.htm",
+  "origine": "lien de https://www.fnaim.fr/liste-annonces-immobilieres/17-acheter-localcommercial-montreuil-93100.htm, page citée par le sitemap SIT_FNAIM_annoncesVilleVenteLocalCommercial_0.xml (sitemapindex.xml de robots.txt)",
+  "lecture": "25 annonces par page (116 au 15/11/2026, 5 pages) ; chaque carte : data-title (type, m², ville, CP), data-id ; prix souvent absent de la liste : ouvrir la fiche",
+  "remarque": "Autres types seulement par ville (17-acheter-localprofessionnel-, -immeuble-, -commerce-, -localindustriel-<ville>-<cp>.htm). Piège fréquent : cession d'activité ou fonds présentée comme « local commercial », biens vendus occupés, « nous consulter pour le prix » (prix null, l'annonce reste ambiguë)."
+ },
+ "eol": {
+  "acces": "ok (testé le 15/11/2026, HTML encodé windows-1252)",
+  "recherche": "https://www.eol.fr/recherche.php?lot_mandat%5Bvente%5D=1&lot_categorie%5Bcommerce%5D=1&lot_categorie%5Bbureaux%5D=1&lot_categorie%5Bentrepot%5D=1&bien_surface_min=150&biensubmit=form",
+  "pagination": "&start=25, 50, …",
+  "origine": "champs du formulaire réel #biens_search (action /recherche.php) de https://www.eol.fr/commerce.php ; le serveur redirige vers recherche.php?search_id=…",
+  "lecture": "liens de fiches /…/annonce-<numero>…-<departement>.html : garder seulement 75, 77, 78, 91, 92, 93, 94, 95 (la recherche couvre aussi d'autres départements)",
+  "remarque": "Surtout activité, entrepôts, bureaux. Fiches souvent « location ET vente » ou titre interne contradictoire : nature « vente_ou_location » à confirmer. Les pages /vente-commerce.html, /vente-bureaux.html ne couvrent presque pas l'Île-de-France."
  }
 }
