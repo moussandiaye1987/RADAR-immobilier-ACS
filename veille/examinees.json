@@ -994,5 +994,41 @@
   "decision": "ecartee",
   "motif": "Surface réelle 78,1 m² (781 m² dans les données), sous le seuil",
   "_id": ""
+ },
+ "40636841": {
+  "date": "2026-11-15",
+  "decision": "retenue",
+  "motif": "Bâtiment commercial indépendant de plain-pied vendu libre",
+  "_id": "claye-souilly-batiment-commercial-independant-plain-pied-380"
+ },
+ "42855834": {
+  "date": "2026-11-15",
+  "decision": "retenue",
+  "motif": "Local d'activité 586 m² plain-pied",
+  "_id": "saint-thibault-des-vignes-local-activite-hsp5-586"
+ },
+ "39236544": {
+  "date": "2026-11-15",
+  "decision": "retenue",
+  "motif": "Bâtiment indépendant d'activités 2 167 m²",
+  "_id": "meaux-zi-nord-batiment-independant-activite-2167"
+ },
+ "42855865": {
+  "date": "2026-11-15",
+  "decision": "doublon",
+  "motif": "Même bien que EOL n° 82673 (Montévrain, Innovespace, 580 m²), ajouté depuis EOL",
+  "_id": "montevrain-innovespace-activite-hsp8-580"
+ },
+ "40265513": {
+  "date": "2026-11-15",
+  "decision": "ecartee",
+  "motif": "Données incohérentes : titre 415 m², données 1 903 m², prix 413 000 € ; à revérifier",
+  "_id": ""
+ },
+ "40694034": {
+  "date": "2026-11-15",
+  "decision": "ecartee",
+  "motif": "Location seule (« vous propose en location »)",
+  "_id": ""
  }
 }
