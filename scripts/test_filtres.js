@@ -15,9 +15,10 @@ const nonVendues = data.rows.filter(r => r.statut !== 'vendu');
 const visibles = nonVendues.filter(r => !r.archive);
 const archivees = nonVendues.filter(r => r.archive);
 // Classement ERP affiché (même règle que statut() dans index.html) : « ERP à vérifier » tant qu'aucun type n'est confirmé.
-const STATUTS = [['declare', 'ERP déclaré (type confirmé)', 'l'], ['V', 'Type V confirmé', 'v'], ['L', 'Type L confirmé', 'l'], ['verifier', 'ERP à vérifier', 'chk']];
+const STATUTS = [['declare', 'ERP déclaré (type cité ou activité exploitée)', 'l'], ['V', 'Type V confirmé', 'v'], ['L', 'Type L confirmé', 'l'], ['verifier', 'ERP à vérifier', 'chk']];
 const declares = r => { const d = [...(r.typesDeclares || [])]; if ((r.erp === 'V' || r.erp === 'L') && !d.includes(r.erp)) d.push(r.erp); return d; };
-const statut = r => (r.erp === 'V' || r.erp === 'L' ? r.erp : (declares(r).length ? 'declare' : 'verifier'));
+const EXPLICITE = l => new RegExp(`\\b(?:[Tt]ypes?|TYPES?)\\s+(?:[A-Z]{1,2}\\s*(?:,|et|ET|&)\\s*)*${l}\\b|\\bERP\\s+(?:[1-5]\\s+)?(?:TYPE\\s+)?${l}\\b`);
+const statut = r => ((r.erp === 'V' || r.erp === 'L') && EXPLICITE(r.erp).test(r.erpSource || '') ? r.erp : (declares(r).length ? 'declare' : 'verifier'));
 const etiquette = r => (statut(r) === 'declare' ? `ERP déclaré : type ${declares(r).join(', ')}` : Object.fromEntries(STATUTS.map(([k, l]) => [k, l]))[statut(r)]);
 const PROFILS = [['culte', 'Lieu de culte ou bâtiment religieux'], ['associatif', 'Salle des fêtes, polyvalente ou associative'],
                  ['salle', 'Salle recevant du public'], ['transformable', 'Local à transformer']];
@@ -161,7 +162,7 @@ async function lancer(executablePath) {
     verifier('annonces sans position', await page.getAttribute('#mapInfo', 'data-unlocated'), '0');
     verifier('repères regroupés (grappes visibles)', (await page.locator('.marker-cluster').count()) > 0, true);
     verifier('légende de la carte (classement ERP)', (await page.$$eval('.maplegend span', ls => ls.map(l => l.textContent.trim()))).join(' | '),
-      'ERP déclaré (type confirmé) | Type V confirmé | ERP à vérifier');
+      'ERP déclaré (type cité ou activité exploitée) | Type V confirmé | ERP à vérifier');
     verifier('attribution OpenStreetMap affichée', (await page.locator('.leaflet-control-attribution').textContent()).includes('OpenStreetMap'), true);
 
     // Synchronisation avec chaque famille de filtres : le nombre de repères suit toujours le nombre d'annonces affichées.

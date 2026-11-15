@@ -139,6 +139,10 @@ def main():
             if r["statut"] == "vendu" and avant.get("statut") != "vendu" and i not in autorises:
                 erreurs.append(f"{i} : passée en « vendu » (masquée du site) sans autorisation")
             decision = migration.get(i, {})
+            # Nouveau statut « L » (« Type L confirmé ») : citation explicite du type L obligatoire ; une salle décrite ne suffit pas
+            # (elle se déclare dans typesDeclares, affichée « ERP déclaré : type L »).
+            if r["erp"] == "L" and avant.get("erp") != "L" and not T.L_EXPLICITE.search(r.get("erpSource") or ""):
+                erreurs.append(f"{i} : « Type L confirmé » sans citation explicite du type L dans erpSource (une salle décrite ne suffit pas)")
             if avant and r["erp"] != avant.get("erp") and i not in autorises and decision.get("erp_apres") != r["erp"]:
                 erreurs.append(f"{i} : statut ERP modifié ({avant.get('erp')} → {r['erp']}) : seule une décision du propriétaire le permet")
             if avant and r.get("archive") and not avant.get("archive") and i not in autorises and not decision.get("archive"):

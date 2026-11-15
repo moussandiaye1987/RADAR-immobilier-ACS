@@ -81,8 +81,9 @@ HYPOTHESE = re.compile(
 
 # Type écrit explicitement par l'annonce (« ERP de type V », « types L et V », « ERP V »…).
 def _type_explicite(lettre):
-    return re.compile(rf"\b[Tt]ypes?\s+(?:[A-Z]{{1,2}}\s*(?:,|et|&)\s*)*{lettre}\b|\bERP\s+{lettre}\b|"
-                      rf"\bcat[ée]gorie\s+[1-5]\s*,?\s*(?:de\s+)?[Tt]ype\s+{lettre}\b")
+    # « TYPE L » en capitales accepté (titres d'annonces) ; la lettre du type reste en majuscule.
+    return re.compile(rf"\b(?:[Tt]ypes?|TYPES?)\s+(?:[A-Z]{{1,2}}\s*(?:,|et|ET|&)\s*)*{lettre}\b|\bERP\s+(?:[1-5]\s+)?(?:TYPE\s+)?{lettre}\b|"
+                      rf"\b(?:cat[ée]gorie|CAT[ÉE]GORIE)\s+[1-5]\s*,?\s*(?:de\s+)?(?:[Tt]ype|TYPE)\s+{lettre}\b")
 
 
 V_EXPLICITE = _type_explicite("V")
