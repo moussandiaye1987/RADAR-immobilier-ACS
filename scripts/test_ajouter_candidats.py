@@ -369,6 +369,13 @@ class TypesErpAudit(unittest.TestCase):
         self.assertEqual(n(titre="Cession de fonds de commerce, restaurant"), "fonds")
         self.assertEqual(n(erpDetail="vente ou location"), "vente_ou_location")
         self.assertEqual(n(notes="3 parkings en location"), "vente")
+        self.assertEqual(n(notes="fiche « location/vente »"), "vente_ou_location")
+
+    def test_type_l_explicite_et_salle(self):
+        import type_v
+        self.assertTrue(type_v.L_EXPLICITE.search("VENTE MURS – VOLUME ERP 4 TYPE L"))
+        self.assertTrue(type_v.L_EXPLICITE.search("ERP de type L, 3e catégorie"))
+        self.assertFalse(type_v.L_EXPLICITE.search("salle de réception à l'étage"))
 
     def test_donnees_publiees(self):
         rows = lire_annonces()["rows"]

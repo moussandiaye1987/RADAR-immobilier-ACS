@@ -71,7 +71,7 @@ def nature_vente(r):
                                     r"investissement locatif|placement locatif|ensemble de rapport", t):
         return "murs_occupes"
     if re.search(r"vente ou (?:a la )?location|a vendre ou a louer|a louer ou a vendre|vente et (?:a )?la location|"
-                 r"location et (?:a )?la vente|a la location|\ba louer\b|vente/location|url[^.]{0,40}location", t):
+                 r"location et (?:a )?la vente|a la location|\ba louer\b|vente/location|location/vente|url[^.]{0,40}location", t):
         return "vente_ou_location"
     return "vente"
 
