@@ -52,12 +52,26 @@ Mots-clés de recherche : « lieu de culte à vendre », « ancienne église »,
    Il parcourt les 8 départements × 3 types (commerces, entrepôts, bureaux) et écrit `veille/.candidats.json`.
 2. **Geolocaux** (par département) et **ParuVendu** (Île-de-France) : lecture des pages de recherche
    avec `curl --compressed` ou le navigateur ; ne retenir que les annonces absentes du radar.
-3. **Cession PME**, **Bien'ici** : navigateur Playwright uniquement, en complément.
-4. **Ventes publiques et notariales** (Agorastore, cessions immobilières de l'État, Immonot, Licitor, Interenchères) :
+3. **Foncia**, **Laforêt**, **FNAIM**, **EOL** (vérifiés le 15/11/2026 ; pages exactes et pièges dans `veille/sources.json`) :
+   lecture des pages de liste avec `curl --compressed`, puis ouverture de chaque fiche retenue.
+   - Foncia : `/achat/ile-de-france/local-commercial` et `/achat/ile-de-france/immeuble` (pagination `/page-N`, jamais d'URL à paramètres).
+   - Laforêt : `/departement/achat-local-commercial-{département}` et `/departement/achat-bureau-{département}` ; ne pas utiliser `/acheter/rechercher?filter[…]`.
+   - FNAIM : `/liste-annonces-immobilieres/17-acheter-localcommercial-ile-de-france.htm` ; prix souvent absent de la liste.
+   - EOL : formulaire de recherche (vente, commerce + bureaux + entrepôt, ≥ 150 m²), puis garder seulement les fiches des 8 départements.
+   Ces sites publient beaucoup de petits lots, de fonds de commerce, de biens loués et d'immeubles surtout d'habitation :
+   appliquer strictement les critères (vente, ≥ 150 m², local pouvant recevoir du public, nature de la vente).
+4. **Cession PME**, **Bien'ici** : navigateur Playwright uniquement, en complément.
+5. **Ventes publiques et notariales** (Agorastore, cessions immobilières de l'État, Immonot, Licitor, Interenchères) :
    sources de premier ordre pour les chapelles, églises désacralisées et salles des fêtes vendues par les communes.
    **Bloquées dans l'environnement actuel** (voir `veille/sources.json`) : les consulter dès qu'elles sont autorisées.
-5. **PAP, SeLoger, Leboncoin, Logic-Immo** : protégés contre les robots. **Ne pas tenter de contourner**
-   ces protections. Les annonces existantes de ces sites sont conservées et signalées « non vérifiables ».
+6. **PAP, SeLoger, SeLoger Bureaux & Commerces, Leboncoin, Logic-Immo** : protégés contre les robots (SeLoger Bureaux &
+   Commerces répond 403 avec CAPTCHA). **Ne pas tenter de contourner** ces protections ni utiliser d'extracteur tiers.
+   Chercher plutôt la même offre sur BureauxLocaux ou sur le site de l'agence. Les annonces existantes de ces sites sont conservées et signalées « non vérifiables ».
+
+**Dédoublonnage entre sources** : un même bien est souvent publié par plusieurs agences et portails (BureauxLocaux,
+Foncia, Laforêt, FNAIM, EOL…). Avant tout ajout, comparer à `annonces.json` et aux ajouts du jour : même URL, même
+référence d'agence, ou même commune + surface à ±3 % + prix à ±3 %. En cas de doute, ne pas ajouter et le signaler
+dans le bilan (« doublon possible »).
 
 ## 3. Sélection et vérification des nouvelles annonces
 
