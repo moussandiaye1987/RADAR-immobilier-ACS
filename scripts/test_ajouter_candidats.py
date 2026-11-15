@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -297,16 +298,28 @@ class Integration(unittest.TestCase):
 
 
 class EquivalencesSitesProteges(unittest.TestCase):
-    """Une offre d'un site protégé (SeLoger B&C…) déjà sur le radar et republiée sur BureauxLocaux n'est jamais recréée."""
+    """Correspondances avec les sites protégés : seule « verifiee » exclut ; « probable » reste à examiner."""
 
-    def test_republication_bureauxlocaux_rejetee(self):
-        eq = A.numeros_equivalents()
-        self.assertEqual(eq.get("41900855"), "villeneuve-le-roi-plateau-1467")
-        c = cand(numero="41900855", url="https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
-                 ville="Villeneuve-le-Roi", dept="94", surface=1467, prix=1215000)
-        (s, _, d), avant = lancer([c])
-        self.assertEqual(len(s["rows"]), len(avant["rows"]))
-        self.assertTrue(any("site protégé" in m for m in d["rejets_par_motif"]), d["rejets_par_motif"])
+    def candidate(self):
+        return cand(numero="41900855", url="https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
+                    ville="Villeneuve-le-Roi", dept="94", surface=1467, prix=1215000)
+
+    def test_probable_reste_a_examiner(self):
+        self.assertEqual(A.numeros_equivalents().get("41900855"), ("villeneuve-le-roi-plateau-1467", "probable"))
+        (s, ex, d), avant = lancer([self.candidate()])
+        self.assertEqual(len(s["rows"]), len(avant["rows"]))                 # pas ajoutée…
+        self.assertFalse(any("vérifié" in m for m in d["rejets_par_motif"]))  # …ni rejetée comme doublon
+        motifs = [m for a in d["ambigues_non_publiees"] for m in a["motifs"]]
+        self.assertTrue(any("correspondance probable" in m for m in motifs), motifs)
+        self.assertNotIn("41900855", ex)                                     # reste à examiner les jours suivants
+
+    def test_verifiee_exclue_et_differente_ignoree(self):
+        for statut, attendu in (("verifiee", "rejet"), ("differente", None)):
+            with mock.patch.object(A, "numeros_equivalents", return_value=(
+                    {"41900855": ("villeneuve-le-roi-plateau-1467", statut)} if statut == "verifiee" else {})):
+                (s, _, d), avant = lancer([self.candidate()])
+            vu = any("même bien vérifié" in m for m in d["rejets_par_motif"])
+            self.assertEqual(vu, attendu == "rejet", statut)
 
     def test_fichier_equivalences_coherent(self):
         eq = json.loads((RACINE / "veille" / "equivalences.json").read_text(encoding="utf-8"))
@@ -315,6 +328,9 @@ class EquivalencesSitesProteges(unittest.TestCase):
             self.assertIn(i, ids, i)
             self.assertIn(e["statut"], ("probable", "verifiee", "differente"), i)
             self.assertTrue(all(u.startswith("https://") and A.numero_url(u) for u in e["urls"]), i)
+            if e["statut"] in ("verifiee", "differente"):                    # preuves obligatoires
+                p = e.get("preuves") or {}
+                self.assertTrue(p.get("date") and p.get("fiche_ouverte", "").startswith("https://") and p.get("concordances") is not None, i)
         self.assertTrue(set(eq["non_retrouvees"]) <= ids)
 
 

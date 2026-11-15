@@ -1,22 +1,42 @@
 {
- "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Le script d'ajout ne recrée jamais ces biens ; la routine vérifie chaque correspondance (fiche ouverte, même agence, surface, prix) et la signale dans le bilan. Aucune annonce existante n'est modifiée par ce fichier.",
+ "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Seul le statut « verifiee » exclut automatiquement une candidature comme doublon ; « probable » la garde « à examiner » (diagnostic) jusqu'à comparaison des fiches. Aucune annonce existante n'est modifiée par ce fichier.",
  "verifie_le": "2026-11-15",
- "statut_possible": "probable = trouvée par recherche web (titre, agence, surface, prix concordants), fiche non encore ouverte ; verifiee = fiche ouverte par la routine et concordante ; differente = ce n'est pas le même bien",
+ "statut_possible": "probable = ressemblance trouvée par recherche web (agence, commune, surface, prix), fiches non comparées : la candidature reste à examiner ; verifiee = fiche accessible ouverte et comparée, preuves consignées dans « preuves » : doublon certain, exclu automatiquement ; differente = ce n'est pas le même bien (preuves consignées)",
  "correspondances": {
-  "villeneuve-le-roi-plateau-1467": {"agence": "BNP Paribas Real Estate", "statut": "probable",
-   "urls": ["https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
-            "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249"],
-   "note": "1 467 m² = 1 196 m² d'activité + 271 m² de logement ; offre aussi à la location"},
-  "montlhery-local-independant-1621": {"agence": "EOL (et SCAMAC-IMMO, même surface et même prix)", "statut": "probable",
-   "urls": ["https://www.bureauxlocaux.com/annonce/a-vendre-localdactivite-independant-a-montlhery-91--39163549",
-            "https://www.bureauxlocaux.com/annonce/entrepot-de-1621m2--40893975"]},
-  "mareuil-les-meaux-cellules-erp-1847": {"agence": "Investisseur Immo", "statut": "probable",
-   "urls": ["https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774"],
-   "note": "titre 1 847 m², texte « deux cellules de 1 480 m² » : surface à confirmer"},
-  "saint-ouen-l-aumone-vert-galant-1500": {"agence": "OPE Immo", "statut": "probable",
-   "urls": ["https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42194230",
-            "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42128929"],
-   "note": "une des deux annonces semble proposer le bien à la location : nature à confirmer"}
+  "villeneuve-le-roi-plateau-1467": {
+   "agence": "BNP Paribas Real Estate",
+   "statut": "probable",
+   "urls": [
+    "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
+    "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249"
+   ],
+   "note": "1 467 m² = 1 196 m² d'activité + 271 m² de logement ; offre aussi à la location"
+  },
+  "montlhery-local-independant-1621": {
+   "agence": "EOL (et SCAMAC-IMMO, même surface et même prix)",
+   "statut": "probable",
+   "urls": [
+    "https://www.bureauxlocaux.com/annonce/a-vendre-localdactivite-independant-a-montlhery-91--39163549",
+    "https://www.bureauxlocaux.com/annonce/entrepot-de-1621m2--40893975"
+   ]
+  },
+  "mareuil-les-meaux-cellules-erp-1847": {
+   "agence": "Investisseur Immo",
+   "statut": "probable",
+   "urls": [
+    "https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774"
+   ],
+   "note": "titre 1 847 m², texte « deux cellules de 1 480 m² » : surface à confirmer"
+  },
+  "saint-ouen-l-aumone-vert-galant-1500": {
+   "agence": "OPE Immo",
+   "statut": "probable",
+   "urls": [
+    "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42194230",
+    "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42128929"
+   ],
+   "note": "une des deux annonces semble proposer le bien à la location : nature à confirmer"
+  }
  },
  "non_retrouvees": {
   "epinay-sur-seine-restaurant-350-places-915": "Realty'Z : aucune republication trouvée",
@@ -27,5 +47,6 @@
   "les-loges-en-josas-batiment-1200": "EOL : à chercher sur eol.fr (source accessible)",
   "chilly-mazarin-vigne-aux-loups-981": "EOL : à chercher sur eol.fr (source accessible)",
   "taverny-verdun-la-plaine-1090": "AVINIM Réseau Brokers : publie sur BureauxLocaux, non recherchée en détail"
- }
+ },
+ "preuves_requises": "Pour passer à « verifiee » ou « differente » : « preuves » = {\"date\": \"AAAA-MM-JJ\", \"fiche_ouverte\": URL, \"concordances\": [agence, référence, adresse, surface, prix, description…], \"ecarts\": [...]}. Commune + surface + prix seuls ne suffisent pas : il faut au moins une concordance propre au bien (référence d'agence, adresse, description ou photos identiques)."
 }

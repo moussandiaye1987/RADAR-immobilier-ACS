@@ -44,12 +44,15 @@ EQUIVALENCES = RACINE / "veille" / "equivalences.json"
 
 
 def numeros_equivalents():
-    """{numéro d'annonce accessible : _id du radar} pour les biens déjà sur le radar via un site protégé."""
+    """{numéro d'annonce accessible : (_id du radar, statut)} pour les biens du radar publiés sur un site protégé.
+
+    Seul le statut « verifiee » (fiches comparées, preuves consignées) vaut doublon certain ; « probable » n'est
+    qu'une ressemblance à examiner ; « differente » est ignoré."""
     try:
         eq = json.loads(EQUIVALENCES.read_text(encoding="utf-8")).get("correspondances", {})
     except (OSError, ValueError):
         return {}
-    return {n: i for i, e in eq.items() if e.get("statut") != "differente"
+    return {n: (i, e.get("statut")) for i, e in eq.items() if e.get("statut") in ("verifiee", "probable")
             for u in e.get("urls", []) if (n := numero_url(u))}
 DIAGNOSTIC = RACINE / "veille" / "diagnostic.json"
 
@@ -158,7 +161,12 @@ def evaluer(c, existantes, deja_ajoutees):
     # Doublons contre le radar actuel et contre les ajouts de cette exécution.
     num = numero_url(url)
     if num and num in EQUIV:
-        return "rejet", f"déjà sur le radar ({EQUIV[num]}, publiée sur un site protégé : veille/equivalences.json)"
+        ident, statut = EQUIV[num]
+        if statut == "verifiee":  # fiches comparées et preuves consignées : doublon certain
+            return "rejet", f"déjà sur le radar ({ident}, même bien vérifié : veille/equivalences.json)"
+        # « probable » : une ressemblance ne suffit pas ; candidature conservée, à examiner (jamais ajoutée ni rejetée ici)
+        motifs.append(f"correspondance probable avec {ident} (annonce d'un site protégé) : comparer les fiches "
+                      f"accessibles et consigner les preuves dans veille/equivalences.json")
     for r in existantes:
         if num and num == numero_url(r.get("url")):
             return "rejet", f"déjà sur le radar ({r['_id']})"
@@ -271,6 +279,7 @@ def retirer_nouveau_anciens(rows, date_iso):
 
 def executer(candidats, payload, examinees, date_iso, max_ajouts, ts):
     """Cœur testable : renvoie (nouveau_payload, examinees, diagnostic). N'écrit rien."""
+    EQUIV.clear()
     EQUIV.update(numeros_equivalents())
     rows = payload["rows"]
     ids = {r["_id"] for r in rows}
