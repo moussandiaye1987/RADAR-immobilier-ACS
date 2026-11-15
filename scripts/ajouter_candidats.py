@@ -40,6 +40,17 @@ from commun import DEPTS, RACINE, ecrire_annonces, lire_annonces
 
 CANDIDATS = RACINE / "veille" / ".candidats.json"
 EXAMINEES = RACINE / "veille" / "examinees.json"
+EQUIVALENCES = RACINE / "veille" / "equivalences.json"
+
+
+def numeros_equivalents():
+    """{numéro d'annonce accessible : _id du radar} pour les biens déjà sur le radar via un site protégé."""
+    try:
+        eq = json.loads(EQUIVALENCES.read_text(encoding="utf-8")).get("correspondances", {})
+    except (OSError, ValueError):
+        return {}
+    return {n: i for i, e in eq.items() if e.get("statut") != "differente"
+            for u in e.get("urls", []) if (n := numero_url(u))}
 DIAGNOSTIC = RACINE / "veille" / "diagnostic.json"
 
 SURFACE_MIN = 150
@@ -96,6 +107,9 @@ def numero_url(url):
     return m.group(1) if m else None
 
 
+EQUIV = {}  # rempli au chargement (voir plus bas) ; vide dans les tests sauf injection
+
+
 def evaluer(c, existantes, deja_ajoutees):
     """Renvoie ('ajout', infos) | ('ambigue', motifs) | ('rejet', motif)."""
     url = c.get("url") or ""
@@ -143,6 +157,8 @@ def evaluer(c, existantes, deja_ajoutees):
 
     # Doublons contre le radar actuel et contre les ajouts de cette exécution.
     num = numero_url(url)
+    if num and num in EQUIV:
+        return "rejet", f"déjà sur le radar ({EQUIV[num]}, publiée sur un site protégé : veille/equivalences.json)"
     for r in existantes:
         if num and num == numero_url(r.get("url")):
             return "rejet", f"déjà sur le radar ({r['_id']})"
@@ -255,6 +271,7 @@ def retirer_nouveau_anciens(rows, date_iso):
 
 def executer(candidats, payload, examinees, date_iso, max_ajouts, ts):
     """Cœur testable : renvoie (nouveau_payload, examinees, diagnostic). N'écrit rien."""
+    EQUIV.update(numeros_equivalents())
     rows = payload["rows"]
     ids = {r["_id"] for r in rows}
     nouvelles, ambigues, rejets = [], [], {}

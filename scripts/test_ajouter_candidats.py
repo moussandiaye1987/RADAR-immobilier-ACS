@@ -296,6 +296,28 @@ class Integration(unittest.TestCase):
             self.assertEqual(valider().returncode, 1, "modifier le statut d'une annonce existante doit être refusé")
 
 
+class EquivalencesSitesProteges(unittest.TestCase):
+    """Une offre d'un site protégé (SeLoger B&C…) déjà sur le radar et republiée sur BureauxLocaux n'est jamais recréée."""
+
+    def test_republication_bureauxlocaux_rejetee(self):
+        eq = A.numeros_equivalents()
+        self.assertEqual(eq.get("41900855"), "villeneuve-le-roi-plateau-1467")
+        c = cand(numero="41900855", url="https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
+                 ville="Villeneuve-le-Roi", dept="94", surface=1467, prix=1215000)
+        (s, _, d), avant = lancer([c])
+        self.assertEqual(len(s["rows"]), len(avant["rows"]))
+        self.assertTrue(any("site protégé" in m for m in d["rejets_par_motif"]), d["rejets_par_motif"])
+
+    def test_fichier_equivalences_coherent(self):
+        eq = json.loads((RACINE / "veille" / "equivalences.json").read_text(encoding="utf-8"))
+        ids = {r["_id"] for r in lire_annonces()["rows"]}
+        for i, e in eq["correspondances"].items():
+            self.assertIn(i, ids, i)
+            self.assertIn(e["statut"], ("probable", "verifiee", "differente"), i)
+            self.assertTrue(all(u.startswith("https://") and A.numero_url(u) for u in e["urls"]), i)
+        self.assertTrue(set(eq["non_retrouvees"]) <= ids)
+
+
 class TypesErpAudit(unittest.TestCase):
     """Audit du 14/11/2026 : pas de potentiel « V » déduit d'un simple volume ; nature de la vente."""
 

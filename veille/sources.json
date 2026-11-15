@@ -153,5 +153,11 @@
   "origine": "champs du formulaire réel #biens_search (action /recherche.php) de https://www.eol.fr/commerce.php ; le serveur redirige vers recherche.php?search_id=…",
   "lecture": "liens de fiches /…/annonce-<numero>…-<departement>.html : garder seulement 75, 77, 78, 91, 92, 93, 94, 95 (la recherche couvre aussi d'autres départements)",
   "remarque": "Surtout activité, entrepôts, bureaux. Fiches souvent « location ET vente » ou titre interne contradictoire : nature « vente_ou_location » à confirmer. Les pages /vente-commerce.html, /vente-bureaux.html ne couvrent presque pas l'Île-de-France."
+ },
+ "sites_proteges_strategie": {
+  "principe": "Le portail d'origine reste bloqué (CAPTCHA, protection anti-robots) : on ne le contourne pas. On récupère l'offre par une source accessible publiant la même annonce.",
+  "republications": "BureauxLocaux (collecté chaque jour) republie la plupart des agences présentes sur SeLoger Bureaux & Commerces ; vérifié par recherche web le 15/11/2026 pour BNP Paribas RE, EOL, Investisseur Immo, Jauly, OPE Immo. Correspondances : veille/equivalences.json.",
+  "alertes_officielles": "SeLoger / SeLoger Bureaux & Commerces, PAP, Leboncoin, Logic-Immo, BureauxLocaux, ParuVendu proposent des alertes e-mail gratuites avec un compte personnel. Non activé : la routine n'a pas accès à une messagerie (voir veille/AUDIT_2026-11-14.md et le message du 15/11/2026).",
+  "api_flux": "Aucune API ni flux RSS officiels en lecture trouvés pour SeLoger Bureaux & Commerces ; les « API » trouvées sont des extracteurs tiers (Apify, XCrawl) : exclus."
  }
 }

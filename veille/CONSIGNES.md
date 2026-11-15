@@ -66,7 +66,11 @@ Mots-clés de recherche : « lieu de culte à vendre », « ancienne église »,
    **Bloquées dans l'environnement actuel** (voir `veille/sources.json`) : les consulter dès qu'elles sont autorisées.
 6. **PAP, SeLoger, SeLoger Bureaux & Commerces, Leboncoin, Logic-Immo** : protégés contre les robots (SeLoger Bureaux &
    Commerces répond 403 avec CAPTCHA). **Ne pas tenter de contourner** ces protections ni utiliser d'extracteur tiers.
-   Chercher plutôt la même offre sur BureauxLocaux ou sur le site de l'agence. Les annonces existantes de ces sites sont conservées et signalées « non vérifiables ».
+   Chercher plutôt la même offre sur BureauxLocaux ou sur le site de l'agence : la plupart des agences de SeLoger Bureaux &
+   Commerces (BNP Paribas RE, EOL, Investisseur Immo, Jauly, OPE Immo, Point de Vente, Avinim…) publient aussi sur
+   BureauxLocaux. Les correspondances connues sont dans `veille/equivalences.json` : le script d'ajout ne recrée jamais
+   ces biens. Quand la routine ouvre une republication et la trouve concordante (agence, surface, prix), elle passe son
+   statut de « probable » à « verifiee » (ou « differente ») et l'indique dans le bilan, sans modifier l'annonce existante. Les annonces existantes de ces sites sont conservées et signalées « non vérifiables ».
 
 **Dédoublonnage entre sources** : un même bien est souvent publié par plusieurs agences et portails (BureauxLocaux,
 Foncia, Laforêt, FNAIM, EOL…). Avant tout ajout, comparer à `annonces.json` et aux ajouts du jour : même URL, même
