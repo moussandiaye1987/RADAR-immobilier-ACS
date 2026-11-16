@@ -1,6 +1,6 @@
 {
  "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Seul le statut « verifiee » exclut automatiquement une candidature comme doublon ; « probable » la garde « à examiner » (diagnostic) jusqu'à comparaison des fiches. Aucune annonce existante n'est modifiée par ce fichier.",
- "verifie_le": "2026-11-15",
+ "verifie_le": "2026-11-16",
  "statut_possible": "probable = ressemblance trouvée par recherche web (agence, commune, surface, prix), fiches non comparées : la candidature reste à examiner ; verifiee = fiche accessible ouverte et comparée, preuves consignées dans « preuves » : doublon certain, exclu automatiquement ; differente = ce n'est pas le même bien (preuves consignées)",
  "correspondances": {
   "villeneuve-le-roi-plateau-1467": {
@@ -25,11 +25,25 @@
   },
   "montlhery-local-independant-1621": {
    "agence": "EOL (et SCAMAC-IMMO, même surface et même prix)",
-   "statut": "probable",
+   "statut": "verifiee",
    "urls": [
     "https://www.bureauxlocaux.com/annonce/a-vendre-localdactivite-independant-a-montlhery-91--39163549",
     "https://www.bureauxlocaux.com/annonce/entrepot-de-1621m2--40893975"
-   ]
+   ],
+   "preuves": {
+    "date": "2026-11-16",
+    "fiche_ouverte": "https://www.bureauxlocaux.com/annonce/a-vendre-localdactivite-independant-a-montlhery-91--39163549",
+    "concordances": [
+     "même agence (EOL Paris IDF)",
+     "référence d'agence de même racine : radar SLg21U94SB (SeLoger B&C), BureauxLocaux BLg21U94TB",
+     "même surface (1 621 m²) et même prix (1 500 000 €)",
+     "même description : local d'activité indépendant, parcelle de plus de 4 000 m², hauteur jusqu'à 4 m, 3 accès de plain-pied, division possible, travaux à prévoir"
+    ],
+    "ecarts": [
+     "la seconde URL (BL 40893975, SCAMAC-IMMO) redirige vers la page de recherche « montlhery-91310/vente-entrepots » : annonce retirée"
+    ],
+    "conclusion": "même bien : doublon certain, BL 39163549 ne doit pas être ajoutée"
+   }
   },
   "mareuil-les-meaux-cellules-erp-1847": {
    "agence": "Investisseur Immo",
@@ -54,7 +68,41 @@
     "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42194230",
     "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42128929"
    ],
-   "note": "une des deux annonces semble proposer le bien à la location : nature à confirmer"
+   "note": "une des deux annonces semble proposer le bien à la location : nature à confirmer",
+   "preuves": {
+    "date": "2026-11-16",
+    "fiches_ouvertes": [
+     "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42194230",
+     "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42128929"
+    ],
+    "constat": "les deux fiches redirigent vers la page de recherche « saint-ouen-l-aumone-95310/vente-entrepots » : annonces retirées de BureauxLocaux",
+    "concordances": [],
+    "ecarts": [],
+    "conclusion": "comparaison impossible ; statut laissé « probable »"
+   }
+  },
+  "chaville-487": {
+   "agence": "Immprove Commerce (BureauxLocaux) ; radar : particulier (PAP)",
+   "statut": "probable",
+   "urls": [
+    "https://www.bureauxlocaux.com/annonce/vente-commerce-chaville-92370--42354288"
+   ],
+   "note": "trouvée le 16/11/2026 dans la collecte BureauxLocaux",
+   "preuves": {
+    "date": "2026-11-16",
+    "fiche_ouverte": "https://www.bureauxlocaux.com/annonce/vente-commerce-chaville-92370--42354288",
+    "concordances": [
+     "même commune (Chaville), même surface exacte (487 m²)",
+     "même usage passé : ancienne crèche (radar : « ancienne crèche » ; BL : « Longtemps exploité par une crèche »)",
+     "mêmes gares citées (Chaville-Rive-Droite, ligne L ; Rive-Gauche, ligne N)"
+    ],
+    "ecarts": [
+     "radar : 1er étage, 22 rue de la Fontaine Henri IV ; BL : « bâtiment indépendant », « Surface RDC : 487 m² », adresse non publiée",
+     "prix : 1 950 000 € (PAP, relevé du 06/10/2026) contre 2 235 000 € (BL, honoraires 5 % HT en sus)",
+     "annonce PAP non vérifiable (protection anti-robots)"
+    ],
+    "conclusion": "ressemblance forte mais niveau et prix différents, aucune référence ni adresse commune : statut « probable », non ajoutée"
+   }
   }
  },
  "non_retrouvees": {

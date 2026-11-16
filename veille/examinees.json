@@ -1390,5 +1390,371 @@
   "decision": "ecartee",
   "motif": "BL : plateaux de bureaux en étage, immeuble « classé ERP 2 », 6 375 000 € (> 6 M€) : soumis au propriétaire",
   "_id": ""
+ },
+ "39876997": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "paris19-buttes-chaumont-local-sous-plex-salle-sport-vestiaires-235"
+ },
+ "42563196": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "boulogne-marcel-sembat-boutique-rdc-sous-sol-erp-520"
+ },
+ "37003049": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "paris18-clignancourt-local-commercial-vitrine-pmr-erp-169"
+ },
+ "41588723": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "asnieres-local-commercial-neuf-vitrines-hsp-3m50-concepts-sportifs-1501"
+ },
+ "42978411": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "paris15-javel-bureaux-erp-pmr-commercialite-290"
+ },
+ "41212893": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "boulogne-longs-pres-bureaux-rez-de-jardin-possible-erp-401"
+ },
+ "43058093": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "paris18-ramey-local-commercial-cabinet-medical-2-niveaux-205"
+ },
+ "42415937": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "boulogne-sevres-bureaux-plain-pied-cour-15-parkings-potentiel-erp-458"
+ },
+ "40691988": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "malakoff-raspail-immeuble-independant-r2-jardin-726"
+ },
+ "42832953": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "paris15-docteur-roux-immeuble-independant-r1-capacitaire-50-erp-possible-358"
+ },
+ "42359181": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "BL : ajoutée au radar",
+  "_id": "boulogne-porte-saint-cloud-locaux-rdc-vitrine-issue-secours-pmr-216"
+ },
+ "91775": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "joinville-le-pont-batiment-bureaux-hall-accueil-plain-pied-600"
+ },
+ "96179": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "l-hay-les-roses-immeuble-bureaux-21-parkings-1237"
+ },
+ "91838": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "saint-maur-local-activite-independant-verriere-rer-a-448"
+ },
+ "90341": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "champigny-local-activite-bureaux-hsp-4-5m-556"
+ },
+ "107777": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "gennevilliers-louvresses-local-neuf-activite-bureaux-hall-195-1820"
+ },
+ "112055": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "buchelay-local-activite-hall-accueil-48-pmr-350"
+ },
+ "10317": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "le-plessis-pate-batiment-independant-terrain-1500-527"
+ },
+ "95752": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "combs-la-ville-batiment-independant-activite-terrain-400-364"
+ },
+ "99670": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "plaisir-batiment-activite-site-clos-espaces-sociaux-465"
+ },
+ "51738": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "croissy-beaubourg-local-activite-bureaux-hsp-4-5m-1111"
+ },
+ "104805": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "tremblay-aerolians-local-activite-hsp-4-20-1971"
+ },
+ "62296": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "villebon-courtaboeuf-local-activite-hsp-7m-213"
+ },
+ "146787": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "pontault-combault-local-activite-bureaux-hsp-4-6m-rer-e-200"
+ },
+ "23530": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "chelles-tuilerie-local-activite-hsp-7m-vente-ou-location-350"
+ },
+ "13429": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "varennes-jarcy-local-activite-terrain-2000-620"
+ },
+ "137505": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "EOL : ajoutée au radar",
+  "_id": "evry-aunettes-local-activite-bureaux-2-niveaux-273"
+ },
+ "1297454220": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "ParuVendu : ajoutée au radar",
+  "_id": "dammartin-en-serve-murs-deux-salles-polyvalentes-reception-parcelle-4806-610"
+ },
+ "1287155985": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "ParuVendu : ajoutée au radar",
+  "_id": "houilles-centre-murs-et-fonds-commerce-extension-possible-196"
+ },
+ "1294764679": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "ParuVendu : ajoutée au radar",
+  "_id": "croissy-sur-seine-centre-bureaux-commerciaux-reserve-8-places-159"
+ },
+ "1295784192": {
+  "date": "2026-11-16",
+  "decision": "retenue",
+  "motif": "ParuVendu : ajoutée au radar",
+  "_id": "saint-ouen-puces-vernaison-murs-commerciaux-libres-2-boutiques-225"
+ },
+ "42359196": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : même bien que BL 42415937 (51 rue de Sèvres, Boulogne, 459 m², 3,2 M€), autre agence",
+  "_id": "boulogne-sevres-bureaux-plain-pied-cour-15-parkings-potentiel-erp-458"
+ },
+ "42356667": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : même bien que BL 42356663 (Levallois 328 m², Immprove, autre référence)",
+  "_id": ""
+ },
+ "42356663": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : doublon possible de levallois-perret-rdc-307 (RDC, plusieurs entrées, vente ou location, 2,1 M€ / 2,145 M€) : non ajoutée, à confirmer",
+  "_id": "levallois-perret-rdc-307"
+ },
+ "42725549": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : même offre que EOL 107777 (Gennevilliers 1 820 m², 4,19 M€)",
+  "_id": "gennevilliers-louvresses-local-neuf-activite-bureaux-hall-195-1820"
+ },
+ "42432532": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : même offre que EOL 107777",
+  "_id": "gennevilliers-louvresses-local-neuf-activite-bureaux-hall-195-1820"
+ },
+ "42478602": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : même offre que EOL 107777",
+  "_id": "gennevilliers-louvresses-local-neuf-activite-bureaux-hall-195-1820"
+ },
+ "42354288": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : correspondance probable avec chaville-487 (PAP) : ancienne crèche de 487 m² à Chaville ; écarts RDC/1er étage et prix ; non ajoutée",
+  "_id": "chaville-487"
+ },
+ "39746411": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "BL : doublon possible de clamart-carnets-creche-237 (RDC neuf petite enfance/médical, 230 m² ERP 5e cat., 739 722 € contre 237 m² 550 000 €) : non ajoutée",
+  "_id": "clamart-carnets-creche-237"
+ },
+ "48326": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : même bien que gretz-armainvilliers-eol-910 (EOL, 849 m² annoncés, 1,5 M€)",
+  "_id": "gretz-armainvilliers-eol-910"
+ },
+ "52915": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : doublon possible de torcy-evolis-900 (917 m² / 900 m², même prix 1 150 000 €) : non ajoutée",
+  "_id": "torcy-evolis-900"
+ },
+ "109072": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : doublon possible de palaiseau-cbre-983 (bâtiment mixte, 1 025 m² / 983 m², 1,6 M€ / 1,3 M€) : non ajoutée",
+  "_id": "palaiseau-cbre-983"
+ },
+ "8136": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : même bien que montreuil-mozinor-1080",
+  "_id": "montreuil-mozinor-1080"
+ },
+ "78944": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : même bien que chilly-mazarin-vigne-aux-loups-981",
+  "_id": "chilly-mazarin-vigne-aux-loups-981"
+ },
+ "25255": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : même bien que les-loges-en-josas-croix-blanche-1800",
+  "_id": "les-loges-en-josas-croix-blanche-1800"
+ },
+ "103330": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "EOL : déjà sur le radar (tremblay-aerolians-batiment-neuf-activite-2788)",
+  "_id": "tremblay-aerolians-batiment-neuf-activite-2788"
+ },
+ "1296522044": {
+  "date": "2026-11-16",
+  "decision": "doublon",
+  "motif": "ParuVendu : doublon possible de bailly-romainvilliers-cellule-activite-hsp7-salle-reunion-450 (450 m², 885 000 € / 850 000 €) : non ajoutée",
+  "_id": "bailly-romainvilliers-cellule-activite-hsp7-salle-reunion-450"
+ },
+ "13736": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "EOL : halle Dumeste de 3 444 m² à Vitry-sur-Seine, 6 500 000 € HT (au-delà de 6 M€) : soumise au propriétaire",
+  "_id": ""
+ },
+ "79641": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "EOL : plateau de bureaux au 5e étage (Créteil)",
+  "_id": ""
+ },
+ "46237": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "EOL : bureaux en R+1 et R+2 (Vitry-sur-Seine)",
+  "_id": ""
+ },
+ "143753": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt de stockage non indépendant, hauteur 2 à 4 m, étage accessible par monte-charge (Boissy-Saint-Léger)",
+  "_id": ""
+ },
+ "42409763": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "BL : l'annonce précise « Accès PMR (pas d'ERP possible) » (Paris 12e, 1 246 m²)",
+  "_id": ""
+ },
+ "42445037": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "BL : prix incohérent (328 m² à 326 574 € rue Broca, Paris 5e)",
+  "_id": ""
+ },
+ "39334275": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "BL : surface incohérente (274 m² dans le titre, 474 m² dans les données), Paris 17e rue Bessières",
+  "_id": ""
+ },
+ "40673434": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "BL : plateau de bureaux dans la Tour Ciel (Courbevoie), ERP 150 personnes seulement possible",
+  "_id": ""
+ },
+ "40636851": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "BL : plateau en R+1 en VEFA destiné au médical (Villeneuve-la-Garenne)",
+  "_id": ""
+ },
+ "39121282": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "BL : plateau en R+1 en VEFA destiné au médical (Villeneuve-la-Garenne)",
+  "_id": ""
+ },
+ "1295057203": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "ParuVendu : prix incohérent (« PRIX TTC 899 000 € » et 710 000 € honoraires inclus), entrepôt en ZA d'Alfortville",
+  "_id": ""
+ },
+ "1297082389": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "ParuVendu : entrepôt-atelier de 196 m² dont la surface publiée est celle du terrain (données ambiguës), ZA d'Alfortville",
+  "_id": ""
+ },
+ "46158904": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "FNAIM : 5 locaux occupés de 19 à 68 m² (Créteil), lots < 150 m², murs loués",
+  "_id": ""
+ },
+ "00829932": {
+  "date": "2026-11-16",
+  "decision": "ecartee",
+  "motif": "Foncia : ensemble de 9 logements (Bourg-la-Reine)",
+  "_id": ""
  }
 }
