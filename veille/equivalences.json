@@ -83,8 +83,9 @@
   },
   "chaville-487": {
    "agence": "Immprove Commerce (BureauxLocaux) ; radar : particulier (PAP)",
-   "statut": "probable",
+   "statut": "verifiee",
    "urls": [
+    "https://www.bureauxlocaux.com/annonce/vente-bureau-chaville-92370--40312178",
     "https://www.bureauxlocaux.com/annonce/vente-commerce-chaville-92370--42354288"
    ],
    "note": "trouvée le 16/11/2026 dans la collecte BureauxLocaux",
@@ -102,6 +103,21 @@
      "annonce PAP non vérifiable (protection anti-robots)"
     ],
     "conclusion": "ressemblance forte mais niveau et prix différents, aucune référence ni adresse commune : statut « probable », non ajoutée"
+   },
+   "preuves_2026_11_17": {
+    "date": "2026-11-17",
+    "fiche_ouverte": "https://www.bureauxlocaux.com/annonce/vente-bureau-chaville-92370--40312178",
+    "concordances": [
+     "même adresse : « 22 Rue De La Fontaine Henri IV, 92370 Chaville » (BL n° 40312178, ODCH) = adresse de l'annonce PAP du radar",
+     "même surface exacte (487 m²)",
+     "mêmes gares (Chaville Rive Droite ligne L, Rive Gauche)",
+     "BL n° 42354288 (Immprove) : même surface, même passé de crèche, mêmes gares"
+    ],
+    "ecarts": [
+     "niveau : le radar indique « 1er étage » ; les deux fiches BureauxLocaux indiquent « RDC 487 m² » / « de plain-pied »",
+     "prix : 1 950 000 € (PAP, 06/10) ; 2 092 000 € (ODCH, honoraires 80 500 € HT) ; 2 235 000 € (Immprove)"
+    ],
+    "conclusion": "même bien (concordance d'adresse) : statut « verifiee », candidatures BureauxLocaux non ajoutées ; annonce du radar non modifiée"
    }
   }
  },

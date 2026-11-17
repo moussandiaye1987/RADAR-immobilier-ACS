@@ -1756,5 +1756,311 @@
   "decision": "ecartee",
   "motif": "Foncia : ensemble de 9 logements (Bourg-la-Reine)",
   "_id": ""
+ },
+ "42732403": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "nanterre-paul-lescop-batiment-independant-activite-hsp5m-562"
+ },
+ "41340940": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "chatenay-malabry-batiment-independant-loft-activite-hsp4m-403"
+ },
+ "39685227": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "la-garenne-colombes-verdun-bureaux-rdc-plain-pied-portes-4m-335"
+ },
+ "43256096": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "montrouge-batiment-independant-r1-bureaux-activites-legeres-472"
+ },
+ "42621877": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "suresnes-pont-de-suresnes-bureaux-showroom-rdc-vitrine-mezzanine-290"
+ },
+ "43254504": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "roissy-en-brie-denis-papin-local-activite-hsp7m-1708"
+ },
+ "53242854": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "paris18-guy-moquet-bureaux-rdc-angle-acces-independant-293"
+ },
+ "51315": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "bussy-saint-georges-leonard-de-vinci-local-activite-bureaux-354"
+ },
+ "1297529618": {
+  "date": "2026-11-17",
+  "decision": "retenue",
+  "motif": "ajoutée au radar le 17/11/2026",
+  "_id": "levallois-gare-clichy-levallois-murs-commerciaux-libres-ex-restaurant-161"
+ },
+ "41340937": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même annonce Evolis que n° 41340940 (Châtenay-Malabry 403 m²)",
+  "_id": "chatenay-malabry-batiment-independant-loft-activite-hsp4m-403"
+ },
+ "40275666": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même bien (La Garenne-Colombes 335 m²) proposé par Arthur Loyd",
+  "_id": "la-garenne-colombes-verdun-bureaux-rdc-plain-pied-portes-4m-335"
+ },
+ "42385412": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même bien probable (Suresnes 288 m², Immprove), surface et prix à ±3 %",
+  "_id": "suresnes-pont-de-suresnes-bureaux-showroom-rdc-vitrine-mezzanine-290"
+ },
+ "39263842": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même bien probable (Suresnes 288 m², Consult'Im)",
+  "_id": "suresnes-pont-de-suresnes-bureaux-showroom-rdc-vitrine-mezzanine-290"
+ },
+ "42603482": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : 36 rue Hoche, Malakoff = malakoff-hoche-batiment-independant-neuf-289 (même adresse)",
+  "_id": "malakoff-hoche-batiment-independant-neuf-289"
+ },
+ "42359336": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : Malakoff 279 m² (RDC 159 + mezzanine 120, atrium) = malakoff-hoche-batiment-independant-neuf-289",
+  "_id": "malakoff-hoche-batiment-independant-neuf-289"
+ },
+ "43128532": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : doublon possible de montrouge-rdc-jardin-erp5-295 (Evolis, RDC avec jardin, 287 m² / 295 m², prix 1 435 000 € / 1 650 000 €)",
+  "_id": "montrouge-rdc-jardin-erp5-295"
+ },
+ "42359038": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même lot que n° 43128532 (Montrouge 287 m²), doublon possible de montrouge-rdc-jardin-erp5-295",
+  "_id": "montrouge-rdc-jardin-erp5-295"
+ },
+ "43256261": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : doublon possible de boulogne-porte-saint-cloud-locaux-rdc-vitrine-issue-secours-pmr-216 (RDC vitrine, 2 accès, 219 m² au total, 1 350 000 €)",
+  "_id": "boulogne-porte-saint-cloud-locaux-rdc-vitrine-issue-secours-pmr-216"
+ },
+ "43256243": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même annonce que n° 43256261 (Boulogne 186 m²)",
+  "_id": ""
+ },
+ "41212927": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : même annonce que n° 43256261 (Boulogne 185 m²)",
+  "_id": ""
+ },
+ "43256768": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : republication Evolis de cachan-local-304 (même titre, 304 m², 1 300 000 €), lien du radar retiré",
+  "_id": "cachan-local-304"
+ },
+ "43240884": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : ensemble de bureaux avec ascenseur, étage non précisé (Gennevilliers 240 m²)",
+  "_id": ""
+ },
+ "43137043": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : plateaux R+1 et R+2 (Nanterre 296 m²)",
+  "_id": ""
+ },
+ "42422420": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : surface incohérente (508 m² en titre, environ 315 m² dans le texte), Malakoff",
+  "_id": ""
+ },
+ "42359351": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : cession de parts de société (Meudon 324 m²)",
+  "_id": ""
+ },
+ "41405067": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : prix douteux (497 700 € pour un immeuble indépendant de 422 m² à Montrouge)",
+  "_id": ""
+ },
+ "43256255": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : bureaux en étages d'un immeuble R+5 (Boulogne 380 m²)",
+  "_id": ""
+ },
+ "43217171": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : surfaces ambiguës (210 m² à vendre ou à louer + 82 m² à louer), Paris 20e",
+  "_id": ""
+ },
+ "43095206": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : plateaux RDC/1er/2e, prix incohérent (1 917 300 € pour 992 m² Triangle d'Or)",
+  "_id": ""
+ },
+ "43256786": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : vente ou location, ERP possible seulement sur 87 m² (Le Kremlin-Bicêtre)",
+  "_id": ""
+ },
+ "43256767": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : locaux « actuellement occupés », occupation à confirmer (Choisy-le-Roi 272 m²)",
+  "_id": ""
+ },
+ "43214030": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : Villeneuve-la-Garenne 1 270 m² (GHT) : description sans détail, BNP annonce le même bâtiment à la location : à examiner",
+  "_id": ""
+ },
+ "42840413": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : idem n° 43214030 (Villeneuve-la-Garenne 1 270 m²)",
+  "_id": ""
+ },
+ "43112652": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "BL : BNP annonce « à la Location » 1 200 m² (Villeneuve-la-Garenne)",
+  "_id": ""
+ },
+ "40312178": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : 22 rue de la Fontaine Henri IV, Chaville, 487 m² = chaville-487 (correspondance vérifiée)",
+  "_id": "chaville-487"
+ },
+ "53160406": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "FNAIM : Coulommiers 1 930 m² = coulommiers-showrooms-erp-1930",
+  "_id": "coulommiers-showrooms-erp-1930"
+ },
+ "53162640": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "FNAIM : Serris 361 m² = serris-parc-international-locaux-commerciaux-361",
+  "_id": "serris-parc-international-locaux-commerciaux-361"
+ },
+ "52870879": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "FNAIM : doublon possible d'arcueil-n20 (419 m² exacts, prix différent)",
+  "_id": "arcueil-n20"
+ },
+ "53218894": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "FNAIM : doublon possible de noisy-le-sec-cbre-surface-commerciale-brut-1422 (même programme CBRE, livraison 09/2027)",
+  "_id": "noisy-le-sec-cbre-surface-commerciale-brut-1422"
+ },
+ "52807163": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "FNAIM : doublon possible de pontault-combault-local-angle-vitrine-plain-pied-190 (184 m², 582 000 €)",
+  "_id": "pontault-combault-local-angle-vitrine-plain-pied-190"
+ },
+ "53240629": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "FNAIM : murs loués d'un garage automobile (Arpajon), vendus occupés",
+  "_id": ""
+ },
+ "51929058": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "FNAIM : plateau au 1er étage (Paris 13e 220 m²)",
+  "_id": ""
+ },
+ "92250": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "EOL : Le Plessis-Pâté 869 m² = le-plessis-pate-local-independant-869",
+  "_id": "le-plessis-pate-local-independant-869"
+ },
+ "54898": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "EOL : Villepinte 800 m² = villepinte-erables-800",
+  "_id": "villepinte-erables-800"
+ },
+ "48368": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt de stockage non indépendant sur 2 niveaux, à la vente ou à la location (Alfortville)",
+  "_id": ""
+ },
+ "1297373587": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "ParuVendu : prix incohérent (1 800 000 € affiché, 2 120 000 € dans le texte), Paris 15e",
+  "_id": ""
+ },
+ "1297372696": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "ParuVendu : Villeneuve-la-Garenne 1 270 m² (GHT), voir BL n° 43214030",
+  "_id": ""
+ },
+ "1295389711": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "ParuVendu : Vanves 245 m², usage actuel et bail non précisés (« reprise ou adaptation de bail »)",
+  "_id": ""
+ },
+ "1297512670": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "ParuVendu : murs et fonds indissociables avec logement de fonction, prix total ambigu (Maincy)",
+  "_id": ""
+ },
+ "1297500987": {
+  "date": "2026-11-17",
+  "decision": "ecartee",
+  "motif": "ParuVendu : fonds de restaurant (murs seulement en option), Le Vésinet",
+  "_id": ""
+ },
+ "43256772": {
+  "date": "2026-11-17",
+  "decision": "doublon",
+  "motif": "BL : republication Evolis de vitry-ardoines-bureaux-265 (même titre, 265 m², 500 000 €), lien du radar retiré",
+  "_id": "vitry-ardoines-bureaux-265"
  }
 }
