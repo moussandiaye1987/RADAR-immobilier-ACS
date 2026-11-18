@@ -1,6 +1,6 @@
 {
  "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Seul le statut « verifiee » exclut automatiquement une candidature comme doublon ; « probable » la garde « à examiner » (diagnostic) jusqu'à comparaison des fiches. Aucune annonce existante n'est modifiée par ce fichier.",
- "verifie_le": "2026-11-16",
+ "verifie_le": "2026-11-18",
  "statut_possible": "probable = ressemblance trouvée par recherche web (agence, commune, surface, prix), fiches non comparées : la candidature reste à examiner ; verifiee = fiche accessible ouverte et comparée, preuves consignées dans « preuves » : doublon certain, exclu automatiquement ; differente = ce n'est pas le même bien (preuves consignées)",
  "correspondances": {
   "villeneuve-le-roi-plateau-1467": {
@@ -63,13 +63,31 @@
   },
   "saint-ouen-l-aumone-vert-galant-1500": {
    "agence": "OPE Immo",
-   "statut": "probable",
+   "statut": "verifiee",
    "urls": [
     "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42194230",
-    "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42128929"
+    "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42128929",
+    "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-534m2-sur-parcelle-de-336--42833648"
    ],
    "note": "une des deux annonces semble proposer le bien à la location : nature à confirmer",
    "preuves": {
+    "date": "2026-11-18",
+    "fiche_ouverte": "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-534m2-sur-parcelle-de-336--42833648",
+    "concordances": [
+     "même agence (OPE Immo)",
+     "même parcelle de 3 360 m² et même possibilité d'agrandir de 1 080 m²",
+     "même hauteur au faîtage (7,5 m) et même pont roulant (8 t), comme le décrit l'annonce du radar",
+     "même prix (1 450 000 € net vendeur, + 5 % HT d'honoraires)",
+     "même secteur (Saint-Ouen-l'Aumône, 95310)"
+    ],
+    "ecarts": [
+     "surface 1 534 m² (BL) contre 1 500 m² (radar, SeLoger B&C) : RDC 1 011 m² + 152 m² de bureaux + 371 m² à l'étage",
+     "référence VP940-OPE_IMMO (BL) contre VP847-OPE IMMO (radar) : republication sous un nouveau numéro",
+     "les deux anciennes URL BL (42194230, 42128929) redirigent vers la recherche : retirées"
+    ],
+    "conclusion": "même bien : doublon certain, BL 42833648 ne doit pas être ajoutée ; annonce du radar non modifiée"
+   },
+   "preuves_precedentes": {
     "date": "2026-11-16",
     "fiches_ouvertes": [
      "https://www.bureauxlocaux.com/annonce/batiment-industriel-de-1-500m2-sur-parcelle-de-336--42194230",
