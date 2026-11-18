@@ -2062,5 +2062,71 @@
   "decision": "doublon",
   "motif": "BL : republication Evolis de vitry-ardoines-bureaux-265 (même titre, 265 m², 500 000 €), lien du radar retiré",
   "_id": "vitry-ardoines-bureaux-265"
+ },
+ "43259962": {
+  "date": "2026-11-18",
+  "decision": "retenue",
+  "motif": "BL : RDC d'angle 276 m², trois entrées, Paris 20e",
+  "_id": "paris20-saint-fargeau-local-angle-rdc-trois-entrees-275"
+ },
+ "40964825": {
+  "date": "2026-11-18",
+  "decision": "retenue",
+  "motif": "BL : local loft 400 m² sur trois demi-niveaux, Courbevoie",
+  "_id": "courbevoie-centre-local-loft-trois-demi-niveaux-400"
+ },
+ "43129053": {
+  "date": "2026-11-18",
+  "decision": "doublon",
+  "motif": "BL : même bien que 40964825 (Groupe Soppec, même adresse, même prix, réf. COURBEVOIE_442_act-V)",
+  "_id": "courbevoie-centre-local-loft-trois-demi-niveaux-400"
+ },
+ "42377596": {
+  "date": "2026-11-18",
+  "decision": "retenue",
+  "motif": "BL : murs libres 260 m² avec extraction, Montrouge",
+  "_id": "montrouge-brossolette-murs-libres-angle-extraction-260"
+ },
+ "42405135": {
+  "date": "2026-11-18",
+  "decision": "doublon",
+  "motif": "BL : même bien que 42377596 (même adresse 89 av. Pierre-Brossolette, même prix), G2B, vente ou location",
+  "_id": "montrouge-brossolette-murs-libres-angle-extraction-260"
+ },
+ "41131674": {
+  "date": "2026-11-18",
+  "decision": "retenue",
+  "motif": "BL : RDC vitrine + rez-de-jardin 262 m², vente ou location, Montrouge",
+  "_id": "montrouge-mairie-bureaux-rdc-vitrine-rdj-terrasse-261"
+ },
+ "43240883": {
+  "date": "2026-11-18",
+  "decision": "ecartee",
+  "motif": "BL : prix non publié et surface ambiguë (270 m² + extension 185 m²) ; immeuble Trocadéro avec permis résidence hôtelière (type O potentiel) à revoir si le prix est publié",
+  "_id": ""
+ },
+ "42243585": {
+  "date": "2026-11-18",
+  "decision": "ecartee",
+  "motif": "BL : maison d'habitation + local d'activité (logement), Châtillon",
+  "_id": ""
+ },
+ "39269000": {
+  "date": "2026-11-18",
+  "decision": "ecartee",
+  "motif": "BL : plateau de bureaux en étage dans immeuble (Colombes)",
+  "_id": ""
+ },
+ "40280521": {
+  "date": "2026-11-18",
+  "decision": "ecartee",
+  "motif": "BL : bureaux au 1er étage (Saint-Cloud)",
+  "_id": ""
+ },
+ "42833648": {
+  "date": "2026-11-18",
+  "decision": "doublon",
+  "motif": "BL : republication du bien saint-ouen-l-aumone-vert-galant-1500 (OPE Immo, VP940), correspondance vérifiée",
+  "_id": "saint-ouen-l-aumone-vert-galant-1500"
  }
 }
