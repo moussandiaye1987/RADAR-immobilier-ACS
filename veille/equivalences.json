@@ -1,6 +1,6 @@
 {
  "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Seul le statut « verifiee » exclut automatiquement une candidature comme doublon ; « probable » la garde « à examiner » (diagnostic) jusqu'à comparaison des fiches. Aucune annonce existante n'est modifiée par ce fichier.",
- "verifie_le": "2026-11-18",
+ "verifie_le": "2026-11-19",
  "statut_possible": "probable = ressemblance trouvée par recherche web (agence, commune, surface, prix), fiches non comparées : la candidature reste à examiner ; verifiee = fiche accessible ouverte et comparée, preuves consignées dans « preuves » : doublon certain, exclu automatiquement ; differente = ce n'est pas le même bien (preuves consignées)",
  "correspondances": {
   "villeneuve-le-roi-plateau-1467": {
@@ -20,7 +20,22 @@
     "constat": "les deux fiches redirigent vers la page de recherche « villeneuve-le-roi-94290/vente-entrepots » : annonces retirées de BureauxLocaux",
     "concordances": [],
     "ecarts": [],
-    "conclusion": "comparaison impossible ; statut laissé « probable »"
+    "conclusion": "comparaison impossible ; statut laissé « probable »",
+    "examen_2026-11-19": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--41900855",
+      "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249",
+      "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--971-1706771"
+     ],
+     "constat": "les trois fiches BureauxLocaux redirigent vers la page de recherche « villeneuve-le-roi-94290/vente-entrepots » (annonces retirées) ; la fiche LoopNet 40845249 est refusée par le proxy",
+     "concordances": [
+      "d'après l'extrait du moteur de recherche (fiche non ouverte) : même agence (BNP Paribas Real Estate, Activités Sud IDF), même décomposition 1 196 m² d'activité + 271 m² d'habitation, même prix 1 215 000 €, hauteur 5 m"
+     ],
+     "ecarts": [
+      "offre aussi « à la location » sur BureauxLocaux"
+     ],
+     "conclusion": "concordances propres au bien relevées seulement dans un extrait de recherche, aucune fiche accessible : statut laissé « probable »"
+    }
    }
   },
   "montlhery-local-independant-1621": {
@@ -58,7 +73,20 @@
     "constat": "la fiche redirige vers la page de recherche « mareuil-les-meaux-77100/vente-commerces » : annonce retirée de BureauxLocaux",
     "concordances": [],
     "ecarts": [],
-    "conclusion": "comparaison impossible ; statut laissé « probable »"
+    "conclusion": "comparaison impossible ; statut laissé « probable »",
+    "examen_2026-11-19": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774"
+     ],
+     "constat": "la fiche redirige toujours vers la page de recherche « mareuil-les-meaux-77100/vente-commerces » (annonce retirée) ; aucune autre fiche accessible trouvée par recherche web",
+     "concordances": [
+      "d'après l'extrait du moteur de recherche : même agence (Investisseur-Immo.fr, Noisiel), même prix 2 000 000 €, même titre « deux cellules commerciales » et même surface en titre (1 847 m²)"
+     ],
+     "ecarts": [
+      "le texte cite « deux cellules commerciales de 1480m² » (même incohérence que l'annonce du radar)"
+     ],
+     "conclusion": "aucune fiche accessible à comparer : statut laissé « probable »"
+    }
    }
   },
   "saint-ouen-l-aumone-vert-galant-1500": {

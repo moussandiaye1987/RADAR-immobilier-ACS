@@ -1,5 +1,5 @@
 {
- "date": "18/11/2026",
+ "date": "19/11/2026",
  "rows": [
   {
    "adresse": "",
@@ -6360,7 +6360,7 @@
    "statut": "en_vente",
    "analyseV": "Local à transformer — annonce : « ERP non mentionné ; RDC ~1 576 m² HSP 4,60–5,40 m + 198 m² bureaux, mezzanine ~1 152 m² en sus ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
    "notes": "Très grand plateau de plain-pied (~1 576 m² sous 4,60–5,40 m) à 900 m du métro Gallieni : de quoi aménager une grande salle de prière ERP type V au RDC, la mezzanine (2,10 m) ne servant qu'au rangement. Vigilance : changement de destination entrepôt → ERP, désenfumage et dégagements à créer, voisinage et stationnement non précisés (rien de cité), taxe foncière élevée (26 752 €/an). À 1 575 000 € + 4,5 % HT d'honoraires (~888 €/m²), c'est l'un des meilleurs ratios surface/prix de la petite couronne, dans le budget de 2 M€ mais loin d'un budget total de 600 000 €. Repris du tableau de bord Radar ERP (veille du 11/11).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1794393815186,
    "vu": "2026-11-11",
    "ref": "21375",
@@ -6412,7 +6412,7 @@
    "statut": "en_vente",
    "analyseV": "Local à transformer — annonce : « ERP non mentionné ; entrepôt HSP 6 m + bureaux climatisés, vestiaires, douches ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
    "notes": "Bâtiment indépendant avec entrepôt sous 6 m et parking : bon volume pour une salle de prière ERP type V, avec vestiaires/douches réutilisables pour les ablutions. Vigilance : l'annonce mélange « à louer » et « vente » (à confirmer), transports lourds éloignés (RER C à 2 km), changement de destination et désenfumage à prévoir. À 2 000 000 € + 15 % HT d'honoraires acquéreur, c'est au plafond du budget, donc à négocier fortement. Repris du tableau de bord Radar ERP (veille du 11/11).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1794393815187,
    "vu": "2026-11-11",
    "ref": "94_013250",
@@ -6450,7 +6450,7 @@
    "statut": "en_vente",
    "analyseV": "Local à transformer — annonce : « ERP non mentionné ; neuf, 962 m² activité HSP 7 m + 171 m² bureaux, livraison prévue mi-2027 ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
    "notes": "Cellule neuve de plain-pied sous 7 m, idéale en volume pour une salle de prière (mezzanine possible pour une salle des femmes), mais seulement 5 places VL et livraison prévue en 2027. Vigilance : parc d'activités excentré (gare à 5 km, pas de transport cité à pied), règlement de ZAC à vérifier pour un ERP type V. À 1 756 150 €, dans le budget de 2 M€ mais très au-dessus de 600 000 € ; le même parc existe déjà dans la base en 849 m². Repris du tableau de bord Radar ERP (veille du 11/11).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1794393815188,
    "vu": "2026-11-11",
    "ref": "18760",
@@ -6488,7 +6488,7 @@
    "statut": "en_vente",
    "analyseV": "Local à transformer — annonce : « ERP non mentionné ; bâtiment indépendant non divisible, HSP 8 m ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
    "notes": "Bâtiment indépendant sans copropriété, 8 m sous plafond et parking extérieur avec aire de manœuvre : un bon volume pour une grande salle de prière (ERP type V), avec peu de voisins directs en zone d'activités. Vigilance : changement de destination à obtenir, dégagements et désenfumage à créer, desserte limitée au bus (aucun RER ou métro cité, accès A1/A104). À 2 000 000 € + 5 % HT d'honoraires (~1 457 €/m²), le bien est au plafond du budget de 2 M€ et hors d'atteinte pour 600 000 €. Repris du tableau de bord Radar ERP (veille du 11/11).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1794396076055,
    "vu": "2026-11-11",
    "ref": "1526659-0V",
@@ -6525,7 +6525,7 @@
    "statut": "en_vente",
    "analyseV": "Local à transformer — annonce : « ERP non mentionné ; ~700 m² d'atelier (RDC 235 + 340 m²) + 165 m² bureaux R+1, HSP 3 à 5 m ». Type V non confirmé : classement ERP, capacité, accessibilité et PLU (équipement d'intérêt collectif) à vérifier.",
    "notes": "Annonce « à proximité du RER » (gare RER E / tram T1 de Noisy-le-Sec déduite) : la desserte est un atout. Mais le RDC est découpé en deux zones (235 et 340 m²) sous 3 à 5 m seulement, ce qui limite une grande salle de prière d'un seul tenant (ERP type V) sans travaux de décloisonnement. À vérifier : structure, mitoyenneté en zone mixte habitée (bruit, affluence le vendredi) et nombre de places. À 1 590 000 € (taxe foncière 8 932 €/an), il reste dans le budget de 2 M€, très au-dessus de 600 000 €. Repris du tableau de bord Radar ERP (veille du 11/11).",
-   "nouveau": true,
+   "nouveau": false,
    "ajoute": 1794396076056,
    "vu": "2026-11-11",
    "ref": "9400410823",
@@ -12492,7 +12492,7 @@
     "W",
     "X"
    ],
-   "nouveau": true,
+   "nouveau": false,
    "nature": "vente"
   },
   {
@@ -12537,7 +12537,7 @@
     "R",
     "X"
    ],
-   "nouveau": true,
+   "nouveau": false,
    "nature": "vente"
   },
   {
@@ -12568,7 +12568,7 @@
     "W",
     "X"
    ],
-   "nouveau": true,
+   "nouveau": false,
    "nature": "vente_ou_location"
   },
   {
@@ -12609,7 +12609,7 @@
    "vu": "2026-11-11",
    "typesDeclares": [],
    "typesPotentiels": [],
-   "nouveau": true,
+   "nouveau": false,
    "nature": "vente"
   },
   {
@@ -12653,7 +12653,7 @@
     "M",
     "U"
    ],
-   "nouveau": true,
+   "nouveau": false,
    "nature": "vente"
   },
   {
@@ -18735,12 +18735,466 @@
     "W"
    ],
    "nature": "vente_ou_location"
+  },
+  {
+   "_id": "paris11-folie-mericourt-restaurant-erp-type-n-170",
+   "titre": "Restaurant ERP type N de 170 m² (RDC 40 m² + sous-sol 130 m²), murs et fonds ou murs seuls, prix sur demande (Paris 11e)",
+   "ville": "Paris 11e",
+   "adresse": "Quartier Folie-Méricourt, 75011 Paris (adresse non communiquée)",
+   "dept": "75",
+   "agence": "Bosquet Patrimoine (FNAIM)",
+   "url": "https://www.fnaim.fr/annonce-immobiliere/53252372/17-acheter-localcommercial-paris-11-75011.htm",
+   "prix": null,
+   "surface": 170,
+   "erp": "verifier",
+   "erpDetail": "ERP type N (restaurant en activité : restauration sur place et traiteur) ; 170 m² sur 2 niveaux : RDC ≈ 40 m² (vente et restauration) + sous-sol ≈ 130 m² ; vente murs et fonds, ou murs seuls, prix sur demande",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "11",
+     "station": "Goncourt",
+     "distance": 200,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "3, 5, 8, 9, 11",
+     "station": "République",
+     "distance": 500,
+     "confirme": true
+    },
+    {
+     "mode": "Métro",
+     "ligne": "2, 11",
+     "station": "Belleville",
+     "distance": 600,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« Vente de murs et fonds de commerce d'environ 170 m² sur 2 niveaux […] ERP type N. » — https://www.fnaim.fr/annonce-immobiliere/53252372/17-acheter-localcommercial-paris-11-75011.htm",
+   "analyseV": "Local à transformer : l'annonce cite l'ERP (citation dans erpSource) sans type V ni L. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Seule annonce du jour où l'ERP est déclaré avec son type (N, restaurant). Prix non publié (« nous consulter » : fonds seul, murs seuls ou murs et fonds) : nature murs et fonds, murs seuls à confirmer. Vigilance : 130 m² sur 170 en sous-sol (évacuation et effectif admissible limités), RDC de 40 m² seulement, immeuble d'habitation au-dessus. Annonce ouverte et vérifiée le 19/11/2026 (FNAIM).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "53252372",
+   "typesDeclares": [
+    "N"
+   ],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "X"
+   ],
+   "nature": "murs_et_fonds"
+  },
+  {
+   "_id": "ivry-batiment-independant-quatre-locaux-activite-1300",
+   "titre": "Bâtiment indépendant de 1 300 m² (4 locaux d'activités, 4 accès de plain-pied, hauteur jusqu'à 6 m), 10 à 15 parkings (Ivry-sur-Seine)",
+   "ville": "Ivry-sur-Seine",
+   "adresse": "94200 Ivry-sur-Seine (adresse non communiquée)",
+   "dept": "94",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-1428.html",
+   "prix": 2900000,
+   "surface": 1300,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; bâtiment indépendant de 1 300 m² (RDC : activité 1 010 m² + hall/bureaux 75 m² ; R+1 : bureaux 215 m², mezzanine de stockage) ; 4 accès de plain-pied, portes 4,45 m, hauteur jusqu'à 6 m ; terrain 1 939 m²",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; bâtiment indépendant de 1 300 m² (RDC : activité 1 010 m² + hall/bureaux 75 m² ; R+1 : bureaux 215 m², mezzanine de stockage) ; 4 accès de plain-pied, portes 4,45 m, hauteur jusqu'à 6 m ; terrain 1 939 m² » — https://www.eol.fr/annonce-1428.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 2 231 €/m² HT (+ 5 % HT d'honoraires). Grand volume de plain-pied dans un bâtiment indépendant sur terrain clos, avec hall d'accueil et 10 à 15 places : bonne base pour une salle recevant du public, après changement de destination. Le bâtiment est aujourd'hui divisé en 4 locaux. Même offre publiée sur BureauxLocaux (BL 43276083, EOL). Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "94 001 428 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "verneuil-l-etang-batiment-activite-bureaux-independant-1942",
+   "titre": "Bâtiment d'activité indépendant de 1 942 m² avec bureaux, hauteur 4 à 5,5 m, parking VL et PL (Verneuil-l'Étang)",
+   "ville": "Verneuil-l'Étang",
+   "adresse": "ZI de Verneuil-l'Étang, 77390 Verneuil-l'Étang",
+   "dept": "77",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-24745.html",
+   "prix": 2000000,
+   "surface": 1942,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; bâtiment indépendant : activité 1 671 m² + bureaux 158 m² en RDC + locaux sociaux 113 m² au R+1 ; hauteur 4 à 5,5 m, 2 accès de plain-pied ; disponibilité 1er trimestre 2027",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; bâtiment indépendant : activité 1 671 m² + bureaux 158 m² en RDC + locaux sociaux 113 m² au R+1 ; hauteur 4 à 5,5 m, 2 accès de plain-pied ; disponibilité 1er trimestre 2027 » — https://www.eol.fr/annonce-24745.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 1 030 €/m² HT. Grand volume indépendant en zone industrielle (peu de voisinage) avec parking VL et PL. Disponible seulement au 1er trimestre 2027 : occupation actuelle à vérifier. Zone industrielle : compatibilité du PLU avec un ERP à vérifier. Même offre sur BureauxLocaux (BL 42833751, EOL). Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "77 024 745 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "paris20-espace-distribution-urbaine-rdc-plain-pied-800",
+   "titre": "Local d'activités de 800 m² en rez-de-chaussée, 2 accès de plain-pied, à vendre ou à louer (Paris 20e)",
+   "ville": "Paris 20e",
+   "adresse": "75020 Paris (adresse non communiquée)",
+   "dept": "75",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-100929.html",
+   "prix": 2200000,
+   "surface": 800,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; offre « à louer / à vendre » : espace de distribution urbaine de 800 m² en rez-de-chaussée, 2 accès de plain-pied, accès PL ; hauteur 2 à 3 m ; bâtiment non indépendant",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "3, 3 bis",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T3b",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; offre « à louer / à vendre » : espace de distribution urbaine de 800 m² en rez-de-chaussée, 2 accès de plain-pied, accès PL ; hauteur 2 à 3 m ; bâtiment non indépendant » — https://www.eol.fr/annonce-100929.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 2 750 €/m² HT (+ 2,5 % HT d'honoraires) : prix bas pour Paris. Grande surface de plain-pied dans Paris, mais hauteur faible (2 à 3 m) et bâtiment non indépendant (voisinage, copropriété à vérifier). Offre « à la location ou à la vente » : nature à confirmer auprès d'EOL. Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "75 100 929 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "X"
+   ],
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "bagnolet-batiment-independant-hauteur-9m-1200",
+   "titre": "Bâtiment indépendant de 1 200 m², 9 m de hauteur libre, plain-pied, parking, à vendre ou à louer (Bagnolet)",
+   "ville": "Bagnolet",
+   "adresse": "93170 Bagnolet (adresse non communiquée)",
+   "dept": "93",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-19282.html",
+   "prix": 3000000,
+   "surface": 1200,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; offre « à la location ou à la vente » : bâtiment indépendant de 1 200 m² (activité 965 m² + bureaux 105 m² en RDC, bureaux 130 m² au R+1) ; hauteur libre 9 m, 1 accès de plain-pied, cour intérieure",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "11",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Tram",
+     "ligne": "T3b",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; offre « à la location ou à la vente » : bâtiment indépendant de 1 200 m² (activité 965 m² + bureaux 105 m² en RDC, bureaux 130 m² au R+1) ; hauteur libre 9 m, 1 accès de plain-pied, cour intérieure » — https://www.eol.fr/annonce-19282.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 2 500 €/m² HT. Très grand volume (9 m) dans un bâtiment indépendant aux portes de Paris : configuration favorable à une grande salle. Offre « à la location ou à la vente » : nature à confirmer. Le même bien (1 169 à 1 200 m², 3 000 000 €) est publié sur BureauxLocaux par plusieurs agences (dont BL 39186849, EOL). Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "93 019 282 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "sainte-genevieve-des-bois-batiment-independant-rehabilite-1900",
+   "titre": "Bâtiment indépendant réhabilité de 1 900 m² de plain-pied sur terrain de 3 500 m², à vendre ou à louer (Sainte-Geneviève-des-Bois)",
+   "ville": "Sainte-Geneviève-des-Bois",
+   "adresse": "ZA La Croix Blanche, 91700 Sainte-Geneviève-des-Bois",
+   "dept": "91",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-10383.html",
+   "prix": 2800000,
+   "surface": 1900,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; offre « à vendre ou à louer » : bâtiment indépendant d'activité et de bureaux de 1 900 m² en rez-de-chaussée, entièrement réhabilité, hauteur 3 à 7 m, 1 accès de plain-pied ; terrain 3 500 m²",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "C",
+     "station": "Sainte-Geneviève-des-Bois",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; offre « à vendre ou à louer » : bâtiment indépendant d'activité et de bureaux de 1 900 m² en rez-de-chaussée, entièrement réhabilité, hauteur 3 à 7 m, 1 accès de plain-pied ; terrain 3 500 m² » — https://www.eol.fr/annonce-10383.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 1 474 €/m² HT. Bâtiment entièrement de plain-pied, réhabilité, sur grand terrain (stationnement possible) : bonne configuration pour accueillir du public. Zone d'activités : PLU à vérifier. Offre « à vendre ou à louer » : nature à confirmer. Même bien sur BureauxLocaux (BL 39985530 EOL, 39901641 DL Real Estate, 42257075 SCAMAC 1 879 m²). Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "91 010 383 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "orly-entrepot-bureaux-independant-quais-2228",
+   "titre": "Bâtiment indépendant de 2 228 m² (entrepôt 1 916 m² à quais + 312 m² de bureaux) sur 5 450 m² clos, à vendre ou à louer (Orly)",
+   "ville": "Orly",
+   "adresse": "94310 Orly (adresse non communiquée)",
+   "dept": "94",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-136645.html",
+   "prix": 4000000,
+   "surface": 2228,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; offre « à la vente ou à la location » : bâtiment indépendant, entrepôt 1 916 m² (hauteur jusqu'à 6 m, 20 quais, 2 accès de plain-pied) + bureaux 312 m² au R+1 ; parcelle 5 450 m² sur site clos",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Tram",
+     "ligne": "T9",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "Bus",
+     "ligne": "183, N31",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "C",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; offre « à la vente ou à la location » : bâtiment indépendant, entrepôt 1 916 m² (hauteur jusqu'à 6 m, 20 quais, 2 accès de plain-pied) + bureaux 312 m² au R+1 ; parcelle 5 450 m² sur site clos » — https://www.eol.fr/annonce-136645.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 1 795 €/m² HT. Très grand volume sur site clos avec parking, proche du MIN de Rungis : environnement logistique (circulation de poids lourds). Conversion lourde (entrepôt à quais, éventuellement frigorifique). Offre « à la vente ou à la location » : nature à confirmer. Même offre sur BureauxLocaux (BL 40762750, EOL). Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "94 136 645 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "alfortville-entrepot-deux-niveaux-quai-713",
+   "titre": "Entrepôt de 713 m² sur deux niveaux (RDC 337 m² + sous-sol 376 m²), quai, monte-charge, à vendre ou à louer (Alfortville)",
+   "ville": "Alfortville",
+   "adresse": "Les Jardins d'Alfortville, 94140 Alfortville",
+   "dept": "94",
+   "agence": "EOL Paris IDF",
+   "url": "https://www.eol.fr/annonce-48368.html",
+   "prix": 1100000,
+   "surface": 713,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; offre « à la vente ou à la location » : entrepôt de 713 m² sur 2 niveaux (RDC 337 m², 1er sous-sol 376 m²), hauteur 3,5 m, 1 accès à quai, monte-charge 2 t ; bâtiment non indépendant",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Bus",
+     "ligne": "103",
+     "station": "Roses",
+     "distance": 50,
+     "confirme": true
+    },
+    {
+     "mode": "RER",
+     "ligne": "D",
+     "station": "Vert de Maisons",
+     "distance": 900,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; offre « à la vente ou à la location » : entrepôt de 713 m² sur 2 niveaux (RDC 337 m², 1er sous-sol 376 m²), hauteur 3,5 m, 1 accès à quai, monte-charge 2 t ; bâtiment non indépendant » — https://www.eol.fr/annonce-48368.html",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 1 543 €/m² HT (+ 5 % HT d'honoraires). Seuls 337 m² sont en rez-de-chaussée, le reste en sous-sol (évacuation et effectif limités) ; bâtiment non indépendant. Offre « à la vente ou à la location » : nature à confirmer. Même offre sur BureauxLocaux (BL 40733575, EOL). Annonce ouverte et vérifiée le 19/11/2026 (EOL).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "94 048 368 L",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "X"
+   ],
+   "nature": "vente_ou_location"
+  },
+  {
+   "_id": "levallois-pont-de-levallois-bureaux-rdc-1er-terrasse-339",
+   "titre": "Bureaux de 339 m² sur deux niveaux (RDC 156 m² + 1er étage 158 m² + sous-sol 25 m²) avec terrasse, immeuble récent (Levallois-Perret)",
+   "ville": "Levallois-Perret",
+   "adresse": "92300 Levallois-Perret (adresse non communiquée)",
+   "dept": "92",
+   "agence": "Rez-De-Chaussee.Com",
+   "url": "https://www.bureauxlocaux.com/annonce/beaux-bureaux-avec-terrasse--39260500",
+   "prix": 1490000,
+   "surface": 339,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; bureaux sur deux niveaux dans un immeuble récent en copropriété : RDC ≈ 156 m², 1er étage ≈ 158 m², sous-sol ≈ 25 m² ; terrasse ≈ 22 m² ; 3 places de stationnement en option",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [
+    {
+     "mode": "Métro",
+     "ligne": "3",
+     "station": "Pont de Levallois",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; bureaux sur deux niveaux dans un immeuble récent en copropriété : RDC ≈ 156 m², 1er étage ≈ 158 m², sous-sol ≈ 25 m² ; terrasse ≈ 22 m² ; 3 places de stationnement en option » — https://www.bureauxlocaux.com/annonce/beaux-bureaux-avec-terrasse--39260500",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 4 395 €/m² (1 568 000 € honoraires inclus). Le rez-de-chaussée de 156 m² peut accueillir du public ; l'étage est desservi en interne (escalier : accessibilité à vérifier). Copropriété d'immeuble récent : règlement de copropriété et voisinage à vérifier. Annonce ouverte et vérifiée le 19/11/2026 (BureauxLocaux).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "253674RCY7",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "W"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "gazeran-ensemble-professionnel-hall-exposition-1005",
+   "titre": "Ensemble professionnel de 1 005 m² sur 3 niveaux (RDC 595 m² : atelier et hall d'exposition) sur terrain de 1 625 m² (Gazeran)",
+   "ville": "Gazeran",
+   "adresse": "Zone de Gazeran / Bel-Air, 78125 Gazeran",
+   "dept": "78",
+   "agence": "iad France (ParuVendu)",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1297622148A1KIIPVELCO",
+   "prix": 1046000,
+   "surface": 1005,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; ensemble à usage professionnel de 1 005 m² sur 3 niveaux : RDC ≈ 595 m² (atelier, carrosserie-peinture, sellerie, hall d'exposition), R+1 ≈ 214 m² (stockage + logement de 56 m² loué), R+2 ≈ 196 m² (bureau, terrasse 40 m²) ; terrain 1 625 m², 5 places",
+   "profil": "transformable",
+   "parking": "sur_place",
+   "transports": [],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; ensemble à usage professionnel de 1 005 m² sur 3 niveaux : RDC ≈ 595 m² (atelier, carrosserie-peinture, sellerie, hall d'exposition), R+1 ≈ 214 m² (stockage + logement de 56 m² loué), R+2 ≈ 196 m² (bureau, terrasse 40 m²) ; terrain 1 625 m², 5 places » — https://www.paruvendu.fr/t/vente-local-commercial/1297622148A1KIIPVELCO",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 1 041 €/m², honoraires à la charge du vendeur. Le rez-de-chaussée de 595 m² avec hall d'exposition se prête à l'accueil du public. Vigilance : un logement d'environ 56 m² est loué au R+1 (bail d'habitation à reprendre), ancien atelier de carrosserie-peinture (pollution des sols à vérifier). Annonce ouverte et vérifiée le 19/11/2026 (ParuVendu).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "2150922",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "M",
+    "T",
+    "W",
+    "X"
+   ],
+   "nature": "vente"
+  },
+  {
+   "_id": "arcueil-laplace-immeuble-independant-bureaux-double-hauteur-1417",
+   "titre": "Immeuble indépendant de 1 417 m² (RDC 705 m², R+1 464 m², sous-sol 248 m²), volumes en double hauteur jusqu'à 8 m (Arcueil)",
+   "ville": "Arcueil",
+   "adresse": "Quartier Laplace, 94110 Arcueil",
+   "dept": "94",
+   "agence": "AXO L'immobilier Actif (ParuVendu)",
+   "url": "https://www.paruvendu.fr/t/vente-local-commercial/1297548356A1KIIPVELCO",
+   "prix": 2288000,
+   "surface": 1417,
+   "erp": "verifier",
+   "erpDetail": "ERP non mentionné ; immeuble indépendant aménagé en bureaux de 1 417 m² non divisible : RDC 705 m², R+1 464 m², sous-sol 248 m² (stockage) ; espaces en double hauteur, hauteur sous plafond jusqu'à 8 m ; structure béton et métal",
+   "profil": "transformable",
+   "parking": "non_precise",
+   "transports": [
+    {
+     "mode": "RER",
+     "ligne": "B",
+     "station": "non précisée",
+     "distance": null,
+     "confirme": true
+    }
+   ],
+   "statut": "en_vente",
+   "erpSource": "« ERP non mentionné ; immeuble indépendant aménagé en bureaux de 1 417 m² non divisible : RDC 705 m², R+1 464 m², sous-sol 248 m² (stockage) ; espaces en double hauteur, hauteur sous plafond jusqu'à 8 m ; structure béton et métal » — https://www.paruvendu.fr/t/vente-local-commercial/1297548356A1KIIPVELCO",
+   "analyseV": "Local à transformer : l'annonce ne mentionne pas de classement ERP. Type V non confirmé : classement ERP, capacité, accessibilité et PLU à vérifier.",
+   "notes": "Environ 1 615 €/m² (2 288 000 € honoraires de 4 % inclus ; 2 200 000 € hors honoraires). Immeuble indépendant avec de grands volumes en double hauteur au rez-de-chaussée : configuration favorable à une grande salle. Le même immeuble est publié sur BureauxLocaux (BL 36772518 BPCE Solutions Immobilières, 40625347 Alex Bolton, 2 200 000 €). Annonce ouverte et vérifiée le 19/11/2026 (ParuVendu).",
+   "nouveau": true,
+   "ajoute": 1795068749318,
+   "vu": "2026-11-19",
+   "ref": "85002128187",
+   "typesDeclares": [],
+   "typesPotentiels": [
+    "L",
+    "W",
+    "X"
+   ],
+   "nature": "vente"
   }
  ],
  "veille": {
-  "date": "18/11/2026",
+  "date": "19/11/2026",
   "statut": "ok",
-  "ajouts": 19,
-  "message": "Veille du 18/11/2026 : 19 nouvelles annonces vérifiées (EOL 14, BureauxLocaux 4, Laforêt 1), 504 → 523 annonces. Foncia et FNAIM : aucun bien nouveau dans les critères."
+  "ajouts": 11,
+  "message": "Veille du 19/11/2026 : 11 nouvelles annonces vérifiées (EOL 7, ParuVendu 2, FNAIM 1, BureauxLocaux 1), 523 → 534 annonces, dont un restaurant ERP type N à Paris 11e. Foncia et Laforêt : aucun bien nouveau dans les critères."
  }
 }

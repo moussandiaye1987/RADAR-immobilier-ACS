@@ -2128,5 +2128,167 @@
   "decision": "doublon",
   "motif": "BL : republication du bien saint-ouen-l-aumone-vert-galant-1500 (OPE Immo, VP940), correspondance vérifiée",
   "_id": "saint-ouen-l-aumone-vert-galant-1500"
+ },
+ "43276083": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même offre EOL que ivry-batiment-independant-quatre-locaux-activite-1300 (EOL 94 001 428 L), ajoutée depuis EOL",
+  "_id": "ivry-batiment-independant-quatre-locaux-activite-1300"
+ },
+ "42833751": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même offre EOL que verneuil-l-etang-batiment-activite-bureaux-independant-1942 (EOL 77 024 745 L)",
+  "_id": "verneuil-l-etang-batiment-activite-bureaux-independant-1942"
+ },
+ "39186849": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même offre EOL que bagnolet-batiment-independant-hauteur-9m-1200 (EOL 93 019 282 L)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "42573766": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : Bagnolet 1 169 m² à 3 000 000 € (autre agence) : même bien probable que bagnolet-batiment-independant-hauteur-9m-1200 (EOL, 1 200 m²)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "40814858": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : Bagnolet 1 169 m² à 3 000 000 € (autre agence) : même bien probable que bagnolet-batiment-independant-hauteur-9m-1200 (EOL, 1 200 m²)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "40338113": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : Bagnolet 1 169 m² à 3 000 000 € (autre agence) : même bien probable que bagnolet-batiment-independant-hauteur-9m-1200 (EOL, 1 200 m²)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "40719024": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : Bagnolet 1 169 m² à 3 000 000 € (autre agence) : même bien probable que bagnolet-batiment-independant-hauteur-9m-1200 (EOL, 1 200 m²)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "42359289": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : Bagnolet 1 169 m² à 3 000 000 € (autre agence) : même bien probable que bagnolet-batiment-independant-hauteur-9m-1200 (EOL, 1 200 m²)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "40636967": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : Bagnolet 1 169 m² à 3 000 000 € (autre agence) : même bien probable que bagnolet-batiment-independant-hauteur-9m-1200 (EOL, 1 200 m²)",
+  "_id": "bagnolet-batiment-independant-hauteur-9m-1200"
+ },
+ "39985530": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même offre EOL que sainte-genevieve-des-bois-batiment-independant-rehabilite-1900",
+  "_id": "sainte-genevieve-des-bois-batiment-independant-rehabilite-1900"
+ },
+ "39901641": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même bien (1 900 m², 2 800 000 €, DL Real Estate) que sainte-genevieve-des-bois-batiment-independant-rehabilite-1900",
+  "_id": "sainte-genevieve-des-bois-batiment-independant-rehabilite-1900"
+ },
+ "42257075": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : 1 879 m² à 2 800 000 € (SCAMAC-IMMO) : même bien probable que sainte-genevieve-des-bois-batiment-independant-rehabilite-1900",
+  "_id": "sainte-genevieve-des-bois-batiment-independant-rehabilite-1900"
+ },
+ "40762750": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même offre EOL que orly-entrepot-bureaux-independant-quais-2228",
+  "_id": "orly-entrepot-bureaux-independant-quais-2228"
+ },
+ "40733575": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même offre EOL que alfortville-entrepot-deux-niveaux-quai-713",
+  "_id": "alfortville-entrepot-deux-niveaux-quai-713"
+ },
+ "36772518": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même immeuble (1 417 m², 2 200 000 €) que arcueil-laplace-immeuble-independant-bureaux-double-hauteur-1417",
+  "_id": "arcueil-laplace-immeuble-independant-bureaux-double-hauteur-1417"
+ },
+ "40625347": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même immeuble (1 417 m², 2 200 000 €) que arcueil-laplace-immeuble-independant-bureaux-double-hauteur-1417",
+  "_id": "arcueil-laplace-immeuble-independant-bureaux-double-hauteur-1417"
+ },
+ "39260500": {
+  "date": "2026-11-19",
+  "decision": "retenue",
+  "motif": "BL : bureaux RDC + 1er étage avec terrasse, Levallois-Perret",
+  "_id": "levallois-pont-de-levallois-bureaux-rdc-1er-terrasse-339"
+ },
+ "43287270": {
+  "date": "2026-11-19",
+  "decision": "ecartee",
+  "motif": "BL : plateau de bureaux neufs en R+1 (Montigny-le-Bretonneux)",
+  "_id": ""
+ },
+ "43288534": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même bien (150 m², 435 000 €, terrain 515 m², Arthur Loyd) que osny-ancienne-pharmacie-erp5-type-m-150 (BL 43074456)",
+  "_id": "osny-ancienne-pharmacie-erp5-type-m-150"
+ },
+ "43288518": {
+  "date": "2026-11-19",
+  "decision": "ecartee",
+  "motif": "BL : bureaux vendus occupés (investissement locatif), Pontoise",
+  "_id": ""
+ },
+ "43288509": {
+  "date": "2026-11-19",
+  "decision": "ecartee",
+  "motif": "BL : deux lots distincts (600 m² et 165 m²) et prix « à partir de 397 752 € » : prix par lot non publié (Nanterre, « adapté aux normes ERP »)",
+  "_id": ""
+ },
+ "43267907": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même local d'angle (276 m², RDC, 3 accès, 3 parkings, 2 070 000 € HAI, Junot) que paris20-saint-fargeau-local-angle-rdc-trois-entrees-275 (Barnes)",
+  "_id": "paris20-saint-fargeau-local-angle-rdc-trois-entrees-275"
+ },
+ "43261142": {
+  "date": "2026-11-19",
+  "decision": "ecartee",
+  "motif": "BL : bureaux avec commercialité en étage (Paris 3e)",
+  "_id": ""
+ },
+ "43240876": {
+  "date": "2026-11-19",
+  "decision": "ecartee",
+  "motif": "BL : prix non publié, immeuble mixte bureaux/habitation avec permis pour logements (Asnières-sur-Seine)",
+  "_id": ""
+ },
+ "42057222": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même local (390 m² en RDC, 858 000 € contre 850 000 €) que courbevoie-pierre-curie-390",
+  "_id": "courbevoie-pierre-curie-390"
+ },
+ "43137042": {
+  "date": "2026-11-19",
+  "decision": "ecartee",
+  "motif": "BL : doublon possible avec deux autres candidates (41226836, 42385395) ; RDC 110,72 m² seulement, reste en sous-sol ; vente ou location (Colombes)",
+  "_id": ""
+ },
+ "43289102": {
+  "date": "2026-11-19",
+  "decision": "doublon",
+  "motif": "BL : même bâtiment (800 m², 1 500 000 €, Parc des Érables, Arthur Loyd) que villepinte-erables-800",
+  "_id": "villepinte-erables-800"
  }
 }
