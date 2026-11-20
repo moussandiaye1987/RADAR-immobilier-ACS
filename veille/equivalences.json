@@ -35,6 +35,21 @@
       "offre aussi « à la location » sur BureauxLocaux"
      ],
      "conclusion": "concordances propres au bien relevées seulement dans un extrait de recherche, aucune fiche accessible : statut laissé « probable »"
+    },
+    "examen_2026-11-20": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249",
+      "https://www.bureauxlocaux.com/annonce/location-local-dactivites-villeneuve-le-roi-94290--39409530"
+     ],
+     "constat": "la fiche de vente 40845249 redirige toujours vers la recherche (retirée) ; LoopNet refusé par le proxy ; la fiche de LOCATION 39409530 (BNP Paribas Real Estate Activités Sud IDF, réf. OLACT2638245) est en ligne",
+     "concordances": [
+      "fiche 39409530 : même agence (BNP Paribas Real Estate Activités Sud IDF), « A LOUER - A VENDRE », bâtiment d'activité de 1 196 m² en RDC, hauteur sous plafond jusqu'à 5 m, deux accès de plain-pied, RER C Villeneuve-le-Roi ou Ablon — mêmes éléments que l'annonce du radar (1 196 m² d'activité, hauteur ≈ 5 m)"
+     ],
+     "ecarts": [
+      "la fiche ouverte est une offre de location (7 500 € HT-HC/mois) sans prix de vente ni local d'habitation de 271 m²",
+      "aucune fiche de vente accessible"
+     ],
+     "conclusion": "forte présomption que le bien est toujours commercialisé par BNP Paribas RE, mais aucune fiche de vente accessible à comparer au prix (1 215 000 €) : statut laissé « probable »"
     }
    }
   },
@@ -164,6 +179,30 @@
      "prix : 1 950 000 € (PAP, 06/10) ; 2 092 000 € (ODCH, honoraires 80 500 € HT) ; 2 235 000 € (Immprove)"
     ],
     "conclusion": "même bien (concordance d'adresse) : statut « verifiee », candidatures BureauxLocaux non ajoutées ; annonce du radar non modifiée"
+   }
+  },
+  "les-loges-en-josas-batiment-1200": {
+   "agence": "EOL (Charenton-le-Pont) sur SeLoger Bureaux & Commerces ; Cushman & Wakefield sur BureauxLocaux",
+   "statut": "probable",
+   "urls": [
+    "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-dactivite--43293768"
+   ],
+   "note": "Ressemblance relevée le 20/11/2026 : bâtiment indépendant en zone d'activités des Loges-en-Josas, 1 150 m² (575 RDC + 575 R+1) à 1 100 000 € chez Cushman & Wakefield, contre 1 200 m² à 1 200 000 € sur le radar (EOL, lien SeLoger retiré)",
+   "preuves": {
+    "date": "2026-11-20",
+    "fiches_ouvertes": [
+     "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-dactivite--43293768"
+    ],
+    "constat": "fiche Cushman en ligne (rue de la Croix Blanche, copropriété avec gardien, HSP 4,50 m RDC / 3,27 m R+1, monte-charge 3 t) ; fiche du radar (SeLoger Bureaux & Commerces) non consultable (protection anti-robots, lien retiré)",
+    "concordances": [
+     "même commune et même type de bien (bâtiment indépendant d'activité en zone d'activités)"
+    ],
+    "ecarts": [
+     "surface 1 150 m² contre 1 200 m² (−4,2 %)",
+     "prix 1 100 000 € contre 1 200 000 € (−8,3 %)",
+     "agence différente (Cushman & Wakefield / EOL)"
+    ],
+    "conclusion": "aucune concordance propre au bien vérifiable (référence, adresse, description ou photos du radar inaccessibles) : statut « probable », candidature non ajoutée"
    }
   }
  },

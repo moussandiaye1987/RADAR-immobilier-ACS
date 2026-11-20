@@ -2290,5 +2290,377 @@
   "decision": "doublon",
   "motif": "BL : même bâtiment (800 m², 1 500 000 €, Parc des Érables, Arthur Loyd) que villepinte-erables-800",
   "_id": "villepinte-erables-800"
+ },
+ "43295605": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "paris06-bon-marche-sevres-ensemble-bureaux-rez-de-jardin-jardin-356"
+ },
+ "43289654": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "gentilly-immeuble-bureaux-independant-jardin-pmr-911"
+ },
+ "43289644": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "malakoff-bureaux-rdc-erp5-vente-ou-location-256"
+ },
+ "43291327": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "villeneuve-la-garenne-ponant-ancienne-pharmacie-vitrine-154"
+ },
+ "37771625": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "paris15-favorites-locaux-erp5-enseignement-rdc-sous-sol-786"
+ },
+ "42405321": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "paris04-marais-rdc-erp5-deux-entrees-jardin-500"
+ },
+ "43276851": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "paris07-local-sur-cour-verriere-ancien-cabinet-medical-245"
+ },
+ "43137302": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "paris09-faubourg-poissonniere-murs-libres-rdc-verrieres-200"
+ },
+ "42356539": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "esmans-hotel-neuf-75-chambres-r3-2096"
+ },
+ "42356545": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "corbeil-essonnes-batiment-caractere-4-niveaux-ascenseur-1300"
+ },
+ "42419712": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "pontoise-murs-restaurant-extraction-plateau-rer-271"
+ },
+ "42981087": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "chatillon-mairie-murs-restaurant-libres-extraction-175"
+ },
+ "42957773": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "marcoussis-local-commercial-vitre-independant-parking-625"
+ },
+ "paruvendu-1297617472": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "paris10-porte-saint-denis-murs-boutique-libres-deux-niveaux-200"
+ },
+ "paruvendu-1293506314": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "chevry-cossigny-batiment-independant-atelier-6m-terrain-1345"
+ },
+ "eol-142921": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "bussy-saint-georges-activite-bureaux-7m-parking-569"
+ },
+ "eol-148585": {
+  "date": "2026-11-20",
+  "decision": "retenue",
+  "motif": "ouverte et vérifiée le 20/11/2026",
+  "_id": "saint-pierre-du-perray-green-parc-local-erp-plain-pied-380"
+ },
+ "43128662": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : même bien Junot (356 m², 5 900 000 €, réf. 314COMGOZ7) que la fiche 43295605 ajoutée",
+  "_id": "paris06-bon-marche-sevres-ensemble-bureaux-rez-de-jardin-jardin-356"
+ },
+ "41965857": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : même local (625 m², 1 850 000 € HT, Marcoussis) publié par Arthur Loyd",
+  "_id": "marcoussis-local-commercial-vitre-independant-parking-625"
+ },
+ "paruvendu-1297654671": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "ParuVendu : même offre Evolis que BL 42957773",
+  "_id": "marcoussis-local-commercial-vitre-independant-parking-625"
+ },
+ "42851858": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : republication de l'offre EOL 148585",
+  "_id": "saint-pierre-du-perray-green-parc-local-erp-plain-pied-380"
+ },
+ "41730775": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : republication de l'offre EOL 148585",
+  "_id": "saint-pierre-du-perray-green-parc-local-erp-plain-pied-380"
+ },
+ "43289675": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : même rez-de-chaussée de 295 m² (Evolis, 1 650 000 €) que montrouge-rdc-jardin-erp5-295",
+  "_id": "montrouge-rdc-jardin-erp5-295"
+ },
+ "43289697": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : même bâtiment de 787 m² (2 100 000 €) que malakoff-voltaire-796",
+  "_id": "malakoff-voltaire-796"
+ },
+ "43289642": {
+  "date": "2026-11-20",
+  "decision": "doublon",
+  "motif": "BL : même bâtiment de 787 m² que malakoff-voltaire-796",
+  "_id": "malakoff-voltaire-796"
+ },
+ "43289653": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : doublon possible — Montrouge RDC 175 m², 1 150 000 €, jardin : même prix que le lot Babylone 41496530 déjà jugé identique à montrouge-perier-rdc-jardin-170 ; non ajoutée",
+  "_id": ""
+ },
+ "43293768": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : doublon possible — Les Loges-en-Josas 1 150 m² / 1 100 000 € (Cushman) vs les-loges-en-josas-batiment-1200 (1 200 m² / 1 200 000 €, EOL via SeLoger, lien retiré) ; non ajoutée",
+  "_id": ""
+ },
+ "42456885": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : doublon possible — Levallois RDC 217 m², 1 700 000 € (Korn) vs levallois-perret-local-210 (210 m², 1 590 000 €, RDC ERP 5) ; non ajoutée",
+  "_id": ""
+ },
+ "42321773": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : doublon possible avec FNAIM 53099856 (Boulogne, CBRE, 675 m², 3 000 000 €) — 670 m², 2 950 000 €, terrasse 245/290 m² ; aucun des deux ajouté",
+  "_id": ""
+ },
+ "43290065": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : entrepôt en ZI (Meaux 920 m²), ressemblance avec meaux-showroom-entrepot-910 à lever ; non ajoutée",
+  "_id": ""
+ },
+ "43295712": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : RDC + sous-sol de 147,96 m² au sol (< 150 m²) + 2e étage sans ascenseur",
+  "_id": ""
+ },
+ "43300130": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : murs vendus occupés (bail ferme)",
+  "_id": ""
+ },
+ "43300071": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : programme neuf de 23 cellules divisibles, prix incohérents entre lots (Serris)",
+  "_id": ""
+ },
+ "43295654": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : plateau en étage dans immeuble R+7",
+  "_id": ""
+ },
+ "43276853": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : murs vendus occupés (bar-brasserie loué)",
+  "_id": ""
+ },
+ "42486064": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : murs occupés (bail 3/6/9) avec appartement",
+  "_id": ""
+ },
+ "39083038": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : murs loués (restaurant + chambres)",
+  "_id": ""
+ },
+ "42421367": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : RDC loué en partie (« la vie claire loué ») : occupation à préciser",
+  "_id": ""
+ },
+ "42355691": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : surface contradictoire (250 m² / RDC 341 m²), bâtiment de restauration rapide neuf (Esmans)",
+  "_id": ""
+ },
+ "42423740": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "BL : même cellule que EOL 102936 (Brie-Comte-Robert 264 m²), hauteur contradictoire (5 m / 9 m) ; non ajoutée",
+  "_id": ""
+ },
+ "eol-102936": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : hauteur contradictoire (5 m EOL / 9 m BureauxLocaux), petite cellule de 132 m² d'activité ; non ajoutée",
+  "_id": ""
+ },
+ "eol-16384": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : 12 000 000 € (> 6 M€)",
+  "_id": ""
+ },
+ "eol-35496": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt logistique 2 738 m², vente ou location",
+  "_id": ""
+ },
+ "eol-145165": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : bâtiment mixte d'activité en ZA, vente ou location",
+  "_id": ""
+ },
+ "eol-66532": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt logistique BREEAM 2 206 m²",
+  "_id": ""
+ },
+ "eol-12098": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt 1 963 m², vente ou location",
+  "_id": ""
+ },
+ "eol-12113": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt logistique 2 559 m² sur 18 000 m²",
+  "_id": ""
+ },
+ "eol-95529": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : entrepôt, 400 m² de bureaux loués",
+  "_id": ""
+ },
+ "eol-75784": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : bâtiment logistique neuf 3 795 m²",
+  "_id": ""
+ },
+ "eol-56022": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : immeuble de bureaux (pas de RDC recevant du public décrit), vente ou location",
+  "_id": ""
+ },
+ "eol-55554": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : immeuble de bureaux avec stockage, vente ou location",
+  "_id": ""
+ },
+ "eol-105694": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : ensemble d'une vingtaine de lots, hauteur 3 m",
+  "_id": ""
+ },
+ "eol-143765": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "EOL : hauteur jusqu'à 2 m, loyer incohérent",
+  "_id": ""
+ },
+ "paruvendu-1297653816": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : VEFA brute 400 m² (Orly / code postal 94130 contradictoires), livraison 2e trim. 2026 à confirmer — à revoir",
+  "_id": ""
+ },
+ "paruvendu-1297653837": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : VEFA brute 155 m² (Orly), livraison 4e trim. 2026",
+  "_id": ""
+ },
+ "paruvendu-1297653815": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : VEFA, livraison 3e trim. 2028",
+  "_id": ""
+ },
+ "paruvendu-1297063393": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : garage loué (bail 3/6/9)",
+  "_id": ""
+ },
+ "paruvendu-1293506841": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : fonds de commerce",
+  "_id": ""
+ },
+ "paruvendu-1295525799": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : fonds de commerce",
+  "_id": ""
+ },
+ "paruvendu-1296602061": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : plateau de bureaux en étage",
+  "_id": ""
+ },
+ "paruvendu-1296169349": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : ensemble logistique avec maison",
+  "_id": ""
+ },
+ "paruvendu-1297656733": {
+  "date": "2026-11-20",
+  "decision": "ecartee",
+  "motif": "ParuVendu : 67 m² (< 150 m²)",
+  "_id": ""
  }
 }
