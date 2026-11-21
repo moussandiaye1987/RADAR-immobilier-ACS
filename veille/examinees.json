@@ -2662,5 +2662,251 @@
   "decision": "ecartee",
   "motif": "ParuVendu : 67 m² (< 150 m²)",
   "_id": ""
+ },
+ "43310568": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "saint-cloud-bureaux-plain-pied-jardin-normes-creche-315"
+ },
+ "43313794": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris15-cronstadt-bureaux-rdc-sous-sol-290"
+ },
+ "43321423": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris15-javel-bureaux-rdc-vitrine-jardin-pmr-234"
+ },
+ "43311176": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "rueil-belle-rive-bureaux-rdc-rdj-jardin-terrasse-15-parkings-699"
+ },
+ "43310572": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "boulogne-peupliers-trois-batiments-rdc-cour-jardin-12-places-560"
+ },
+ "43320533": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "montreuil-deloustal-local-activite-independant-traversant-cour-289"
+ },
+ "43309102": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "montreuil-ght-local-activite-rdc-cour-metro-mairie-435"
+ },
+ "43309169": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "pantin-ght-local-activites-hsp-5-6m-900"
+ },
+ "43309115": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "saint-denis-ght-local-activites-rdc-hsp-6m-terrain-800"
+ },
+ "43311572": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "neuilly-plaisance-murs-centre-medical-loue-rer-a-618"
+ },
+ "43300727": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "evry-local-commercial-rdc-facade-vitree-25m-150"
+ },
+ "43310235": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "arcueil-local-activite-immeuble-independant-rdc-480-600"
+ },
+ "43321917": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "ivry-pierre-et-marie-curie-immeuble-independant-activite-terrain-555"
+ },
+ "43321869": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "l-hay-les-roses-local-acces-rue-hsp-5m-200"
+ },
+ "43321880": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "même offre Evolis que 43321917",
+  "_id": "ivry-pierre-et-marie-curie-immeuble-independant-activite-terrain-555"
+ },
+ "43090713": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "même offre EOL 143865",
+  "_id": "pontault-combault-hantes-local-activite-plain-pied-8m-304"
+ },
+ "42833912": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "même offre EOL 133223",
+  "_id": "santeny-butte-gayen-batiment-independant-activite-7m-442"
+ },
+ "eol-143865": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "pontault-combault-hantes-local-activite-plain-pied-8m-304"
+ },
+ "eol-120199": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "marcoussis-fontaine-de-jouvence-local-activite-vitrines-208"
+ },
+ "eol-133223": {
+  "date": "2026-11-21",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "santeny-butte-gayen-batiment-independant-activite-7m-442"
+ },
+ "43311420": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "doublon : même offre EOL que gretz-armainvilliers-eol-910",
+  "_id": "gretz-armainvilliers-eol-910"
+ },
+ "43310212": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "doublon : même immeuble Evolis (prix BL 399 999 € / texte 800 000 € + 5 %)",
+  "_id": "argenteuil-centre-ancien-restaurant-600"
+ },
+ "43310326": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "doublon : même offre Consult'Im",
+  "_id": "vincennes-consultim"
+ },
+ "43321409": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "doublon : même offre Babylone",
+  "_id": "paris15-vaugirard-299"
+ },
+ "43321404": {
+  "date": "2026-11-21",
+  "decision": "doublon",
+  "motif": "doublon : même offre Babylone",
+  "_id": "paris15-vaugirard-299"
+ },
+ "43310049": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Malakoff : « Bâtiment soumis au code du travail ERT pas d'accueil de public »",
+  "_id": ""
+ },
+ "43321874": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Choisy-le-Roi : bureaux actuellement occupés",
+  "_id": ""
+ },
+ "43311890": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Paris 17e : plateaux de bureaux en étage à la découpe",
+  "_id": ""
+ },
+ "43310300": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Paris 2e : lots de 107 à 398 m² « à partir de » 532 173 €, en étages",
+  "_id": ""
+ },
+ "43322129": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Paris 9e : mixte bureaux et habitation",
+  "_id": ""
+ },
+ "43310556": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Neuilly-sur-Seine : bureaux en immeuble d'habitation, niveau non précisé",
+  "_id": ""
+ },
+ "43322156": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Serris : prix incohérent (102 807 €), surface RDC 0 m²",
+  "_id": ""
+ },
+ "43308417": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Groslay : doublon possible de groslay-d301-1200 (même prix 2 550 000 €), « bail proposé »",
+  "_id": ""
+ },
+ "43309994": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Le Mesnil-Saint-Denis : doublon possible de le-mesnil-saint-denis-immeuble-independant-521 (521 m², 425 000 € contre 446 250 €)",
+  "_id": ""
+ },
+ "43309318": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Les Ulis : bâtiment loué à 88 %, prix incohérent",
+  "_id": ""
+ },
+ "43309317": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Saint-Aubin : prix incohérent (787 500 € / 1 690 000 €)",
+  "_id": ""
+ },
+ "43311150": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Les Loges-en-Josas (CSI) : correspondance probable avec les-loges-en-josas-batiment-1200, non ajoutée",
+  "_id": ""
+ },
+ "43309941": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Igny : bureaux en étage, en partie loués",
+  "_id": ""
+ },
+ "43309880": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Orsay : bureaux en immeuble, niveau non précisé, vente ou location",
+  "_id": ""
+ },
+ "43309043": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Noisy-le-Sec : commerce avec logement",
+  "_id": ""
+ },
+ "43309162": {
+  "date": "2026-11-21",
+  "decision": "ecartee",
+  "motif": "Ivry : non retenu ce jour (RDC 80 m², zone pavillonnaire)",
+  "_id": ""
  }
 }
