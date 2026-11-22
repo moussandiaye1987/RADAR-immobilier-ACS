@@ -101,6 +101,18 @@
       "le texte cite « deux cellules commerciales de 1480m² » (même incohérence que l'annonce du radar)"
      ],
      "conclusion": "aucune fiche accessible à comparer : statut laissé « probable »"
+    },
+    "examen_2026-11-22": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774",
+      "https://www.bureauxlocaux.com/immobilier-d-entreprise/annonces/mareuil-les-meaux-77100/vente-commerces"
+     ],
+     "constat": "la fiche 41482774 redirige toujours vers la page de recherche « mareuil-les-meaux-77100/vente-commerces » ; cette page ne liste plus aucune offre Investisseur Immo de deux cellules (4 annonces : 43136412, 40637045, 41063524, 42243529) ; recherche web : seul l'extrait de la fiche retirée (Investisseur-Immo.fr Noisiel, 2 000 000 €) ; LoopNet refusé par le proxy",
+     "concordances": [
+      "extrait du moteur de recherche seulement : même agence, même prix, même titre et même incohérence de surface (1 847 m² / « 1480m² »)"
+     ],
+     "ecarts": [],
+     "conclusion": "aucune fiche accessible à comparer : statut laissé « probable »"
     }
    }
   },

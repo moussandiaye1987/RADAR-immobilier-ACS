@@ -2908,5 +2908,317 @@
   "decision": "ecartee",
   "motif": "Ivry : non retenu ce jour (RDC 80 m², zone pavillonnaire)",
   "_id": ""
+ },
+ "43322257": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "lisses-mcarre-local-activite-rdc-hsp-6m-10-parkings-675"
+ },
+ "43325698": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "boulogne-jean-jaures-batiment-independant-cour-rdc-11-parkings-600"
+ },
+ "43287946": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "colombes-joffre-pavillon-professionnel-erp-possible-388"
+ },
+ "40637237": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "chelles-ght-batiment-independant-normes-erp-pmr-cour-620"
+ },
+ "42381615": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "rozay-en-brie-ght-entrepot-independant-plain-pied-hsp-6m-888"
+ },
+ "39088686": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "neuilly-perronet-local-rdc-acces-rue-4-parkings-375"
+ },
+ "42359700": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "les-lilas-immprove-batiment-independant-bureaux-3-boxes-729"
+ },
+ "42381738": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "la-garenne-colombes-ght-local-angle-reception-bar-cuisine-232"
+ },
+ "43240880": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "courbevoie-loft-industriel-independant-rdc-353-577"
+ },
+ "42356251": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "saint-ouen-docks-local-commercial-erp-facade-40m-hsp-4m-274"
+ },
+ "40156777": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "saint-cloud-evolis-murs-commerce-loue-enseigne-268"
+ },
+ "eol-26624": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "villepinte-paris-nord-2-eol-batiment-independant-bureaux-rdc-610"
+ },
+ "eol-112147": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "louvres-eol-batiment-independant-bureaux-rdc-site-clos-537"
+ },
+ "43322496": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322493": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322492": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322491": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322490": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322481": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322479": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322478": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322477": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43322476": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Serris, Arlington Business Park (EOL) : « Type de contrat : VEFA ou BEVA », programme ; vente ou location",
+  "_id": ""
+ },
+ "43329735": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Choisy-le-Roi 463 m² : « partiellement occupés »",
+  "_id": ""
+ },
+ "43325642": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 12e 2 192 m² : entrepôts / parkings en sous-sol (R-1)",
+  "_id": ""
+ },
+ "43325699": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 19e : plateau de bureaux au 2e étage",
+  "_id": ""
+ },
+ "43322497": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Clichy-sous-Bois : local d'activité 261 m² avec logement de 167 m²",
+  "_id": ""
+ },
+ "43329741": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Le Kremlin-Bicêtre 222 m² : prix « à partir de » pour des lots divisibles, vente ou location",
+  "_id": ""
+ },
+ "43329740": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Le Kremlin-Bicêtre 170 m² : 2e étage",
+  "_id": ""
+ },
+ "43322503": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 17e Cardinet : texte « en location »",
+  "_id": ""
+ },
+ "43322501": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 15e Entrepreneurs : immeuble « à louer », aucun prix de vente",
+  "_id": ""
+ },
+ "43325989": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 17e Ampère : bureaux au 1er étage",
+  "_id": ""
+ },
+ "40238601": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Gennevilliers Kubik : prix « à partir de », lots de 416 à 834 m², niveaux non précisés",
+  "_id": ""
+ },
+ "43251234": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Saint-Cyr-l'École : même offre Immprove 1000441 (ajoutée depuis immprove.fr)",
+  "_id": ""
+ },
+ "eol-143987": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Pontault-Combault 474 m² : même bâtiment (PA des Hantes) que pontault-combault-hantes-local-activite-plain-pied-8m-304 ; doublon possible, non ajouté",
+  "_id": ""
+ },
+ "43329738": {
+  "date": "2026-11-22",
+  "decision": "doublon",
+  "motif": "republication Evolis (même surface, même prix) du bien ajouté le 21/11",
+  "_id": "arcueil-local-activite-immeuble-independant-rdc-480-600"
+ },
+ "43329732": {
+  "date": "2026-11-22",
+  "decision": "doublon",
+  "motif": "même bâtiment 635 m², 1 500 000 € (Evolis) contre 1 495 000 € (iad, ParuVendu)",
+  "_id": "choisy-le-roi-batiment-showroom-hsp7-635"
+ },
+ "43329737": {
+  "date": "2026-11-22",
+  "decision": "doublon",
+  "motif": "republication Evolis (même surface, même prix)",
+  "_id": "vitry-ardoines-bureaux-265"
+ },
+ "pv-1296518565": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "la-verriere-yfimo-corps-de-ferme-showroom-erp5-type-m-537"
+ },
+ "pv-1297680211": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "pantin-portes-de-paris-murs-restaurant-pied-hotel-460"
+ },
+ "pv-1287415293": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "montrouge-murs-et-fonds-hotel-10-chambres-commerces-255"
+ },
+ "pv-1289109572": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "les-mureaux-yfimo-cellule-activite-vitrine-25-places-1200"
+ },
+ "pv-1290039210": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "mantes-la-jolie-yfimo-ensemble-entrepots-terrain-1300"
+ },
+ "pv-1287791038": {
+  "date": "2026-11-22",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "mantes-la-ville-yfimo-local-activite-terrain-privatif-1369"
+ },
+ "pv-1297670258": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 11e : murs occupés, RDC de 57 m² seulement (sous-sol et caves)",
+  "_id": ""
+ },
+ "pv-1288007106": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 19e : deux locaux au 1er étage",
+  "_id": ""
+ },
+ "pv-1297670359": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Limeil-Brévannes : fonds de commerce de restaurant",
+  "_id": ""
+ },
+ "pv-1296797393": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Paris 9e : 98 m²",
+  "_id": ""
+ },
+ "pv-1296602061": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Champigny-sur-Marne : plateau de bureaux au 1er étage en copropriété",
+  "_id": ""
+ },
+ "pv-1289805288": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Orgeval : « SOUS PROMESSE DE VENTE », texte « à la location »",
+  "_id": ""
+ },
+ "pv-1296022412": {
+  "date": "2026-11-22",
+  "decision": "ecartee",
+  "motif": "Groslay ZI des Ecricrolles (750 m² + 330 m², 2 800 000 €) : doublon possible de groslay-d301-1200, non ajouté",
+  "_id": ""
+ },
+ "pv-1294161916": {
+  "date": "2026-11-22",
+  "decision": "doublon",
+  "motif": "Coulommiers 1 930 m² showrooms (We Invest, 995 000 €) = même bien que coulommiers-showrooms-erp-1930 (GHT, 1 000 000 €)",
+  "_id": "coulommiers-showrooms-erp-1930"
  }
 }
