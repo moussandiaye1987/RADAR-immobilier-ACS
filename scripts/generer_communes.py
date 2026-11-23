@@ -19,7 +19,8 @@ from commun import RACINE, DEPTS, telecharger
 SOURCE = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions/ile-de-france/communes-ile-de-france.geojson"
 SORTIE = RACINE / "data" / "communes_idf.json"
 # Noms d'usage ou nouveaux noms officiels absents du fichier de contours : « département|nom normalisé » -> même centre.
-ALIAS = {"93|saintouensurseine": "93|saintouen", "91|evrycourcouronnes": "91|evry"}
+ALIAS = {"93|saintouensurseine": "93|saintouen", "91|evrycourcouronnes": "91|evry",
+         "91|merevillois": "91|mereville"}  # Le Mérévillois (Méréville + Estouches, 2019) : centre de Méréville
 
 
 def norm_ville(nom):

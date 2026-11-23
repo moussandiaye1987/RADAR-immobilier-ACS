@@ -1956,9 +1956,9 @@
   "_id": ""
  },
  "43112652": {
-  "date": "2026-11-17",
+  "date": "2026-11-23",
   "decision": "ecartee",
-  "motif": "BL : BNP annonce « à la Location » 1 200 m² (Villeneuve-la-Garenne)",
+  "motif": "Villeneuve-la-Garenne 1 270 m² à 2 540 000 € (BNP Paribas RE) : doublon possible de 43311564 (prix +3,3 %)",
   "_id": ""
  },
  "40312178": {
@@ -3220,5 +3220,425 @@
   "decision": "doublon",
   "motif": "Coulommiers 1 930 m² showrooms (We Invest, 995 000 €) = même bien que coulommiers-showrooms-erp-1930 (GHT, 1 000 000 €)",
   "_id": "coulommiers-showrooms-erp-1930"
+ },
+ "43334040": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "le-plessis-pate-ght-batiment-independant-hsp-6-5m-terrain-530"
+ },
+ "39862341": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "montreuil-robespierre-atelier-loft-entree-independante-cour-170"
+ },
+ "43333380": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "levallois-herod-local-plain-pied-occupe-374"
+ },
+ "43312074": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "ballainvilliers-ght-batiment-stockage-independant-terrain-1640-220"
+ },
+ "43311562": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "neuilly-sur-marne-ght-entrepot-plain-pied-hsp-4-3m-180"
+ },
+ "43311459": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "le-merevillois-scamac-local-activite-centre-ville-rer-c-740"
+ },
+ "43133821": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "herouville-en-vexin-immprove-local-activite-jardin-6-places-470"
+ },
+ "43311564": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "villeneuve-la-garenne-ght-entrepot-bureaux-disponible-1270"
+ },
+ "43313253": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "maurepas-scamac-locaux-activite-neufs-rt2012-1290"
+ },
+ "43295710": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris09-cadet-bureaux-sur-cour-verriere-deux-entrees-243"
+ },
+ "43289660": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "vanves-evolis-immeuble-independant-bureaux-rdc-447"
+ },
+ "pv-1289229622": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "chanteloup-les-vignes-yfimo-batiment-independant-activite-hsp5-508"
+ },
+ "pv-1294538897": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "chanteloup-les-vignes-yfimo-entrepot-hsp7m-bureaux-1415"
+ },
+ "pv-1296169349": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "ballainvilliers-123-commerce-ensemble-entrepot-hangar-bureaux-terrain-6840-1000"
+ },
+ "pv-1283094316": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris15-dupleix-murs-loues-restaurant-rdc-sous-sol-276"
+ },
+ "pv-1293626911": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "brunoy-ght-ensemble-commercial-independant-rn6-pmr-ascenseur-2600"
+ },
+ "pv-1294629718": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "bailly-romainvilliers-efficity-local-hsp7-loue-cours-de-danse-260"
+ },
+ "53257446": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris13-cowimm-local-commercial-neuf-plain-pied-47m-vitrines-245"
+ },
+ "eol-93472": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris16-dauphine-eol-bureaux-rdc-hall-64-salle-reunion-259"
+ },
+ "eol-108647": {
+  "date": "2026-11-23",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "louvres-eol-local-activite-hsp-5-8m-plain-pied-bureaux-1954"
+ },
+ "43334039": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Montreuil 170 m² (Groupe VLB) = même bien que BureauxLocaux 39862341 ajouté ce jour",
+  "_id": "montreuil-robespierre-atelier-loft-entree-independante-cour-170"
+ },
+ "43317771": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Hérouville-en-Vexin 465 m² (ACTI'LOG) = même bien que 43133821 ajouté ce jour",
+  "_id": "herouville-en-vexin-immprove-local-activite-jardin-6-places-470"
+ },
+ "43311571": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Villeneuve-la-Garenne 1 270 m² (GHT, rubrique commerces) = 43311564 ajouté ce jour",
+  "_id": "villeneuve-la-garenne-ght-entrepot-bureaux-disponible-1270"
+ },
+ "43320593": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Villeneuve-la-Garenne 1 685 m² dont 1 270 m² libres (Advenis) : partiellement occupé, même bâtiment probable que 43311564 (doublon possible)",
+  "_id": ""
+ },
+ "42836878": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Chanteloup-les-Vignes 508 m² 500 000 € (BNP Paribas RE) = ParuVendu YFIMO 78_1561 ajouté ce jour",
+  "_id": "chanteloup-les-vignes-yfimo-batiment-independant-activite-hsp5-508"
+ },
+ "42623191": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Ballainvilliers 1 000 m² (DL Real Estate, 2 700 000 €) = ParuVendu 123 Commerce ajouté ce jour (même descriptif)",
+  "_id": "ballainvilliers-123-commerce-ensemble-entrepot-hangar-bureaux-terrain-6840-1000"
+ },
+ "41448007": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Brunoy 2 600 m² (GHT 9400411394) = ParuVendu ajouté ce jour",
+  "_id": "brunoy-ght-ensemble-commercial-independant-rn6-pmr-ascenseur-2600"
+ },
+ "40937225": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Vanves 447 m² (Immprove) = Evolis 43289660 ajouté ce jour",
+  "_id": "vanves-evolis-immeuble-independant-bureaux-rdc-447"
+ },
+ "39119625": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Les Loges-en-Josas 1 200 m² (EOL) = les-loges-en-josas-batiment-1200 (correspondance vérifiée, equivalences.json)",
+  "_id": "les-loges-en-josas-batiment-1200"
+ },
+ "43334223": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Champigny-sur-Marne 931 m² : trois cellules louées, lots vacants en étage",
+  "_id": ""
+ },
+ "43334207": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Champigny-sur-Marne 931 m² : doublon de 43334223 (partiellement loué)",
+  "_id": ""
+ },
+ "43329867": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "La Ferté-sous-Jouarre : immeuble à diviser en logements / bureaux (logement)",
+  "_id": ""
+ },
+ "43320603": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Chanteloup-en-Brie 781 à 867 m² (Advenis) : prix unique pour une fourchette de surfaces, même programme que chanteloup-en-brie-1027 : à examiner",
+  "_id": ""
+ },
+ "43319235": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Villebon-sur-Yvette : VEFA",
+  "_id": ""
+ },
+ "43320372": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Guyancourt : plateau de bureaux au 2e étage",
+  "_id": ""
+ },
+ "43320213": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Montigny-le-Bretonneux : bureaux en étage divisibles en copropriété",
+  "_id": ""
+ },
+ "43312792": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Guyancourt 347 m² restaurant équipé : prix « nous consulter »",
+  "_id": ""
+ },
+ "43311515": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Ris-Orangis : cellule de stockage à quai en copropriété, sans bureaux",
+  "_id": ""
+ },
+ "43317768": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Tremblay-en-France 3 537 m² : prix publié incohérent (1 450 €)",
+  "_id": ""
+ },
+ "43311718": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Tremblay-en-France : parc logistique neuf, lots",
+  "_id": ""
+ },
+ "43311678": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Marines Parc de la Métairie : parc neuf divisible, livraison non précisée",
+  "_id": ""
+ },
+ "43308408": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Gennevilliers 350 m² : restaurant 150 m² + logement de 114 m² à l'étage (logement)",
+  "_id": ""
+ },
+ "43295711": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Paris 10e Faubourg Saint-Martin 182 m² : niveau non précisé (bureaux loft) : à examiner",
+  "_id": ""
+ },
+ "43289643": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Châtillon 163 m² : bureaux avec ascenseur, niveau non précisé",
+  "_id": ""
+ },
+ "43289681": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Châtenay-Malabry 150 m² : bureaux avec ascenseur, niveau non précisé",
+  "_id": ""
+ },
+ "43289687": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Montrouge 277 à 776 m² « Locaux E.R.P. 5ème catégorie » : vente ou location, prix pour une fourchette de surfaces : à examiner",
+  "_id": ""
+ },
+ "pv-1297775090": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Arcueil 325-400 m² N20 (Agences de France, 1 100 000 €) : doublon possible de arcueil-n20 (419 m², 959 179 €)",
+  "_id": ""
+ },
+ "pv-1294409936": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Boulogne 675 m² bureaux 3 bâtiments (SAFTI) : loyer 2025 cité, occupation non précisée, transformation en logements évoquée : à examiner",
+  "_id": ""
+ },
+ "pv-1297719491": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Croissy-sur-Seine bureaux 164 m² (mandat 620) = croissy-sur-seine-centre-bureaux-commerciaux-reserve-8-places-159",
+  "_id": "croissy-sur-seine-centre-bureaux-commerciaux-reserve-8-places-159"
+ },
+ "pv-1288408393": {
+  "date": "2026-11-23",
+  "decision": "doublon",
+  "motif": "Buchelay cellule neuve 350 m² (YFIMO 78_1541) = buchelay-local-activite-hall-accueil-48-pmr-350 (EOL 112055)",
+  "_id": "buchelay-local-activite-hall-accueil-48-pmr-350"
+ },
+ "pv-1295593724": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Vaires-sur-Marne 160 m² sur 2 niveaux : vente indissociable du fonds, murs loués",
+  "_id": ""
+ },
+ "pv-1297357546": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Paris 14e murs occupés Société Générale : 116 m² (< 150 m²)",
+  "_id": ""
+ },
+ "pv-1296518501": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Rosny-sur-Seine 3 847 m² : « SOUS OFFRE »",
+  "_id": ""
+ },
+ "pv-1295642898": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Bar-bowling à Margut (Ardennes) : hors Île-de-France",
+  "_id": ""
+ },
+ "pv-1293495193": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Maisons-Alfort : 142 m² en RDC + 67 m² de sous-sol (RDC < 150 m²)",
+  "_id": ""
+ },
+ "pv-1289446962": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Mitry-Mory : restaurant de 120 m² (< 150 m²)",
+  "_id": ""
+ },
+ "pv-1295629675": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Boulogne 137 m² restaurant (< 150 m²)",
+  "_id": ""
+ },
+ "pv-1297655745": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Antony 135 m² murs occupés (< 150 m²)",
+  "_id": ""
+ },
+ "pv-1293603683": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Asnières 175 m² : fonds de commerce de restauration seul",
+  "_id": ""
+ },
+ "pv-1291281576": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Clichy 316 m² : fonds de commerce restaurant seul",
+  "_id": ""
+ },
+ "pv-1295607291": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Saint-Pierre-du-Perray 454 m² : disponibilité 8 mois après l'acte (à construire)",
+  "_id": ""
+ },
+ "pv-1295607290": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Saint-Pierre-du-Perray 457 m² : disponibilité 8 mois après l'acte (à construire)",
+  "_id": ""
+ },
+ "eol-71140": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Saint-Ouen-l'Aumône 1 850 m² : disponibilité 3e trimestre 2027 (occupation à vérifier) : à examiner",
+  "_id": ""
+ },
+ "eol-112145": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Louvres 815 m² : hauteur 2,5 m, à examiner (déjà signalé le 22/11)",
+  "_id": ""
+ },
+ "eol-146843": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Santeny 2 000 m² : entrepôt logistique à quais",
+  "_id": ""
+ },
+ "eol-147311": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Santeny 2 400 m² : entrepôt logistique à quais",
+  "_id": ""
+ },
+ "eol-147313": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Servon 2 200 m² : entrepôt logistique à quais",
+  "_id": ""
+ },
+ "eol-147315": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Servon 3 400 m² : entrepôt logistique à quais",
+  "_id": ""
+ },
+ "eol-11836": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Meaux 4 322 m² : entrepôt frigorifique",
+  "_id": ""
+ },
+ "eol-147545": {
+  "date": "2026-11-23",
+  "decision": "ecartee",
+  "motif": "Meaux : même bien que eol-11836 (entrepôt frigorifique)",
+  "_id": ""
  }
 }
