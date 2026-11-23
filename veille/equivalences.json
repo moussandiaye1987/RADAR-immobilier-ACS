@@ -1,6 +1,6 @@
 {
  "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Seul le statut « verifiee » exclut automatiquement une candidature comme doublon ; « probable » la garde « à examiner » (diagnostic) jusqu'à comparaison des fiches. Aucune annonce existante n'est modifiée par ce fichier.",
- "verifie_le": "2026-11-19",
+ "verifie_le": "2026-11-23",
  "statut_possible": "probable = ressemblance trouvée par recherche web (agence, commune, surface, prix), fiches non comparées : la candidature reste à examiner ; verifiee = fiche accessible ouverte et comparée, preuves consignées dans « preuves » : doublon certain, exclu automatiquement ; differente = ce n'est pas le même bien (preuves consignées)",
  "correspondances": {
   "villeneuve-le-roi-plateau-1467": {
@@ -194,32 +194,54 @@
    }
   },
   "les-loges-en-josas-batiment-1200": {
-   "agence": "EOL (Charenton-le-Pont) sur SeLoger Bureaux & Commerces ; Cushman & Wakefield sur BureauxLocaux ; CSI sur BureauxLocaux",
-   "statut": "probable",
+   "agence": "EOL Paris IDF (même annonce sur SeLoger Bureaux & Commerces et BureauxLocaux)",
+   "statut": "verifiee",
    "urls": [
-    "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-dactivite--43293768",
-    "https://www.bureauxlocaux.com/annonce/a-vendre-rare-batiment-independant-mixte--43311150"
+    "https://www.bureauxlocaux.com/annonce/exclusivite-local-dactivite-a-vendre-de-1200m2--39119625"
    ],
-   "note": "Ressemblance relevée le 20/11/2026 : bâtiment indépendant en zone d'activités des Loges-en-Josas, 1 150 m² (575 RDC + 575 R+1) à 1 100 000 € chez Cushman & Wakefield, contre 1 200 m² à 1 200 000 € sur le radar (EOL, lien SeLoger retiré). Le 21/11/2026, même bâtiment republié par CSI (BureauxLocaux 43311150, 1 200 m², 1 100 000 €)",
+   "note": "Annonce EOL du radar retrouvée le 23/11/2026 sur BureauxLocaux (39119625). Les fiches CSI (43311150) et Cushman & Wakefield (43293768) restent de simples ressemblances : voir « ressemblances_non_verifiees ».",
    "preuves": {
-    "date": "2026-11-21",
-    "fiches_ouvertes": [
-     "https://www.bureauxlocaux.com/annonce/a-vendre-rare-batiment-independant-mixte--43311150",
-     "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-dactivite--43293768"
-    ],
-    "constat": "fiche CSI en ligne : bâtiment indépendant mixte d'environ 1 200 m² (600 RDC + 600 R+1, 230 m² de sous-sol non comptés), ZI de la Croix Blanche, HSP RDC 4,3 m / R+1 3,27 m, monte-charge 3 t, porte sectionnelle + quai, gardien, parkings extérieurs, 1 100 000 €, réf. 2150409-0V. Les fiches CSI et Cushman décrivent le même bâtiment (HSP R+1 3,27 m, monte-charge 3 t, Croix Blanche). Fiche du radar (SeLoger B&C, EOL) toujours non consultable.",
+    "date": "2026-11-23",
+    "fiche_ouverte": "https://www.bureauxlocaux.com/annonce/exclusivite-local-dactivite-a-vendre-de-1200m2--39119625",
     "concordances": [
-     "même commune et même zone (bâtiment indépendant en zone d'activités)",
-     "surface 1 200 m² identique à celle du radar (fiche CSI)",
-     "« bon état » et stationnement extérieur cités des deux côtés",
-     "bâtiment indépendant, accès de plain-pied (radar) / porte sectionnelle de plain-pied (CSI)"
+     "même agence : EOL Paris IDF (radar : EOL Charenton-le-Pont)",
+     "référence d'agence de même racine : BLdKQSkXpL sur BureauxLocaux contre SLdKQSkXoL sur le radar (SeLoger) : même identifiant EOL « dKQSkX », préfixe du portail différent",
+     "description identique : « bâtiment indépendant d'activité avec bureaux d'une surface totale de 1 200 m², situé dans la zone d'activité des Loges en Josas », « Bon état général », « 2 accès de plain-pied », « Emplacements de parking en extérieur » (radar : « deux accès de plain-pied », « bon état général avec stationnement extérieur »)",
+     "même surface (1 200 m²) et même prix (1 200 000 €)"
     ],
     "ecarts": [
-     "prix 1 100 000 € contre 1 200 000 € (−8,3 %)",
-     "agence différente (CSI / EOL)",
-     "aucune référence, adresse ni photo du radar consultable"
+     "« Stockage extérieur » cité seulement sur BureauxLocaux",
+     "disponibilité affichée au 31/05/2026"
     ],
-    "conclusion": "ressemblance renforcée (surface identique) mais aucune concordance propre au bien vérifiable côté radar : statut maintenu « probable », candidatures CSI et Cushman non ajoutées"
+    "conclusion": "même annonce EOL republiée sur BureauxLocaux : doublon certain (candidature 39119625 exclue). Les fiches CSI et Cushman (1 100 000 €, 600 m² RDC + 600 m² R+1, quai, monte-charge) n'ont aucune concordance propre avec la fiche EOL (ni référence, ni texte) : elles restent « probable », non ajoutées."
+   },
+   "ressemblances_non_verifiees": {
+    "statut": "probable",
+    "urls": [
+     "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-dactivite--43293768",
+     "https://www.bureauxlocaux.com/annonce/a-vendre-rare-batiment-independant-mixte--43311150"
+    ],
+    "note": "Ressemblance relevée le 20/11/2026 : bâtiment indépendant en zone d'activités des Loges-en-Josas, 1 150 m² (575 RDC + 575 R+1) à 1 100 000 € chez Cushman & Wakefield, contre 1 200 m² à 1 200 000 € sur le radar (EOL, lien SeLoger retiré). Le 21/11/2026, même bâtiment republié par CSI (BureauxLocaux 43311150, 1 200 m², 1 100 000 €)",
+    "preuves": {
+     "date": "2026-11-21",
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/a-vendre-rare-batiment-independant-mixte--43311150",
+      "https://www.bureauxlocaux.com/annonce/a-vendre-immeuble-dactivite--43293768"
+     ],
+     "constat": "fiche CSI en ligne : bâtiment indépendant mixte d'environ 1 200 m² (600 RDC + 600 R+1, 230 m² de sous-sol non comptés), ZI de la Croix Blanche, HSP RDC 4,3 m / R+1 3,27 m, monte-charge 3 t, porte sectionnelle + quai, gardien, parkings extérieurs, 1 100 000 €, réf. 2150409-0V. Les fiches CSI et Cushman décrivent le même bâtiment (HSP R+1 3,27 m, monte-charge 3 t, Croix Blanche). Fiche du radar (SeLoger B&C, EOL) toujours non consultable.",
+     "concordances": [
+      "même commune et même zone (bâtiment indépendant en zone d'activités)",
+      "surface 1 200 m² identique à celle du radar (fiche CSI)",
+      "« bon état » et stationnement extérieur cités des deux côtés",
+      "bâtiment indépendant, accès de plain-pied (radar) / porte sectionnelle de plain-pied (CSI)"
+     ],
+     "ecarts": [
+      "prix 1 100 000 € contre 1 200 000 € (−8,3 %)",
+      "agence différente (CSI / EOL)",
+      "aucune référence, adresse ni photo du radar consultable"
+     ],
+     "conclusion": "ressemblance renforcée (surface identique) mais aucune concordance propre au bien vérifiable côté radar : statut maintenu « probable », candidatures CSI et Cushman non ajoutées"
+    }
    }
   }
  },
@@ -229,7 +251,6 @@
   "longjumeau-rubis-928": "Groupe Point de Vente : non recherchée en détail",
   "meaux-zi-nord-loue-815": "Jauly Immobilier : une annonce BureauxLocaux de 815 m² existe mais à 742 000 € (radar : 575 000 €, vendu loué) : bien différent ou prix modifié, à vérifier",
   "varennes-sur-seine-plain-pied-978": "BNP Paribas RE Commerces IDF : non recherchée en détail",
-  "les-loges-en-josas-batiment-1200": "EOL : à chercher sur eol.fr (source accessible)",
   "chilly-mazarin-vigne-aux-loups-981": "EOL : à chercher sur eol.fr (source accessible)",
   "taverny-verdun-la-plaine-1090": "AVINIM Réseau Brokers : publie sur BureauxLocaux, non recherchée en détail"
  },
