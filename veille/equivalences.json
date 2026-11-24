@@ -1,6 +1,6 @@
 {
  "role": "Annonces du radar publiées sur un site protégé (SeLoger Bureaux & Commerces, PAP…) et retrouvées sur une source accessible. Seul le statut « verifiee » exclut automatiquement une candidature comme doublon ; « probable » la garde « à examiner » (diagnostic) jusqu'à comparaison des fiches. Aucune annonce existante n'est modifiée par ce fichier.",
- "verifie_le": "2026-11-23",
+ "verifie_le": "2026-11-24",
  "statut_possible": "probable = ressemblance trouvée par recherche web (agence, commune, surface, prix), fiches non comparées : la candidature reste à examiner ; verifiee = fiche accessible ouverte et comparée, preuves consignées dans « preuves » : doublon certain, exclu automatiquement ; differente = ce n'est pas le même bien (preuves consignées)",
  "correspondances": {
   "villeneuve-le-roi-plateau-1467": {
@@ -50,6 +50,24 @@
       "aucune fiche de vente accessible"
      ],
      "conclusion": "forte présomption que le bien est toujours commercialisé par BNP Paribas RE, mais aucune fiche de vente accessible à comparer au prix (1 215 000 €) : statut laissé « probable »"
+    },
+    "examen_2026-11-24": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249",
+      "https://www.bureauxlocaux.com/annonce/location-local-dactivites-villeneuve-le-roi-94290--39409530"
+     ],
+     "constat": "la fiche de vente 40845249 redirige toujours vers la recherche « villeneuve-le-roi-94290/vente-entrepots » (retirée) ; la fiche 39409530 de BNP Paribas Real Estate est en ligne et annonce « A LOUER - A VENDRE » le même bâtiment ; aucune autre offre BNP à Villeneuve-le-Roi parmi les candidates BureauxLocaux du jour (seulement GHT Immo 37611502 et DL Real Estate 42128959)",
+     "concordances": [
+      "référence d'agence de la même série : OLACT2638245 (fiche BureauxLocaux, offre de location) contre OVACT2638246V (annonce du radar, offre de vente) — numéros de mandat consécutifs, préfixes OL/OV location/vente de BNP Paribas RE",
+      "même agence : BNP Paribas Real Estate Activités Sud IDF",
+      "même description : bâtiment d'activité, surface d'activité 1 196 m² en RDC, hauteur libre jusqu'à 5 m (radar : environ 5 m), deux portes de plain-pied, cour commune (radar : « la cour est commune »)",
+      "même commune, RER C Ablon / Villeneuve-le-Roi à environ 1 km (radar : gares à un kilomètre ou plus)"
+     ],
+     "ecarts": [
+      "la fiche ouverte est une offre de location (75 € HT-HC/m²/an), sans prix de vente",
+      "le local d'habitation de 271 m² du radar n'y est pas mentionné"
+     ],
+     "conclusion": "forte présomption, désormais appuyée par une référence d'agence de la même série (OLACT2638245 / OVACT2638246V) et une description identique ; mais aucune fiche de VENTE accessible ne permet de comparer le prix (1 215 000 €) ni le logement de 271 m², et le test de cohérence du dépôt (test_probable_reste_a_examiner) fige cette correspondance en « probable » : statut laissé « probable », passage en « verifiee » proposé au propriétaire"
     }
    }
   },

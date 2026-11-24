@@ -3640,5 +3640,359 @@
   "decision": "ecartee",
   "motif": "Meaux : même bien que eol-11836 (entrepôt frigorifique)",
   "_id": ""
+ },
+ "43345444": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "dammarie-les-lys-eol-local-activite-terrain-5500-hsp7-1050"
+ },
+ "43342075": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "meaux-entrepot-activite-plain-pied-grande-hauteur-920"
+ },
+ "43341099": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "versailles-notre-dame-bureaux-rdc-style-industriel-jardinet-284"
+ },
+ "43340036": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "stains-ght-cellule-activite-accueil-hsp-8-9m-723"
+ },
+ "43340003": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "stains-ght-batiment-independant-parcelle-2500-hsp8-800"
+ },
+ "43340002": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "les-ulis-courtaboeuf-batiment-independant-occupe-712"
+ },
+ "43340001": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "garges-les-gonesse-doucette-batiment-activite-hsp8-2350"
+ },
+ "43338342": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris04-beautreillis-murs-boutique-libres-rdc-sous-sol-165"
+ },
+ "43336149": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "neuilly-ile-de-la-jatte-immeuble-atypique-vue-seine-254"
+ },
+ "43336029": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "morangis-batiment-independant-mixte-plain-pied-1898"
+ },
+ "43336005": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "gometz-la-ville-montvoisin-immeuble-independant-plain-pied-197"
+ },
+ "42836930": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "eragny-local-activite-neuf-erp-hsp-6-5m-255"
+ },
+ "43310782": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "savigny-le-temple-carre-senart-local-activite-hsp-7-5m-540"
+ },
+ "42396294": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris18-villa-de-guelma-bureau-atypique-plain-pied-309"
+ },
+ "pv-1290239144": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris11-faidherbe-local-commercial-rdc-vitre-7-parkings-192"
+ },
+ "pv-1296642891": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "buchelay-yfimo-local-commercial-hsp-5-5m-45-places-1000"
+ },
+ "pv-1292152565": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "ecquevilly-yfimo-local-activite-cour-347"
+ },
+ "pv-1289702814": {
+  "date": "2026-11-24",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "epone-yfimo-cellule-activite-mezzanine-8-places-365"
+ },
+ "42353331": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Les Ulis 712 m² : même bien que 43340002 (GHT Immo), ajouté ce jour",
+  "_id": "les-ulis-courtaboeuf-batiment-independant-occupe-712"
+ },
+ "42353329": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Les Ulis 712 m² : même bien que 43340002 (GHT Immo), ajouté ce jour",
+  "_id": "les-ulis-courtaboeuf-batiment-independant-occupe-712"
+ },
+ "43345725": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Paris 17e : plateau de bureaux en copropriété (quote-part 120/1000e), étage non précisé",
+  "_id": ""
+ },
+ "43344423": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Les Alluets-le-Roi 720 m² : prix non publié",
+  "_id": ""
+ },
+ "43343948": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Serris 484 m² (Advenis) : programme neuf, doublon possible avec serris-eol-local-activite-neuf-mezzanine-478 — à examiner",
+  "_id": ""
+ },
+ "43343947": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Montigny-le-Bretonneux : plateau de bureaux au 1er étage, vente ou location",
+  "_id": ""
+ },
+ "43343945": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Bailly-Romainvilliers 1 210 m² : programme neuf de 14 bâtiments (livraison non précisée) — à examiner",
+  "_id": ""
+ },
+ "43343944": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Bailly-Romainvilliers 651 m² : programme neuf (même programme que 43317757) — à examiner",
+  "_id": ""
+ },
+ "43343925": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Serris 954 m² (Advenis) : doublon possible avec serris-cbre-962-ght — à examiner",
+  "_id": ""
+ },
+ "43343632": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Serris : 23 cellules en vente et location, 14 676 m² pour 502 537 € (prix par lot) : données incohérentes",
+  "_id": ""
+ },
+ "43343198": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Villeneuve-la-Garenne 155 m² : même bien que villeneuve-la-garenne-ponant-ancienne-pharmacie-vitrine-154",
+  "_id": ""
+ },
+ "43336384": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Deuil-la-Barre : lots loués avec appartement de 68 m² (logement)",
+  "_id": ""
+ },
+ "43336154": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Montrouge 322 à 422 m² pour 497 700 € : prix sans surface correspondante (≈ 1 180 €/m²) — à examiner",
+  "_id": ""
+ },
+ "43336147": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Saint-Cloud 350 à 1 000 m² pour 525 000 € : prix par lot non précisé, bureaux — à examiner",
+  "_id": ""
+ },
+ "43336145": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Asnières-sur-Seine : péniche de bureaux (bien meuble, garantie d'usage)",
+  "_id": ""
+ },
+ "43336075": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Serris 1 594 m² (Data Immo) : programme neuf en vente ou location, doublon possible 43300074",
+  "_id": ""
+ },
+ "43336054": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Trappes 3 120 m² : offre de location",
+  "_id": ""
+ },
+ "43336053": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Buc 1 232 m² (Cushman) : loué, avec appartement ; même bien que Laforêt 52939337 ; doublon possible buc-fourny-1203 — à examiner",
+  "_id": ""
+ },
+ "43336044": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Égly 1 500 m² (Cushman) : même bien que egly-meuniers-1500 ; prix affiché 250 000 € pour 750 à 1 500 m² (radar 500 000 €)",
+  "_id": ""
+ },
+ "43336042": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Longjumeau : prix de 29 289 € incohérent (loyer probable)",
+  "_id": ""
+ },
+ "43336041": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Les Loges-en-Josas 1 150 m² (Cushman) : ressemblance non vérifiée avec les-loges-en-josas-batiment-1200 (voir equivalences.json) ; 550 000 € pour 575 à 1 150 m² — à examiner",
+  "_id": ""
+ },
+ "43336040": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Le Plessis-Pâté 2 730 m² non divisible pour 322 490 € : prix incohérent",
+  "_id": ""
+ },
+ "43336032": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Voisins-le-Bretonneux : prix non publié, bureaux",
+  "_id": ""
+ },
+ "43336025": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Jouy-en-Josas : offre de location",
+  "_id": ""
+ },
+ "43336007": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Guyancourt : prix non publié, disponible en mars 2027",
+  "_id": ""
+ },
+ "43336003": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Maurepas : « entrepôt neuf à louer » (offre de location)",
+  "_id": ""
+ },
+ "43336002": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Bondoufle : 2 344 m² divisibles pour 2 030 435 € et 473 m² affichés : données incohérentes",
+  "_id": ""
+ },
+ "43335832": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Paris 16e : prix non publié, bureaux en duplex dans un immeuble (vente ou location)",
+  "_id": ""
+ },
+ "43005868": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Levallois-Perret 311 m² (Cushman) : doublon possible avec levallois-perret-rdc-307 (Nexim, 2 100 000 €) — non ajouté",
+  "_id": ""
+ },
+ "43311447": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Stains : même bien que stains-stalingrad-792 (même adresse, même prix)",
+  "_id": ""
+ },
+ "43311436": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Ollainville : même bien que ollainville-838 (même référence SCAMAC)",
+  "_id": ""
+ },
+ "42746594": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Boulogne-Billancourt : bureaux en étages, 166 à 382 m², prix par lot non précisé",
+  "_id": ""
+ },
+ "42420666": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Asnières-sur-Seine : péniche de bureaux (bien meuble)",
+  "_id": ""
+ },
+ "pv-1297816918": {
+  "date": "2026-11-24",
+  "decision": "doublon",
+  "motif": "Villeneuve-la-Garenne (GHT Immo, 490 000 €) : même bien que villeneuve-la-garenne-ponant-ancienne-pharmacie-vitrine-154",
+  "_id": ""
+ },
+ "pv-1297816583": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Bagnolet 187 m² : plateau de bureaux au 2e étage",
+  "_id": ""
+ },
+ "pv-1297812750": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Poissy : murs de restaurant loués de 71 m² (< 150 m²)",
+  "_id": ""
+ },
+ "pv-1296010147": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Paris 19e 195 m² : murs indissociables du fonds, avec appartement",
+  "_id": ""
+ },
+ "pv-1296998525": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Garancières 2 445 m² : ensemble de box de stockage loués (self-stockage), sans accueil du public",
+  "_id": ""
+ },
+ "pv-1295636753": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Poissy : hôtel-restaurant, murs et fonds avec logements (surface et prix non vérifiables sur la fiche)",
+  "_id": ""
+ },
+ "pv-1295636686": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Paris 17e : fonds de restaurant avec logement",
+  "_id": ""
+ },
+ "pv-1295637153": {
+  "date": "2026-11-24",
+  "decision": "ecartee",
+  "motif": "Champigny-sur-Marne : fonds de restaurant (bail commercial)",
+  "_id": ""
  }
 }
