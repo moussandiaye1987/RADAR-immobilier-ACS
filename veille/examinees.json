@@ -3994,5 +3994,239 @@
   "decision": "ecartee",
   "motif": "Champigny-sur-Marne : fonds de restaurant (bail commercial)",
   "_id": ""
+ },
+ "43359459": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "ivry-mairie-bureaux-pied-immeuble-erp5-acces-rue-172"
+ },
+ "43359348": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris12-bastille-savills-triplex-bureaux-acces-independant-457"
+ },
+ "43358896": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "chatou-europe-bureaux-rdc-traversant-divisible-421"
+ },
+ "43349135": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris12-nation-bureaux-reception-salles-reunion-cour-462"
+ },
+ "43348807": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "bois-colombes-peupliers-batiment-plain-pied-rdc-17-parkings-ancien-erp5-1418"
+ },
+ "43346597": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "boissy-l-aillerie-local-activite-hsp6-5-places-350"
+ },
+ "43345021": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "charenton-gabriel-peri-bureaux-rdc-acces-rue-pmr-2-parkings-170"
+ },
+ "40608002": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris15-lourmel-bureaux-plain-pied-entree-privative-sur-rue-176"
+ },
+ "42409833": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "paris15-convention-bureaux-plain-pied-vitrine-patio-5-parkings-237"
+ },
+ "42832527": {
+  "date": "2026-11-25",
+  "decision": "retenue",
+  "motif": "ajoutée au radar après vérification de la fiche",
+  "_id": "sevres-hyper-centre-murs-plain-pied-pmr-262"
+ },
+ "43321913": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même local que 43359459 (Evolis, 171 m², 510 000 €, RDC Ivry), ajouté sous ivry-mairie-bureaux-pied-immeuble-erp5-acces-rue-172",
+  "_id": "ivry-mairie-bureaux-pied-immeuble-erp5-acces-rue-172"
+ },
+ "42390519": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même local de 172 m² à Ivry (SCAMAC, prix non publié)",
+  "_id": "ivry-mairie-bureaux-pied-immeuble-erp5-acces-rue-172"
+ },
+ "42408663": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même triplex (BNP Paribas RE, 457 m², 4 570 000 €) que 43359348",
+  "_id": "paris12-bastille-savills-triplex-bureaux-acces-independant-457"
+ },
+ "42193442": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même RDC de Chatou (Sergic, 420 m², 580 000 €) que 43358896",
+  "_id": "chatou-europe-bureaux-rdc-traversant-divisible-421"
+ },
+ "41340939": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même RDC de Chatou (CSI, 421 m², 569 000 €) que 43358896",
+  "_id": "chatou-europe-bureaux-rdc-traversant-divisible-421"
+ },
+ "43123019": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même ensemble Nation (Babylone, location et vente) que 43349135",
+  "_id": "paris12-nation-bureaux-reception-salles-reunion-cour-462"
+ },
+ "43124271": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même ensemble Nation (Groupe VLB) que 43349135",
+  "_id": "paris12-nation-bureaux-reception-salles-reunion-cour-462"
+ },
+ "43039222": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même local de Boissy-l'Aillerie (MyLocaux, 346 m², 380 000 €) que 43346597",
+  "_id": "boissy-l-aillerie-local-activite-hsp6-5-places-350"
+ },
+ "43359373": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "republication Evolis de neuilly-plaisance-evolis-965 (même surface, même prix)",
+  "_id": "neuilly-plaisance-evolis-965"
+ },
+ "43357061": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même local que herouville-en-vexin-immprove-local-activite-jardin-6-places-470 (465 m², 585 000 €, HSP 6 m, jardin)",
+  "_id": "herouville-en-vexin-immprove-local-activite-jardin-6-places-470"
+ },
+ "43358823": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "même bâtiment VEFA que ezanville-batiment-f-1026",
+  "_id": "ezanville-batiment-f-1026"
+ },
+ "43356659": {
+  "date": "2026-11-25",
+  "decision": "doublon",
+  "motif": "Villa G.2 = bailly-romainvilliers-villa-g2-360",
+  "_id": "bailly-romainvilliers-villa-g2-360"
+ },
+ "43359418": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "doublon possible avec herouville-en-vexin-immprove-local-activite-jardin-6-places-470 (482 m² / 470 m², 6 places, HSP 6 m ; prix 550 000 € / 585 000 €) : non ajouté, à confirmer",
+  "_id": ""
+ },
+ "43359339": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "bureaux de 184 m² aux Ulis sans rez-de-chaussée ni accueil du public mentionnés (plateau probable)",
+  "_id": ""
+ },
+ "43358895": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux à vendre ou à louer (niveau non précisé)",
+  "_id": ""
+ },
+ "43358893": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux rénové dans un parc d'affaires (Inovel Parc)",
+  "_id": ""
+ },
+ "43358824": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "bâtiment neuf en VEFA (non livré), même bien que SCAMAC 37481300",
+  "_id": ""
+ },
+ "37481300": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "bâtiment neuf en VEFA, même bien que 43358824",
+  "_id": ""
+ },
+ "43357060": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "programme de 14 cellules d'activité (prix par lot ; surface 299 m² à 4 472 m²) : à examiner",
+  "_id": ""
+ },
+ "43356770": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "locaux neufs « à l'acquisition ou à la location », 3 lots de 239 m² avec bureaux à l'étage (programme)",
+  "_id": ""
+ },
+ "43356660": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "Villa B.1 du programme neuf de Bailly-Romainvilliers : livraison non précisée, à examiner",
+  "_id": ""
+ },
+ "43355773": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "surface contradictoire : 199 m² en titre, « environ 500 m² » dans le texte",
+  "_id": ""
+ },
+ "43354243": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "bureaux sur trois niveaux, rez-de-chaussée non mentionné",
+  "_id": ""
+ },
+ "39528673": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "même bien que 43354243 (Epsim)",
+  "_id": ""
+ },
+ "43348784": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "plateaux de bureaux dans une galerie d'affaires ; prix contradictoire (1 323 000 € / 1 260 000 €)",
+  "_id": ""
+ },
+ "43345735": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "terrain industriel « à louer ou à vendre » avec bâtiment de 200 m², loyer affiché",
+  "_id": ""
+ },
+ "40488846": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "surface contradictoire : 292 m² en titre, « environ 390 m² » dans le texte",
+  "_id": ""
+ },
+ "42230954": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "rez-de-chaussée à destination habitation (logement)",
+  "_id": ""
+ },
+ "43274128": {
+  "date": "2026-11-25",
+  "decision": "ecartee",
+  "motif": "vente ou location, prix de 988 €/m² incohérent pour Paris 12e (probable loyer)",
+  "_id": ""
  }
 }
