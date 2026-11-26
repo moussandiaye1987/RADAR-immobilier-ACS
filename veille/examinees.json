@@ -4228,5 +4228,281 @@
   "decision": "ecartee",
   "motif": "vente ou location, prix de 988 €/m² incohérent pour Paris 12e (probable loyer)",
   "_id": ""
+ },
+ "43371761": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "paris12-nation-bureaux-rdc-renoves-architecte-5-parkings-355"
+ },
+ "43369268": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "montrouge-porte-orleans-murs-commerciaux-loues-rdc-350"
+ },
+ "43369266": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "villeneuve-la-garenne-qwartz-murs-loues-salle-de-sport-r2-1350"
+ },
+ "43365487": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "tremblay-en-france-ght-entrepot-bureaux-cour-privative-800"
+ },
+ "43365484": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "tremblay-en-france-ght-entrepot-bureaux-cour-privative-450"
+ },
+ "43364729": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "bobigny-n3-local-activite-entrepot-ou-commercial-rdc-1200"
+ },
+ "43364474": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "bezons-casimir-perier-local-activite-laboratoire-cuisine-hsp4-8-352"
+ },
+ "43363236": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "montreuil-gabriel-peri-immeuble-bureaux-rdc-r1-deux-entrees-sur-rue-229"
+ },
+ "43363063": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "sartrouville-parc-activite-local-rdc-hsp7-visibilite-commerciale-360"
+ },
+ "40636298": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "suresnes-pierre-dupont-batiment-independant-hsp5-5-loue-260"
+ },
+ "39138304": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "malakoff-camelinat-immeuble-independant-rdc-r2-a-renover-530"
+ },
+ "43046939": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "courbevoie-evolis-murs-vides-commerciaux-facade-vitree-hsp5-5-865"
+ },
+ "paruvendu-1291357719": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "asnieres-arena-murs-libres-angle-rdc-divisible-156"
+ },
+ "paruvendu-1291067417": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "moissy-cramayel-iad-local-activite-hsp7-accueil-5-parkings-430"
+ },
+ "paruvendu-1295238090": {
+  "date": "2026-11-26",
+  "decision": "retenue",
+  "motif": "vérifiée sur la fiche le 26/11/2026",
+  "_id": "pierrelaye-local-commercial-independant-63-parkings-1057"
+ },
+ "fnaim-53261161": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même bien que BL 43369268 (Montrouge, 350 m², 1 270 000 €, même mandataire Propriétés Privées)",
+  "_id": "montrouge-porte-orleans-murs-commerciaux-loues-rdc-350"
+ },
+ "paruvendu-1297905325": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même offre GHT Immo que BL 43369266 (Villeneuve-la-Garenne, 3 484 000 €)",
+  "_id": "villeneuve-la-garenne-qwartz-murs-loues-salle-de-sport-r2-1350"
+ },
+ "42357684": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même bâtiment indépendant de 260 m² à 1 700 000 € que BL 40636298 (Consult'Im)",
+  "_id": "suresnes-pierre-dupont-batiment-independant-hsp5-5-loue-260"
+ },
+ "paruvendu-1296867688": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même offre Evolis (réf. 2211376-0V) que BL 43046939",
+  "_id": "courbevoie-evolis-murs-vides-commerciaux-facade-vitree-hsp5-5-865"
+ },
+ "39962062": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "mêmes lots de 600 m² (loué) et 390 m² (libre) en sous-sol, 3 rue Pierre Curie : courbevoie-sous-sol-1000 et courbevoie-pierre-curie-390 ; prix 850 000 € contre 1 450 000 € sur le radar",
+  "_id": "courbevoie-sous-sol-1000"
+ },
+ "43256248": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "lot de 390 m² Babylone déjà sur le radar",
+  "_id": "courbevoie-pierre-curie-390"
+ },
+ "43256246": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "lot de 390 m² Babylone déjà sur le radar",
+  "_id": "courbevoie-pierre-curie-390"
+ },
+ "43363056": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même bâtiment de 1 414 m² à 1 650 000 €",
+  "_id": "chanteloup-les-vignes-yfimo-entrepot-hsp7m-bureaux-1415"
+ },
+ "laforet-53042249": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même salle de sport louée de 530 m² à 670 000 € (Laforêt Saint-Maur, nouveau numéro)",
+  "_id": "saint-maur-pont-de-creteil-murs-salle-sport-louee-530"
+ },
+ "paruvendu-1297899182": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même local de 431 m² (terrasse, extraction, food court) à Serris",
+  "_id": "serris-parc-international-food-court-terrasse-431"
+ },
+ "paruvendu-1293717317": {
+  "date": "2026-11-26",
+  "decision": "doublon",
+  "motif": "même ensemble de 435-436 m² sur 1 020 m² à 549 000 €",
+  "_id": "chelles-coudreaux-deux-locaux-terrain-1000-436"
+ },
+ "43371767": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Paris 12e Daumesnil : 583 m² de bureaux au R+1",
+  "_id": ""
+ },
+ "43274091": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Paris 12e : même offre de 583 m² à 4 500 000 € que 43371767 (bureaux au R+1)",
+  "_id": ""
+ },
+ "43371467": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Courtry : locaux neufs divisibles dans un parc d'activité (programme), vente ou location",
+  "_id": ""
+ },
+ "43370221": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Courtry : même programme neuf « à vendre, ou à louer » (Evolis)",
+  "_id": ""
+ },
+ "43370098": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Serris : programme neuf de 23 cellules, livraison T3 2028 (VEFA/BEFA)",
+  "_id": ""
+ },
+ "43369383": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Vaux-le-Pénil : bâtiment industriel de 6 402 m² vendu loué, avec logement de gardien",
+  "_id": ""
+ },
+ "43365647": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Buchelay : cession de fonds de restaurant (loyer annuel 113 834 €), murs non vendus",
+  "_id": ""
+ },
+ "43365645": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Servon : cession de fonds de restaurant (loyer annuel 102 855 €), murs non vendus",
+  "_id": ""
+ },
+ "43365573": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Coignières : cession de parts sociales (fonds) à 21 000 €",
+  "_id": ""
+ },
+ "43364124": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Santeny : entrepôt logistique de 2 400 m² à quais",
+  "_id": ""
+ },
+ "40875570": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Montrouge : bureaux en rez-de-chaussée bas et étage dans un immeuble de bureaux à services, vente ou location",
+  "_id": ""
+ },
+ "paruvendu-1297863480": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Courtry : ensemble industriel et logistique de 5 610 m² (iad)",
+  "_id": ""
+ },
+ "paruvendu-1293717208": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Ablis : deux bâtiments d'activité et entrepôts de 2 970 m²",
+  "_id": ""
+ },
+ "paruvendu-1287527486": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Le Kremlin-Bicêtre : local de 586 m² livrable en mai 2028 (non livré)",
+  "_id": ""
+ },
+ "paruvendu-1295679038": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Épinay-sur-Seine : lot de 6 petits locaux commerciaux (330 m² au total)",
+  "_id": ""
+ },
+ "paruvendu-1291116193": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Trappes : petit immeuble de bureaux sur 3 niveaux, 177 m² utiles",
+  "_id": ""
+ },
+ "paruvendu-1291620060": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Pussay : murs et fonds d'un restaurant de 135 m² avec logement de 95 m²",
+  "_id": ""
+ },
+ "paruvendu-1295906877": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Gournay-sur-Marne : garage de 120 m² loué",
+  "_id": ""
+ },
+ "paruvendu-1295906878": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Gournay-sur-Marne : local de 93 m²",
+  "_id": ""
+ },
+ "paruvendu-1297571986": {
+  "date": "2026-11-26",
+  "decision": "ecartee",
+  "motif": "Paris 20e Jourdain : local de 37 m²",
+  "_id": ""
  }
 }
