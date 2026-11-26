@@ -68,6 +68,20 @@
       "le local d'habitation de 271 m² du radar n'y est pas mentionné"
      ],
      "conclusion": "forte présomption, désormais appuyée par une référence d'agence de la même série (OLACT2638245 / OVACT2638246V) et une description identique ; mais aucune fiche de VENTE accessible ne permet de comparer le prix (1 215 000 €) ni le logement de 271 m², et le test de cohérence du dépôt (test_probable_reste_a_examiner) fige cette correspondance en « probable » : statut laissé « probable », passage en « verifiee » proposé au propriétaire"
+    },
+    "examen_2026-11-26": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/vente-local-dactivites-villeneuve-le-roi-94290--40845249",
+      "https://www.bureauxlocaux.com/annonce/location-local-dactivites-villeneuve-le-roi-94290--39409530"
+     ],
+     "constat": "la fiche de vente 40845249 redirige toujours vers la recherche « villeneuve-le-roi-94290/vente-entrepots » (retirée) ; la fiche 39409530 (offre de location BNP Paribas RE) répond toujours ; parmi les 3 614 candidates BureauxLocaux du jour, aucune offre de vente BNP Paribas RE à Villeneuve-le-Roi (seulement DL Real Estate 42128959, 600 m²)",
+     "concordances": [
+      "inchangées depuis le 24/11 : même agence, même série de références (OLACT2638245 / OVACT2638246V), même description (1 196 m² d'activité en RDC, hauteur jusqu'à 5 m)"
+     ],
+     "ecarts": [
+      "aucune fiche de vente accessible pour comparer le prix (1 215 000 €) et le logement de 271 m²"
+     ],
+     "conclusion": "statut laissé « probable » ; passage en « verifiee » toujours proposé au propriétaire"
     }
    }
   },
