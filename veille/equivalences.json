@@ -158,6 +158,17 @@
       "surface 1 480 m² dans le texte de l'agence"
      ],
      "conclusion": "aucune fiche accessible à comparer : statut laissé « probable »"
+    },
+    "examen_2026-11-27": {
+     "fiches_ouvertes": [
+      "https://www.bureauxlocaux.com/annonce/a-vendre-deux-cellules-commerciales-au-cour-dune-z--41482774"
+     ],
+     "constat": "la fiche 41482774 redirige toujours vers la page de recherche « mareuil-les-meaux-77100/vente-commerces » (annonce retirée) ; parmi les 3 661 candidates BureauxLocaux du 27/11/2026, aucune offre Investisseur Immo en Seine-et-Marne ni aucune offre de deux cellules à Mareuil-lès-Meaux (seulement GHT Immo 2 277 m² et 240 m², Karea 177 m²)",
+     "concordances": [
+      "aucune nouvelle (seulement celles des examens précédents, d'après l'extrait du moteur de recherche)"
+     ],
+     "ecarts": [],
+     "conclusion": "aucune fiche accessible à comparer : statut laissé « probable »"
     }
    }
   },
