@@ -3492,10 +3492,10 @@
   "_id": ""
  },
  "43289687": {
-  "date": "2026-11-23",
-  "decision": "ecartee",
-  "motif": "Montrouge 277 à 776 m² « Locaux E.R.P. 5ème catégorie » : vente ou location, prix pour une fourchette de surfaces : à examiner",
-  "_id": ""
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Montrouge Evolis 2216109-0B : même offre que 2216109-0A (BL 43289641)",
+  "_id": "montrouge-chatillon-evolis-bureaux-rdc-erp5-277"
  },
  "pv-1297775090": {
   "date": "2026-11-23",
@@ -4503,6 +4503,270 @@
   "date": "2026-11-26",
   "decision": "ecartee",
   "motif": "Paris 20e Jourdain : local de 37 m²",
+  "_id": ""
+ },
+ "43380225": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris11-boulets-bureaux-rdc-erp-pmr-entree-sur-rue-494"
+ },
+ "43374818": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "paris06-odeon-bureaux-rdc-cave-voutee-galerie-showroom-153"
+ },
+ "43380222": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "montrouge-vanne-immeuble-independant-10-salles-cour-431"
+ },
+ "43380214": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "suresnes-verdun-bureaux-rdc-acces-independant-possibilite-erp-273"
+ },
+ "42405176": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "suresnes-quais-loft-bureaux-rdc-mezzanine-terrasse-275"
+ },
+ "43289641": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "montrouge-chatillon-evolis-bureaux-rdc-erp5-277"
+ },
+ "42420669": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "nanterre-batiment-independant-bureaux-activite-cour-hsp4-9-239"
+ },
+ "42449932": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "sevres-bruyeres-bureaux-rdc-loues-sous-sol-parking-172"
+ },
+ "43379915": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "saint-aubin-saclay-immeuble-independant-bureaux-3-niveaux-759"
+ },
+ "43379911": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "plaisir-ebisoires-batiment-independant-activite-hsp7-bureaux-1664"
+ },
+ "43374872": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "fontenay-tresigny-frejy-batiment-independant-activite-hsp5-5-1018"
+ },
+ "paruvendu-1296534023": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "champigny-safti-entrepot-renove-cour-1000"
+ },
+ "paruvendu-1295466940": {
+  "date": "2026-11-27",
+  "decision": "retenue",
+  "motif": "ajoutée au radar",
+  "_id": "boulogne-iad-murs-local-commercial-rdc-sous-sol-extraction-422"
+ },
+ "43274129": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 11e 494 m² (Alex Bolton) : même lot que BL 43380225 (Babylone), même prix",
+  "_id": "paris11-boulets-bureaux-rdc-erp-pmr-entree-sur-rue-494"
+ },
+ "42409784": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 11e 494 m² (Leaseo) : même lot que BL 43380225, même prix",
+  "_id": "paris11-boulets-bureaux-rdc-erp-pmr-entree-sur-rue-494"
+ },
+ "40447696": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 6e 153 m² (Immprove, 1 877 000 €) : même bien que BL 43374818",
+  "_id": "paris06-odeon-bureaux-rdc-cave-voutee-galerie-showroom-153"
+ },
+ "39127893": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 6e 152 m² (Spliit) : même bien que BL 43374818",
+  "_id": "paris06-odeon-bureaux-rdc-cave-voutee-galerie-showroom-153"
+ },
+ "34580587": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 6e 153 m² (Leaseo, ancienne fiche) : même bien que BL 43374818",
+  "_id": "paris06-odeon-bureaux-rdc-cave-voutee-galerie-showroom-153"
+ },
+ "42385418": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Suresnes loft 275 m² (Immprove, 1 400 000 €, vente ou location) : même bien que BL 42405176 (Evolis)",
+  "_id": "suresnes-quais-loft-bureaux-rdc-mezzanine-terrasse-275"
+ },
+ "40671535": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Plaisir 1 664 m² (CSI) : même bien que BL 43379911",
+  "_id": "plaisir-ebisoires-batiment-independant-activite-hsp7-bureaux-1664"
+ },
+ "39186429": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Plaisir 1 664 m² (EOL) : même bien que BL 43379911",
+  "_id": "plaisir-ebisoires-batiment-independant-activite-hsp7-bureaux-1664"
+ },
+ "40733512": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Fontenay-Trésigny 1 039 m² (EOL, prix non affiché) : même bien que BL 43374872",
+  "_id": "fontenay-tresigny-frejy-batiment-independant-activite-hsp5-5-1018"
+ },
+ "43379336": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Buc 1 470 m² (Agilys) : même bâtiment (423 rue Audemars) que buc-rue-audemars-1470",
+  "_id": "buc-rue-audemars-1470"
+ },
+ "43379916": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Le Mesnil-Saint-Denis 521 m² (Immprove) : même bâtiment (29 rue du Rodon) que le-mesnil-saint-denis-immeuble-independant-521",
+  "_id": "le-mesnil-saint-denis-immeuble-independant-521"
+ },
+ "43378815": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Pontault-Combault 1 925 m² (Orpi Pro) : même ensemble de 3 cellules dont 2 louées sur ≈ 3 200 m² que pontault-combault-zone-commerciale-1850 (doublon possible, surface +4 %)",
+  "_id": "pontault-combault-zone-commerciale-1850"
+ },
+ "42359055": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Le Plessis-Robinson 1 170 m² : déjà sur le radar",
+  "_id": "le-plessis-robinson-immprove-neuf-1170"
+ },
+ "42456014": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 15e 334 m² : déjà sur le radar",
+  "_id": "paris15-convention-local-possibilite-erp-pmr-334"
+ },
+ "42601236": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 15e 299 m² : déjà sur le radar",
+  "_id": "paris15-vaugirard-299"
+ },
+ "paruvendu-1291350034": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Brétigny 1 000 m² : déjà sur le radar",
+  "_id": "bretigny-commerce-erp-1000"
+ },
+ "paruvendu-1294235747": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "La Garenne-Colombes 232 m² : déjà sur le radar",
+  "_id": "la-garenne-colombes-ght-local-angle-reception-bar-cuisine-232"
+ },
+ "paruvendu-1297915019": {
+  "date": "2026-11-27",
+  "decision": "doublon",
+  "motif": "Paris 9e 254 m² (iad) : même plateau que BL 43380271 (1er étage, partie habitation)",
+  "_id": ""
+ },
+ "43380271": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Paris 9e 254 m² : bureaux au 1er étage dont 60 m² d'habitation, location ou vente",
+  "_id": ""
+ },
+ "43379912": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Trappes 2 206 m² : entrepôt logistique avec quais (4 412 000 €), publié par 4 agences",
+  "_id": ""
+ },
+ "43379307": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Vitry-sur-Seine : plateau de bureaux de 167 m² en ZAC",
+  "_id": ""
+ },
+ "43378546": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Coulommiers : immeuble de rapport (studio et F2), local de 64 m²",
+  "_id": ""
+ },
+ "43374741": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Puteaux : données incohérentes (26 000 m² pour 1 000 000 €, sans description)",
+  "_id": ""
+ },
+ "43374425": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Pantin : surface annoncée 7 494 m² pour un bâtiment de 1 211 m², vente orientée foncier (droits à construire)",
+  "_id": ""
+ },
+ "39260655": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Nanterre 322 m² : plateau loué dans un immeuble de bureaux (Plein Ouest B)",
+  "_id": ""
+ },
+ "37079313": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Montrouge 702 m² : plateaux de bureaux en étage",
+  "_id": ""
+ },
+ "43008825": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Levallois-Perret 377 m² : plateau au 2e étage",
+  "_id": ""
+ },
+ "paruvendu-1295728641": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Le Kremlin-Bicêtre 210 m² : bureaux au 7e étage",
+  "_id": ""
+ },
+ "paruvendu-1297891824": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Orly : local de 108 m²",
+  "_id": ""
+ },
+ "paruvendu-1289366540": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Châtenay-Malabry : local de 101 m²",
+  "_id": ""
+ },
+ "paruvendu-1296559847": {
+  "date": "2026-11-27",
+  "decision": "ecartee",
+  "motif": "Paris 4e : cession des parts sociales d'un restaurant (fonds seul)",
   "_id": ""
  }
 }
