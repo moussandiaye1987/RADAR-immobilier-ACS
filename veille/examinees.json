@@ -4768,5 +4768,216 @@
   "decision": "ecartee",
   "motif": "Paris 4e : cession des parts sociales d'un restaurant (fonds seul)",
   "_id": ""
+ },
+ "43384079": {
+  "date": "2026-11-28",
+  "decision": "retenue",
+  "motif": "RDC 171 m², accès privatif sur rue, PMR",
+  "_id": "villejuif-evolis-bureaux-rdc-acces-prive-rue-pmr-terrasse-171"
+ },
+ "39088882": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que 43384079 (Villejuif 171 m², 800 000 €)",
+  "_id": "villejuif-evolis-bureaux-rdc-acces-prive-rue-pmr-terrasse-171"
+ },
+ "38893094": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que 43384079 (Villejuif 171,21 m², 800 000 €)",
+  "_id": "villejuif-evolis-bureaux-rdc-acces-prive-rue-pmr-terrasse-171"
+ },
+ "43384066": {
+  "date": "2026-11-28",
+  "decision": "retenue",
+  "motif": "bureaux « ERPABLE », 3 accès ; vente ou location",
+  "_id": "ivry-minoterie-bureaux-erp-possible-3-acces-190"
+ },
+ "42385746": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que 43384066 (Ivry 190 m², 850 000 €, vente ou location)",
+  "_id": "ivry-minoterie-bureaux-erp-possible-3-acces-190"
+ },
+ "43383464": {
+  "date": "2026-11-28",
+  "decision": "retenue",
+  "motif": "murs loués (supérette, bail jusqu'en 2032)",
+  "_id": "vaux-le-penil-local-commercial-loue-superette-573"
+ },
+ "43383220": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "doublon possible de paris18-montmartre-252 (Montmartre, local EICSP, 99 m² RDC + 149 m² sous-sol, Lamarck-Caulaincourt) : autre agence (Consult'Im) et prix 1 500 000 € au lieu de 1 850 000 € ; non ajouté, signalé",
+  "_id": "paris18-montmartre-252"
+ },
+ "43381547": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que bailly-romainvilliers-cellule-activite-hsp7-salle-reunion-450",
+  "_id": "bailly-romainvilliers-cellule-activite-hsp7-salle-reunion-450"
+ },
+ "43380332": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "local d'activités industriel en parc d'activités (programme Bondoufle, VEFA déjà écarté)"
+ },
+ "43380711": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "offre « à la location » (titre et texte)"
+ },
+ "43380336": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "programme neuf d'activités divisible, prix d'un lot incohérent (306 999 € pour 2 324 m²)"
+ },
+ "43384076": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "bureaux aux 1er et 2e étages"
+ },
+ "43380334": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux"
+ },
+ "43383039": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "entrepôt logistique à quais"
+ },
+ "43384020": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "bureaux au 2e étage"
+ },
+ "43381481": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "RDC de 78 m² seulement ; lot de 200 m² loué jusqu'en 2028"
+ },
+ "43383609": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "ensemble industriel (stockage, industrie)"
+ },
+ "43380335": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux en copropriété"
+ },
+ "43380331": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "plateau de bureaux partiellement occupé"
+ },
+ "43311405": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que villeneuve-le-comte-reception-790",
+  "_id": "villeneuve-le-comte-reception-790"
+ },
+ "43321881": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que cachan-local-304",
+  "_id": "cachan-local-304"
+ },
+ "43317767": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que saint-thibault-des-vignes-local-1484",
+  "_id": "saint-thibault-des-vignes-local-1484"
+ },
+ "43308607": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que saint-denis-reception-2192",
+  "_id": "saint-denis-reception-2192"
+ },
+ "43309011": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que belloy-en-france-wit-350",
+  "_id": "belloy-en-france-wit-350"
+ },
+ "43177019": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que saint-maur-local-activite-independant-verriere-rer-a-448",
+  "_id": "saint-maur-local-activite-independant-verriere-rer-a-448"
+ },
+ "43320532": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que saint-maur-local-activite-independant-verriere-rer-a-448",
+  "_id": "saint-maur-local-activite-independant-verriere-rer-a-448"
+ },
+ "42423745": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que saint-maur-local-activite-independant-verriere-rer-a-448",
+  "_id": "saint-maur-local-activite-independant-verriere-rer-a-448"
+ },
+ "43288513": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que eragny-bnp-1000",
+  "_id": "eragny-bnp-1000"
+ },
+ "43236076": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "même bien que saint-ouen-l-aumone-vert-galant-1500",
+  "_id": "saint-ouen-l-aumone-vert-galant-1500"
+ },
+ "paruvendu-1297993536": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Paris 9e : murs et fonds d'une boutique d'une pièce (< 150 m²)",
+  "_id": ""
+ },
+ "paruvendu-1297966533": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Nemours : hangar de stockage de 260 m² avec maison d'habitation, travaux",
+  "_id": ""
+ },
+ "paruvendu-1295846961": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Jossigny : bâtiment de bureaux loué (baux dérogatoires) ; texte citant Mulhouse et Strasbourg, localisation incohérente",
+  "_id": ""
+ },
+ "paruvendu-1293744216": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Les Mureaux : ensemble d'entrepôts en zone industrielle avec logement de fonction, vendu comme investissement",
+  "_id": ""
+ },
+ "paruvendu-1292851055": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Paris 3e : droit au bail (fonds seul)",
+  "_id": ""
+ },
+ "paruvendu-1297966831": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Cergy : fonds de commerce de restauration rapide (fonds seul)",
+  "_id": ""
+ },
+ "paruvendu-1293744228": {
+  "date": "2026-11-28",
+  "decision": "ecartee",
+  "motif": "Antony : fonds de commerce d'officine, exploitant locataire des murs (fonds seul)",
+  "_id": ""
+ },
+ "paruvendu-1297993482": {
+  "date": "2026-11-28",
+  "decision": "doublon",
+  "motif": "Vaux-le-Pénil : même offre que BureauxLocaux 43383464 (ajoutée)",
+  "_id": "vaux-le-penil-local-commercial-loue-superette-573"
  }
 }
